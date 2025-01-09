@@ -1,0 +1,15 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R3,C0,M0,S0,S3,B0,B4
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 10
+#D The City
+#D 
+#D Another city simulation, this time watched at night.
+#D Many sky-scrapers show shining windows.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L FA4.D.HCE.A.I8.GI11.F..HC..HH..H7.HB4.DFA4.IF3.D.H.E8.GB3.BF6.G.C.FC..
+#L CC..E5.B.BB.BDCBFH3.E..G5.C..BD4.E4.D5.C.HE..H..A4.F3.F3.C4.AG3.I

@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 260x120
+#WRAP 1
+#D Weighted Brain   Very similar designs with very different results.
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 13.AB$13.AB48.AB$12.AB.A45.AB.A$10.AB.AAB43.AB..B$8.AB..B3.B40.AB.A$6.
+#L AB..AA43.AB3.BB$4.AB..A..B3.3B35.AB3.BAA$..AB..AB6.A..A33.AB..AB$AB12.
+#L B34.AB$AB12.A34.AB$15.BB$15.AA

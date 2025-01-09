@@ -1,0 +1,17 @@
+#Life 1.05
+#N
+#D The first c7 ship in Conway's Life
+#D 
+#D Each 7 cycles the ship travels 2 cells.
+#D 
+#D David Eppstein, January 2000
+.....*....*
+.....*....*
+.....*....*
+...**********
+..*.*......*.*
+......*..*
+.**....**....**
+***..........***
+*.*..........*.*
+***..........***

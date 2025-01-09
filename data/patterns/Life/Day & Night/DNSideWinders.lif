@@ -1,0 +1,30 @@
+x = 40, y = 226, rule = S34678/B3678
+20b2o$20bo$15b2o3bo3bo$15b8ob2o$9b2o3bob11o$9b4o2b13o$9b20o$11b7o2b8o$11b
+5o3bob4obo$13bo6b6o$20b2ob2o17$2bo7b2obo7b2obo$5o9bo6b5o$7o3bob5o4b6o$b
+8o2b8ob8o$29o$b8o2b8ob8o$7o3bob5o4b6o$5o9bo6b5o$2bo7b2obo7b2obo3$38bo$37b
+3o$37bo11$20b2o$20bo$15b2o3bo3bo$15b8ob2o$16b11o$14b14o$12b17o$12b5o2b
+9o$12bobo3bob5obo$19b6o$19b2obobo$23bo7$23bo$19b2obobo$19b6o$12bobo3bob
+5obo$12b5o2b9o$12b17o$14b14o$16b11o$15b8ob2o$15b2o3bo3bo$20bo$20b2o2$20b
+2o$20bo$15b2o3bo3bo$15b8ob2o$16b11o$14b14o$12b17o$12b5o2b9o$12bobo3bob
+5obo$19b6o$19b2obobo$23bo8$23bo$19b2obobo$19b6o$12bobo3bob5obo$12b5o2b
+9o$12b17o$14b14o$16b11o$15b8ob2o$15b2o3bo3bo$20bo$20b2o4$21b2o$17b2obob
+o2bobo$17b3ob5o2bo$16b12obo$16b13obo$14b17o$13b6o2b8obo$16bo4b9o$20bob
+5o$21b2ob3o9$23bo$19b2obobo$19b6o$12bobo3bob5obo$12b5o2b9o$12b17o$14b14o$16b
+11o$15b8ob2o$15b2o3bo3bo$20bo$20b2o4$18b2o$14b2obobo2bobo$14b3ob5o2bo$13b
+12obo$13b13obo$11b17o$10b6o2b8obo$13bo4b9o$17bob5o$18b2ob3o9$23bo$19b2ob
+obo$19b6o$12bobo3bob5obo$12b5o2b9o$12b17o$14b14o$16b11o$15b8ob2o$15b2o3b
+o3bo$20bo$20b2o4$19bo$15b2ob2o4bo$15b8obobo$14b11o2bo$14b15o$11b19o$12b
+5o2b10o$12bobo3bob8o$19b6obo$19b2obobo$23bo9$23bo$19b2obobo$19b6o$12bob
+o3bob5obo$12b5o2b9o$12b17o$14b14o$16b11o$15b8ob2o$15b2o3bo3bo$20bo$20b
+2o3$17bo$14b2o4bobobo$14b6ob3o$13b10obob2o$11bob14obo$11b18o$12b4o2b9ob
+o$13bo4b8obo$17bob4ob3o$18b2ob4o!
+Written by PSLife 1.03 on 9/9/99 at 11:46:28 PM
+1. Sidewinder -- appears at least three times in David Bell's DayNight.txt
+2. SideWinder Conversion -- from David Bell's zip collection
+3. New sidewinder, from a broth (30) 9-8-99.  This is very interesting
+because it is one of the few small puffers that sends something well off
+to the side.
+
+Others:  puffer trains using the new sidewinder.
+
+--Paul Schick

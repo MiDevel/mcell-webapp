@@ -1,0 +1,27 @@
+#MCell 4.00
+#GAME Rules table
+#RULE 1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,3,3,3,3,3,3,3,3,3,
+#RULE 0,3,1,1,3,3,3,3,3,3
+#BOARD 60x60
+#SPEED 100
+#WRAP 0
+#CCOLORS 4
+#PALETTE 8 colors
+#D The fastest NOT gate of this design is a 5-cycle NOT gate;
+#D the gate takes 5 cycles to clear following an input of 0.
+#D The 6-cycle NOT gate is, however, smaller. I include both
+#D of them here.
+#D 
+#D Should you require a longer-cycle NOT gate, just replace
+#D the pulsar in either of the gates below with the pulsar of
+#D the desired cycle.
+#D 
+#D Transit: 3
+#D IBI: (5-cycle) 5
+#D (6-cycle) 6
+#D Size: (5-cycle) 9x7
+#D (6-cycle) 8x7
+#D 
+#D Trevor Green, February 1990
+#L 8.C23.C$8.C23.C$8.C23.C$8.C23.C$8.C23.C$8.C23.C$8.C23.C$8.C23.C$6.C.C
+#L ..C18.C.C$A7C..C.B10.A8C$6.C.CC..A17.C.3C$8.A3.C19.A..C$9.BCC21.BC

@@ -1,0 +1,27 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x200
+#SPEED 0
+#WRAP 0
+#D This is a collection of the smallest oscillators that I know of for all periods < 19.
+#D Note that periods 2 and 3 are impossible.
+#D Three examples are shown for period 10 because they are all the same size
+#D (measuring size as minimum population).  Similarly, two p4 oscillators are shown.
+#D 
+#D All higher periods are also possible, as examples can be constructed using the
+#D method exemplified by the p7 specimen shown here.
+#D 
+#D Stephen Silver, May 1999
+#L 13.B$11.ACAC55.AB$11.BB..B10.CB9.AB7.ABC4.ABC4.ABC7.A.C$11.ACAC9.BAA.A
+#L 8.A.C6.A..A..A..A..A..A7.3A5.A.A..A.C$.A11.B11.3A8.3A6.18A5.AA.AA4.B6A
+#L B$3A23.A8.C.A8.A..A..A..A..A..A7.3A5.C.A..A.A$.A23.CAC8.BA7.CBA4.CBA4.
+#L CBA6.C.A$12.CB12.B42.BA$11.AA.A$12.AA$11.BA.C$11.A.CB4$28.ABC26.CBA$
+#L 29.A28.A$28.3A26.3A$29.A14.ABC..A8.A$29.3A8.A3.ABC.3A7.3A$28.AA.AA6.3A
+#L 7.A7.AA.AA$29.3A6.C.A7.CBA7.3A$30.A8.BA18.A$29.CBA26.ABC7$76.A$48.A26.
+#L A.B$21.A..A.C8.AB10.3A..A13.ABC5.3ACA$20.6AB8.A.C7.3A.5AC11.ABC6.A..B$
+#L 19.A.AA.A.A7.3A8.B.3A..A.B9.A.A10.C$19.B.A13.A9.C.A5.A9.3A$19.C3A23.3A
+#L 15.A.A$21.A25.A16.CB7$51.BC$12.BC36.C.A$11.A.A.C33.B.A.A$12.3AB20.AB
+#L 11.4AB20.ABC$13.A.A4.ABC13.A.C12.A..C17.A..A$21.A13.3A13.3A17.6A$20.3A
+#L 11.AA.AA12.A.AA.A4.C10.A..A$19.A.AAB11.3A12.AA..AA.A..A.B$20.BC14.A14.
+#L A3.8A$51.A4.A3.A$50.3A6.C$51.A

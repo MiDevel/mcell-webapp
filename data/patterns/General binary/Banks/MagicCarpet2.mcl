@@ -1,0 +1,18 @@
+#MCell 3.00
+#GAME General binary
+#RULE C0,NN,S3babbabbabba3b,B7ab3aba3b
+#BOARD 100x100
+#SPEED 20
+#WRAP 1
+#CCOLORS 2
+#D Banks rule
+#D 
+#D Magic carpet. Try experimenting with different locations
+#D of the single missing cell at the bottom edge.
+#D 
+#D Mirek Wojtowicz, March 2000
+#L .A$.78A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.
+#L 77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.
+#L 77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.
+#L 77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.77A$.
+#L 77A$.77A$.77A$.77A$.77A$9A.68A$77.A

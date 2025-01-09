@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 0345/26/6
+#BOARD 200x100
+#WRAP 0
+#D Transers II   A gun similar to those in the Gun 1 file, but with a
+#D more complex output.
+#D 
+#D 
+#D Michael Sweney   June 2000
+#L 5.A$4.3A$4.A.A$4.A.A$..7A$3.A.A.A$3.A.A.A$..7A$4.A.A$4.A.A$4.3A$5.A19$
+#L 5.A$4.3A$4.A.A$4.A.A$3.5A$3.A3.A$3.A3.A$.9A$..A.A.A.A$..A.A.A.A$11A$.A
+#L .A3.A.A$.A.A3.A.A$11A$..A.A.A.A$..A.A.A.A$.9A$3.A3.A$3.A3.A$3.5A$4.A.A
+#L $4.A.A$4.3A$5.A

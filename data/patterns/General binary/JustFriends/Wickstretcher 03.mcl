@@ -1,0 +1,15 @@
+#MCell 4.00
+#GAME General binary
+#RULE C0,NM,Sa6ba3bab3a3bab3ab7a3bab3ab7ab15a3bab3ab7ab15ab31a3bab3ab7
+#RULE ab15ab31ab63a,B5ab3abb6abbab12abbab3ab24abbab3ab7ab49abab3ab7ab1
+#RULE 5ab95a
+#BOARD 200x80
+#SPEED 20
+#WRAP 1
+#CCOLORS 2
+#D Here is another c/3 'ladder' wickstretcher with shorter vertical bars.
+#D 
+#D Paul Tooke
+#L A$A.A$3A..AA$.A..A$5.AA$.AA9.A$..6A5.3A$8.5A3.AA$.7A14.AA$12.A3.A.A$..
+#L A.A.A13.A3.A.3A$..A.A.A.AA..AA.4A3.A..AA..A$..A.A.A13.A3.A.3A$12.A3.A.
+#L A$.7A14.AA$8.5A3.AA$..6A5.3A$.AA9.A$5.AA$.A..A$3A..AA$A.A$A

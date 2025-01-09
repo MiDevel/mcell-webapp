@@ -1,0 +1,16 @@
+#MCell 4.00
+#GAME General binary
+#RULE C0,NM,Sa6ba3bab3a3bab3ab7a3bab3ab7ab15a3bab3ab7ab15ab31a3bab3ab7
+#RULE ab15ab31ab63a,B5ab3abb6abbab12abbab3ab24abbab3ab7ab49abab3ab7ab1
+#RULE 5ab95a
+#BOARD 200x80
+#SPEED 20
+#WRAP 1
+#CCOLORS 2
+#D This produces a symmetric pair of dominoes every 45 generations.
+#D 
+#D Paul Tooke
+#L 31.A$29.A.A$25.AA..3A$27.A..A$25.AA$29.AA$.3A6.20A$A..AA..AA$.3A.AA3.A
+#L 5.A$8.7A.A7.A$38.AA$3.AA4.AA12.A$3.A5.A12.3A$3.AA4.AA12.A$38.AA$8.7A.A
+#L 7.A$.3A.AA3.A5.A$A..AA..AA$.3A6.20A$29.AA$25.AA$27.A..A$25.AA..3A$29.A
+#L .A$31.A

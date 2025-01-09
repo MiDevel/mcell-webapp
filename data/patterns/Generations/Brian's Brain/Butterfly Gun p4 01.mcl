@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Generations
+#RULE /2/3
+#BOARD 200x200
+#SPEED 0
+#WRAP 1
+#D Butterfly gun p4
+#D 
+#D Each 4 cycles a new butterfly is fired.
+#D 
+#D Pattern was found in the WebsideCA collection by John Elliott.
+#L 8.BA$7.A.BA$7.B..BA$.A.A..A.BA.BA$BAB.BA.BA..BA$5.BA$4.BA

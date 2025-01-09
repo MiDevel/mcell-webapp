@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 400x200
+#WRAP 1
+#D Brain 6    A quadruple bomber and two oscillators.  Unfortunately
+#D the second oscillator is unable to survive beyond three collisions.
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 19.A$6.AB..BA3.B..BAB$4.AB.AA..BA.A$..AB..AB.AB..B$AB5.AB.AB.AA.AA$AB
+#L 9.AB.ABBAB$12.AB.AA$43.A14.A$43.A14.A$43.A14.A$12.AB.AA$AB9.AB.ABBAB$A
+#L B5.AB.AB.AA.AA$..AB..AB.AB..B$4.AB.AA..BA.A$6.AB..BA3.B..BAB$19.A

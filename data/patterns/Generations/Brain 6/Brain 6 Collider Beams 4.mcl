@@ -1,0 +1,19 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 240x240
+#WRAP 1
+#D Brain 6        Collider beams being used to create oscillators.
+#D At generation 262 two oscillators appear near the center and
+#D oscillators of the same type later reappear at various places
+#D at generations 389, 394,435,646,648, and so forth.
+#D 
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 16.AA$15.ABBA$14.AB..BA$14.B4.B$13.A.A..A.A$12.AB.B..B.BA$12.B.B4.B.B$
+#L 13.ABA..ABA$12.AB6ABA$12.B3.BB3.B3$5.AB.AB$4.AB.AB16.BA.BA$..AB..BBA
+#L 17.BA.BA$.AB.AB.AA17.ABB..BA$AB6.AB16.AA.BA.BA$AB6.AB15.BA6.BA$.AB.AB.
+#L AA16.BA6.BA$..AB..BBA17.AA.BA.BA$4.AB.AB17.ABB..BA$5.AB.AB16.BA.BA$25.
+#L BA.BA3$13.B3.BB3.B$13.AB6ABA$14.ABA..ABA$13.B.B4.B.B$13.AB.B..B.BA$14.
+#L A.A..A.A$15.B4.B$15.AB..BA$16.ABBA$17.AA

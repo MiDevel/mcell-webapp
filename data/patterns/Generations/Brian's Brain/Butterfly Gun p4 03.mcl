@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE /2/3
+#BOARD 200x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 3
+#D Butterfly gun p4
+#D 
+#D Each 4 cycles a new butterfly is fired.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L 10.BA$8.B..BA..BA$.ABAA.B.BB..BA.BA$B3.BB.B..BA..BA$3.A3.A.BA$4.BA.BA$
+#L 6.BA

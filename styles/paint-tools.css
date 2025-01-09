@@ -1,0 +1,90 @@
+/* paint tools */
+.paint-toolbar {
+  position: fixed;
+  top: 110px;
+  right: 20px;
+  transform: none;
+  display: grid;
+  grid-template-columns: repeat(2, 32px);
+  grid-auto-flow: row;
+  width: fit-content;
+  gap: 4px;
+  background: var(--toolbar-bg, rgba(32, 32, 32, 0.8));
+  padding: 6px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px var(--toolbar-shadow, rgba(0, 0, 0, 0.2));
+  z-index: 100;
+}
+
+.paint-toolbar .status-panel {
+  grid-column: span 2;
+  background: var(--status-panel-background, rgba(32, 32, 32, 0.9));
+  color: var(--status-panel-color, #fff);
+  font-size: 12px;
+  padding: 4px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.paint-toolbar .state-panel {
+  grid-column: span 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--state-panel-background, rgba(32, 32, 32, 0.9));
+  color: var(--state-panel-color, #fff);
+  font-size: 12px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.paint-toolbar .state-panel button {
+  background: var(--button-background, #333);
+  color: var(--button-color, #fff);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.paint-tool-button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  background: var(--button-bg);
+  color: var(--button-color);
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: all 0.2s ease;
+}
+
+.paint-tool-button:hover:not(:disabled) {
+  background: var(--button-hover-background, #444);
+  transform: scale(1.05);
+}
+
+.paint-tool-button.active {
+  background: var(--accent-color);
+  box-shadow: inset 0 0 0 2px var(--button-active-shadow, #fff);
+}
+
+.paint-tool-button:disabled {
+  background: var(--button-disabled-bg);
+  color: var(--button-disabled-color);
+  cursor: default;
+  transform: none;
+}
+
+.temp-canvas {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}

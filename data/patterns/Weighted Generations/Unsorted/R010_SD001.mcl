@@ -1,0 +1,11 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C6,SW0;2;1;1;1;1,PW1;1;1;1;1;1;1;1,RS4;5;6;7,RB6
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 6
+#D speed comparison
+#D Brian Prentice
+#D June 2001
+#L 9.DBA$7.D..ECA$8.B.ECAA$.D.CAB.B..ECA$AE..ABB5A$DE$AE..ABB5A$.D.CAB.B
+#L ..ECA$8.B.ECAA$7.D..ECA$9.DBA11$10.AA$11.DA$11.DDA$11.DA$10.AA

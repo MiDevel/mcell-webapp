@@ -1,0 +1,36 @@
+#MCell 4.00
+#GAME General binary
+#RULE C0,NM,Sa6ba3bab3a3bab3ab7a3bab3ab7ab15a3bab3ab7ab15ab31a3bab3ab7
+#RULE ab15ab31ab63a,B5ab3abb6abbab12abbab3ab24abbab3ab7ab49abab3ab7ab1
+#RULE 5ab95a
+#BOARD 100x100
+#SPEED 0
+#WRAP 0
+#CCOLORS 2
+#D The rule is caled "Just Friends" because new cells are born from a pair
+#D of parents, but not from ones which are "too intimate" with each other. 
+#D A cell stays alive only if it has 1 or 2 live neighbors (in any position).
+#D A cell is born only if it has exactly two live neighbors which are not
+#D adjacent vertically or horizontally.
+#D 
+#D So in the following figure, the central cell is born if there are live
+#D cells at any two cells marked ac, ad, ae, af, ag, bd, be, bf, bg, bh,
+#D ce, cf, cg, ch, df, dg, dh, eg, eh, or fh.
+#D    abc
+#D    hid
+#D    gfe
+#D 
+#D The rule has two small period 6 diagonal gliders, an interesting period
+#D 236 cyclic oscillator, and a small c/3 orthogonal wickstretcher which
+#D show up from random soups.  Lines of cells are stable.  Random soups tend
+#D to quickly settle down into small clumps of lines.  But there are lots of
+#D spaceships, wickstretchers, rakes, and glider guns which have been built.
+#D 
+#D Here is a glider loop whose period is not a multiple of the turning
+#D oscillator's period! (Is this the first such reaction known in any
+#D Life-like rule?)  Here are four gliders circulating with period 408.
+#D 
+#D David I. Bell, June 2000
+#L 20.7A$$23.A$23.A$$21.A3.A$$23.A13$51.A$48.A..A$47.A.A.A$46.A4.A$47.A.A
+#L .A$A47.A..A$A3.A36.A9.A$A5.A$A.A38.AA$A5.A$A3.A$A$$34.A$35.AA5$22.AA4.
+#L A$28.3A$22.A6$27.A.A$27.A.A$27.A.A$$25.7A

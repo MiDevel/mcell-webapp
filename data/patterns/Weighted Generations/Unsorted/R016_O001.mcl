@@ -1,0 +1,13 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C6,SW0;1;1;1;2;2,PW1;1;1;1;1;1;1;1,RS4;5,RB5
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 6
+#D oscillator
+#D period 4898
+#D Brian Prentice
+#D June 2001
+#L 21.A$..AEDBAD12.EDE.B$3.B..B.E12.D3.D$DBC..CD.C.B13.D..AEA$.BEEA3.D.C
+#L 16.C.B$.BEEA3.D.C16.C.B$DBC..CD.C.B13.D..AEA$3.B..B.E12.D3.D$..AEDBAD
+#L 12.EDE.B$21.A

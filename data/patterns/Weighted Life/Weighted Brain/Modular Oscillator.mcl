@@ -1,0 +1,18 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 140x140
+#WRAP 1
+#D Weighted Brain    The p4 oscillator can be systematically enlarged
+#D by firing block gliders into it.  It is the only oscillator with this property
+#D that I know of.  Note that it does not even require symmetry in 3 of its
+#D five configurations-another unique feature.
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 58.A.A$56.AB.AB16.AB$57.ABB.A15.AB$56.A.BBA$57.BA.BA$57.A.A18$20.A.A$
+#L 18.AB.AB16.AB$19.ABB.A15.AB$.BA15.A.BBA$.BA16.BA.BA$19.A.A14$58.A.A$
+#L 56.AB.AB16.AB$57.ABB.A15.AB$56.A.BBA$57.BA.BA$57.A.A16$59.AA39.BB$59.
+#L BB39.AA12$19.A.A$17.AB.AB16.AB$18.ABB.A15.AB$BA15.A.BBA$BA16.BA.BA78.A
+#L .A$18.A.A78.AB.AB16.AB$100.ABB.A15.AB$82.BA15.A.BBA$82.BA16.BA.BA$100.
+#L A.A12$20.AA$20.BB3$102.AA$102.BB

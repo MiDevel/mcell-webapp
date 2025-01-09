@@ -1,0 +1,19 @@
+#MCell 4.00
+#GAME Rules table
+#RULE 1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,3,3,3,3,3,3,3,3,3,
+#RULE 0,3,1,1,3,3,3,3,3,3
+#BOARD 60x60
+#SPEED 100
+#WRAP 0
+#CCOLORS 4
+#PALETTE 8 colors
+#D A fast AND gate.
+#D 
+#D I don't know if it's me or wireworld, but none of the AND
+#D gates are symmetric. Hmmmm. Maybe someone will surprise
+#D me -- getting new patterns from the net is almost as much
+#D fun as building them yourself.
+#D 
+#D George Phillips, February 1990
+#L 20.CC$19.C..CAB4CB3CAB$14.CC..3C$13.C..C..C..C.CAB3CAB4CB$12.3C..CC.CC
+#L .C$12.CC9.C$12C..9C

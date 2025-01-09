@@ -1,0 +1,18 @@
+#MCell 2.0
+#GAME Generations
+#RULE 0345/26/6
+#BOARD 140x140
+#WRAP 1
+#D Transers II   The top oscillator was found in the center of a large
+#D field of debris left after a (failed) experiment. The bottom one is
+#D very reminiscent of a Burst II Rule oscillator
+#D 
+#D 
+#D Michael Sweney   June 2000
+#L 39.A19.A$40.A17.A$41.A3.ACB3.BCA3.A$45.AA5.AA$44.11A$43.A..A.3A.A..A$
+#L 41.3A..AA3.AA..3A$41.C4ABA.E.AB4AC$41.B.A.AA.A.A.AA.A.B$43.AA..A.A.A..
+#L AA$43.AA.E.A.A.E.AA$43.AA..A.A.A..AA$41.B.A.AA.A.A.AA.A.B$41.C4ABA.E.A
+#L B4AC$41.3A..AA3.AA..3A$43.A..A.3A.A..A$44.11A$45.AA5.AA$41.A3.ACB3.BCA
+#L 3.A$40.A17.A$39.A19.A22$8.A$6.ABCBA$6.BC.CB$5.A.A.A.A$6.5A$3.A.AA3.AA.
+#L A$.AB.AA5.AA.BA$.BCAA7.AACB$AC..A7.A..CA$.BCAA7.AACB$.AB.AA5.AA.BA$3.A
+#L .AA3.AA.A$6.5A$5.A.A.A.A$6.BC.CB$6.ABCBA$8.A

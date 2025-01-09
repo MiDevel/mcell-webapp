@@ -1,0 +1,53 @@
+.run-num-settings {
+  padding: 1rem;
+}
+
+.run-num-settings .setting-group {
+  margin-bottom: 1.5rem;
+}
+
+.run-num-settings .radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.run-num-settings .radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.run-num-settings input[type='number'] {
+  width: 80px;
+  padding: 0.25rem;
+}
+
+.run-num-settings .quick-redraw-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.run-num-settings .quick-redraw-btns button {
+  padding: 0.25rem 0.5rem;
+  min-width: 40px;
+}
+
+.run-num-settings .dialog-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+  .run-num-settings input[type='number'] {
+    width: 60px;
+  }
+
+  .run-num-settings .quick-redraw-btns button {
+    padding: 0.5rem;
+    min-width: 50px; /* Larger touch target for mobile */
+  }
+}

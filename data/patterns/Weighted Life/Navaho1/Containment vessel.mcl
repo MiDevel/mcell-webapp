@@ -1,0 +1,35 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW4,NN1,NE4,WW5,ME7,EE5,SW4,SS1,SE4,HI12,RS8,RS9,RS11,RB2,RB5
+#BOARD 160x140
+#WRAP 0
+#D Navaho 1  Containment vessels are constructions designed to contain the furious energies
+#D of the cellular growth in this rule.  When the reactions burn out, the vessels are both
+#D corroded and sedimented.  Guns use containment principles with one or more sides open
+#D for controlled energy release.
+#D 
+#D 
+#D Michael Sweney  February 2000
+#L 34.A$32.A.A.A$30.A.A.A.A.A$28.A.A.A.A.A.A.A$26.A.A.A5.A.A.A.A$24.A.A.A
+#L 13.A.A$22.A.A3.A15.A.A$20.A.A.A3.A15.A.A.A$18.A.A.A21.A3.A.A$16.A.A.A
+#L 23.A3.A.A.A$14.A.A.A.A27.A.A.A.A$12.A.A.A.A29.A3.A.A.A$10.A.A.A3.G.I
+#L 31.A.A.A.A$8.A.A.A5.GGJJ34.A.A.A$6.A.A3.A5.GHI.I20.K12.A.A.A.A$4.A.A.A
+#L 3.A43.A.A.A.A.A$..A.A3.A53.A.A.A$A.A.F3.A36.KJIHGFEDCBA6.A3.A.A$A.A.FF
+#L 56.A3.A.A$A3.FGHIJK26.JJ3.J26.A$A15.ABCDEFGHIJK8.JKK..K27.A$A.A3.JK28.
+#L J3.K25.A.A$A.A.A.JJA13.ABC12.IKK20.A3.A.A.A$..A.A.J.A10.IGHGFDDCAA21.I
+#L .IHG5.A3.A.A$4.A.A.A3.A7.JJIE..B24.JJGG5.A.A.A$6.A.A3.A.A4.FGHGFDDBBA
+#L 13.A.K7.I.G3.A.A.A$8.A.A.A.A..JJFFEDACC.A12.AACCAAJI6.A.A.A.A$10.A.A.A
+#L .K.IF4.BBA15.DDBBAKKII.A.A.A.A$12.A.A.A.H.G3.AA12.ABCDEEGHIJJ.I.A.A.A$
+#L 14.A.A.A.A21.C.F5.A.A.A$16.A.A.A23.A3.A.A.A$18.A.A3.A19.A3.A.A$20.A.A.
+#L A3.A11.A3.A.A.A$22.A.A3.A11.A3.A.A$24.A.A.A11.A.A.A$26.A.A.A.A5.A.A.A$
+#L 28.A.A.A.A.A.A.A$30.A.A.A.A.A$32.A.A.A$34.A54.A.A.A.A.A.A.A.A.A.A.A.A$
+#L 87.A.A.A.A.A.A.A.A.A.A.A.A.A.A$85.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$83.A
+#L .A.A25.A.A.A$81.A.A.A29.A.A.A$79.A.A.A33.A.A.A$77.A.A.A37.A.A.A$75.A.A
+#L .A41.A.A.A$73.A.A.A45.A.A.A$71.A.A.A25.A23.A.A.A$69.A.A.A53.A.A.A$69.A
+#L .A57.A.A$69.A18.A13.A6.A21.A$$81.A8.AA.A7.A4.A7.A.A$69.A44.A16.A$69.A.
+#L A15.A27.AA12.A.A$69.A.A.A53.A.A.A$71.A.A.A49.A.A.A$73.A.A.A15.AA5.A5.A
+#L 16.A.A.A$75.A.A.A21.A6.A12.A.A.A$77.A.A.A37.A.A.A$79.A.A.A33.A.A.A$81.
+#L A.A.A29.A.A.A$83.A.A.A25.A.A.A$85.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$87.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A$89.A.A.A.A.A.A.A.A.A.A.A.A
+
+

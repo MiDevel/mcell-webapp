@@ -1,0 +1,98 @@
+version: 1.0  # .windsurfrules format version
+
+# MCell for web
+
+Web-based Cellular Automata explorer allowing to view, animate, create, and study hundreds of Cellular Automata rules and patterns from over 10 Cellular Automata families.
+
+
+## Used technologies
+
+- TypeScript
+- html
+- css
+
+
+## Project conventions
+debug_prefix: QQQQ
+standalone: true  # indicates the project should have no runtime dependencies. Local dev modules (like rimraf) are OK.
+
+
+## File patterns
+patterns:
+  source:
+    - "src/**/*.ts"
+    - "!src/**/*.test.ts"
+  tests: "src/**/*.test.ts"
+  styles: "styles/**/*.css"
+  data: 
+    - "data/patterns/**/*.txt"
+    - "data/rules.txt"
+  build: "dist/**/*.js"
+
+
+## Project structure
+
+paths:
+  root_files:
+    - /index.html: Main web page entry point
+    - /package.json: Project dependencies and scripts
+    - /tsconfig.json: TypeScript configuration
+
+  directories:
+    /assets: Static assets and resources
+    /data:
+      description: Runtime-only data (CA patterns and rules)
+      patterns: ["**/*.txt"]
+    /deploy:
+      description: Deployment configurations and scripts
+    /dist:
+      description: Compiled TypeScript output
+      patterns: ["**/*.js"]
+    /scripts:
+      description: Build and utility scripts
+      patterns: ["*.js", "*.ts"]
+    /src:
+      description: TypeScript source code
+      structure:
+        - index.ts: Application entry point
+        - core/: Essential CA objects and logic
+        - dialogs/: Modal and popup components
+        - engines/: CA computation engines
+        - loaders/: Pattern file handling
+        - tests/: Project test suite
+        - ui/: Visual components
+        - utils/: Shared utilities
+    /styles:
+      description: CSS styling
+      patterns: ["*.css"]
+
+
+## Development workflows
+workflows:
+  build:
+    description: Compile TypeScript to JavaScript
+    output_dir: /dist
+    watch_patterns: ${patterns.source}
+
+  test:
+    description: Run unit tests
+    patterns: ${patterns.tests}
+    prefix: QQQQ  # for test logging
+
+  ca_patterns:
+    description: Pattern file handling
+    input: ${patterns.data}
+    loaders: /src/loaders
+    validation_rules:
+      - Must be plain text
+      - One pattern per file
+      - File name matches pattern name
+
+
+# AI Instructions
+
+* If you encounter problems with updating styles.css, just print the planned changes, I will add them manually.
+
+* You are free to add console logs and ask the programmer to check them for you. When adding console logs always prefix them with 'QQQQ' for easier later removal.
+
+* Automatically suggest additions for .windsurfrules that will make future uses of the AI pair programmer more efficient.

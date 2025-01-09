@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME0,EE3,SW2,SS3,SE2,HI0,RS8,RS10,RS12,RS14,RB5,RB8,RB13
+#BOARD 180x180
+#SPEED 50
+#WRAP 1
+#D "Madness" rule by Mirek Wojtowicz
+#D 
+#D Sample starting pattern
+#D 
+#D June 1999
+#L AA$AA

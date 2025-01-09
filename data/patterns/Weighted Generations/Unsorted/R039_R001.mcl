@@ -1,0 +1,11 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C5,SW0;2;1;0;1,PW1;1;1;1;1;1;1;1,RS4;5;6;8;9;10;11,R
+#RULE B6
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 5
+#D replicator
+#D Brian Prentice
+#D June 2001
+#L .A$3A$.BAA$3A$.A

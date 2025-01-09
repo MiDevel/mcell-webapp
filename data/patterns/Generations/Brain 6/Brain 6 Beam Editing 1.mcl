@@ -1,0 +1,39 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 340x160
+#WRAP 1
+#D Brain 6            Beam generators can have their output edited
+#D by at least  three methods: (a) impingement of another beam or stream of
+#D gliders; (b) oscillators placed in the path of the beam, and (c) convertors
+#D placed at the end of the beam.  This pattern shows the last of the
+#D methods:  the converter travels along with the beam generator.
+#D Quite a few of these converters exist with different outputs.  When
+#D the converter acts to erase the beam, its called an beam eraser.
+#D 
+#D Michael Sweney  January 2000
+#L 31.AB67.AB$30.AB.A66.AB$29.AB.AB..BA..BA..BA..BA..BA..BA..BA..BA..BA..
+#L BA..BA..BA..BA..BA..BA..BA..BB$28.AB..BBA..BA..BA..BA..BA..BA..BA..BA
+#L ..BA..BA..BA..BA..BA..BA..BA..BA..BA..B$27.AB.AB..A..BA..BA..BA..BA..B
+#L A..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA$27.AB3.AB9$54.AB$53.
+#L AB.AB$53.AB.AA6.BA6.BA6.BA6.BA6.BA$56.BA6.BA6.BA6.BA6.BA6.BA$55.AB..B
+#L 3.BA$55.AA..AA..AA33.AB$55.AB..B3.BA33.AB$56.BA6.BA6.BA6.BA6.BA6.BA$
+#L 53.AB.AA6.BA6.BA6.BA6.BA6.BA$53.AB.AB$54.AB7$105.A.A$5.AB98.3B$3.AB..A
+#L ..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..
+#L BA..BA..BA..BA..BA..BA..BA3.A$.AB..BBA..BA..BA..BA..BA..BA..BA..BA..BA
+#L ..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA3.A$AB
+#L .AB.AB97.3B$AB3.AB98.A.A10$51.AB$50.AB..B$49.AB.AB$48.AB..BBA..BA..BA
+#L ..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA5.B$47.AB.AB..A..BA..BA..B
+#L A..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA$46.AB4.AB50.BAA.A3.BB$45.AB
+#L 56.AA..BAB4.A$44.AB58.BA7.B$44.AB4.AB51.AA.BBA$45.AB.AB..A..BA..BA..BA
+#L ..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..B3.BA$46.AB..BBA..BA..BA..BA
+#L ..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA$47.AB.AB$48.AB11$49.A
+#L B$47.AB.AB$46.AB.AA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..B
+#L A..BA$45.AB.AB3.BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA
+#L $43.AB6.AB55.ABA$43.AB6.AB55.ABA$45.AB.AB3.BA..BA..BA..BA..BA..BA..BA
+#L ..BA..BA..BA..BA..BA..BA..BA$46.AB.AA..BA..BA..BA..BA..BA..BA..BA..BA
+#L ..BA..BA..BA..BA..BA..BA$47.AB.AB$49.AB13$49.AB$47.AB..A$45.AB..BB$44.
+#L AB.AB.AA6.BA6.BA6.BA6.BA6.BA6.BA6.BA$43.AB..BBA..BA6.BA6.BA6.BA6.BA6.B
+#L A6.BA6.B$42.AB.AB..A..BA6.BA6.BA6.BA6.BA6.BA6.BA6.B.B$42.AB3.AB.ABA3.B
+#L A.BA3.BA.BA3.BA.BA3.BA.BA3.BA.BA3.BA.BA3.BA.BA.A$48.AB7.BA6.BA6.BA6.BA
+#L 6.BA6.BA6.BA3.B

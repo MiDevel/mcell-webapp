@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 400x200
+#WRAP 0
+#D Brain 6  Triple bomber and two escorts generate a fleet of bombers.
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 23.AB$21.AB..A..BA$19.AB..BBA..BA$18.AB.AB3.BA$18.AB3.AB19$..AB6.AA$AB
+#L 8.BB$AB6.A$.AB.AB..BB$..AB.AA..A$3.AB..BA$8.B..BA$8.B..BA$3.AB..BA$..A
+#L B.AA..A$.AB.AB..BB$AB6.A$AB8.BB$..AB6.AA19$18.AB3.AB$18.AB.AB3.BA$19.A
+#L B..BBA..BA$21.AB..A..BA$23.AB

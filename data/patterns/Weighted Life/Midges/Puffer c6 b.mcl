@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW1,NN2,NE1,WW2,ME3,EE2,SW1,SS2,SE1,HI4,RS3,RS5,RS6,RB4,RB5,RB6
+#BOARD 200x200
+#SPEED 10
+#WRAP 1
+#D "Midges" rule by Mirek Wojtowicz
+#D 
+#D Puffer c6
+#D 
+#D May, 1999
+#L BA$ABA.BACA$ABBACA.BA$ABA.BACA$BA

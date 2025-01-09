@@ -1,0 +1,20 @@
+#MCell 2.0
+#GAME Rules table
+#RULE 1,0,1,0,0,15,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,8,4,4,4,4,4,4,0,5,5,5,5,5,7,7,9,11,0,2,2,2,2,2,2,2,2,2,0,5,5,5,5,5,13,13,9,11,0,8,8,10,8,8,8,8,8,8,0,2,2,2,2,2,9,13,9,11,0,10,10,0,10,10,10,10,10,10,0,14,14,14,14,14,14,14,14,11,0,12,12,4,12,12,12,12,12,12,0,6,6,6,6,13,13,13,9,11,0,14,14,14,12,14,14,14,14,14,0,2,2,2,2,2,2,2,2,2
+#BOARD 200x200
+#SPEED 2
+#WRAP 1
+#D Balloons rule by Brian Silverman.
+#D 
+#D If enough firing Brain cells are together, they turn on a permanent firing cell.
+#D These permanent firing cells serve as seeds around which more turned-on
+#D cells agglutinate.  If a turned on cell is entirely surrounded, it changes state,
+#D so that one soon gets the effect of cells with membranes.  As a final fillip,
+#D if there is too much excitement at a cell's membrane, the membrane bursts
+#D and the cell goes over to a "dead" state which can slowly be nibbled away
+#D by the ever active Brain rule.
+#D 
+#D The rule and the description was copied from CelLab.
+#D 
+#D Mirek Wojtowicz, May 1999
+#L A$A

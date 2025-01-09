@@ -1,0 +1,11 @@
+#MCell 3.00
+#GAME Generations
+#RULE 03467/25/6
+#BOARD 220x220
+#WRAP 0
+#D 
+#D Double rake puffer with no dots
+#D Brian Prentice  May 2000
+#D 
+#L .CDE3.A$CC.EE.BAA$D.DCAC5A$..EEDC5A$.AECE.3A$D.DB.BAA$.CC3A$ABAA$ABAA$
+#L .CC3A$D.DB.BAA$.AECE.3A$..EEDC5A$D.DCAC5A$CC.EE.BAA$.CDE3.A

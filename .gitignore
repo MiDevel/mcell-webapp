@@ -1,0 +1,14 @@
+# deployment files
+deploy/*
+
+# Dependencies
+node_modules/
+
+# TypeScript build output
+dist/
+
+# IDE and editor files
+.vscode/
+*.swp
+*.swo
+.DS_Store

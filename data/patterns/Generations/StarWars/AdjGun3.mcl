@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x200
+#SPEED 0
+#WRAP 0
+#D This shows a method of constructing guns of every even period from 20 onwards.
+#D The example shown has period 42.
+#D 
+#D Stephen Silver, April 1999
+#L 21.A$20.3A$21.A5$23.A$22.3A$21.AA.AA$22.3A$24.A$23.3A$24.A$$20.CBA$.A
+#L 18.CBA$3A$.A$.3A$AA.AA$.3A$..A

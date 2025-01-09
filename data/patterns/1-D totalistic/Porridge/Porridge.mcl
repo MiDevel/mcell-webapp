@@ -1,0 +1,17 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R1,C0,M1,S0,S3,B0,B2
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 15
+#D Porridge
+#D 
+#D This rule produces a dense soup with many small triangles.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L V.OCV.IJ3.D5.SH.N..W4.WHS.M.XKDD.C.L7.G.W.O.PC.V3.N.W.V3.K3.GE.G.U5.D
+#L ..V3.U.X3.UI3.W..IGBN4.M5.JCSH..J..NIG4.NU..VV.VF.D..WD.K..JP5.EG.G3.N
+#L 4.L.N5.E8.LG.ENR4.A.SS8.T..H.L..D.QT..P..E3.Q9.G..B.L..RVA..I.MN.V.V.A
+#L U.RJ3.I.L..S5.EC5.FI..TR..I..F.QO3.E7.B.O5.L6.L4.FX.J..D4.TPD.G3.K4.H.
+#L A.I4.BQB3.XS3.OU.V..L.V8.L

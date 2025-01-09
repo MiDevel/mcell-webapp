@@ -1,0 +1,8 @@
+#MCell 4.20
+#GAME Rules table
+#RULE 1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1
+#BOARD 160x160
+#WRAP 1
+#CCOLORS 3
+#D Conway's Life implemented as Rules table
+#L .AA30.AA$A..A13.3A13.A.A$.AA30.A

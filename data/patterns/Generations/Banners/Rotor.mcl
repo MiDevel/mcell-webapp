@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Generations
+#RULE 2367/3457/5
+#BOARD 100x100
+#SPEED 0
+#WRAP 0
+#D "Banners" rule collection
+#D 
+#D Oscillator p60
+#D 
+#D Mirek Wojtowicz, June 1999
+#L 3.AA$3.ACA$4.BAA$3.3A$D.B3A$.CACA$.ACA$..A

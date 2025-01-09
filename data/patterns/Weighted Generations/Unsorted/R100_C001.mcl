@@ -1,0 +1,10 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C9,SW0;3;2;1;2;0;2;0;2,PW2;1;2;1;1;2;1;2,RS3;5;7,RB9
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 9
+#D chaos
+#D Brian Prentice
+#D July 2001
+#L AA$AA

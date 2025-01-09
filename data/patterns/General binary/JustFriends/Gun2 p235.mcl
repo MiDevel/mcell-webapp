@@ -1,0 +1,19 @@
+#MCell 4.00
+#GAME General binary
+#RULE C0,NM,Sa6ba3bab3a3bab3ab7a3bab3ab7ab15a3bab3ab7ab15ab31a3bab3ab7
+#RULE ab15ab31ab63a,B5ab3abb6abbab12abbab3ab24abbab3ab7ab49abab3ab7ab1
+#RULE 5ab95a
+#BOARD 140x120
+#SPEED 0
+#WRAP 0
+#CCOLORS 2
+#D Putting 2 p236 glider guns together gives a p236 gun for
+#D the big glider,
+#D 
+#D Dean Hickerson
+#L 58.A$$58.A.A27.A$87.A.A$64.AA19.A$58.AA24.A6.A$85.A$87.A.A$64.A23.A$$
+#L 64.AA7.A13.A$87.A$47.A23.A3.A$47.3A17.AA$45.AA25.A.A$45.AA26.A$46.A$
+#L 46.A$46.A..A$44.AA3.A10$28.AA$24.A$21.AA45.A.A$21.A..A45.A$21.A46.A$
+#L 21.AA43.A$62.AA3$68.A7$42.A..A.A$42.A$45.A$$17.A.A$$16.A3.A..AA18.A$
+#L 43.A$4.A13.A$18.A7.3A$28.A3$.A.A3.A$AA.A28.AA$.A.A3.A18.AA3.A$32.A$..A
+#L 29.A$32.3A

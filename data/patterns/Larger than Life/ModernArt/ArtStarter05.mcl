@@ -1,0 +1,11 @@
+#MCell 4.00
+#GAME Larger than Life
+#RULE R10,C255,M1,S2..3,B3..3,NM
+#BOARD 200x200
+#SPEED 20
+#WRAP 0
+#D Basic patterns of the ModernArt rule.
+#D 
+#D Charles A. Rockafellor, March 2000
+#L 69A$A67.A$A67.A$A67.A$A67.A$A67.A$A67.A$A67.A$A67.A$A67.A$A67.A$A67.A$
+#L A67.A$A67.A$A67.A$A67.A$A67.A$69A

@@ -1,0 +1,16 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 400x160
+#WRAP 0
+#D Brain 6     A second method: use of oscillators to edit beams.
+#D 
+#D 
+#D 
+#D Michael Sweney   December 1999
+#L 26.A$26.A$26.A3$5.AB$3.AB..A..BA$.AB..BBA..BA$AB.AB.AB$AB3.AB$$26.A$
+#L 26.A$26.A12$26.A$26.A$26.A3$9.AB$7.AB..A..BA$5.AB..BBA..BA$4.AB.AB.AB$
+#L 4.AB3.AB$$26.A$26.A$26.A8$42.A$26.A15.A$26.A15.A$26.A3$9.AB$7.AB..A..B
+#L A$5.AB..BBA..BA$4.AB.AB.AB$4.AB3.AB$$26.A$26.A15.A$26.A15.A$42.A9$58.A
+#L $42.A15.A$26.A15.A15.A$26.A15.A$26.A3$9.AB$7.AB..A..BA$5.AB..BBA..BA$
+#L 4.AB.AB.AB$4.AB3.AB$$26.A$26.A15.A$26.A15.A15.A$42.A15.A$58.A

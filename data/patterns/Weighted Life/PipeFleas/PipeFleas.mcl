@@ -1,0 +1,15 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW5,NN1,NE5,WW1,ME0,EE1,SW5,SS1,SE5,HI3,RS3,RS4,RS7,RS11,RS12,RS
+#RULE 13,RS14,RS15,RS17,RS18,RS20,RS22,RS23,RS25,RB6,RB10
+#BOARD 100x100
+#SPEED 10
+#WRAP 1
+#CCOLORS 3
+#D A weighted orthogonal rule with decay. Features 2-cell wide solid 
+#D "pipes" that appear, grow orthogonally, and disappear amid lots of 
+#D chaotic expansion. Also has a common replicator similar to fleas2 
+#D which expands and dies like ripples on water..
+#D 
+#D Ben Schaeffer 2000
+#L A..A$A.AA

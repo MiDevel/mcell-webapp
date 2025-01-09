@@ -1,0 +1,18 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R5,C0,M1,S0,S7,S8,S9,S10,S11,B0
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 10
+#D Date palms
+#D 
+#D The small triangles produced by the rule are usually aligned,
+#D what resembles trunks of date palms.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L D..3A..D.A.E3.AE..E5.ECA.BEBBDDA3.E..DA.C..EED.EA.B.A.D..C4.B..BCB.BA
+#L 5.DB..C3E..EC4.DDB.EC.CBC..EE6.D..3A..D.A.E3.AE..E5.ECA.BEBBDDA3.E..DA
+#L .C..EED.EA.B.A.D..C4.B..BCB.BA5.DB..C3E..EC4.DD..EC.C.CDA3.D9.DAD..DE
+#L ..D.DE.BA..D.E.B6.C.E.DB..E4.D3.AC..B.CB.BAD..3A..D.A.E3.AE..E5.ECA.BE
+#L BBDDA3.E..DA.C..EED.EA.B.A.D..C4.B..BCB.BA5.DB..C3E..EC4.DD

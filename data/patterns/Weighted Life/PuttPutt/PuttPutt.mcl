@@ -1,0 +1,11 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW9,NN1,NE9,WW1,ME0,EE1,SW9,SS1,SE9,HI0,RS1,RS2,RS3,RS4,RS9,RS18
+#RULE ,RS27,RS36,RS40,RB2,RB4,RB11,RB18,RB19,RB36,RB40
+#BOARD 140x140
+#WRAP 1
+#D A weighted orthogonal rule with a dash still life, several orthogonal gliders the most common of 
+#D which appears to have a pulsing exhaust cloud, and some unique oscillators.
+#D 
+#D Ben Schaeffer 1999
+#L ..A11.A$.BACA7.ACAB$AC..B7.B..CA$.BACA7.ACAB$..A11.A

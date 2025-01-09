@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 3456/2/6
+#BOARD 200x200
+#SPEED 10
+#WRAP 1
+#CCOLORS 6
+#D "Sticks" rule
+#D 
+#D Oscillators collection
+#D 
+#D Mirek Wojtowicz, June 1999
+#L 29.EDC$.A.E8.BA11.A4.A.B$3AD7.C.A10.3A..4A$.A.C7.D3A10.6A$.AB8.E.3A10.
+#L A..A$14.A11.A..A$25.6A$24.3A..3A$25.A4.A10$C.BD$DAAE$.3A$BCED

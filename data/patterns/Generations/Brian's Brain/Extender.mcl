@@ -1,0 +1,10 @@
+#MCell 2.0
+#GAME Generations
+#RULE /2/3
+#BOARD 200x200
+#SPEED 0
+#WRAP 1
+#D Extender
+#D 
+#D Mirek Wojtowicz, June 1999
+#L AA$.A

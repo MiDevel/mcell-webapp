@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 160x100
+#WRAP 1
+#D Weighted Brain    Two marvelous ships which trail constantly
+#D growing streamers.
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 16.BA$18.BA$20.BA$10.B.B.B.B.BA..BA$8.BA.A.A.A.A6.BA$7.A16.BA$8.B10.AA
+#L .BA$7.A11.BBA$8.B12.A$B.B.B.BA.B.B6.B..BA$.A.A.A4.BAA8.BA$12.BA$12.BA
+#L 18$48.BA$44.B5.BA$45.A6.BA$46.B.B.BA..BA$40.BA..BA.A.A3.A..BA6.BA$39.A
+#L ..BA10.B3.BA..BA..BA$40.BA13.AB3.BA4.BA$58.BA

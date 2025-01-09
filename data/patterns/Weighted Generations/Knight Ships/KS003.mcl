@@ -1,0 +1,12 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C5,SW0;2;1;0;1,PW1;1;1;1;1;1;1;1,RS4;5;6;7;8,RB6
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 5
+#D 8 knight ships
+#D demonstrates the 3:2 movement
+#D Brian Prentice
+#D June 2001
+#L 6.AA7.AA$6.AAC5.CAA$5.CA9.AC3$..C17.C$3A17.3A$AA19.AA$.C19.C6$.C19.C$
+#L AA19.AA$3A17.3A$..C17.C3$5.CA9.AC$6.AAC5.CAA$6.AA7.AA

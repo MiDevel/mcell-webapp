@@ -1,0 +1,45 @@
+#Life 1.05
+#R 012345678/3
+#D Ladder phase shift.
+#D 
+#D Phase shift is neccesary to show that any ladder headed
+#D for the side of another already present can be phase-shifted
+#D to guarantee a clean block.
+#D 
+#D David Griffeath and Cris Moore
+.....................................*.*
+.
+.
+.......................................*.*
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+***...***
+......*.*
+.
+.................................*
+.
+.................................*..*
+.
+....................................*

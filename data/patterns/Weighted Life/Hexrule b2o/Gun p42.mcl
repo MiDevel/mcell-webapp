@@ -1,0 +1,22 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW1,NN2,NE0,WW32,ME0,EE4,SW0,SS16,SE8,HI0,RS5,RS7,RS10,RS11,RS13
+#RULE ,RS14,RS15,RS17,RS19,RS20,RS21,RS22,RS23,RS25,RS26,RS27,RS28,RS2
+#RULE 9,RS30,RS34,RS35,RS37,RS38,RS39,RS40,RS41,RS42,RS43,RS44,RS45,RS
+#RULE 46,RS49,RS50,RS51,RS52,RS53,RS54,RS56,RS57,RS58,RS60,RB3,RB6,RB1
+#RULE 2,RB24,RB33,RB48
+#BOARD 200x200
+#SPEED 0
+#WRAP 0
+#CCOLORS 9
+#D Three of the period-42 oscillators can be combined to make a glider gun.
+#D I found this by first pairing up oscillators and testing the results.  This
+#D didn't yield a glider gun, but it yielded a pair with a larger
+#D spark, to which I added the third.
+#D 
+#D Paul Callahan, November 1997
+#L 112.AA$112.A8$AA$..A64$68.AA40.A$68.A42.A$68.A4.AA30.AA..A$58.A9.A5.AA
+#L .A26.3A$57.AA.A10.A..A.AA25.AA.A11.A3.AA$56.AA.3A13.AA.AA23.A.3A11.4A.
+#L A$58.A.A.A13.A.A25.A.A11.3A.A.A$58.AA.4A3.AA6.A.AA24.AA.AA3.3A6.AA.AA$
+#L 58.A.AA.A5.3A4.3A.A23.A.AA6.3A6.AA.A$69.A.A6.A27.A7.A.A7.A$68.4A43.5A$
+#L 68.A3.A41.AA3.A$69.5A42.5A$71.A44.A.A$71.A47.A

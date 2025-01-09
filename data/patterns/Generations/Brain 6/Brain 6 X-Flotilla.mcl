@@ -1,0 +1,20 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 300x230
+#WRAP 0
+#D Brain 6   What the X-Bomber does by itself, is duplicated with a lot
+#D more effort, by this flotilla.
+#D 
+#D 
+#D 
+#D Michael Sweney   January 2000
+#D 
+#D 
+#D 
+#D  
+#L 19.AB$19.AB$21.AB.AB.A$22.AB..BB$24.AB.AA$29.BB$29.AA10$AB13.AB$AB13.A
+#L B$..AB.AB.A8.AB.AB.A$3.AB..BB9.AB..BB$5.AB.AA10.AB.AA$10.BB13.BB$10.AA
+#L 13.AA13$10.AA13.AA$10.BB13.BB$5.AB.AA10.AB.AA$3.AB..BB9.AB..BB$..AB.AB
+#L .A8.AB.AB.A$AB13.AB$AB13.AB10$29.AA$29.BB$24.AB.AA$22.AB..BB$21.AB.AB.
+#L A$19.AB$19.AB

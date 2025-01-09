@@ -1,0 +1,11 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW2,NN1,NE2,WW1,ME0,EE1,SW2,SS1,SE2,HI4,RS2,RS4,RS5,RS7,RB3
+#BOARD 220x100
+#WRAP 1
+#D 
+#D 2 zip stretchers.
+#D Brian Prentice  May 2000
+#D 
+#L ABC$ABC$..A.A.A.A$.A.5A.A$ABC..A..A$ABC3$ABC6.AB$ABC7.BC$..A.A.A.A.C$.
+#L A.8AB$ABC..A.A.A.CA$ABC

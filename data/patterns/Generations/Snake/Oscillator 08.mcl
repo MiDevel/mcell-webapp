@@ -1,0 +1,10 @@
+#MCell 3.00
+#GAME Generations
+#RULE 03467/25/6
+#BOARD 100x100
+#WRAP 0
+#D 
+#D Period 60 Oscillator
+#D Brian Prentice  May 2000
+#D 
+#L A3.A3.ACD$8.CDC$8.DCA$$A3.DCA$4.CDC$4.ACD$$ACD5.DCA$CDC5.CDC$DCA5.ACD

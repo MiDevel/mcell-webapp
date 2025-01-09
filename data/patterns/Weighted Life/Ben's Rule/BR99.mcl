@@ -1,0 +1,11 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW3,NN2,NE3,WW2,ME0,EE2,SW3,SS2,SE3,HI0,RS3,RS5,RS8,RS9,RB4,RB6,RB8,RB9
+#BOARD 350x80
+#SPEED 20
+#WRAP 1
+#D 
+#D Variations on the Ben's Rule
+#D 
+#D Ben Schaeffer, May 1999
+#L .AD3.DA$..AA.AA$AA.3A.AA$..AA.AA$.AD3.DA

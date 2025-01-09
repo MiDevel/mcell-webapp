@@ -1,0 +1,30 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW1,NN2,NE0,WW32,ME0,EE4,SW0,SS16,SE8,HI0,RS5,RS7,RS10,RS11,RS13
+#RULE ,RS14,RS15,RS17,RS19,RS20,RS21,RS22,RS23,RS25,RS26,RS27,RS28,RS2
+#RULE 9,RS30,RS34,RS35,RS37,RS38,RS39,RS40,RS41,RS42,RS43,RS44,RS45,RS
+#RULE 46,RS49,RS50,RS51,RS52,RS53,RS54,RS56,RS57,RS58,RS60,RB3,RB6,RB1
+#RULE 2,RB24,RB33,RB48
+#BOARD 200x100
+#SPEED 20
+#WRAP 0
+#CCOLORS 9
+#D There are many ways of reflecting gliders both from stationary oscillators
+#D and moving spaceships.  I won't try to list the 180-degree reflections
+#D exhaustively, since there are so many.  I will include some of them in
+#D the larger patterns.  So far, I have found one way of turning a glider
+#D 60 degrees and four ways of turning one 120 degrees.  I haven't tried all
+#D the high-period oscillators, so there may be others as well.  It's
+#D especially interesting that the period-48 spaceship can reflect gliders,
+#D because gliders move fast enough that they can circulate around a flotilla
+#D of moving objects in this way.  Here are the three non-180-degree spaceship
+#D reflections:
+#D 
+#D a) Glider is reflected 60 degrees, traveling up
+#D b) Glider is reflected 120 degrees, traveling to the right
+#D c) Glider is reflected 120 degrees, traveling up
+#D 
+#D Paul Callahan, November 1997
+#L 50.A$48.A35.A$49.A32.A$50.A32.A$51.AA31.A$85.AA$14.A$14.A$14.A..A24.AA
+#L 39.AA$4A10.A28.A40.A$A..A11.A28.A40.A$.3A40.A40.A.A$.AA41.A41.A.A$43.
+#L 5A36.3A.A$46.A36.4A.AA$46.A39.A.A$86.A

@@ -1,0 +1,15 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x200
+#SPEED 50
+#WRAP 0
+#D Magic mirror
+#D 
+#D Mirek Wojtowicz, May 1999
+#L .A..A..A..A..A..A..A..A..A..A..A$33A$.A..A..A..A..A..A..A..A..A..A..A$
+#L .A29.A$3A27.3A$.A29.A$.A29.A$3A27.3A$.A29.A$.A29.A$3A27.3A$.A29.A$.A
+#L 29.A$3A27.3A$.A29.A$.A29.A$3A27.3A$.A29.A$.A29.A$3A27.3A$.A29.A$.A29.A
+#L $3A27.3A$.A29.A$.A29.A$3A27.3A$.A29.A$.A29.A$3A27.3A$.A29.A$.A29.A$3A
+#L 27.3A$.A29.A$.A29.A$3A27.3A$.A29.A$.A..A..A..A..A..A..A..A..A..A..A$
+#L 33A$.A..A..A..A..A..A..A..A..A..A..A

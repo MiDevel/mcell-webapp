@@ -1,0 +1,22 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 400x180
+#WRAP 1
+#D Brain 6      Two bombers with beam convertors. A four-cell addition
+#D to the first convertor produced the second effect of a bombing
+#D pattern of butterflies and spaceships
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 125.AA.BA$5.AB81.AB34.ABB.B.A$3.AB3.B3.BA6.BA6.BA6.BA6.BA40.AB..A..BA
+#L 6.BA6.BA6.BA6.B.A.BB$.AB..BBA3.A..BA..BA..BA..BA..BA..BA..BA..BA..B37.
+#L AB.AA..B3.BA..BA..BA..BA..BA..BA..BA..BAABBA.BABA$AB.AB.AA..B3.BA.BA3.
+#L BA.BA3.BA.BA3.BA.BA3.A36.AB.AB..BBA..BA.BA3.BA.BA3.BA.BA3.BA.BA.A.BABB
+#L .A.B$AB3.BB..BA..BA6.BA6.BA6.BA6.B37.AB..AA..A..BA6.BA6.BA6.BA6.BB4.BA
+#L $4.AB38.A42.AB38.BA..B$4.AA39.BB41.BB36.AA..BB$4.AB38.A42.AB38.BA..B$A
+#L B3.BB..BA..BA6.BA6.BA6.BA6.B37.AB..AA..A..BA6.BA6.BA6.BA6.BB4.BA$AB.AB
+#L .AA..B3.BA.BA3.BA.BA3.BA.BA3.BA.BA3.A36.AB.AB..BBA..BA.BA3.BA.BA3.BA.B
+#L A3.BA.BA.A.BABB.A.B$.AB..BBA3.A..BA..BA..BA..BA..BA..BA..BA..BA..B37.A
+#L B.AA..B3.BA..BA..BA..BA..BA..BA..BA..BAABBA.BABA$3.AB3.B3.BA6.BA6.BA6.
+#L BA6.BA40.AB..A..BA6.BA6.BA6.BA6.B.A.BB$5.AB81.AB34.ABB.B.A$125.AA.BA

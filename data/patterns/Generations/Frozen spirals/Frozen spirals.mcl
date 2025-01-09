@@ -1,0 +1,15 @@
+#MCell 3.00
+#GAME Generations
+#RULE 356/23/6
+#BOARD 140x140
+#SPEED 20
+#WRAP 1
+#CCOLORS 6
+#D Frozen spirals
+#D 
+#D The rule features a popular Zhabotinsky reaction, but with one distinction -
+#D spirals have icicles in their vertices.
+#D 
+#D Mirek Wojtowicz, February 2000
+#L ABCDE$ABCDE$.3ABCDE$..ABCDE3.D.CAA$3.ABCDE.DEDAABA$4.3ACB..DDABA$5.ABA
+#L CEECBBA$6.ABADDABA$7.AACCAA$8.ABBA$9.AA

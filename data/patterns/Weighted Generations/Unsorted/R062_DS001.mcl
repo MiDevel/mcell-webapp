@@ -1,0 +1,14 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C4,SW0;1;1;2,PW2;1;2;1;1;2;1;2,RS6,RB5
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 4
+#D 2 diagonal ships
+#D period 18,  dx=6  dy=6
+#D Brian Prentice
+#D June 2001
+#L 8.A3.A$7.BCB.BCB$8.A3.A$$8.A3.A$7.BCB.BCB$8.A3.A$.B3.B$ACA.ACA$.B3.B$
+#L 15.CB$.B3.B$ACA.ACA$.B3.B$15.CB$10.C3.C$10.B3.B14$35.CB.BC$$26.B3.B$
+#L 25.ACA.ACA$26.B3.B$39.C$26.B3.B8.A$25.ACA.ACA$26.B3.B$40.CB$35.C3.C$
+#L 35.B3.B

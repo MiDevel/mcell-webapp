@@ -1,0 +1,22 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012478/36/18
+#BOARD 200x200
+#WRAP 1
+#D Ebb&Flow   Oscillators arising out of seed patterns.  Most oscillators
+#D /blinkers shown on the files are engineered-we wouldn't expect to
+#D find them "in the wild"   It is all the more satisfying then, when looking
+#D for something else, one happens on them by accident.
+#D 
+#D Michael Sweney   November 1999
+#L 112.AA$111.A..A$110.A.AA.A3$112.AA$$111.4A$111.A..A$111.A..A$$4A.4A$3.
+#L 3A52.A$.7A48.5A$..A.A.A50.3A$..A.A.A49.5A$.7A49.A.A$3.3A51.3A$4A.4A47.
+#L 5A$57.3A$57.3A$56.5A$57.3A$57.3A$56.5A$57.3A$57.3A$56.5A$57.3A$57.3A$
+#L 56.5A$57.3A$57.A.A$56.5A31.A.A.A$20.A36.3A32.A.A.A$19.A.A34.5A31.A.A.A
+#L $3.A..A..A..A..A..A.A.A..A..A..A..A..A20.A33.A.A.A$..37A53.A.A.A$3.A..
+#L A..A..A..A..A.A.A..A..A..A..A..A54.A.A.A$19.A.A70.A.A.A$20.A71.A.A.A$
+#L 92.A.A.A$92.A.A.A$92.A.A.A$92.A.A.A$92.A.A.A$92.A.A.A$92.A.A.A$92.A.A.
+#L A$92.A.A.A$92.A.A.A$92.A.A.A$92.A.A.A$92.A.A.A$92.A.A.A$92.A.A.A15$..
+#L AA..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..
+#L A..A..A..A..A..A..A..A..A..A..A..A..A..AA$.113A$..AA5.A5.A5.A5.A5.A5.A
+#L 5.A5.A5.A5.A5.A5.A5.A5.A5.A5.A5.A5.AA

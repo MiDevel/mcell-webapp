@@ -1,0 +1,23 @@
+#MCell 2.0
+#GAME Generations
+#RULE 23/34/8
+#BOARD 200x200
+#SPEED 0
+#WRAP 1
+#D Interesting elements in the Swirl rule by Scott Robert Ladd
+#D 
+#D swirlpool - the smaller whirlpool
+#D flamewhirl - the larger whirlpool
+#D flame glider - a small burning glider
+#D swirlybird - a glider that sends out two mutually annihilating swirlpools
+#D with each flap of its "wings".
+#D 
+#D Mirek Wojtowicz, April 1999
+#L 22.A$21.ABA$20.CEBBA$20.D.EEAA$22.GECAA$21.DGACA$21.EEAA$18.G.DCD$19.F
+#L .C4$.BC.CB$AD3.DA$AB3FBA$3AF3A$..3A$39.FG$37.DEG$36.CEGF$34.AAED$33.AC
+#L AG$32.AACGG38.F$32.AADG38.EGG.3A$32.AADDG38.DG.GBA$34.ADGG.3A33.C3DAA$
+#L 34.ABAG.GBA34.BDA$35.AB3DAA35.A$36.AADA$38.A14$38.A$36.AADA$35.AB3DAA
+#L 35.A$34.ABAG.GBA34.BDA$34.ADGG.3A33.C3DAA$32.AADDG38.DG.GBA$32.AADG38.
+#L EGG.3A$32.AACGG38.F$33.ACAG$34.AAED$36.CEGF$37.DEG$39.FG13$22.A75.A$
+#L 21.ABA73.ABA$20.CEBBA71.ABBEC$20.D.EEAA69.AAEE.D$22.GECAA67.AACEG$21.D
+#L GACA69.ACAGD$21.EEAA71.AAEE$18.G.DCD75.DCD.G$19.F.C77.C.F

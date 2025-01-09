@@ -1,0 +1,11 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C5,SW0;3;2;0;0,PW1;1;1;1;1;1;1;1,RS,RB5;7
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 5
+#D puffer
+#D Brian Prentice
+#D August 2001
+#L 6.AA$AA3.CCB$BCC3.DB$BD4.D$..DCCA$..B..DB$3.ACCB$5.AA$7.D$7.DB$6.CCB$
+#L 7.AA

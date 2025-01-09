@@ -1,0 +1,20 @@
+#MCell 2.0
+#GAME Life
+#RULE /2
+#BOARD 200x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 3
+#D  Gliders can come from very humble beginnings.
+#D 
+#D  Start with two squares side-by-side: just a few steps later
+#D  you have two gliders. Click Step a few times and see.
+#D 
+#D  Now click Start. The gliders keep multiplying. From two
+#D  gliders you get four. From four gliders you get eight.
+#D  But eventually you get a mess.
+#D 
+#D  The objects in the Seeds world are not very stable.
+#D 
+#D  Mitchel Resnick and Brian Silverman
+#L A$A

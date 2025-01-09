@@ -1,0 +1,16 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 120x80
+#WRAP 1
+#D Weighted Brain   Four of the modular oscillator family members
+#D combine to create guns.
+#D 
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 13.ABA$14.B$13.B$12.AA.A.AB$10.B..3AB.A$9.A.B3A..B$9.BA.A.AA$14.B$13.B
+#L $12.ABA3$10.ABA$11.B$10.B$9.AA.A.AB$7.B..3AB.A$6.A.B3A..B$6.BA.A.AA$
+#L 11.B$10.B$9.ABA3$7.ABA$8.B$7.B$6.AA.A.AB$4.B..3AB.A$3.A.B3A..B$3.BA.A.
+#L AA$8.B$7.B$6.ABA3$4.ABA$5.B$4.B$3.AA.A.AB$.B..3AB.A$A.B3A..B$BA.A.AA$
+#L 5.B$4.B$3.ABA

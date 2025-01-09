@@ -1,0 +1,29 @@
+#MCell 4.00
+#GAME Rules table
+#RULE 1,0,1,0,0,7,1,0,0,15,15,0,0,0,0,1,1,0,0,0,0,0,0,15,15,15,15,15,2
+#RULE ,2,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+#RULE ,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,12,12,12,12,12,12,0,0,0,0,0,
+#RULE 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+#RULE 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+#RULE 0,0,15,0,15,15,15,2,15,15,15
+#BOARD 220x220
+#SPEED 20
+#WRAP 1
+#CCOLORS 16
+#D Empire is named rather aptly for the actions of the
+#D Life patterns within it: whatever you start off with,
+#D it will expand with a chaotic border, take over the world,
+#D collapse into warring factions and fleeting calm patches,
+#D and eventually stabilise and stagnate.
+#D 
+#D The effect remains the same whether one uses a 23/3
+#D style input for gens 1 and 2, 7 and 8, or both.
+#D 
+#D Starting with EcoLiBra and adding the center cell, then finishing
+#D lines 2, 7, and 15 with 15, 12, and 15 respectively, one gets
+#D a Brain like world which eventually (1,000 or 2,000 gen) grows islands.
+#D They end up eating the world.
+#D 
+#D Discovered by Charles A. Rockafellor, March 2000
+#D 
+#L A$A59$64.A$64.A

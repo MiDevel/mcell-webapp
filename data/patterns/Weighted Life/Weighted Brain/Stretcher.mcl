@@ -1,0 +1,11 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 120x120
+#WRAP 1
+#D Weighted Brain    An interesting behavior.
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 20.BA$19.B..BA$16.A..AA.BA$16.BB..BA$12.A..AA.BA$12.BB..BA$8.A..AA.BA$
+#L 8.BB..BA$4.A..AA.BA$4.BB..BA$3.AA.BA$4.BA$3.A$..B$..A$BB$AA

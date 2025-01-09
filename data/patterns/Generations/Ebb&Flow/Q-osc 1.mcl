@@ -1,0 +1,19 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012478/36/18
+#BOARD 140x140
+#WRAP 1
+#D Ebb&Flow   An oscillating pattern that dies. A quasi-oscillator? Combines
+#D characteristics of oscillators and fuses.  I haven't been able to stabilize
+#D the ends in such a way as to make the oscillator permanent.  Is it possible
+#D to?
+#L .A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$3.A3.A3.A3.A3.A3.A3.A3.A3.
+#L A3.A3.A3.A3.A3.A3.A3.A11$.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A
+#L 3.A$A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$
+#L A..A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A10$.A3.A3.A3.A3.A3.A
+#L 3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A..A$A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A3.A10$.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A..A$A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$A..A3.A3.A
+#L 3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A

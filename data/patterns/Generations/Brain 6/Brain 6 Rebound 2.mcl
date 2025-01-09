@@ -1,0 +1,26 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 500x100
+#WRAP 0
+#D Brain 6   Another rebound effect.  This pattern reminds me a little
+#D of how Star Wars sometimes works with extenders growing and
+#D repeating from stable centers-the difference here is that the price
+#D of starting the extender going again costs a growth center each
+#D time it happens.
+#D 
+#D 
+#D Michael Sweney January 2000
+#L B4.A.B191.B.A4.B$AB.AB.B.A.B.AB4.AB.AB4.AB.A3.B.AB4.AB.AB4.AB.A3.B.AB
+#L 4.AB.AB4.AB.A3.B.AB4.BA.BA17.AB.AB4.BA.B3.A.BA4.BA.BA4.BA.B3.A.BA4.BA.
+#L BA4.BA.B3.A.BA4.BA.BA4.BA.B.A.B.BA.BA$.AB3.4B.AB.4AB.AB4.AB.A4B.AB.4AB
+#L .AB4.AB.A4B.AB.4AB.AB4.AB.A4B.AB.4A.BA.BA15.AB.AB.4A.BA.4BA.BA4.BA.B4A
+#L .BA.4BA.BA4.BA.B4A.BA.4BA.BA4.BA.B4A.BA.4B3.BA$6.A..A5.BB5.BAAB4.A..A
+#L 5.BB5.BAAB4.A..A5.BB5.BAAB4.A..A5.BB7.BA11.AB7.BB5.A..A4.BAAB5.BB5.A..
+#L A4.BAAB5.BB5.A..A4.BAAB5.BB5.A..A$6.A..A5.BB5.BAAB4.A..A5.BB5.BAAB4.A
+#L ..A5.BB5.BAAB4.A..A5.BB7.BA11.AB7.BB5.A..A4.BAAB5.BB5.A..A4.BAAB5.BB5.
+#L A..A4.BAAB5.BB5.A..A$.AB3.4B.AB.4AB.AB4.AB.A4B.AB.4AB.AB4.AB.A4B.AB.4A
+#L B.AB4.AB.A4B.AB.4A.BA.BA15.AB.AB.4A.BA.4BA.BA4.BA.B4A.BA.4BA.BA4.BA.B
+#L 4A.BA.4BA.BA4.BA.B4A.BA.4B3.BA$AB.AB.B.A.B.AB4.AB.AB4.AB.A3.B.AB4.AB.A
+#L B4.AB.A3.B.AB4.AB.AB4.AB.A3.B.AB4.BA.BA17.AB.AB4.BA.B3.A.BA4.BA.BA4.BA
+#L .B3.A.BA4.BA.BA4.BA.B3.A.BA4.BA.BA4.BA.B.A.B.BA.BA$B4.A.B191.B.A4.B

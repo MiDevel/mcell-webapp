@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 124567/378/4
+#BOARD 150x150
+#SPEED 50
+#WRAP 1
+#CCOLORS 4
+#D "Caterpillars" rule
+#D 
+#D 4 brothers
+#D 
+#D Mirek Wojtowicz, June 1999
+#L 16A$A14.A$A14.A$A14.A$A14.A$A14.A$A14.A$A14.A$A14.A$A14.A$A14.A$A14.A$
+#L A14.A$A14.A$A14.A$16A

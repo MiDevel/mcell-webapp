@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 45678/2478/25
+#BOARD 120x120
+#SPEED 50
+#WRAP 1
+#CCOLORS 25
+#D "Nova" rule collection
+#D 
+#D Pulsars
+#D 
+#D John Elliott, August 1999
+#L 45.9A$21.7A17.9A$5A16.7A17.9A$5A16.7A17.9A$5A16.7A17.9A$5A16.7A17.9A$
+#L 5A16.7A17.9A$21.7A17.9A$45.9A

@@ -1,0 +1,15 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW4,NN1,NE4,WW5,ME7,EE5,SW4,SS1,SE4,HI12,RS8,RS9,RS11,RB2,RB5
+#BOARD 140x140
+#WRAP 1
+#D Navaho 1      A beautiful pattern develops quickly that looks stable
+#D but eventually transforms.
+#D 
+#D 
+#D Michael Sweney   February 2000
+#L ..ABCDIJJIDCBA$5.I.KK.I$..GHIJJ..JJIHG$5.II..II$3.IIKKAAKKII$A.IKK.ABB
+#L A.KKI.A$A.HGFEDCCDEFGH.A$A.IKK.ABBA.KKI.A$3.IIKKAAKKII$5.II..II$..GHI
+#L JJ..JJIHG$5.I.KK.I$..ABCDIJJIDCBA
+
+

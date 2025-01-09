@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 260x260
+#WRAP 0
+#D Brain 6  4 Bombers create a nice effect.
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L ..AA12.AA$.ABB12.BBA$AB16.BA$B.A14.A.B$.ABA12.ABA$3.B12.B$..A.A10.A.A$
+#L .BAAB10.BAAB$.A.B12.B.A$..BA12.AB21$..BA12.AB$.A.B12.B.A$.BAAB10.BAAB$
+#L ..A.A10.A.A$3.B12.B$.ABA12.ABA$B.A14.A.B$AB16.BA$.ABB12.BBA$..AA12.AA

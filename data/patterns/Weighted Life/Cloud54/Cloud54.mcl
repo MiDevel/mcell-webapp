@@ -1,0 +1,15 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW1,NN1,NE9,WW1,ME0,EE9,SW1,SS9,SE9,HI0,RS2,RS3,RS9,RS10,RS19,RS
+#RULE 27,RB3,RB10,RB27
+#BOARD 150x150
+#SPEED 20
+#WRAP 1
+#CCOLORS 4
+#D An "L7" rotationally symmetrical weighted rule. The most interesting feature is a period 54 cloud
+#D that travels N by NE. Also commonly features hook shaped still lifes and gliders that travel in the
+#D NE direction exclusively, some leaving behind a single pixel trail.
+#D 
+#D Ben Schaeffer 1999
+#L 10.3A$12.A$11.A$8.3A$7.A24$4.A$..3A$4.A$3.A$A$A11$68.A$67.3A$67.AA$67.
+#L A$66.A7$36.A$34.AA

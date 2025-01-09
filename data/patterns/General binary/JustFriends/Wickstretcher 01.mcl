@@ -1,0 +1,17 @@
+#MCell 4.00
+#GAME General binary
+#RULE C0,NM,Sa6ba3bab3a3bab3ab7a3bab3ab7ab15a3bab3ab7ab15ab31a3bab3ab7
+#RULE ab15ab31ab63a,B5ab3abb6abbab12abbab3ab24abbab3ab7ab49abab3ab7ab1
+#RULE 5ab95a
+#BOARD 200x80
+#SPEED 20
+#WRAP 1
+#CCOLORS 2
+#D This is the first wickstretcher that produces a static wick that isn't
+#D just a bunch of parallel lines.
+#D 
+#D Paul Tooke
+#L ..3A5.4A..11A$AA3.A.3A3.AA$6.A4.A..A.A..A.A.A.A$AA5.A6.A4.A.A.A.A$..8A
+#L 7.A.A.A.A.A$9.A7.A.A.A.A.A$8.A3.A3.A..A.A.A.A$9.A7.A.A.A.A.A$..8A7.A.A
+#L .A.A.A$AA5.A6.A4.A.A.A.A$6.A4.A..A.A..A.A.A.A$AA3.A.3A3.AA$..3A5.4A..
+#L 11A

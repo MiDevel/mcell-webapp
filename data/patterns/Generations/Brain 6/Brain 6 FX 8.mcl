@@ -1,0 +1,16 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 260x260
+#WRAP 0
+#D Brain 6  An improvement on the FX 7 bomber.  Beam density is
+#D not as great, but at least the disruption is damped out.
+#D 
+#D 
+#D Michael Sweney  February 2000
+#L ..AB..B$.AB.AA..A$AB.AB.ABB$AB3.BA.A$..BBA3.3B$.AB4.BBAA$.AA4.A$.AB$..
+#L BBA3.AB$AB.AB..BA$AB.AB$..BB.A$.AB.AB$.AA..AA$.AB.AB$..BB.A$AB.AB$AB.A
+#L B..BA$..BBA3.AB$.AB$.AA4.A$.AB4.BBAA$..BBA3.3B$AB3.BA.A$AB.AB.ABB$.AB.
+#L AA..A$..AB..B
+
+

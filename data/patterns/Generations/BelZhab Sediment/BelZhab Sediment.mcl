@@ -1,0 +1,16 @@
+#MCell 4.00
+#GAME Generations
+#RULE 145678/23/8
+#BOARD 160x120
+#WRAP 1
+#D BelZhab Sediment
+#D 
+#D The rule creates BelZhab like patterns but that have
+#D growing regions of "sedimentary deposits".
+#D 
+#D Jason Rampe, April 2000
+#L 62A$A60.A$A60.A$A60.A$A60.A$A60.A$A60.A$A60.A$A60.A$A60.A$A60.A$A60.A$
+#L A60.A$A60.A$A60.A$A60.A$A22.16A22.A$A22.16A22.A$A22.16A22.A$A22.16A22.
+#L A$A22.16A22.A$A22.16A22.A$A22.16A22.A$A22.16A22.A$A22.16A22.A$A22.16A
+#L 22.A$A60.A$A60.A$A60.A$A60.A$A60.A$A60.A$A60.A$A60.A$A60.A$A60.A$A60.A
+#L $A60.A$A60.A$A60.A$A60.A$62A

@@ -1,0 +1,18 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R5,C0,M1,S0,S6,S10,S11,B0
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 25
+#D Gears v.2
+#D 
+#D A rule similar to Gears 1, but here gears are neatly aligned.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L B..4F.HH.DH.G.F.D.I.G.I.F.C..G.A..G5.GG..HIA4.HDBHDA.D.EE..CH..H4.CFH.
+#L FHC.D..C.GFE..GE3.EB.BGCF4.EEGI.DHAFCFC.C..B.C..B..I4.IF..I.EAAFGIC.C
+#L ..D4.A..HE.DD.I.H..F.AI.HIA3.A.H4.A3.DBG.DF..ABG..D..I..A.H..C3.GG.D.H
+#L 3.HDBBEF..EAB..HB.C.D.EH..DG.CI.EI..D..DCF.FG.HD.GG3.AFI3.DI3.EE..B3.D
+#L B3.I5.B3.C6.F..G.H..FBB.A.D.IEE.GIADAD3.E3.H..IEE.D3.H6.G..G..BIA.GDEC
+#L AEID.G

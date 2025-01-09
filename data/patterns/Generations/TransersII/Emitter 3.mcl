@@ -1,0 +1,16 @@
+#MCell 2.0
+#GAME Generations
+#RULE 0345/26/6
+#BOARD 140x140
+#WRAP 1
+#D Transers II   Another 4way emitter with a complex output..
+#D 
+#D 
+#D 
+#D Michael Sweney   June 2000
+#L 10.A.A$9.ABABA$..CBA3.ACDADCA3.ABC$..BCB3.CE.A.EC3.BCB$..ABC3.E.3A.E3.
+#L CBA$9.A.A.A$7.DE.B.B.ED$6.DD..C.C..DD$..ACE.E..D.A.D..E.ECA$.ACE.A..DE
+#L 3AED..A.ECA$ABD.A.BC.A3.A.CB.A.DBA$.5A..AA3.AA..5A$ABD.A.BC.A3.A.CB.A.
+#L DBA$.ACE.A..DE3AED..A.ECA$..ACE.E..D.A.D..E.ECA$6.DD..C.C..DD$7.DE.B.B
+#L .ED$9.A.A.A$..ABC3.E.3A.E3.CBA$..BCB3.CE.A.EC3.BCB$..CBA3.ACDADCA3.ABC
+#L $9.ABABA$10.A.A

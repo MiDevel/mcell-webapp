@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 200x200
+#WRAP 0
+#D Brain 6   Another seed pattern.
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 10.ABA$8.AB3.BA$6.AB.A3.A.BA$4.AB..B5.B..BA$3.AB.AB.A.B.A.BA.BA$..AB3.
+#L AB5.BA3.BA$.AB17.BA$AB19.BA$AB19.BA$.AB17.BA$..AB3.AB5.BA3.BA$3.AB.AB.
+#L A.B.A.BA.BA$4.AB..B5.B..BA$6.AB.A3.A.BA$8.AB3.BA$10.ABA

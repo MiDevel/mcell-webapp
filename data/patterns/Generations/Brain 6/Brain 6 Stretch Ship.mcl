@@ -1,0 +1,29 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 300x200
+#WRAP 0
+#D Brain 6  Not really a beam generator, or a bomber, or a spaceship.
+#D These can be added on to indefinitely. When linked together they
+#D create an amazing extender.
+#D 
+#D Michael Sweney  January/February 2000
+#L 7.AB..B$5.AB.AA..A..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA$4.AB.AB..B
+#L ..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB$..AB$..AB$4.AB.AB..B..AB..AB
+#L ..AB..AB..AB..AB..AB..AB..AB..AB$5.AB.AA..A..BA..BA..BA..BA..BA..BA..B
+#L A..BA..BA..BA$7.AB..B13$6.AB$4.AB..BA..BA..BA..BA..BA..BA..BA..BA..BA
+#L ..BA..BA..BA..BA..BA..BA..BA..B$..AB.AB..AB..AB..AB..AB..AB..AB..AB..A
+#L B..AB..AB..AB..AB..AB..AB..AB..AB$AB$AB$..AB.AB..AB..AB..AB..AB..AB..A
+#L B..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB$4.AB..BA..BA..BA..BA..BA..BA
+#L ..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..B$6.AB15$7.AB$6.AB$4.AB.AA..
+#L AB..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB$3.AB.AB
+#L ..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA$.AB$.
+#L AB$3.AB.AB..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA
+#L ..BA$4.AB.AA..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB..
+#L AB..AB$6.AB$7.AB35$65.BA$9.AB55.BA$7.AB.A..BA..BA..BA..BA..BA..BA..BA
+#L ..BA..BA..BA..BA..BA..BA.BB..BA$5.AB.AB..AB..AB..AB..AB..AB..AB..AB..A
+#L B..AB..AB..AB..AB..AB..A.BA.BA$3.AB66.BA$3.AB66.BA$5.AB.AB..AB..AB..AB
+#L ..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB..A.BA.BA$7.AB.A..BA..BA..BA..
+#L BA..BA..BA..BA..BA..BA..BA..BA..BA..BA.BB..BA$9.AB55.BA$65.BA
+
+

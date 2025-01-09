@@ -1,0 +1,27 @@
+x = 161, y = 17, rule = B36/S23
+58b3o7b3o8b3o8b3o7b3o$57bo3bo5bo3bo6bo3bo6bo3bo5bo3bo$56bo5bo3bo5bo4bo
+5bo4bo5bo3bo5bo$34b3o3b3o13bo5bo3bo5bo4bo5bo4bo5bo3bo5bo13b3o3b3o$29bo
+3bobbobbo3bo5b3o3boob3obooboob3oboobboob3oboobboob3obooboob3oboo3b3o5b
+o3bobbobbo3bo$28b3obo3bobo5bo3bobbo3bobooboobobobooboobobbobooboobobbo
+booboobobobooboobo3bobbo3bo5bobo3bob3o$20bo5boobobbob3obo3bobbobo3bobo
+bo3bo3bobo3bo3bobbo3bo3bobbo3bo3bobo3bo3bobobo3bobobbo3bob3obobboboo5b
+o$10bo8b3o4bo7bobo3b3obbobobb6o3boboo3booboboo4booboboo4booboboo3boobo
+3b6obbobobb3o3bobo7bo4b3o8bo$6bobooboobo3b5o5bobobobob3obobboobo5bobb
+4obobbobobbobobbobbobbobobbobbobbobobbobobbob4obbo5boboobbob3obobobobo
+5b5o3bobooboobo$5boo7booboo3booboobob3obobb5obbo3bo4boobbo45bobboo4bo
+3bobb5obbob3obobooboo3booboo7boo$6boobobobobobobbobbob3obobooboboobbob
+obob3o7bobbobbooboobbobboobboobbobboobboobbobbooboobbobbo7b3obobobobb
+ooboboobob3obobbobboboboboboboo$4b3o7bobobbobobbobb3o4bo7bo3bo5bobobo
+47bobobo5bo3bo7bo4b3obbobbobobbobo7b3o$6bo9booboboboo4bo4bo6boboobo4b
+ooboobb45obbooboo4boboobo6bo4bo4booboboboo9bo$b3o10bobobb3o7bob3ob6o3b
+oob3o10bo39bo10b3oboo3b6ob3obo7b3obbobo10b3o$bo12b3obobbo6bobo5boboobo
+bo5bobobobobbo43bobbobobobo5boboboobo5bobo6bobbob3o12bo$14b3o3bo12bobo
+9bo3bo9bo41bo9bo3bo9bobo12bo3b3o$oo11boo14bobo97bobo14boo11boo!
+This is the first orthogonal puffer train found in HighLife.
+It is a "line puffer" and has a very dirty exhaust with a very large period.
+The middle components can be repeated in an obvious manner to make
+arbitrarily wide line puffers.  Since the spacing between the components
+can be varied by one cell, from some point onwards a line puffer of any
+width can be constructed.  Unfortunately some of these line puffers get
+destroyed by the exhaust at some point.
+Alan W. Hensel, 1994

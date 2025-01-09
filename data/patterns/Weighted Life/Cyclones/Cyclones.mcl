@@ -1,0 +1,18 @@
+#MCell 4.00
+#GAME Weighted Life
+#RULE NW1,NN1,NE0,WW1,ME0,EE1,SW0,SS1,SE1,HI5,RS2,RS4,RS5,RB2,RB3,RB4,
+#RULE RB5
+#BOARD 100x100
+#SPEED 10
+#WRAP 1
+#D This rule supports rotators similar to those in Swirl and Pinwheels,
+#D but the center of rotation itself travels - that is, these rotators are
+#D gliders rather than stationary oscillators.
+#D 
+#D The pattern shows the Cyclone generation from small seed patterns.
+#D Note that the two pattern types result in opposing directions of rotation,
+#D while the two orientations of each type result in opposing directions of
+#D travel.
+#D 
+#D A rule by John Elliott, October 2000.
+#L 3A15.A$.AA14.A$A.AA11.A.3A13$3A.A11.AA.A$..A14.AA$.A15.3A

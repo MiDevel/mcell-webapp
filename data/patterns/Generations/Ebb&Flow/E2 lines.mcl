@@ -1,0 +1,33 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012478/36/18
+#BOARD 180x160
+#WRAP 1
+#D Ebb&Flow  These fuses have 2 elements per segment.  The second
+#D from the top shows how a hum-drum fuse can be transformed into
+#D a glamorous waveguide(complete with return signal)!  
+#D 
+#D Michael Sweney   November 1999
+#L 15.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A3.A3.A3.A..A$125.AA$125.AA$125.AA$15.A3.A3.A3.A3.A3.A3.A3.A3.A3.
+#L A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A..A11$16.AA$12.
+#L A..A110.A$15.A109.A$10.A5.AA.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$7.A
+#L .A.A113.AA.AA$10.A5.AA.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$15.A109.A
+#L $12.A..A110.A$16.AA10$14.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.4A$
+#L 125.A.A$14.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.4A13$128.A$15.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.AA$128.AA$15.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.AA$128.A15$125.A$A..A..A..A..A..A..A..A..A..A..A
+#L ..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A
+#L ..A..A..A..A..A..A..A..A..A$124.3A$124.3A$A..A..A..A..A..A..A..A..A..A
+#L ..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A
+#L ..A..A..A..A..A..A..A..A..A..A$125.A9$35.A3.A3.A3.A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$37.A3.A3.A3.A3.A3.A3.A3.A3.A3.
+#L A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A7.A$121.A4.A$37.A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A7.A$35.A3.A3.A3.A3.A3.A3.A3.
+#L A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A

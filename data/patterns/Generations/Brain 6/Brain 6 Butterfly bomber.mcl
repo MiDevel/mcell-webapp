@@ -1,0 +1,15 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 300x200
+#WRAP 0
+#D Brain 6   Butterfly bomber and hybrid beam generator/butterfly bomber
+#D 
+#D 
+#D 
+#D Michael Sweney  January 2000
+#D 
+#L 65.AB$63.AB..B$61.AB.AB.A$59.AB.AA..B$4.AB51.AB.AB.ABBA$3.AB.ABA46.AB.
+#L AA..BAA.A$..AB.A..BA4.B38.AB.AB..BBA3.BA3.B$AB.AB5.B..A34.AB.AB7.AA6.B
+#L A$AB..AB4.3B35.AB.AB7.AA6.BA$5.AB3.A.A40.AB.AB..BBA3.BA3.B$55.AB.AA..B
+#L AA.A$57.AB.AB.ABBA$59.AB.AA..B$61.AB.AB.A$63.AB..B$65.AB

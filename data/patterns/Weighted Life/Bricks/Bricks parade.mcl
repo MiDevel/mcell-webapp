@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW5,NN2,NE5,WW2,ME0,EE2,SW5,SS2,SE5,HI3,RS10,RS12,RS14,RS16,RB7,RB13
+#BOARD 200x140
+#SPEED 10
+#WRAP 1
+#CCOLORS 3
+#D "Bricks" rule collection
+#D 
+#D Bricks parade
+#D 
+#D Mirek Wojtowicz, September 1999
+#L 10.50A$10.50A13$70A$70A13$10.50A$10.50A

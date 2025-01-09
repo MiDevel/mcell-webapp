@@ -1,0 +1,17 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW1,NN1,NE0,WW1,ME0,EE1,SW0,SS1,SE1,HI3,RS2,RB2
+#BOARD 200x200
+#SPEED 75
+#WRAP 0
+#CCOLORS 3
+#D A totalistic hexagonal rule with decay. Features exploding replicators,
+#D common glider with an undulating tail, and some uncommon oscillators
+#D and gliders..
+#D 
+#D Ben Schaeffer 2000
+#L 38.AA$38.BAB$38.A..A$39.ABA$39.ABBA$41.B$41.AA$42.A$$42.B.B$42.4A$44.A
+#L 15$64.B$66.B12.A$64.3A12.BAB$64.AA.AB12.A$65.B3.A$66.AB.B7$80.A$79.ABB
+#L A$79.B3.B$79.AA$80.AB$A$AA$.A$B..B$..A$..AA$3.A$.B4.B$.3A.3A$3.A..A$3.
+#L A3.A$4.A..A$4.A3.A$5.A..A$4.3A.3A$5.B4.B$8.A$8.AA$9.A$8.B..B$10.A$10.
+#L AA$11.A

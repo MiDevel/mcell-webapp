@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 235678/3468/9
+#BOARD 160x160
+#WRAP 1
+#D Burst II    Most  x/y symmetrical objects die out or become oscillators
+#D in this rule.  Sometimes they look like solar processes of growth,
+#D contraction, nova stages and eventually dead cinders.
+#D 
+#D 
+#D Michael Sweney   March 2000
+#L 25A$AA21.AA$A23.A$A23.A$A23.A$A23.A$A23.A$A23.A$A23.A$A23.A$A23.A$A23.
+#L A$A23.A$A23.A$A23.A$A23.A$A23.A$A23.A$A23.A$A23.A$A23.A$A23.A$A23.A$AA
+#L 21.AA$25A

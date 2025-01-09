@@ -1,0 +1,14 @@
+#Life 1.05
+#R 012345678/3
+#D One seed of size 8 which gives birth to a ladder.
+#D (The pentomino piece actually spawns a two-sided ladder, and
+#D then interaction with the other three cells kills its left branch.)
+#D 
+#D Note that the ladder's horizontal spatial periodicity is 4.
+#D In fact, the head cycles through 12 distinct patterns in order
+#D to weave its periodic pattern, the last 6 of which are vertical
+#D flips of the first 6.
+#D 
+#D David Griffeath and Cris Moore 
+***...***
+......*.*

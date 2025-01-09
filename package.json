@@ -1,0 +1,28 @@
+{
+  "name": "mcell-web",
+  "version": "1.0.0",
+  "description": "Web-based cellular automata simulator",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "concurrently \"npm run watch\" \"npm run start\"",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.{ts,js}\" \"styles/**/*.css\" \"*.{html,json}\"",
+    "clean:deploy": "rimraf deploy",
+    "predeploy": "npm run build && npm run clean:deploy",
+    "deploy": "node scripts/deploy.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.55.0",
+    "lite-server": "^2.6.1",
+    "prettier": "^3.1.0",
+    "rimraf": "^5.0.10",
+    "typescript": "^5.3.3"
+  }
+}

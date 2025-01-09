@@ -1,0 +1,17 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW5,NN2,NE5,WW2,ME0,EE2,SW5,SS2,SE5,HI3,RS10,RS12,RS14,RS16,RB7,RB13
+#BOARD 200x140
+#SPEED 10
+#WRAP 1
+#CCOLORS 3
+#D "Bricks" rule collection
+#D 
+#D Still life
+#D 
+#D Mirek Wojtowicz, September 1999
+#L 49.A..A13.A..A..A..A$48.A.AA.A11.A.AA.AA.AA.A$49.A..A13.A..A..A..A$17.
+#L A14.A..A13.A..A13.A..A..A..A$.A14.A.A12.A.AA.A11.A.AA.A11.A.AA.AA.AA.A
+#L $A.A14.A14.A..A13.A..A13.A..A..A..A$.A15.A14.A..A13.A..A13.A..A..A..A$
+#L 16.A.A12.A.AA.A11.A.AA.A11.A.AA.AA.AA.A$17.A14.A..A13.A..A13.A..A..A..
+#L A$49.A..A13.A..A..A..A$48.A.AA.A11.A.AA.AA.AA.A$49.A..A13.A..A..A..A

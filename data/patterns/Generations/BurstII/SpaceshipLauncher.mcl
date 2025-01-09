@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Generations
+#RULE 235678/3468/9
+#BOARD 140x140
+#WRAP 1
+#D Burst II    I've looked long and hard for an oscillator that would
+#D periodically generate spaceships/gliders in the Burst rules. This
+#D is one of the many failed attempts.
+#D 
+#D Michael Sweney   April 2000
+#L 6.AA..AA.AA..AA$5.A..AA..A..AA..A$5.15A$4.17A$3.19A$.23A$A.21A.A$A.21A
+#L .A$.23A$.23A$A.21A.A$A.21A.A$.23A$A.21A.A$A.21A.A$.23A$.23A$A.21A.A$A.
+#L 21A.A$.23A$3.19A$4.17A$5.15A$5.A..AA..A..AA..A$6.AA..AA.AA..AA

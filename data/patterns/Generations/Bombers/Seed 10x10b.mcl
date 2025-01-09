@@ -1,0 +1,11 @@
+#MCell 3.00
+#GAME Generations
+#RULE 345/24/25
+#BOARD 200x160
+#SPEED 2
+#WRAP 1
+#CCOLORS 25
+#D Bomber rule sample seeding
+#D 
+#D Mirek Wojtowicz, February 2000
+#L 10A$10A$10A$10A$10A$10A$10A$10A$10A$10A

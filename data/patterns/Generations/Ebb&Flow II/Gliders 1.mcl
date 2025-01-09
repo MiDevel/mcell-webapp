@@ -1,0 +1,16 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012468/37/18
+#BOARD 200x200
+#WRAP 1
+#D Ebb&Flow II  Gliders.  I'm not sure if 'gliders' is the right term for
+#D these, but they do represent a significant gain in functionality
+#D from e&f which has (to this date at least) none.
+#D 
+#D Michael Sweney   December 1999
+#L 95.AA$94.4A$93.6A$94.4A$95.AA5$9.A.A.A$8.A..A..A$8.A..A..A$9.A.A.A10$
+#L 54.AA$53.4A$52.6A$52.A4.A$52.A4.A$52.A4.A$52.A4.A$52.A4.A$52.6A$53.4A$
+#L 54.AA4$A$A$A$A$A$A$A$A6$A$A$A$A$A$A$A$A$A$A$$77.AA$76.4A$77.AA$76.4A$
+#L 77.AA20$111.A.A.A$113.A$112.3A$112.3A$113.A$111.A.A.A
+
+

@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Generations
+#RULE 0345/26/6
+#BOARD 200x150
+#WRAP 0
+#D Transer II     Three different types of guns.
+#D 
+#D 
+#D Michael Sweney  June 2000
+#L 3.A$..3A$.A.A.A$..B.B$.D.A.D$.E3AE$..A.A$..A.A$.E3AE$.D.A.D$..B.B$.A.A
+#L .A$..3A$3.A23$3.A$..ACA$..CEC$..AEA$.B.A.B$.C3AC$..AA.D$.EB.E19$3.A$..
+#L CAC$.D.A.D$.E3AE$..A.A$..A.A$.E3AE$.D.A.D$..CAC$3.A17$3.A$..CAC$.D.A.D
+#L $.E3AE$3.A$EEACAEE$3.A$.E3AE$.D.A.D$..CAC$3.A

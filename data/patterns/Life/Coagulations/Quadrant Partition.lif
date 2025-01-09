@@ -1,0 +1,44 @@
+#Life 1.05
+#R 235678/378
+#D Quadrant Partition
+#D 
+#D I engineered several partitions based on the QH Rook.
+#D One example is the Quadrant Partition.
+#D 
+#D When placed at the center of the CA universe, this construction acts as the
+#D XY Axes of a Cartesian grid.  As a result, one can create four separate
+#D chaotic systems (one in each quadrant) without having them interact (as long
+#D as the growth rate of the chaotic systems does not exceed the growth of the
+#D QH Rooks in the Quadrant Partition).
+#D 
+#D Discovered by Ddauthier <ddauthier@aol.com>
+#D 1998/12/05
+..............*
+............**.**
+............*****
+.............***
+.............***
+............*****
+.............***
+........**..*****..**
+.......***..*.*.*..***
+.......***************
+.........***********
+.........***********
+.**..*.***************.*..**
+.*******.***********.*******
+*.*************************.*
+.*******.***********.*******
+.**..*.***************.*..**
+.........***********
+.........***********
+.......***************
+.......***..*.*.*..***
+........**..*****..**
+.............***
+............*****
+.............***
+.............***
+............*****
+............**.**
+..............*

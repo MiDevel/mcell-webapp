@@ -1,0 +1,22 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012478/36/18
+#BOARD 160x120
+#WRAP 1
+#D Ebb&Flow  Box engineered to suppress explosion effects.
+#D 
+#D Michael Sweney   November 1999
+#L A3.A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A
+#L ..A..A..A..A3.A$.A..79A..A$..3A..A..A..A..A..A..A..A..A..A..A..A..A..A
+#L ..A..A..A..A..A..A..A..A..A..A..A..A..3A$..A.79A.A$4A79.4A$.A.A.A75.A.
+#L A.A$.A.A79.A.A$4A79.4A$.A.A4.A69.A4.A.A$.A.A79.A.A$4A79.4A$.A.A7.A63.A
+#L 7.A.A$.A.A79.A.A$4A79.4A$.A.A10.A57.A10.A.A$.A.A79.A.A$4A79.4A$.A.A79.
+#L A.A$.A.A79.A.A$4A14.A4.A4.A4.A4.A4.A4.A4.A4.A4.A4.A14.4A$.A.A79.A.A$.A
+#L .A79.A.A$4A79.4A$.A.A79.A.A$.A.A10.A57.A10.A.A$4A79.4A$.A.A79.A.A$.A.A
+#L 7.A63.A7.A.A$4A79.4A$.A.A79.A.A$.A.A4.A69.A4.A.A$4A79.4A$.A.A79.A.A$.A
+#L .A.A75.A.A.A$4A79.4A$..A.79A.A$..3A..A..A..A..A..A..A..A..A..A..A..A..
+#L A..A..A..A..A..A..A..A..A..A..A..A..A..A..3A$.A..79A..A$A3.A..A..A..A
+#L ..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A
+#L 3.A
+
+

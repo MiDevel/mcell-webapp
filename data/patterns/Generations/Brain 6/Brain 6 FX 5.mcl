@@ -1,0 +1,24 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 260x260
+#WRAP 1
+#D Brain 6   This pattern appears at approx. gen 14900 in Seed 5. The
+#D creation of it is shown in Collision Studies 2.  To honor the inventor
+#D of MCell, I've named it Mirek's Cross.
+#D 
+#D 
+#D 
+#D Michael Sweney  February 2000
+#D 
+#D 
+#D 
+#L 14.AA..AA$13.ABB..BBA$13.B6.B$12.A8.A$12.BA6.AB$13.B6.B$12.A8.A$12.BA
+#L 6.AB$13.B6.B$13.A.A..A.A$14.BB..BB$16.AA$3.AB.AB6.AB..BA6.BA.BA$.AB.AB
+#L .ABA3.B.A..A.B3.ABA.BA.BA$AB8.B.A.B4.B.A.B8.BA$AB7.AB.BA6.AB.BA7.BA$
+#L 11.A10.A$11.A10.A$AB7.AB.BA6.AB.BA7.BA$AB8.B.A.B4.B.A.B8.BA$.AB.AB.ABA
+#L 3.B.A..A.B3.ABA.BA.BA$3.AB.AB6.AB..BA6.BA.BA$16.AA$14.BB..BB$13.A.A..A
+#L .A$13.B6.B$12.BA6.AB$12.A8.A$13.B6.B$12.BA6.AB$12.A8.A$13.B6.B$13.ABB
+#L ..BBA$14.AA..AA
+
+

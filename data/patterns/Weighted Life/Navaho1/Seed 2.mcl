@@ -1,0 +1,12 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW4,NN1,NE4,WW5,ME7,EE5,SW4,SS1,SE4,HI12,RS8,RS9,RS11,RB2,RB5
+#BOARD 200x200
+#WRAP 1
+#D Navaho 1     Another seed state.
+#D 
+#D 
+#D Michael Sweney  February 2000
+#L A3.AA3.A$A..A..A..A$A3.AA3.A
+
+

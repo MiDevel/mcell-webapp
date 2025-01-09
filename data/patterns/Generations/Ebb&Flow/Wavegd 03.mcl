@@ -1,0 +1,47 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012478/36/18
+#BOARD 200x200
+#WRAP 1
+#D Ebb&Flow   Waveguides with oscillators as signal dampers and
+#D with step-up transformers.
+#D 
+#D Michael Sweney   November 1999
+#L 61.A7.A$5.A..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A..A..A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$5.A..A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A5.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$57.A69.4A$127.A..A$57.A
+#L 69.4A$5.A..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A5.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$5.A..A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A..A..A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$61.A7.A14$3.A83.A7.A$..A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A..A..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A..A..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A..A..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A5.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$83.A43.4A$127.A..A$83.A43.4A$A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A..A..A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A5.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$..A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A..A..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A..A..A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$3.A83.A7.A20$..A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.AA$..A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A$$126.A$$..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A$..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.AA9$5.A$4.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.AA$..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$127.A$
+#L 127.A$127.A$..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$
+#L 4.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.AA$5.A8$25.A$24.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$22.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A$127.4A$127.A..A$127.4A$22.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$24.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$25.A

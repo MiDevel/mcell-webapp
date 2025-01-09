@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Generations
+#RULE 235678/3468/9
+#BOARD 120x80
+#WRAP 1
+#D Burst II  Two spaceships: both travel at c/2 but the second one
+#D takes recharge breaks which slow it down considerably.
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 3.C$..DE3A$.FHEEBB$.G.HHADAA$4.HFDBA$4.CFABA$H.GGDDAA$.FGCBC$..E.B15$
+#L 4.DED$3.EFCFE$..BCFDFACA$.ADH.HE4A$..BCFDFACA$3.EFCFE$4.DED16$3.A$..A.
+#L AA$.A.A..A$..A.AA$3.A

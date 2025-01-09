@@ -1,0 +1,18 @@
+#MCell 4.00
+#GAME General binary
+#RULE C0,NM,Sabbab3ab7ab13abab13ab17ab63ab6ab59ab11ab23abb7ab15a,B5aba
+#RULE baab3abaabaabb5abbaabaabaaba4b8abaababb4abaabaabb3abb3aba3babbab
+#RULE 3ababab3abaab4a3baababaabab4abbabaabb4ababaababaa3b4abaab3ababab
+#RULE 3ababba3bab3ab4abbaabbab4abbabaab8a4babaababbaabb5abbaabbab3abab
+#RULE babba3b
+#BOARD 140x140
+#SPEED 10
+#WRAP 1
+#D Snowflakes
+#D 
+#D This pattern just demonstrates some of the things encountered in this rule set.
+#D 
+#D Charles A. Rockafellor, Mirek Wojtowicz, October 2000
+#L 30.A$29.3A$29.3A$30.A$30.A$29.3A$29.A.A3$30.A$30.A3$42.AA$17.A$18.A22.
+#L A$19.A21.A$41.A4$3.A$.A3.A$3.A$A.3A.A$3.A22.A8.A$.A3.A20.A8.A$3.A22.A
+#L 8.A5$12.3A$12.A.A$12.3A

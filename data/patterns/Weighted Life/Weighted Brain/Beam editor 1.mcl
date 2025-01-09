@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 200x80
+#WRAP 0
+#D Weighted Brain  An interesting beam editor.
+#D 
+#D 
+#D Michael Sweney   March 2000
+#L ..BB42.BB$..AA42.AA$23.4A$22.B.BB.B$AB..AB..AB..AB..AB..AB..AA..BA..BA
+#L ..BA..BA..BA..BA$AB..AB..AB..AB..AB..AB..AA..BA..BA..BA..BA..BA..BA$
+#L 22.B.BB.B$23.4A$..AA42.AA$..BB42.BB

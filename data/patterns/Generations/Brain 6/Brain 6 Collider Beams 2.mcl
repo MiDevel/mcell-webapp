@@ -1,0 +1,18 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 240x240
+#WRAP 0
+#D Brain 6        Here collider beams are set up to impact each other
+#D The real world model is particle beam experiments at CERN and
+#D elsewhere.  In the CA world, beam impingement both on oscillators
+#D and each other can be studied.  Here a butterfly generator is
+#D set in motion before the beams shut off (be patient--it takes a while
+#D to get going!)
+#D 
+#D Michael Sweney  December 1999
+#L 21.AA$21.BB$23.A$23.BA$22.A.BA$21.AB..BA$21.B.BA.BA$22.ABB..B$22.B..BA
+#L $23.A.BB$23.BAA3$24.BB$24.AA11$43.BA3.BA$5.AB17.B17.BA.BA.BA$3.AB..A..
+#L BA12.AAB11.AB..ABB..BA$.AB..BBA..BA11.BAA12.AB..A..BA$AB.AB.AB17.B17.B
+#L A$AB3.AB11$24.AA$24.BB3$24.AAB$23.BB.A$23.AB..B$22.B..BBA$22.AB.AB.B$
+#L 23.AB..BA$24.AB.A$25.AB$26.A$27.BB$27.AA

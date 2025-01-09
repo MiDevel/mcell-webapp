@@ -1,0 +1,15 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 240x240
+#WRAP 1
+#D Brain 6      Here the low frequency generators set up a spaceship
+#D factory.
+#D 
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L AB..AB26.BA..BA$AB.AB.AB.A18.A.BA.BA.BA$.AB.AA..BB18.BB..AA.BA$..AB..B
+#L AA20.AAB..BA$10.BA14.AB$10.BA14.AB$7.AB20.BA$6.AB22.BA$6.AB22.BA4$17.B
+#L AA$16.A.B.B$15.BA.B.ABB$15.AB4.AA$14.B.BA$14.AB$15.A.B$16.BA$14.BBA$
+#L 14.AA

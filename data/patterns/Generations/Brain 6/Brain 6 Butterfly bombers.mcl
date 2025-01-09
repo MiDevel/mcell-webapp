@@ -1,0 +1,20 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 400x200
+#WRAP 0
+#D Brain 6   This flotilla launches two streams of butterflies.  Nothing
+#D new in that.  What is interesting is how "dense" the butterfly streams
+#D are--right next to the tightest packing possible.   The bomber following
+#D also generates dense streams of butterflies oriented differently.
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 4.AB$..AB$..AB3.AB$3.AB.AB$4.AB..BB$5.AB.AA$11.B11$11.B$5.AB.AA$4.AB..
+#L BB$3.AB.AB$..AB3.AB$..AB$4.AB28.AB$34.AB$35.AB.AB.A$36.AB..BB$37.AB.AA
+#L $43.B56.AB$98.AB8.AB$98.AB6.AB.AA.B..A$99.AB3.AB.AB.AB$100.AB.AB.AA3.B
+#L $102.AB.AB.AB.A$106.AB.A..BB$107.AB3.A$114.B$113.AA$114.B$107.AB3.A$
+#L 106.AB.A..BB$102.AB.AB.AB.A$100.AB.AB.AA3.B$45.B53.AB3.AB.AB.AB$39.AB.
+#L AA54.AB6.AB.AA.B..A$38.AB..BB54.AB8.AB$37.AB.AB.A56.AB$36.AB$36.AB4$..
+#L AB$AB$AB3.AB$.AB.AB$..AB..BB$3.AB.AA$9.B11$9.B$3.AB.AA$..AB..BB$.AB.AB
+#L $AB3.AB$AB$..AB

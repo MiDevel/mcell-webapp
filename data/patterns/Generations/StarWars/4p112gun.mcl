@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x200
+#SPEED 0
+#WRAP 0
+#CCOLORS 4
+#D p112 4-barreled gun by Kamil Przybyla.
+#D 
+#D You can make any period 112+4*x (where x is positive integer) gun this way.
+#D 
+#D July 1999
+#L 7.A$6.3A4.BA$7.A4.C.A$13.3A$3.A10.A$..3A$3.A14.A$17.3A$18.A3$.A$3A$.A
+#L 14.A$15.3A$5.A10.A$4.3A$5.A6.A$11.3A$12.A

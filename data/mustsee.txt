@@ -1,0 +1,45 @@
+Life/Conway's Life/GUN30.LIF
+Life/Day & Night/daynight.l
+Generations/Bombers/Seed 10x10b.mcl
+Generations/Brain 6/Brain 6 Oscillators 2.mcl
+Generations/Brian's Brain/Brian's Brain.mcl
+Generations/Ebb&Flow/Oscil 04.mcl
+Generations/Ebb&Flow II/Ebb&Flow II.mcl
+Generations/Faders/Faders.mcl
+Generations/Fireworks/Cross.mcl
+Generations/Fireworks/Fireworks 02.mcl
+Generations/Nova/Nova.mcl
+Generations/SediMental/Loom.mcl
+Generations/Spirals/Perfect spiral.mcl
+Generations/StarWars/Conveyer.mcl
+Generations/StarWars/StarWars 01.mcl
+Generations/StarWars/Steeplechase.mcl
+Generations/Worms/Worms.mcl
+Cyclic CA/CCA/CCA.mcl
+Cyclic CA/GH Macaroni/GH Macaroni.mcl
+Weighted Life/HGlass/HGlass.mcl
+Weighted Life/Linguini/Linguini.mcl
+Weighted Life/Midges/Midges.mcl
+Weighted Life/Parity/Parity 01.mcl
+Weighted Life/PicturesH/PicturesH 02.mcl
+Weighted Life/ZipperMakers/ZipperMakers.mcl
+Vote for Life/Vote/Vote.mcl
+Margolus/BBM/BBM.mcl
+Margolus/Rotations/Rotations.mcl
+Margolus/StringThingII/StringThingII.mcl
+Margolus/SwapOnDiag/SwapOnDiag.mcl
+Margolus/Sand/Sand.mcl
+1-D totalistic/Marvel/Marvel.mcl
+1-D totalistic/Date palms/Date palms.mcl
+1-D binary/Kites/Kites.mcl
+Neumann binary/Pond/Beauty 02.mcl
+Neumann binary/Typhoon/Typhoon.mcl
+General binary/JustFriends/JustFriends.mcl
+Larger than Life/Bugs/Bugs.mcl
+Rules table/Cars/Highway.mcl
+Rules table/WireWorld/WireWorld.mcl
+Weighted Generations/WG Rule004/R004_G033.mcl
+Weighted Generations/WG Rule071/R071_G004.mcl
+Weighted Generations/WG Rule072/R072_O002.mcl
+Weighted Generations/WG Rule072/R072_O028.mcl
+Weighted Generations/WG Rule084/R084_S010.mcl

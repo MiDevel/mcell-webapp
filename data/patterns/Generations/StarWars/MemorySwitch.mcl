@@ -1,0 +1,25 @@
+#MCell 2.50
+#GAME Generations
+#RULE 345/2/4
+#BOARD 140x20
+#SPEED 1
+#WRAP 0
+#CCOLORS 4
+#D 
+#D MEMORY SWITCH
+#D Star Wars rule
+#D 
+#D The gadget switches between two states when hit by a signal.
+#D 
+#D When the switch is a simple cross (OFF state) the colliding single-wing photon
+#D adds a spinning electron (ON state).
+#D 
+#D The next photon tears the electron out and comes back as a wingless photon
+#D which can be detected for bit reading.
+#D 
+#D With some nifty tuning, we wight build a cheap flash memory for the 3rd millenium :)
+#D 
+#D May 99
+#D Revised December 99
+#D Lionel Bonnetier
+#L CBA50.CBA46.A$.CBA50.CBA44.3A$.CBA50.CBA45.A

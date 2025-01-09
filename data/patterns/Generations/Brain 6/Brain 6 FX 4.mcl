@@ -1,0 +1,25 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 260x260
+#WRAP 0
+#D Brain 6   Kamil Przybyla created a cousin of this concept in his
+#D Brian's Brain "Snake" layer.  Here, in Brain 6, are two bombers
+#D that collaborate to lay a trail of "snake"  stretchers.  If you mirror
+#D the bomber pair to create two pairs moving oppositely than you can
+#D partition space with the resulting snakes.
+#D 
+#D Michael Sweney  January 2000
+#L 49.AA19.AA$49.BB19.BB$51.A17.A$51.B17.B$52.A15.A$51.AB15.BA$51.B.A13.A
+#L .B$50.A.AB13.BA.A$50.BAA15.AAB$49.A.B17.B.A$49.B3.BA11.AB3.B$50.BABB
+#L 13.BBAB$51.3A.BA7.AB.3A$52.A..BA7.AB..A$48.B.AB.BA11.AB.BA.B$51.B17.B
+#L $$47.AB23.BA$47.ABB21.BBA$49.AA19.AA$47.BBAB9.B9.BABB$51.A.A4.B.B.B4.A
+#L .A$48.B3.BB13.BB3.B$48.ABAA..A11.A..AABA$50.AB.B13.B.BA$52.A6.B.B6.A$
+#L 60.A3$52.B15.B$51.A3B5.A5.3BA$52.A.A3.AB.BA3.A.A$56.AB.3A.BA$56.AB.BAB
+#L .BA$59.B.B$60.B$59.ABA7$6.B107.B$4.A.A107.A.A$..BABB109.BBAB$3.BBAB
+#L 107.BABB$..A.A111.A.A$..B115.B11$46.AB25.BA$46.AB25.BA$48.AB..AB..AB5.
+#L BA..BA..BA$50.AB..AB..ABABA..BA..BA$60.A5$56.AA5.AA$55.ABB5.BBA$55.B9.
+#L B$54.A11.A$.AA115.AA$.BB115.BB$A..A113.A..A$B..B113.B..B$89.AB$87.AB$
+#L 87.AB$89.AB$60.B.AB$60.AB$59.ABBA$60.BA$58.BA.B
+
+

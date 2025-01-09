@@ -1,0 +1,21 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 260x260
+#WRAP 1
+#D Brain 6  An improvement of FX 4, here one bomber lays a trail of
+#D staggered snake stretchers.  A mirror bomber is put in for a nice
+#D way to partition space.  The construction principle is similar to the
+#D one used in FX 3--create asymmetries in the bomber to create
+#D asymmetries in the output.
+#D 
+#D 
+#D Michael Sweney  February 2000
+#L 13.AB.AB8.BA.BA$12.AB.AB.AB4.BA.BA.BA$11.AB..BBA5.A.AABB..BA$10.AB.AB
+#L 9.B4.BA.BA$9.AB6.BB5.ABB6.BA$8.AB.A6.A6.A6.A.BA$7.AB..BAA16.AAB..BA$5.
+#L AB.AB..B.B14.B.B..BA.BA$4.AB4.AB20.BA4.BA$..AB7.AB18.BA7.BA$AB40.BA$AB
+#L 40.BA$..AB7.AB18.BA7.BA$4.AB4.AB20.BA4.BA$5.AB.AB..B.B14.B.B..BA.BA$7.
+#L AB..BAA16.AAB..BA$8.AB.A6.A6.A6.A.BA$9.AB6.BBA5.BB6.BA$10.AB.AB4.B9.BA
+#L .BA$11.AB..BBAA.A5.ABB..BA$12.AB.AB.AB4.BA.BA.BA$13.AB.AB8.BA.BA
+
+

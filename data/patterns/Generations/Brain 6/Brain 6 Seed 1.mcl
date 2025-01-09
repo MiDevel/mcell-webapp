@@ -1,0 +1,10 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 200x200
+#WRAP 0
+#D Brain 6               A seed pattern.
+#D 
+#D Michael Sweney  December 1999
+#L 6.A$.AA..ABA..AA$.A4.B4.A$6.A$4.A.B.A$.A3.3A3.A$ABBABA.ABABBA$.A3.3A3.
+#L A$4.A.B.A$6.A$.A4.B4.A$.AA..ABA..AA$6.A

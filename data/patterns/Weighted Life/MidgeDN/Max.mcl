@@ -1,0 +1,10 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN2,NE2,WW1,ME0,EE1,SW2,SS1,SE2,HI9,RS0,RS2,RS3,RB4,RB5,RB6
+#BOARD 100x100
+#SPEED 0
+#WRAP 1
+#D A very small starting pattern for the MidgeDN rule.
+#D 
+#D Mirek Wójtowicz, May 1999
+#L 10A10$.A6.A

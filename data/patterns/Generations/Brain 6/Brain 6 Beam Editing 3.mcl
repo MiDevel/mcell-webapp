@@ -1,0 +1,17 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 400x140
+#WRAP 0
+#D Brain 6    A third method of beam editing: impingement
+#D of a stream of gliders on the beam to modify the output.
+#D 
+#D Michael Sweney  January 2000
+#L 32.AB$31.AB.AB$30.AB.AA..B$29.AB.AB$27.AB..BBAA$26.AB.AB.A..B$25.AB$
+#L 25.AB$26.AB.AB$27.AB12$32.AB.AA$31.AB..BB$30.AB.AB$29.AB3.AB$29.AB$31.
+#L AB21$45.AB..A$44.AB..B.BA$43.AB..BAA.B$41.AB.AB.A7.B$41.AB..AB8.A$46.A
+#L B4.BAB9.B$53.A11.A$62.BAB9.B$63.A11.A$.AB69.BAB$AB.AB68.A$AB.AA6.BA6.B
+#L A6.BA$3.BA6.BA6.BA6.BA$..AB..B3.BA$..AA..AA..AA$..AB..B3.BA$3.BA6.BA6.
+#L BA6.BA$AB.AA6.BA6.BA6.BA$AB.AB$.AB$73.A$72.BAB$63.A11.A$62.BAB9.B$53.A
+#L 11.A$46.AB4.BAB9.B$41.AB..AB8.A$41.AB.AB.A7.B$43.AB..BAA.B$44.AB..B.BA
+#L $45.AB..A

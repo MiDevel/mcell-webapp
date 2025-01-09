@@ -1,0 +1,13 @@
+#MCell 4.00
+#GAME Margolus
+#RULE MS,D0;8;4;12;2;10;9;14;1;6;5;13;3;11;7;15
+#BOARD 140x140
+#SPEED 20
+#WRAP 1
+#CCOLORS 2
+#D HPP (Hardy/Pazzis/Pomeau) lattice gas - as described in
+#D Cellular Automata Machines.
+#D 
+#D A rule by Hardy, Pazzis, and Pomeau.
+#D 
+#L A20.A21$A20.A19$34.A20.A21$34.A20.A17$62.A20.A21$62.A20.A

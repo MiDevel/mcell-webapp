@@ -1,0 +1,28 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x200
+#SPEED 50
+#WRAP 0
+#D Guns of period less than 4 are clearly impossible.
+#D But this construction shows that all higher periods are possible.
+#D The construction does not deal with periods 4 and 5,
+#D so for completeness these are shown on the right.
+#D 
+#D To construct a gun of period n > 5 do the following:
+#D   Choose a positive integer m such that 6(m+1) is a multiple of n.  For example, you can
+#D   always choose m=n-1, but a smaller choice of m is possible if n is a multiple of 2 or 3.
+#D   Make the still life constisting of m 5-cell crosses joined in a row.  Place 6(m+1)/n
+#D   3-cell "runners" around the edge of this still life, spaced n generations apart.
+#D   Add the other two still lifes in the manner shown in the two examples.
+#D 
+#D The given examples illustrate the two smallest periods, 6 and 7.
+#D 
+#D Stephen Silver, 10 May 1999
+#L ..ABC$..A..A$.6A.A$..A3.AA.B$A.A4.AA.C$BAA5.AA$C.A5.A$..A5.A4.CBA$.10A
+#L 3.A25.CB$..A..A..A.B..3A23.AA.A$.ABC3.ABC4.A25.3A$13.ABC23.BA.B$39.A.C
+#L $6.A4.A6.A$5.15A$6.A..A..A..A..A9$15.C$14.A.B$13.4A$12.A.A$12.B.A$12.C
+#L 3A$14.A$14.A.C$4.ABC6.3AB$..A..A8.A.A$.6A5.A.A$..A3.AA4.B3A$..A4.AA3.C
+#L .A24.CBA$.AA5.3A3.A25.A$A.A5.A.B..3AC22.3A$B.A5.A.C3.A.B21.BAA.A$C9A4.
+#L A.A23.CB$..A..A..A3.4A$4.ABC5.B.A$11.AAC$11.AB$6.A4.A6.A$5.15A$6.A..A
+#L ..A..A..A

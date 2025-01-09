@@ -1,0 +1,13 @@
+#MCell 3.00
+#GAME 1-D totalistic
+#RULE R3,C3,M1,S0,S2,S3,S4,S5,S6,B3,B4,B5,B6,B7
+#BOARD 200x200
+#SPEED 20
+#WRAP 1
+#CCOLORS 3
+#D Shaded Triangles
+#D 
+#D Jason Rampe, January 2000
+#L AA..A3.A.3A4.A.AA4.9A..A3.AA.A..A4.A6.A..3A..AA.A.4A.A.A.4A..A..3A.6A.
+#L A.AA.A.A..A..A.4A5.AA4.A.A..AA.A4.A3.A..A3.3A..AA4.A.AA..A.5A..3A..A.
+#L 3A.AA.A.3A

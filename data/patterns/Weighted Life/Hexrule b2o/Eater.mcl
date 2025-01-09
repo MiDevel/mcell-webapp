@@ -1,0 +1,23 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW1,NN2,NE0,WW32,ME0,EE4,SW0,SS16,SE8,HI0,RS5,RS7,RS10,RS11,RS13
+#RULE ,RS14,RS15,RS17,RS19,RS20,RS21,RS22,RS23,RS25,RS26,RS27,RS28,RS2
+#RULE 9,RS30,RS34,RS35,RS37,RS38,RS39,RS40,RS41,RS42,RS43,RS44,RS45,RS
+#RULE 46,RS49,RS50,RS51,RS52,RS53,RS54,RS56,RS57,RS58,RS60,RB3,RB6,RB1
+#RULE 2,RB24,RB33,RB48
+#BOARD 100x100
+#SPEED 20
+#WRAP 0
+#CCOLORS 9
+#D It seems likely that almost all of the complex constructions that work
+#D in Life can be realized under these rules, the main difference being the
+#D relatively rarity of sustained explosions (certainly nothing on the
+#D order of the R-pentomino of Life, let alone the less common Methusalehs
+#D such as rabbits or the acorn).  In fact, a very common result of a glider 
+#D colliding with anything is to kill the glider without damaging the object 
+#D it hits.  For example, this very common 3-cell period-2 oscillator
+#D acts as an eater much of the time.  A honey-comb wall (as produced
+#D by the stalk) can also eat gliders.
+#D 
+#D Paul Callahan, November 1997
+#L .A$AA

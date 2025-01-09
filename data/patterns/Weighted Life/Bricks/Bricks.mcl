@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW5,NN2,NE5,WW2,ME0,EE2,SW5,SS2,SE5,HI3,RS10,RS12,RS14,RS16,RB7,RB13
+#BOARD 200x200
+#SPEED 10
+#WRAP 1
+#CCOLORS 3
+#D "Bricks" rule by Mirek Wojtowicz
+#D 
+#D Sample starting pattern
+#D 
+#D September 1999
+#L 85.AA$.AA82.3A$4A81.3A$4A81.AA82$..AA81.4A$.3A81.4A$.3A82.AA$..AA

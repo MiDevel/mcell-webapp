@@ -1,0 +1,11 @@
+#MCell 2.0
+#GAME Generations
+#RULE 12/34/3
+#BOARD 200x200
+#SPEED 10
+#WRAP 0
+#D 
+#D A simple pattern creating 2 frogs
+#D 
+#D Mirek Wojtowicz, June 1999
+#L A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A

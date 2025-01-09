@@ -1,0 +1,11 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C6,SW0;2;1;1;1;1,PW1;1;1;1;1;1;1;1,RS5;6;7,RB5
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 6
+#D rotating puffer
+#D develops into a period 576 oscillator
+#D Brian Prentice
+#D June 2001
+#L .BA.C$AD.DAA$AA.DAA$..B.C

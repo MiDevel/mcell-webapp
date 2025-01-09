@@ -1,0 +1,10 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R1,C0,M1,B1
+#BOARD 300x200
+#WRAP 1
+#D A single nonzero cell evolves to Pascal's triangle
+#D of binomial coefficients, reduced modulo 2.
+#D
+#D By Stephen Wolfram.
+#L A

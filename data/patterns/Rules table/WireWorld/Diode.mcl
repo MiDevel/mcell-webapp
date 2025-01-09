@@ -1,0 +1,20 @@
+#MCell 4.00
+#GAME Rules table
+#RULE 1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,3,3,3,3,3,3,3,3,3,
+#RULE 0,3,1,1,3,3,3,3,3,3
+#BOARD 60x60
+#SPEED 100
+#WRAP 0
+#CCOLORS 4
+#PALETTE 8 colors
+#D Diode
+#D 
+#D Another fundamental object in WireWorld the diode --- a circuit
+#D element which will enforce the correct direction of travel on
+#D pulses --- which often prevents spurious signals from leaking into
+#D a region. The diode shown in the illustration will pass signals from
+#D left to right, but not in the opposite direction.
+#D Its relation to a barrier is evident upon inspection.
+#D 
+#D Harold V. MacIntosh
+#L 9.CC$A9C.9C$9.CC7$9.CC$10C.8CA$9.CC

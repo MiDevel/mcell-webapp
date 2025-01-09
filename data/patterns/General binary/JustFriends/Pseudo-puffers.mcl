@@ -1,0 +1,38 @@
+#MCell 4.00
+#GAME General binary
+#RULE C0,NM,Sa6ba3bab3a3bab3ab7a3bab3ab7ab15a3bab3ab7ab15ab31a3bab3ab7
+#RULE ab15ab31ab63a,B5ab3abb6abbab12abbab3ab24abbab3ab7ab49abab3ab7ab1
+#RULE 5ab95a
+#BOARD 200x150
+#SPEED 20
+#WRAP 1
+#CCOLORS 2
+#D Here are 4 pseudo-puffers; each produces a line and various dominoes
+#D and trominoes.  Each starts with David Bell's 6c/18 tromino puffer.
+#D Then a c/4 wickstretcher, based on one of Paul Tooke's spaceships, adds
+#D 2 lines.  Finally, a 12c/48 component, assisted in some cases by another
+#D c/4 spaceship, changes that into other stuff.
+#D 
+#D Dean Hickerson
+#L 36.AA$27.A9.A4.A$24.A.A.A.AA12.A$26.A.A..A.A.AA9.3A$30.A14.AA..A10.A3.
+#L AA$3.26A.A.A.AA6.A..4A11.A..A$29.AA.A..A7.A15.3A..AA$24.A4.A..AA..A9.
+#L 13A..A$22.A3.3A4.3A24.AA$6.AA10.AA4.A31.3A$49.A..3A.A$5.AA10.AA9.3A3.
+#L 3A3.3A6.A.A.A$49.A..3A.A$56.3A$60.AA$46.13A..A$43.A15.3A..AA$42.A..4A
+#L 11.A..A$45.AA..A10.A3.AA$46.3A$44.A$42.A9$36.AA$27.A9.A4.A$24.A.A.A.AA
+#L 12.A$26.A.A..A.A.AA9.3A$30.A14.AA..A10.A3.AA$3.26A.A.A.AA6.A..4A11.A..
+#L A$29.AA.A..A7.A15.3A..AA$4.AA10.AA6.A4.A..AA..A9.13A..A$22.A3.3A4.3A
+#L 24.AA$6.AA10.AA4.A31.3A$49.A..3A.A$4.3A9.3A9.3A3.3A3.3A6.A.A.A$49.A..
+#L 3A.A$56.3A$60.AA$46.13A..A$22.3A5.AA11.A15.3A..AA$31.A10.A..4A11.A..A$
+#L 28.A..A13.AA..A10.A3.AA$19.A.4A.A.3A15.3A$26.A17.A$21.A.A5.A.AA9.A$25.
+#L AA..A..A$20.A9.A$31.AA14$36.AA$27.A9.A4.A$24.A.A.A.AA12.A$26.A.A..A.A.
+#L AA9.3A$30.A14.AA..A10.A3.AA$29A.A.A.AA6.A..4A11.A..A$29.AA.A..A7.A15.
+#L 3A..AA$24.A4.A..AA..A9.13A..A$22.A3.3A4.3A24.AA$6.AA10.AA4.A31.3A$AA
+#L 10.AA35.A..3A.A$.A3.AA6.A3.AA9.3A3.3A3.3A6.A.A.A$49.A..3A.A$56.3A$60.
+#L AA$46.13A..A$22.3A18.A15.3A..AA$21.AA..A16.A..4A11.A..A$21.A..A20.AA..
+#L A10.A3.AA$21.A.AA21.3A$44.A$23.A.AA15.A$23.A..A$24.A$25.AA13$36.AA$27.
+#L A9.A4.A$24.A.A.A.AA12.A$26.A.A..A.A.AA9.3A$30.A14.AA..A10.A3.AA$29A.A.
+#L A.AA6.A..4A11.A..A$29.AA.A..A7.A15.3A..AA$24.A4.A..AA..A9.13A..A$22.A
+#L 3.3A4.3A24.AA$6.AA10.AA4.A31.3A$AA10.AA35.A..3A.A$5.AA10.AA9.3A3.3A3.
+#L 3A6.A.A.A$49.A..3A.A$56.3A$60.AA$46.13A..A$24.AA17.A15.3A..AA$23.A18.A
+#L ..4A11.A..A$22.A..A19.AA..A10.A3.AA$22.A.AA20.3A$44.A$24.3A15.A$24.A..
+#L A$27.A$26.AA

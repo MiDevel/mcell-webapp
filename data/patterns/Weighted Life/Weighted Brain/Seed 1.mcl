@@ -1,0 +1,10 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 240x240
+#WRAP 1
+#D Weighted Brain     Leads to interesting screens.
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 4.AA$AA6.AA11$AA6.AA$4.AA

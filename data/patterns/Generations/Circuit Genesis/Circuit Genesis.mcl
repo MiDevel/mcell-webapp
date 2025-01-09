@@ -1,0 +1,12 @@
+#MCell 4.00
+#GAME Generations
+#RULE 2345/1234/8
+#BOARD 160x160
+#WRAP 0
+#D Circuitry which evolves far beyond its programming and
+#D continues to do so long after the initial intput have taken
+#D the borders elsewhere.
+#D 
+#D Charles A. Rockafellor, February 2000
+#L 7.9A$5.13A$4.15A$3.17A$..19A$.21A$.21A$23A$23A$23A$23A$23A$23A$23A$23A
+#L $23A$.21A$.21A$..19A$3.17A$4.15A$5.13A$7.9A

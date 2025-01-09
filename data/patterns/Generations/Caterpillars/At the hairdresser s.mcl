@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Generations
+#RULE 124567/378/4
+#BOARD 300x120
+#SPEED 50
+#WRAP 1
+#CCOLORS 4
+#D "Caterpillars" rule
+#D 
+#D At the hairdresser's...
+#D 
+#D Mirek Wojtowicz, June 1999
+#L AA$24.AB.B.AC$24.7AB$24.7AB$24.AB.B.AC$AA

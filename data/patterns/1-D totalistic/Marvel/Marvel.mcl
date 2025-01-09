@@ -1,0 +1,16 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R3,C0,M0,S0,S5,S6,B0,B3
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 25
+#D Marvel
+#D 
+#D The most beautiful one-dimensional rule I've seen so far.
+#D This is how I fancied the Persian gardens when I was a child.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L F.CDC.A..C3.B.D3.G..DI.CH.B.F4.GB..C..D7.H7.A3.D..A.HEF3.AB3.EF.C.G.D
+#L 4.G.B..C5.AGDGF8.DC3.G.C.E3.F.E.F..E..D4.I5.A.A3.B.IA.IACG6.I..D..DG3.
+#L B..G5.CC3.C

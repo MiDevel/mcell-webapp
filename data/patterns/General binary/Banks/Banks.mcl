@@ -1,0 +1,21 @@
+#MCell 4.00
+#GAME General binary
+#RULE C0,NN,S3babbabbabba3b,B7ab3aba3b
+#BOARD 100x100
+#SPEED 50
+#WRAP 1
+#CCOLORS 2
+#D Banks rule, also known as "Banks' Computer", has been proven to be
+#D ideal for constructing the logic elements of a virtual computer.
+#D 
+#D The rule discriminates between neighbor configurations.
+#D If a 1-cell has exactly two neighbors, and if these neighbors are adjacent
+#D to one another rather than opposite one another, the cell goes to 0.
+#D A 0-cell with more than two neighbors goes to 1.
+#D In all other cases, the cell remains unchanged.
+#D 
+#D A rule by Edwin Banks.
+#L 25.A9.A$..A9.A12.11A$..11A12.11A$..3A.7A12.3A.7A$6A.8A8.6A.8A$.A11.A
+#L 10.A11.A9$10.A16.A$10.18A$10.8A.9A$10.A16.A12$5.29A$6.A.23A.A$6.AA.21A
+#L .AA$6.3A.19A.3A$6.4A.17A.4A$6.5A.15A.5A$6.6A.13A.6A$6.7A.11A.7A$6.8A.
+#L 9A.8A$6.9A.7A.9A$6.10A.5A.10A$6.11A.3A.11A$6.12A.A.12A$5.29A

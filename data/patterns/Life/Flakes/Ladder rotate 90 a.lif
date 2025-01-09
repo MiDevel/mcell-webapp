@@ -1,0 +1,15 @@
+#Life 1.05
+#R 012345678/3
+#D A static configuration which causes an LwoD ladder
+#D to execute a 90° turn to the right, while otherwise causing
+#D only a local disturbance. 
+#D 
+#D David Griffeath and Cris Moore
+***...***
+......*.*
+.
+.................................*
+.
+.................................*..*
+.
+....................................*

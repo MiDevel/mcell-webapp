@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Generations
+#RULE 0345/26/6
+#BOARD 120x120
+#WRAP 1
+#D Transers II    A  p324 oscillator.
+#D 
+#D 
+#D Michael Sweney  June 2000
+#L 6.BCD$..A4.A.E$.8A12.A$..A.A..A$..AACBAED$..A.BA.DC$B.A.A.DCB$C3AEDCBA
+#L $D.A.DCBA$.E$10.A..A3$10.A..A$22.E$16.ABCD.A.D$15.ABCDE3AC$15.BCD.A.A.
+#L B$15.CD.AB.A$15.DEABCAA$16.A..A.A$..A12.8A$14.E.A4.A$15.DCB

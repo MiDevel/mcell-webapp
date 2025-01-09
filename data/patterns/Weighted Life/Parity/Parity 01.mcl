@@ -1,0 +1,10 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW0,NN1,NE0,WW1,ME1,EE1,SW0,SS1,SE0,HI0,RS1,RS3,RS5,RB1,RB3,RB5
+#BOARD 300x300
+#SPEED 50
+#WRAP 0
+#D Parity rule, a very simple example of "self-reproduction"
+#D in cellular automata using the von Neumann neighbourhood.
+#D By Edward Fredkin
+#L A

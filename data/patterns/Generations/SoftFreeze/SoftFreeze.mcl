@@ -1,0 +1,12 @@
+#MCell 4.00
+#GAME Generations
+#RULE 13458/38/6
+#BOARD 100x100
+#WRAP 1
+#D SoftFreeze
+#D 
+#D The 8x8 pattern is the smallest square that goes
+#D into living-crystal mode.
+#D 
+#D A rule by John Elliott
+#L 8A$8A$8A$8A$8A$8A$8A$8A

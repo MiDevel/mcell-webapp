@@ -1,0 +1,17 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 240x240
+#WRAP 1
+#D Brain 6   More collider beam studies.  This group produces a
+#D a beautiful set of impinging collisions after the beams shut off,
+#D with a lot of oscillator creation.
+#D 
+#D 
+#D Michael Sweney   January 2000
+#L 12.AA5.AA$11.ABB.3A.BBA$11.B..BBABB..B$10.A.A.B3.B.A.A$10.B.B.A3.A.B.B
+#L $9.A.B.B5.B.B.A$9.B.B9.B.B$10.A11.A$$5.AB19.BA$3.AB..A17.A..BA$.AB..BB
+#L 19.BB..BA$AB.AB23.BA.BA$AB3.B21.B3.BA$..BBA23.ABB$.AB27.BA$.AA27.AA$.A
+#L B27.BA$..BBA23.ABB$AB3.B21.B3.BA$AB.AB23.BA.BA$.AB..BB19.BB..BA$3.AB..
+#L A17.A..BA$5.AB19.BA$$10.A11.A$9.B.B9.B.B$9.A.B.B5.B.B.A$10.B.B.A3.A.B.
+#L B$10.A.A.B3.B.A.A$11.B..BBABB..B$11.ABB.3A.BBA$12.AA5.AA

@@ -1,0 +1,13 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C6,SW0;2;0;3;0;1,PW1;1;1;1;1;1;1;1,RS5;6;7,RB5
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 6
+#D ship
+#D period 84,  dx=28  dy= 0
+#D Brian Prentice
+#D June 2001
+#L 14.C$10.BE.ADA$9.A.C..CA$10.BEA.EB$11.AAB$$.C$.D$ACE.E$.BB10$11.D$8.E.
+#L ED$10.CBA$$10.CBA$8.E.ED$11.D10$.BB$ACE.E$.D$.C$$11.AAB$10.BEA.EB$9.A.
+#L C..CA$10.BE.ADA$14.C

@@ -1,0 +1,14 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW5,NN1,NE5,WW1,ME0,EE1,SW5,SS1,SE5,HI0,RS2,RS3,RS6,RS7,RS10,RS1
+#RULE 1,RS15,RS20,RB2,RB11
+#BOARD 160x160
+#SPEED 20
+#WRAP 1
+#CCOLORS 9
+#D "Fleas" rule
+#D 
+#D Seed
+#D 
+#D Mirek Wojtowicz, November 1999
+#L 4.A$3.A.A$4.A$.A$A.A$.A

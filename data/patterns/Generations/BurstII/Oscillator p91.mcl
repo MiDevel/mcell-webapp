@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Generations
+#RULE 235678/3468/9
+#BOARD 80x80
+#WRAP 1
+#D Burst II   A p91 Oscillator.   It shows clearly the "burst" or flare
+#D effect.
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 7.A$6.3A$4.A.3A.A$3.9A$..11A$3.9A$.13A$15A$.13A$3.9A$..11A$3.9A$4.A.3A
+#L .A$6.3A$7.A

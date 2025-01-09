@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Generations
+#RULE 124567/378/4
+#BOARD 300x120
+#SPEED 50
+#WRAP 1
+#CCOLORS 4
+#D "Caterpillars" rule
+#D 
+#D Extender
+#D 
+#D Mirek Wojtowicz, June 1999
+#L AA$24.AB.AC.B$24.8AC$24.8AC$24.AB.AC.B$AA

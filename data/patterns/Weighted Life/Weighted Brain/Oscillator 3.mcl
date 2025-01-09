@@ -1,0 +1,16 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 100x100
+#WRAP 1
+#D Weighted Brain    The p4 oscillator can be chained with the happy
+#D result of creating usable sparks.
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 5.BA$5.A.B$3.B..B$..A.BAA.AB$..BA.AAB.A$5.B..B$4.B.A$3.A..B$4.B..A$4.A
+#L .B$..B..B$.A.BAA.AB30.AB$.BA.AAB.A29.B.A$4.B..B31.B..B$3.B.A30.BA.AAB.
+#L A$..A..B30.A.BAA.AB$3.B..A30.B..B$3.A.B33.A.B$.B..B34.B..A$A.BAA.AB30.
+#L A..B$BA.AAB.A31.B.A$3.B..B33.B..B$..B.A32.BA.AAB.A$3.AB32.A.BAA.AB$38.
+#L B..B$40.A.B$40.BA27$22.AB$21.B.A$22.B..B$19.BA.AAB.A$19.A.BAA.AB$20.B
+#L ..B$22.A.B$22.BA

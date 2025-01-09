@@ -1,0 +1,22 @@
+#MCell 4.00
+#GAME General binary
+#RULE C20,NM,S4b3abaabbaa4bababbab6abbaab3abab3abb5abab5ab3ab4abb10aba
+#RULE babbaa3baababbababb6abaabaabbabbaba3b4abaababaabbababaabbabbaabb
+#RULE 3abb3aba3b3abab3abba3b3a3b5ab7a3babb7abbaab3ab4abbababba3b3abbaa
+#RULE bbaa3baba,B6abb6abaa3babbab5ab5aba3bab7abb4a3baabab6a3babababab7
+#RULE ababababba3baabb6abb4abab8ababab3a4baabaabaabaab9ab5abaa4baaba3b
+#RULE abaabbaa3babb4abba4bababb3ab5abb3abaab3a4baba4b7abbaabba
+#BOARD 200x200
+#SPEED 20
+#WRAP 1
+#D This is a randomly-generated rule. As such it is suggestive only -
+#D the table needs to be simplified. But who can resist the enchanting
+#D theme of slug-like gliders that lay down slime trials.
+#D 
+#D John Elliott, March 1996
+#L 25.BA$24.ECBBA$23.HFEEDBAA$22.KIHHGEDDCA$21.NLKKJHGGFDCA$20.QONNMKJJIG
+#L FDA$20.RQQPNMMLJIGDBA$22.SQPPOMLJGEDB$23.SSRPOMJHGEBA$25.SRPMKJHEBB$
+#L 26.SPNMKHFEA$26.SQPNKHHF$27.SQNLKA$28.QNNL$28.RQA$29.R$28.A$$26.A$51.A
+#L $50.DBAA$49.GEDDCA$48.JHGGFDCA$47.MKJJIGFDA$46.PNMMLJIGDAA$45.SQPPOMLJ
+#L GED$46.SSRPOMJGGE$48.SRPMKJA$49.SPMMK$49.SQPA$49.SSQ$50.A21$4.RPNKIGDB
+#L A$5.RPNKIGDB$5.RPMKIFDBA$5.RRPKKIDDB$A..A..A..A..A

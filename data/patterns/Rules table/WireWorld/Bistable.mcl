@@ -1,0 +1,21 @@
+#MCell 4.00
+#GAME Rules table
+#RULE 1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,3,3,3,3,3,3,3,3,3,
+#RULE 0,3,1,1,3,3,3,3,3,3
+#BOARD 60x60
+#SPEED 100
+#WRAP 0
+#CCOLORS 4
+#PALETTE 8 colors
+#D Bistable element
+#D 
+#D The most fundamental bistable element, the raw material from which
+#D all flip flops are constructed, is a pair of inverters connected to each
+#D other. No matter whether the input to one of them is TRUE or FALSE,
+#D the circuit is always self consistent; yet the design is completely symmetric
+#D between the two alternatives. 
+#D 
+#D Harold V. MacIntosh
+#L C$.C6.A12.C$..C4.C.C12.C6.C$3.C4.C14.C4.C.C$4.C.C.C15.C4.C$5.3C17.C.C.
+#L C$4.C.C.C17.3C$3.C5.C15.C.C.C$4.C.C.C15.C5.C$5.3C17.C.C.C$4.C.C.C17.3C
+#L $4.C4.C15.C.C.C$3.C.C4.C14.C4.C$4.C6.C12.C.C4.C$12.C12.A6.C$33.C

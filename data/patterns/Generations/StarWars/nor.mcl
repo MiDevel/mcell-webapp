@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x200
+#WRAP 0
+#D NOR logic gate in Starwars rule.
+#D 
+#D Object by Kamil Przybyla
+#D 
+#D October 1999
+#L 6.C$6.A13.A..A..A$5.A.BA10.9A$3.5A12.A5.A$4.A..AAC$.A.A.3A$.B3A..AC7.A
+#L $..A.AA8.4A.CBA$BA.AA9.B.A..CBA$.AA.A10.CBA$.A..A17.AA..AA$6A16.BB..BB
+#L $.A..A17.CC..CC22$22.AA$22.BB$22.CC22$26.AA$26.BB$26.CC

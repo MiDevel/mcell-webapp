@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Generations
+#RULE 3467/25/8
+#BOARD 230x230
+#SPEED 10
+#WRAP 1
+#CCOLORS 8
+#D Worms with 8 states
+#D 
+#D Mirek Wojtowicz, June 1999
+#L ..DE.DED$.CE.E.DD$BDBABBC$.CACCEC$.A.BD.B$..B3C$3.3A$..4A$3.AA31$8.AA$
+#L 7.4A$7.3A$7.3CB$6.B.DB.A$6.CECCAC$6.CBBABDB$5.DD.E.EC$5.DED.ED

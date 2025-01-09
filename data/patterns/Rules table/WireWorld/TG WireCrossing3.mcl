@@ -1,0 +1,31 @@
+#MCell 4.00
+#GAME Rules table
+#RULE 1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,3,3,3,3,3,3,3,3,3,
+#RULE 0,3,1,1,3,3,3,3,3,3
+#BOARD 60x60
+#SPEED 100
+#WRAP 0
+#CCOLORS 4
+#PALETTE 8 colors
+#D Kudos goes to Rich Schroeppel (rcs@la.tis.com) for suggesting
+#D a "conceptually simpler" wire-cross design which I managed to
+#D convert into a practically simpler wire-cross.
+#D 
+#D I actually came up with two designs - the first is smaller and has
+#D a shorter transit time, but the second has a *much* lower IBI.
+#D 
+#D 1:
+#D Transit: 10
+#D IBI: 19
+#D Size: 11x13
+#D 
+#D 2:
+#D Transit: 13
+#D IBI: 13
+#D Size: 14x13
+#D 
+#D Trevor Green, February 1990
+#L 14.CC$10.CC.C..C$A10C.3C..CC$10.CC.C4.12C$14.CC.CC$15.CC$14.CC.CC$10.
+#L CC.C4.12C$A10C.3C..CC$10.CC.C..C$14.CC7$14.CC.CC$10.CC.C..CC.C$A10C.3C
+#L ..CC.CC$10.CC.C7.9C$14.CC.CC.CC$15.3C.C$14.CC.CC.CC$10.CC.C7.9C$A10C.
+#L 3C..CC.CC$10.CC.C..CC.C$14.CC.CC

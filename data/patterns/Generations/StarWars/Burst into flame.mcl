@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 150x150
+#SPEED 50
+#WRAP 0
+#CCOLORS 4
+#D Interesting fire simulation
+#D 
+#D Mirek Wojtowicz, July 1999
+#L ..A.A.A4.A.A.A9.A.A.A6.A.A4.A.A6.A.A.A$18A5.36A$.A.A.A.A..A.A.A.A7.A.A
+#L .A.A..A.A.A.A..A.A.A.A..A.A.A.A$.A..A..A..A..A..A7.A..A..A..A..A..A..A
+#L ..A..A..A..A..A$18A5.36A$.A..A..A..A..A..A7.A..A..A..A..A..A..A..A..A
+#L ..A..A..A

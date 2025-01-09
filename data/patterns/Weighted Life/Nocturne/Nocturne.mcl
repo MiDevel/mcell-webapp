@@ -1,0 +1,16 @@
+#MCell 4.00
+#GAME Weighted Life
+#RULE NW1,NN1,NE0,WW1,ME0,EE1,SW0,SS1,SE1,HI4,RS1,RS6,RB2,RB3,RB4
+#BOARD 100x100
+#SPEED 10
+#WRAP 1
+#D Features an emergent "free form" period-57 oscillator that
+#D is somewhat reminiscent of the objects in Schaeffer's cloud rules,
+#D except there is no displacement.  There are also some fairly strange
+#D gliders.  In general, the denizens of this rule are the sort you
+#D might bump into at 2AM, having taken the wrong path back from
+#D the HexParity star party :)
+#D 
+#D A rule by John Elliott, October 2000.
+#L 3.3A.AA$A3.A..A.A$.A.4A.A$A..6A$A3.A.A$..3A.3A$A..A3.A$A.4A..A$.AA..A.
+#L 3A$A..A.A3.A

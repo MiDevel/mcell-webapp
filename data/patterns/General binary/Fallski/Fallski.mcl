@@ -1,0 +1,13 @@
+#MCell 4.00
+#GAME General binary
+#RULE C48,NM,Sb255a,Babb189ab63a
+#BOARD 120x120
+#SPEED 20
+#WRAP 1
+#D The rule draws a skewed Sierpinski gasket that gradually fades out.
+#D The visual effect reminded me of falling leaves, hence the name.
+#D The cellsize (count of states) of 48 is arbitrary, having been set to match
+#D the universe height of a particular seed.
+#D 
+#D A rule by John Elliott, June 1998.
+#L A

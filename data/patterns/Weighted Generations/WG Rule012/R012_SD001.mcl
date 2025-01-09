@@ -1,0 +1,12 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C6,SW0;2;1;1;1;1,PW1;1;1;1;1;1;1;1,RS4;5,RB5
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 6
+#D 3 diagonal ships which operate at different speeds
+#D period 4800
+#D Brian Prentice
+#D June 2001
+#L ..E$3.B$3.C43.C$3.EA23.D17.D.C$..DCB22.DBA18.DA$ECCAA17.EC4BA18.DB$.B
+#L 21.A23.AA

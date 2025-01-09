@@ -1,0 +1,16 @@
+#MCell 4.00
+#GAME Generations
+#RULE 345/3/6
+#BOARD 160x160
+#SPEED 20
+#WRAP 1
+#CCOLORS 6
+#D Living on the edge
+#D 
+#D In this very chaotic rule it's hard to tell if patterns
+#D will survive or die out.
+#D 
+#D Mirek Wojtowicz, February 2000
+#L 5.A$.A.A..A.A.AA..A$3A.A.AA.AA.AA$..A.A3.3A.AA$.3A.A.AA..A.A$..A..A..
+#L 3A..A$A.AA.4A3.A$5.3A.A3.A$.A..A..AA.AA$A4.A..4A3.A$6A.AA.A.AA$A.A.AA
+#L ..A.A3.A$.A..A4.4A.A$.AA.A3.A.A.A$4A..AA.AA.3A$..A..AA.A.AA

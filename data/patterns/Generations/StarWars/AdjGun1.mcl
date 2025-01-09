@@ -1,0 +1,18 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x200
+#SPEED 0
+#WRAP 0
+#D Guns of all even periods from 6 onwards can be obtained with this construction.
+#D This pattern shows p6 and p28 versions.
+#D 
+#D An alternative for period 20 and greater is shown in adjgun3.mcl.
+#D 
+#D Stephen Silver, April 1999
+#L .AA$.BBC3.ABC$C.A..A..A24.A..A..A$.9A22.9A$..A5.A24.A5.A$..A5.A.A5.A
+#L 16.A5.A18.A$3A5.AAB4.3A14.AA5.AA16.3A$B.AA4.A.C5.A16.AA4.A18.A$.C.AA3.
+#L A7.A17.AA3.A18.A$4.6A6.AA17.6A17.AA$5.A..A7.A19.A..A18.A$5.ABC3.ABC..A
+#L 29.ABC9.A$11.BC..3A27.ABC9.3A$11.C4.A27.ABC11.A$15.A28.ABC$13.CBA$11.A
+#L .CBA26.A$10.3ABA26.3A$11.A.A28.A$11.A30.A$10.AA29.AA$11.A30.A$11.A30.A
+#L $10.3A28.3A$11.A30.A

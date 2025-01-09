@@ -1,0 +1,17 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 230x230
+#WRAP 0
+#D Brain 6   A P3 oscillator performs various basic operations on
+#D incoming spaceships.
+#D 
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 27.BA$27.BA36.A$64.B.B$63.A.A.A$64.B.B$65.A36.AB$102.AB8$28.BA$28.BA$
+#L 65.A$64.B.B$63.A.A.A$64.B.B$65.A$101.AB$101.AB10$65.A$28.BA34.B.B$28.B
+#L A33.A.A.A33.AB$64.B.B34.AB$65.A3$11.BA$11.BA$$48.A$47.B.B$46.A.A.A$47.
+#L B.B$48.A$$84.AB$84.AB7$65.A$64.B.B$63.A.A.A$15.BB47.B.B$15.AA48.A$101.
+#L AB$101.AB9$BA12.A50.A$BA11.B.B48.B.B$12.A.A.A46.A.A.A$13.B.B11.AB35.B.
+#L B$14.A12.AB36.A$$101.AB$101.AB8$12.AA$12.BB

@@ -1,0 +1,13 @@
+#MCell 3.00
+#GAME Neumann binary
+#RULE 201100000000000001111111111111111
+#BOARD 160x160
+#SPEED 20
+#WRAP 1
+#CCOLORS 2
+#D Simpliski
+#D 
+#D The rule produces the Pascal's triangle, but... rotated 45°
+#D 
+#D John Elliott
+#L 159.A159$A

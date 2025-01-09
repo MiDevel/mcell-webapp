@@ -1,0 +1,11 @@
+#MCell 2.0
+#GAME Generations
+#RULE 45678/2478/25
+#BOARD 200x200
+#SPEED 10
+#WRAP 0
+#CCOLORS 25
+#D "Nova" rule starting pattern
+#D 
+#D John Elliott, August 1999
+#L 8A$8A$8A$8A$8A$8A$8A$8A

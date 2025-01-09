@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 100x60
+#WRAP 1
+#D Weighted Brain    Here two of the built-up p4 oscillators bat a
+#D block glider back and forth.
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 4.A.A$3.BAB.B$.B.B.A$A3.B..BB$.BA.AAB.AA49.A.A$AA.BAA.AB49.BAB.B$.BB..
+#L B3.A46.B.B.A$4.A.B.B22.AB22.A3.B..BB$..B.BAB24.AB23.BA.AAB.AA$3.A.A49.
+#L AA.BAA.AB$56.BB..B3.A$59.A.B.B$57.B.BAB$58.A.A

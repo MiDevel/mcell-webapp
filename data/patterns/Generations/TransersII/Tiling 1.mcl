@@ -1,0 +1,44 @@
+#MCell 2.0
+#GAME Generations
+#RULE 0345/26/6
+#BOARD 120x120
+#WRAP 0
+#D Transers II   Technically this is a gun, but since it started out as a
+#D tiling file that I couldn't resist monkeying with, the name will stay.
+#D 
+#D 
+#D 
+#D Michael Sweney   June 2000
+#L ..A15.A7.A7.A7.A7.A7.A7.A$.3A..A5.A.A..3A..A..3A..A..3A..A..3A..A..3A
+#L ..A..3A..A..3A$AA.15A.7A.7A.7A.7A.7A.7A.AA$.3A..A..3A5.3A..A..3A..A..
+#L 3A..A..3A..A..3A..A..3A..A..3A$..A7.A7.A7.A7.A7.A7.A7.A7.A$..A7.A7.A7.
+#L A7.A7.A7.A7.A7.A$.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A$..A7.A7.A7.A7.A7.
+#L A7.A7.A7.A$..A7.A7.A7.A7.A7.A7.A7.A7.A$.3A..A..3A..A..3A..A..3A..A..3A
+#L ..A..3A..A..3A..A..3A..A..3A$AA.7A.7A.7A.7A.7A.7A.7A.7A.AA$.3A..A..3A
+#L ..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A$..A7.A7.A7.A7.A7.A7.
+#L A7.A7.A$..A7.A7.A7.A7.A7.A7.A7.A7.A$.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.
+#L 3A$..A7.A7.A7.A7.A7.A7.A7.A7.A$..A7.A7.A7.A7.A7.A7.A7.A7.A$.3A..A..3A
+#L ..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A$AA.7A.7A.7A.7A.7A.7A
+#L .7A.7A.AA$.3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A$
+#L ..A7.A7.A7.A7.A7.A7.A7.A7.A$..A7.A7.A7.A7.A7.A7.A7.A7.A$.3A5.3A5.3A5.
+#L 3A5.3A5.3A5.3A5.3A5.3A$..A7.A7.A7.A7.A7.A7.A7.A7.A$..A7.A7.A7.A7.A7.A
+#L 7.A7.A7.A$.3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A$
+#L AA.7A.7A.7A.7A.7A.7A.7A.7A.AA$.3A..A..3A..A..3A..A..3A..A..3A..A..3A..
+#L A..3A..A..3A..A..3A$..A7.A7.A7.A7.A7.A7.A7.A7.A$..A7.A7.A7.A7.A7.A7.A
+#L 7.A7.A$.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A$..A7.A7.A7.A7.A7.A7.A7.A7.A
+#L $..A7.A7.A7.A7.A7.A7.A7.A7.A$.3A..A..3A..A..3A..A..3A..A..3A..A..3A..A
+#L ..3A..A..3A..A..3A$AA.7A.7A.7A.7A.7A.7A.7A.7A.AA$.3A..A..3A..A..3A..A
+#L ..3A..A..3A..A..3A..A..3A..A..3A..A..3A$..A7.A7.A7.A7.A7.A7.A7.A7.A$..
+#L A7.A7.A7.A7.A7.A7.A7.A7.A$.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A$..A7.A7.
+#L A7.A7.A7.A7.A7.A7.A$..A7.A7.A7.A7.A7.A7.A7.A7.A$.3A..A..3A..A..3A..A..
+#L 3A..A..3A..A..3A..A..3A..A..3A..A..3A$AA.7A.7A.7A.7A.7A.7A.7A.7A.AA$.
+#L 3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A$..A7.A7.A7.
+#L A7.A7.A7.A7.A7.A$..A7.A7.A7.A7.A7.A7.A7.A7.A$.3A5.3A5.3A5.3A5.3A5.3A5.
+#L 3A5.3A5.3A$..A7.A7.A7.A7.A7.A7.A7.A7.A$..A7.A7.A7.A7.A7.A7.A7.A7.A$.3A
+#L ..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A$AA.7A.7A.7A.
+#L 7A.7A.7A.7A.7A.AA$.3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A
+#L ..A..3A$..A7.A7.A7.A7.A7.A7.A7.A7.A$..A7.A7.A7.A7.A7.A7.A7.A7.A$.3A5.
+#L 3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A$..A7.A7.A7.A7.A7.A7.A7.A7.A$..A7.A7.A7.
+#L A7.A7.A7.A7.A7.A$.3A..A..3A..A..3A..A..3A..A..3A..A..3A..A..3A5.3A..A
+#L ..3A$AA.7A.7A.7A.7A.7A.7A.15A.AA$.3A..A..3A..A..3A..A..3A..A..3A..A..
+#L 3A..A..3A..A.A5.A..3A$..A7.A7.A7.A7.A7.A7.A15.A

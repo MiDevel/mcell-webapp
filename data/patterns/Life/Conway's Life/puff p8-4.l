@@ -1,0 +1,23 @@
+x = 88, y = 77
+51bo$48b4o$48boo$46bo$46b4o$45bo$44b3obbo$45b3o$46bo$47b3obo$47bobboo$
+43bo4b3o$40b4o6bo$40boo6bo$38bo9bobo$38b6o3bo$35bobo9bo$34b6obobo4bobo
+$33boo5boobo4bo$32boo4boo10bo$33boo4b5o4b3o$47b3o$33boo4b5obbobbo$32b
+oo4boo6bo$33boo5boobobbobbo$34b6obobo3bobo$35bobo$12bo25b6obb3o$9bobob
+o24bo7boo$8bobbo3bobo22boo4boo$7boo5boo24b4obboo$6bo4bo6bo24bobboo3boo
+$5b5oboboboboo27boo3b3o32bo$bboo11boboobobo6bobobbobo6bobboo4boo31bo$b
+o3b3ob3o6boboobobb4obobboobobb4obboo4boo31b3o$o3bo4b3ob3o6boobboo3bo4b
+oobboo4boo4b3o$o5bo3bo4bobo5boo3boo7boo3boobboo4boo$3o3b4o14b4obobo6b
+4obobboo4boo4bo3bo3bo3bo3bo3bo3bo3bo$31bo14boo3b3o3bobobobobobobobobob
+obobobobobobo$3o3b4o14b4obobo6b4obobboo3b3o3bobobobobobobobobobobobobo
+bobobo$o5bo3bo4bobo5boo3boo7boo3boobboo4boo4bo3bo3bo3bo3bo3bo3bo3bo$o
+3bo4b3ob3o6boobboo3bo4boobboo4boo4boo$bo3b3ob3o6boboobobb4obobboobobb
+4obboo4b3o$bboo11boboobobo6bobobbobo6bobboo4boo31b3o$5b5oboboboboo27b
+oo4boo31bo$6bo4bo6bo27boo3b3o32bo$7boo5boo27bobboo3boo$8bobbo3bobo22b
+4obboo$9bobobo26boo4boo$12bo25bo7boo$38b6obb3o$35bobo$34b6obobo3bobo$
+33boo5boobobbobbo$32boo4boo6bo$33boo4b5obbobbo$47b3o$33boo4b5o4b3o$32b
+oo4boo10bo$33boo5boobo4bo$34b6obobo4bobo$35bobo9bo$38b6o4bobo$38bo9bo$
+40boo8bo$40b4o4b3o$43bo3bobboo$47b3obo$46bo$45b3o$44b3obbo$45bo$46b4o$
+46bo$48boo$48b4o$51bo!
+
+A period 8 beehive puffer.
+Hartmut Holzwart, June 1995

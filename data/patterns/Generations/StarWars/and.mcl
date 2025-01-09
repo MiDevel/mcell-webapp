@@ -1,0 +1,22 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x200
+#SPEED 10
+#WRAP 0
+#CCOLORS 4
+#D AND logic gate in Starwars rule. Output is TRUE only if both inputs are TRUE. Operates on
+#D bullets. Bullets have to come in exactly the same column and angle as showed in the pattern.
+#D Operation time (measured from start of the collision between unit and input to end of the collision
+#D between unit and output): 11 time units.
+#D Minimum frequency of input: 22 time units.
+#D Therefore I suggest that Turing machine cycle (input/output of elements) length should be >=22.
+#D (I suggest 22)
+#D Of course, to have an operating NOT logic gate, someone has to create relatively small bullet gun
+#D at period equal to machine cycle (I'll try)
+#D 
+#D Object by Kamil Przybyla
+#D 
+#D July 1999
+#L .A..A..A$9A$.A5.A3$.AA..AA$.BB..BB$.CC..CC3$.AA..AA$.BB..BB$.CC..CC3$
+#L 5.AA$5.BB$5.CC20$.AA..AA$.BB..BB$.CC..CC

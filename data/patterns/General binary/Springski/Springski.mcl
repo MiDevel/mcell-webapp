@@ -1,0 +1,10 @@
+#MCell 4.00
+#GAME General binary
+#RULE C78,NM,S256a,B8ab23ab223a
+#BOARD 200x200
+#SPEED 20
+#WRAP 1
+#D A simple Moore Sierpinski gasket tracer.
+#D 
+#D A rule by John Elliott.
+#L A

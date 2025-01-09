@@ -1,0 +1,64 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012478/36/18
+#BOARD 200x200
+#WRAP 1
+#D Ebb&Flow  Oscillators.  Here is an example of how the plane can
+#D be tiled in this rule with blinkers.  The timing of the blinkers is up
+#D to the designer with the constraint that neighboring orthogonal
+#D blinkers can not be in the same generation.  In this example
+#D we created a "random" effect (sequential movement illusions
+#D get boring after awhile!)  Ebb&Flow is an exploding rule, but with
+#D an amazing tolerance for the creation of stable complex effects.
+#D 
+#D Michael Sweney   November 1999
+#L ..A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$.P.P.E.E.P.P.M.M.B.B.M.M
+#L .A.A.H.H.A.A.O.O.D.D.O.O.J.J.Q.Q.J.J$A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A$.P.P.E.E.P.P.M.M.B.B.M.M.A.A.H.H.A.A.O.O.
+#L D.D.O.O.J.J.Q.Q.J.J$..A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$.E.E
+#L .C.C.E.E.B.B5.B.B.H.H.F.F.H.H.D.D.B.B.D.D.Q.Q.O.O.Q.Q$A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$.E.E.C.C.E.E.B.B5.B.B.H.
+#L H.F.F.H.H.D.D.B.B.D.D.Q.Q.O.O.Q.Q$..A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A3.A$.P.P.E.E.P.P.M.M.B.B.M.M.A.A.H.H.A.A.O.O.D.D.O.O.J.J.Q.Q.J.J
+#L $A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$.P.P.E.
+#L E.P.P.M.M.B.B.M.M.A.A.H.H.A.A.O.O.D.D.O.O.J.J.Q.Q.J.J$..A3.A3.A3.A3.A
+#L 3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$.G.G.N.N.G.G5.G.G5.H.H.O.O.H.H.F.F.M.M.
+#L F.F.D.D.K.K.D.D$A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A$.G.G.N.N.G.G5.G.G5.H.H.O.O.H.H.F.F.M.M.F.F.D.D.K.K.D.D$..A3.A
+#L 3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$.N.N.L.L.N.N.G.G.E.E.G.G.O.O.M
+#L .M.O.O.M.M.K.K.M.M.K.K.I.I.K.K$A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A$.N.N.L.L.N.N.G.G.E.E.G.G.O.O.M.M.O.O.M.M.K.K.M.
+#L M.K.K.I.I.K.K$..A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$.G.G.N.N.G
+#L .G5.G.G5.H.H.O.O.H.H.F.F.M.M.F.F.D.D.K.K.D.D$A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$.G.G.N.N.G.G5.G.G5.H.H.O.O.H.H.F.
+#L F.M.M.F.F.D.D.K.K.D.D$..A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$.I
+#L .I.P.P.I.I.P.P.E.E.P.P.K.K5.K.K.J.J5.J.J.F.F.M.M.F.F$A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$.I.I.P.P.I.I.P.P.E.E.P.P.
+#L K.K5.K.K.J.J5.J.J.F.F.M.M.F.F$..A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A$.P.P.N.N.P.P.E.E.C.C.E.E5.P.P5.K.K.P.P.K.K.M.M.K.K.M.M$A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$.P.P.N.N.P.P.E.E
+#L .C.C.E.E5.P.P5.K.K.P.P.K.K.M.M.K.K.M.M$..A3.A3.A3.A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A3.A3.A3.A$.I.I.P.P.I.I.P.P.E.E.P.P.K.K5.K.K.J.J5.J.J.F.F.M.M.F.F
+#L $A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$.I.I.P.
+#L P.I.I.P.P.E.E.P.P.K.K5.K.K.J.J5.J.J.F.F.M.M.F.F$..A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A3.A3.A3.A3.A3.A3.A$.P.P.E.E.P.P.J.J.Q.Q.J.J.O.O.D.D.O.O.I.I.P.P.
+#L I.I.C.C.J.J.C.C$A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A$.P.P.E.E.P.P.J.J.Q.Q.J.J.O.O.D.D.O.O.I.I.P.P.I.I.C.C.J.J.C.C$
+#L ..A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$.E.E.C.C.E.E.Q.Q.O.O.Q.Q
+#L .D.D.B.B.D.D.P.P.N.N.P.P.J.J.H.H.J.J$A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A$.E.E.C.C.E.E.Q.Q.O.O.Q.Q.D.D.B.B.D.D.P.P.
+#L N.N.P.P.J.J.H.H.J.J$..A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$.P.P
+#L .E.E.P.P.J.J.Q.Q.J.J.O.O.D.D.O.O.I.I.P.P.I.I.C.C.J.J.C.C$A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$.P.P.E.E.P.P.J.J.Q.Q.
+#L J.J.O.O.D.D.O.O.I.I.P.P.I.I.C.C.J.J.C.C$..A3.A3.A3.A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A3.A3.A3.A$.A.A.H.H.A.A.D.D.K.K.D.D.J.J.Q.Q.J.J.Q.Q.F.F.Q.Q.L.L.A
+#L .A.L.L$A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$.
+#L A.A.H.H.A.A.D.D.K.K.D.D.J.J.Q.Q.J.J.Q.Q.F.F.Q.Q.L.L.A.A.L.L$..A3.A3.A
+#L 3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$.H.H.F.F.H.H.K.K.I.I.K.K.Q.Q.O.O.
+#L Q.Q.F.F.D.D.F.F.A.A.Q.Q.A.A$A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A$.H.H.F.F.H.H.K.K.I.I.K.K.Q.Q.O.O.Q.Q.F.F.D.D.F.F.A
+#L .A.Q.Q.A.A$..A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$.A.A.H.H.A.A.
+#L D.D.K.K.D.D.J.J.Q.Q.J.J.Q.Q.F.F.Q.Q.L.L.A.A.L.L$A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$.A.A.H.H.A.A.D.D.K.K.D.D.J.J.Q
+#L .Q.J.J.Q.Q.F.F.Q.Q.L.L.A.A.L.L$..A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A

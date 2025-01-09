@@ -1,0 +1,23 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 260x260
+#WRAP 0
+#D Brain 6  The original idea was a bomber inside a spaceship
+#D manufactured to cancel out the bombs thus creating a new
+#D kind of entity definitely not found "in nature"  On initial flight
+#D trials the construction blew up... but with enchanting results!
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 16.AB28.BA$14.AB..AB24.BA..BA$13.AB4.AB8.AA..AA8.BA4.BA$12.AB6.AB4.3A
+#L BB..BB3A4.BA6.BA$11.AB9.AB..BBA6.ABB..BA9.BA$10.AB7.AA..AB.B10.B.BA..
+#L AA7.BA$9.AB8.BB4.A12.A4.BB8.BA$8.AB8.A..A20.A..A8.BA$7.AB9.B..B20.B..B
+#L 9.BA$6.AB48.BA$5.AB8.B32.B8.BA$4.AB8.A34.A8.BA$3.AB4.AB..B4.B26.B4.B..
+#L BA4.BA$..AB4.AB.AA38.AA.BA4.BA$.AB4.AB.AB..B34.B..BA.BA4.BA$AB4.AB48.B
+#L A4.BA$AB4.AB48.BA4.BA$.AB4.AB.AB..B34.B..BA.BA4.BA$..AB4.AB.AA38.AA.BA
+#L 4.BA$3.AB4.AB..B4.B26.B4.B..BA4.BA$4.AB8.A34.A8.BA$5.AB8.B32.B8.BA$6.A
+#L B48.BA$7.AB9.B..B20.B..B9.BA$8.AB8.A..A20.A..A8.BA$9.AB8.BB4.A12.A4.BB
+#L 8.BA$10.AB7.AA..AB.B10.B.BA..AA7.BA$11.AB9.AB..BBA6.ABB..BA9.BA$12.AB
+#L 6.AB4.3ABB..BB3A4.BA6.BA$13.AB4.AB8.AA..AA8.BA4.BA$14.AB..AB24.BA..BA$
+#L 16.AB28.BA

@@ -1,0 +1,41 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012478/36/18
+#BOARD 200x200
+#WRAP 1
+#D Ebb&Flow   "Everything but the kitchen sink."
+#D 
+#D Michael Sweney   November 1999
+#L 139.A$14.A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A
+#L ..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A$
+#L 138.3A$138.3A$14.A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A
+#L ..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A..A
+#L ..A..A$139.A7$10.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A..A$140.A$14.A7.A7.A7.A7.
+#L A7.A7.A7.A7.A7.A7.A7.A7.A7.A7.A7.A5.A$140.A$10.A3.A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A..A11$140.A$137.A.A.A$20.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.
+#L A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A..3A.A.A$18.A3.A3.A3.A3.
+#L A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A5.A11$16.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$
+#L 16.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$11.A.A123.A.A
+#L 3.A$11.A.A123.A.A3.A$16.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A$16.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A11$61.
+#L A71.A$74.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L $A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A72.A$62.A11.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$.A3.A3.A3.A3.A3.A3.
+#L A3.A3.A3.A3.A3.A3.A3.A3.A3.A71.A$62.A11.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A
+#L 3.A3.A3.A72.A$$61.A11$29.A$28.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$
+#L 26.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.AA$$30.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A$$26.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.AA$28.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$29.A

@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW1,NN1,NE1,WW1,ME0,EE1,SW1,SS1,SE1,HI25,RB1
+#BOARD 300x300
+#SPEED 50
+#WRAP 1
+#CCOLORS 25
+#D Frost rule in Moore neighbourhood.
+#D
+#D When started from single cells, it produces patterns similar
+#D to those appearing on window-panes on frosty days.
+#D
+#D Mirek Wojtowicz, August 1999
+#L A

@@ -1,0 +1,11 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW1,NN4,NE1,WW4,ME0,EE4,SW1,SS4,SE0,HI0,RS2,RS3,RS6,RS7,RS8,RS9,RS10,RS12,RS13,RB5
+#BOARD 200x200
+#SPEED 2
+#WRAP 1
+#CCOLORS 9
+#D "Cross Porpoises": a weighted asymmetric colliding glider rule.
+#D 
+#D Ben Schaeffer, September 1999
+#L 10A

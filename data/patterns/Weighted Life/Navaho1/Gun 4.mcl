@@ -1,0 +1,14 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW4,NN1,NE4,WW5,ME7,EE5,SW4,SS1,SE4,HI12,RS8,RS9,RS11,RB2,RB5
+#BOARD 200x100
+#WRAP 0
+#D Navaho 1    Another gun, this one is of p13 using yet another firing principle.
+#D 
+#D 
+#D Michael Sweney  February 2000
+#L 8.A$8.A$$7.HH$6.HIIH$5.H.JJ.H$5.IIKKII$A4.HH..HH$A..HHJJ..JJHH$A.HJJ..
+#L AA..JJH.A$A.GFEDCBBCDEFG.A$A.HJJ..AA..JJH.A$A..HHJJ..JJHH$A4.HH..HH$5.
+#L IIKKII$5.H.JJ.H$6.HIIH$7.HH$$7.A$7.A
+
+

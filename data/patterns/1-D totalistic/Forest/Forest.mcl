@@ -1,0 +1,18 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R10,C0,M0,S1,S2,S6,S7,S9,S12,S14,S17,B1,B7,B10,B11,B13,B15,B16,B17,B19
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 25
+#D Forest
+#D 
+#D A very beautiful rule, showing a thicket.
+#D 
+#D Sometimes the trees are sparser and their trunks can be
+#D seen among branches and leaves.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L AD.A3.I3.AD3.E.CA4.IG..D3.H7.DE3.EB3.A4.H4.G6.A6.B..F..BG.H3.D8.DEF..F
+#L G6.I6.A..E..FDDF..I.G..H6.F..G3.FI..CH3.B3.B4.F.DH.AF5.H.F..IHB4.IB4.D
+#L B

@@ -1,0 +1,30 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x230
+#SPEED 10
+#WRAP 0
+#CCOLORS 4
+#D A collection of objects by Kamil Przybyla.
+#D 
+#D p76 oscillator "Clock",
+#D double p4 bullet gun,
+#D p4 oscillator "Blinker",
+#D p8 oscillator "Pulsar",
+#D p4 oscillator "Quad blinker",
+#D p20 oscillator,
+#D p4 oscillator,
+#D p27 double gun,
+#D p16 double bullet gun.
+#D 
+#D July 1999
+#L 92.A$90.ABAB$90.B3C$5.ABC81.C21.A4.A$.A..A..A.A12.AAB16.A3.A13.A11.A..
+#L A..A12.A.A.A15.8A27.A.A$9AB11.B.A.C14.7A11.3A9.9A8.C.5A.B15.A..A.A12.A
+#L 12.A.A.A.A.A$.A..A..A.C10.AC3A16.A.A.A11.A3.A9.A..A..A7.AB.AA3.AAC15.
+#L 3A..A11.3A11.B7AB$.A..A..A13.A.A.A15.A3.A10.AA3.AA8.A.A.A.A7.BC..A4.A.
+#L A13.AA..C.AA11.A..A10.A.A.A.A$10A8.CBAA..B16.5A11.A3.A9.AA3.3A5.AAC.AA
+#L 4.AA.BA12.A.BB.A14.3A9.A..A..A$.A..A..A.B11.A.A.A15.A3.A12.3A10.A.A.A.
+#L A7.BC..AA3.A.AA13.A..A.A15.A9.9A$.A..A..A.CA9.AC3A16.A.A.A13.A11.A..A
+#L ..A10.A.4A.A.AA11.8A25.A..A..A$9AB11.B.A.C14.7A23.9A10.BC.A.AA.A.A11.A
+#L 4.A$.A..A..A.A12.AAB16.A3.A25.A..A..A13.A.A3.AA.C$3.C.ABC84.B5A$92.A.A
+#L .A$95.A$96.C

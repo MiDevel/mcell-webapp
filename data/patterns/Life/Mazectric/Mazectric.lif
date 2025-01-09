@@ -1,0 +1,24 @@
+#Life 1.05
+#R 1234/3
+#D An interesting variation of the maze rule which produces
+#D longer halls and a highly linear format.
+#D 
+#D Adding B7 to maze (keeping S5) allows some "mice" to
+#D run back and forth in the halls. Switching the B3 to B45 though,
+#D electrifies the mazes. Dropping S3 gives "Corrosion of Conformity",
+#D a slow burn from almost any starting pattern, resulting in a rusting
+#D away of the local continuum.
+#D 
+#D "Mazectric" and "Corrosion of Conformity"
+#D 
+#D Discovered by Charles A. Rockafellor
+*
+*
+.*
+.**
+...*
+....*
+.....*
+......*
+.......*
+........*

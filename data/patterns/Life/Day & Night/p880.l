@@ -1,0 +1,32 @@
+x = 252, y = 115, rule = B3678/S34678
+35bobbobobobbo169bobbobobobbo$33b15o165b15o$33b15o165b15o$31b9ob9o161b
+9ob9o$31b19o161b19o$29b11ob11o157b11ob11o$29b23o157b23o$27b13ob13o153b
+13ob13o$27b27o153b27o$25b15ob15o149b15ob15o$25b31o149b31o$23b17ob17o
+145b17ob17o$23b35o145b35o$21b19ob19o141b19ob19o$21b39o141b39o$19b21ob
+21o137b21ob21o$19b43o137b43o$17b23ob23o133b23ob23o$17b47o133b47o$15b
+25ob25o129b25ob25o$15b51o129b51o$13b27ob27o125b27ob27o$13b55o125b55o$
+11b29ob29o121b29ob29o$11b59o121b59o$9b31ob31o117b31ob31o$9b26obb7obb
+26o117b26obb7obb26o$11bo8boobboo4b10ob10o4boobboo8bo121bo8boobboo4b10o
+b10o4boobboo8bo$12b8obboobb4o10bo10b4obboobb8o123b8obboobb4o10bo10b4o
+bboobb8o$35boo7boo169boo7boo$40bo179bo$$40bo179bo$$40bo179bo$$40bo179b
+o$$40bo179bo$$40bo179bo$$40bo179bo$$40bo179bo$$40bo179bo$$40bo179bo$$
+40bo179bo$237boo$40bo179bo16boo$232boobb3obo$208bo12boo8bob6obboo$205b
+o3bo9b6oboo4b10obo$bo202b5o10b11obb11obo$3o201b9o7b25o$bo202b5o10b11o
+bb11obo$205bo3bo9b6oboo4b10obo$208bo12boo8bob6obboo$232boobb3obo$40bo
+179bo16boo$237boo$40bo179bo$$40bo179bo$$40bo179bo$$40bo179bo$$40bo179b
+o$$40bo179bo$$40bo179bo$$40bo179bo$$40bo179bo$$40bo179bo$$40bo179bo$
+35boo7boo169boo7boo$12b8obboobb4o10bo10b4obboobb8o123b8obboobb4o10bo
+10b4obboobb8o$11bo8boobboo4b10ob10o4boobboo8bo121bo8boobboo4b10ob10o4b
+oobboo8bo$9b26obb7obb26o117b26obb7obb26o$9b31ob31o117b31ob31o$11b59o
+121b59o$11b29ob29o121b29ob29o$13b55o125b55o$13b27ob27o125b27ob27o$15b
+51o129b51o$15b25ob25o129b25ob25o$17b47o133b47o$17b23ob23o133b23ob23o$
+19b43o137b43o$19b21ob21o137b21ob21o$21b39o141b39o$21b19ob19o141b19ob
+19o$23b35o145b35o$23b17ob17o145b17ob17o$25b31o149b31o$25b15ob15o149b
+15ob15o$27b27o153b27o$27b13ob13o153b13ob13o$29b23o157b23o$29b11ob11o
+157b11ob11o$31b19o161b19o$31b9ob9o161b9ob9o$33b15o165b15o$33b15o165b
+15o$35bobbobobobbo169bobbobobobbo!
+A period 880 rocket gun.
+This uses two period 440 spark oscillators to perturb a rocket to
+duplicate and reverse it.  It has two outputs, one of which is suppressed
+by a period 4 eater oscillator.
+David I. Bell, April 1997

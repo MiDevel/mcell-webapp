@@ -1,0 +1,14 @@
+#MCell 4.00
+#GAME Weighted Life
+#RULE NW1,NN1,NE0,WW1,ME0,EE1,SW0,SS1,SE1,HI0,RS0,RS2,RS4,RS6,RB1,RB3,
+#RULE RB5
+#BOARD 160x160
+#SPEED 20
+#WRAP 1
+#D "The hexagonal hood analogue to Fredkin's von Neumann
+#D version. It has the replicative properties of the original.
+#D The dot seed leads to some splendid designs in which the
+#D Star of David figures prominently." - J.Elliott
+#D 
+#D A rule by Edward Fredkin.
+#L A

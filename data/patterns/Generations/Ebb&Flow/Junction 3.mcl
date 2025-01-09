@@ -1,0 +1,40 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012478/36/18
+#BOARD 150x150
+#WRAP 1
+#D Ebb&Flow  One way to make orthogonal waveguide junctions.
+#D Timing of the oscillators was tricky!  Even so, I am dissatisfied
+#D with this construction (a kludge!)   Can anyone create
+#D a more elegant solution?  The optimum would be a box track that
+#D would allow (1) signals in either direction (using a reflector) and
+#D (2) endless looping. The present construction allows only one
+#D way signals and is altered by the signal passage.
+#D 
+#D Michael Sweney   November 1999
+#L 83.A$82.A.A4.AE$83.A5.A.A.A.A$90.FA.A.A$4.A.A.AM75.JA9.AA$4.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A$..AA5.NA.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.AK5.A4.AA$56.ABDEGHJKMNPQ5.A15.A$..AA52.AADDGGJJMMPP24.
+#L A3.AA$8.A47.ABDEGHJKMNPQ5.A21.N.M$..AA..A4.FA.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.AK3.AA4.AA$.E.F6.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L ..E.F$.AA4.A..AE73.JA3.AA3.AA$$83.A6.AA3.AA$4.AA5.AA69.A.A$4.J.K3.K.J
+#L 70.A6.AA3.AA$.A3.AA3.AA3.A$A.A11.A.A73.AA3.AA$.A3.AA3.AA3.A$90.AA3.AA$
+#L 5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.
+#L AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.
+#L AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$
+#L 5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.
+#L AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.
+#L AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$
+#L 5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.
+#L AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.AA$90.AA3.AA$5.AA3.
+#L AA$90.AA3.AA$5.AA3.AA$86.A3.AA3.AA3.A$5.AA3.AA73.A.A11.A.A$86.A3.AA3.
+#L AA3.A$5.AA3.AA6.A70.J.K3.K.J$17.A.A69.AA5.AA$5.AA3.AA6.A$$5.AA3.AA3.AJ
+#L 73.EA..A4.AA$10.F.E..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A6.F.E$5.AA4.AA3.KA.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.AF4.A..AA$4.M.N86.A$4.
+#L AA3.A88.AA$12.A$4.AA4.A5.KA.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.AN5.AA$15.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$4.AA9.AJ75.MA.A.
+#L A$6.A.A.AF$6.A.A.A.A5.A$11.EA4.A.A$18.A

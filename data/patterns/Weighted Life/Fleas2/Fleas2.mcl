@@ -1,0 +1,14 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW5,NN1,NE5,WW1,ME0,EE1,SW5,SS1,SE5,HI0,RS1,RS2,RS5,RS7,RS10,RS1
+#RULE 1,RB2,RB4,RB8,RB11
+#BOARD 200x200
+#SPEED 20
+#WRAP 1
+#CCOLORS 9
+#D "Fleas2"
+#D 
+#D A dynamic variation of the Fleas rule with a symmetric replicator.
+#D 
+#D Ben Schaeffer, October 1999
+#L A$A$A

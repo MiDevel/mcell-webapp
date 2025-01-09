@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 130x120
+#WRAP 0
+#D Weighted Brain  This kind of editor is very common "in the wild"
+#D 
+#D 
+#D Michael Sweney   March 2000
+#L 47.4A$AA44.B.BB.B44.AA$AA..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB..AB
+#L ..AA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..BA..AA$AA..AB..AB..AB..A
+#L B..AB..AB..AB..AB..AB..AB..AB..AA..BA..BA..BA..BA..BA..BA..BA..BA..BA
+#L ..BA..BA..AA$AA44.B.BB.B44.AA$47.4A

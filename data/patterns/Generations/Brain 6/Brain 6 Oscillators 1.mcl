@@ -1,0 +1,32 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 200x200
+#WRAP 0
+#D Brain 6            .   A very rare item in a Brain rule--oscillators!  We
+#D are used to seeing screens with everything in motion.  Fixed objects
+#D such as these oscillators can't survive long in the constant flux.  To
+#D see the great difference between Brian's Brain and this rule, run
+#D this page on  the Brian's Brain rule--most of the oscillators evaporate.
+#D But not all--this is how we first found that BB could support oscillators.
+#D 
+#D 
+#D Michael Sweney    December 1999
+#L 49.A.A.A$$49.A.A.A$..A$.BAB45.A.A.A$.A.A$BA.AB$ABABA86.A.A$90.A3.A11.A
+#L 10.A$..A28.A59.A.A12.A$30.B.B57.A3.A11.A10.A$ABABA25.3A37.B20.A.A$BA.A
+#L B23.BABABAB35.A$.A.A23.A.AA.AA.A32.A.BA$.BAB24.BABABAB31.BA3B$..A27.3A
+#L 36.3BAB$30.B.B35.AB.A$31.A37.A$69.B8$13.A34.A.A36.A23.A$9.A7.A94.A$10.
+#L A..A..A31.A.A32.A3.A3.A21.A$11.5A68.3A.3A23.A$11.A3.A28.A.A.A.A.A.A29.
+#L A..A..A24.A$8.A.AA.A.AA.A65.A5.A25.A$11.A3.A28.A.A.A.A.A.A26.A.A.A.A.A
+#L .A.A23.A$11.5A68.A5.A27.A$10.A..A..A31.A.A33.A..A..A28.A$9.A7.A66.3A.
+#L 3A29.A$13.A34.A.A32.A3.A3.A29.A$120.A$87.A31.A$118.A$117.A$116.A$32.B
+#L 37.B44.A$32.AAB34.AA..A40.A$31.BAA36.BABAB38.A$33.B36.3A39.A$68.BABAB
+#L 38.A$69.A..AA$72.B5$33.A$32.B.B$32.A.A20.BA$6.A.A..A..A.A16.B20.A.B$4.
+#L BA3BABABA3BAB13.A.A19.BA.A33.ABA$6.A.A..A..A.A15.BAB23.BA31.B.B$32.A.A
+#L 22.A.B31.ABA$33.B23.BA$32.A.A$32.B.B57.A23.B$33.A13.BA14.BA27.A20.AA.A
+#L .AA$46.A.B13.A.B19.ABA11.ABA12.A5.A$46.BA.A12.BA.A18.B.B..AA.A.AA..B.B
+#L 14.B.B$50.BA14.BA16.ABA11.ABA11.AB..A..BA$49.A.B13.A.B24.A22.B.B$49.BA
+#L 14.BA25.A20.A5.A$113.AA.A.AA$116.B$55.BA34.ABA$54.A.B34.B.B$12.A41.BA.
+#L A33.ABA$8.A7.A41.BA$6.ABABA.A.ABABA38.A.B$6.B3.B.B.B3.B38.BA$6.ABABA.A
+#L .ABABA$8.A7.A$12.A4$27.A.BA10.AB.A$27.BBA.B8.B.ABB$26.AA.AA.A6.A.AA.AA
+#L $27.BBA.B8.B.ABB$27.A.BA10.AB.A

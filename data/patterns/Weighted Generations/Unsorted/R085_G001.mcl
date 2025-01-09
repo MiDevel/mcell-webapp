@@ -1,0 +1,12 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C16,SW0;1;1;2;0;0;1;0;0;0;0;0;1;0;0;0,PW2;1;2;1;1;2;
+#RULE 1;2,RS5;6,RB5
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 16
+#D gun
+#D develops into a period 100 oscillator
+#D Brian Prentice
+#D July 2001
+#L 4.ABA$4.ED$NHEHGA$..KJFD$.NMG$KHKJFD$..BHGA$3.DED$4.B

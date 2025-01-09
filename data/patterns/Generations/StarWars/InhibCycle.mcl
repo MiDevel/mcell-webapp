@@ -1,0 +1,16 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 180x260
+#SPEED 0
+#WRAP 0
+#D 
+#D Cycle of gun inhibitors.
+#D (See GunInhibitor.mcl)
+#D 
+#D Lionel Bonnetier
+#D May 99
+#L 10.CB$12.C$9.B.A.B$9.C4A$6.C4.A48.A$5.B.BA50.BCB$4.AC..A49.C3.C$5.B.3A
+#L 47.B.A.B$6.C.A48.5A$7.BA50.A3.CB$63.A..C$62.3A.B$63.A.C$63.AB168$..BA$
+#L .C.A$B.3A$C..A$..BC3.A50.AB$5.5A48.A.C$5.B.A.B47.3A.B$4.C3.C49.A..CA$
+#L 5.BCB50.AB.B$6.A48.A4.C$53.4AC$53.B.A.B$54.C$55.BC

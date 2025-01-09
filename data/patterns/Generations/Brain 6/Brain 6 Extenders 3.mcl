@@ -1,0 +1,22 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 300x160
+#WRAP 0
+#D Brain 6  Remarkable extenders which on dying back regenerate 
+#D themselves.
+#D 
+#D 
+#D Michael Sweney  February 2000
+#L 15.A4.A10.A4.A10.A4.A$14.B.B..B.B8.B.B..B.B8.B.B..B.B$15.A4.A10.A4.A
+#L 10.A4.A$15.A4.A10.A4.A10.A4.A$14.B.B..B.B8.B.B..B.B8.B.B..B.B$15.A4.A
+#L 10.A4.A10.A4.A14$18.A4.A4.A8.A4.A4.A$17.B.B..B.B..B.B6.B.B..B.B..B.B$
+#L 18.A4.A4.A8.A4.A4.A$18.A4.A4.A8.A4.A4.A$17.B.B..B.B..B.B6.B.B..B.B..B.
+#L B$18.A4.A4.A8.A4.A4.A11$21.A4.A4.A4.A4.A4.A$20.B.B..B.B..B.B..B.B..B.B
+#L ..B.B$21.A4.A4.A4.A4.A4.A$21.A4.A4.A4.A4.A4.A$20.B.B..B.B..B.B..B.B..B
+#L .B..B.B$21.A4.A4.A4.A4.A4.A12$31.A4.A$30.B.B..B.B$31.A4.A$31.A4.A$30.B
+#L .B..B.B$31.A4.A15$.A4.A14.A4.A14.A4.A14.A4.A$B.B..B.B12.B.B..B.B12.B.B
+#L ..B.B12.B.B..B.B$.A4.A14.A4.A14.A4.A14.A4.A$.A4.A14.A4.A14.A4.A14.A4.A
+#L $B.B..B.B12.B.B..B.B12.B.B..B.B12.B.B..B.B$.A4.A14.A4.A14.A4.A14.A4.A
+
+

@@ -1,0 +1,18 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 240x240
+#WRAP 1
+#D Brain 6   Here is a good example of collider beams setting up a
+#D reaction that looks like it will go out of control, only to settle into
+#D a new equilibrium at generation 205.
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 47.AA$47.BBA$49.BA$48.A.B$47.ABA$47.B.A$48.A.B3.AA$48.B.A..ABB$49.BA..
+#L B$48.AB$51.BB$51.AA13$AB..AB92.BA..BA$AB.AB.AB.A84.A.BA.BA.BA$.AB.AA..
+#L BB84.BB..AA.BA$..AB..BAA86.AAB..BA$10.BA80.AB$10.BA80.AB$7.AB86.BA$6.A
+#L B88.BA$6.AB88.BA5$32.AB..AB28.BA..BA$32.AB.AB.AB.A20.A.BA.BA.BA$33.AB.
+#L AA..BB20.BB..AA.BA$34.AB..BAA22.AAB..BA$42.BA16.AB$42.BA16.AB$39.AB22.
+#L BA$38.AB24.BA$38.AB24.BA8$51.AA$51.BB$48.AB$49.BA..B$48.B.A..ABB$48.A.
+#L B3.AA$47.B.A$47.ABA$48.A.B$49.BA$47.BBA$47.AA

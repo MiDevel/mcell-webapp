@@ -1,0 +1,11 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 80x80
+#WRAP 1
+#D Weighted Brain    A p4 oscillator.  This was the first one constructed
+#D Technique was (as usual for me) offset geometry.
+#D 
+#D Michael Sweney  March 2000
+#L 7.BB$7.AA$$BA$BA3$10.AB$10.AB$$3.AA$3.BB15$18.B$19.B$17.A.AA$16.B3A..B
+#L $15.B..3AB$17.AA.A$18.B$19.B

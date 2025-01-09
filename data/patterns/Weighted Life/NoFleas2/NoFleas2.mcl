@@ -1,0 +1,15 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW5,NN1,NE5,WW1,ME0,EE1,SW5,SS1,SE5,HI0,RS2,RS3,RS5,RS6,RS7,RS10
+#RULE ,RS11,RB2,RB4,RB8,RB11
+#BOARD 200x200
+#SPEED 20
+#WRAP 1
+#CCOLORS 9
+#D "NoFleas2" rule
+#D 
+#D Variation of Fleas2 that lacks the replicator but
+#D supports some interesting gliders.
+#D 
+#D Ben Schaeffer, October 1999
+#L 3A$3A$.A16$3A$3A$.A

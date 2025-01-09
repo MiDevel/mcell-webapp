@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R2,C0,M1,S2,S3,B2,B3,B4
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 10
+#D Embossed triangles
+#D 
+#D Sierpinski-like patterns consisting of embossed triangles.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L AA

@@ -1,0 +1,18 @@
+#MCell 4.00
+#GAME Rules table
+#RULE 1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,3,3,3,3,3,3,3,3,3,
+#RULE 0,3,1,1,3,3,3,3,3,3
+#BOARD 60x60
+#SPEED 100
+#WRAP 0
+#CCOLORS 4
+#PALETTE 8 colors
+#D Another attempt at wire crossing. The idea was to use "power" to make
+#D the circuit faster. But I ended up with nothing faster than before and
+#D added internal clocking to boot :-(
+#D 
+#D George Phillips, February 1990
+#L 17.A$18.5C$23.C$14.C3.5C$13.C.C.C$13.C.A.C.C.CC$14.B3.3C..A$13.3C.C.C.
+#L CB$14.C..C$.6CBA5C.CC.CC.3C3.3C$C16.C..C3.C.C$C11.BC.C.C.3C..C.C$C10.A
+#L ..3C3.B4.C$C11.CC.C.C.A.C$C16.C.C.C$C16.C..C$C16.C$C16.C$C16.C$.CAB13.
+#L C

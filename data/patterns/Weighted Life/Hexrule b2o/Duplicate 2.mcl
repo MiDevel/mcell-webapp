@@ -1,0 +1,23 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW1,NN2,NE0,WW32,ME0,EE4,SW0,SS16,SE8,HI0,RS5,RS7,RS10,RS11,RS13
+#RULE ,RS14,RS15,RS17,RS19,RS20,RS21,RS22,RS23,RS25,RS26,RS27,RS28,RS2
+#RULE 9,RS30,RS34,RS35,RS37,RS38,RS39,RS40,RS41,RS42,RS43,RS44,RS45,RS
+#RULE 46,RS49,RS50,RS51,RS52,RS53,RS54,RS56,RS57,RS58,RS60,RB3,RB6,RB1
+#RULE 2,RB24,RB33,RB48
+#BOARD 160x160
+#SPEED 20
+#WRAP 0
+#CCOLORS 9
+#D Glider duplications also exist for some stationary oscillators.  It's
+#D likely that they are quite common and would be an important part of
+#D the toolkit for anyone building designing large patterns in this rule.
+#D 
+#D a) Period-42
+#D b) Period-20
+#D 
+#D Paul Callahan, November 1997
+#L 40.A.A$32.A8.AA.A$39.3A.AA$36.A3.A.A.A$33.4A3.4A.A$42.A.3A$45.A$28.AA.
+#L 3A$28.A.6A$29.A.A.AA$28.3A.AA.A$31.AA$32.A35$..A7.A$5.A..4A$5.A3.AA.3A
+#L $5.A5.AA.A$.A..AA7.AA$A.A12.AA$3.A13.3A$.A.A14.A$..A.A13.3A$3.AA13.A$
+#L 3.A.A$4.AA$6.A$6.A$7.A.A$6.4A$9.A$10.A

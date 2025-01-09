@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 240x80
+#WRAP 0
+#D Weighted Brain   The ship gives birth to another identical ship
+#D which in turn gives birth, ad infinitum.  Most replicators feature
+#D quadratic qrowth, i.e. 1 becomes 2 then 4, 8, 16, 32 and so
+#D on.  This replicator perhaps unique, in that it propagates linearly
+#D 1 becomes 2, then 3, 4, 5, 6, 7,  and on.
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 6.AB$4.AB..A$..AB..ABA$AB7.BA$AB7.BA$..AB..ABA$4.AB..A$6.AB

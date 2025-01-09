@@ -1,0 +1,17 @@
+#MCell 2.0
+#GAME Generations
+#RULE 0345/26/6
+#BOARD 140x80
+#WRAP 0
+#D Transers II     The two racers start at the same spot, race to the same
+#D finish line and must clear the same number of hurdles.  Why does the
+#D top racer win "by a nose"?
+#D 
+#D 
+#D 
+#D Michael Sweney   June 2000
+#L 97.A$96.3A$97.A$97.A$97.AA$97.A$26.A3.A3.A3.A3.A3.A3.A3.A3.A3.A34.A$EC
+#L A94.AA$.ECA93.A$ECA94.A$26.A3.A3.A3.A3.A3.A3.A3.A3.A3.A34.AA$97.A$97.A
+#L $97.AA$97.A$97.A$97.AA$14.A3.A3.A3.A3.A27.A3.A3.A3.A3.A22.A$ECA94.A$.E
+#L CA93.AA$ECA94.A$14.A3.A3.A3.A3.A27.A3.A3.A3.A3.A22.A$97.AA$97.A$97.A$
+#L 96.3A$97.A

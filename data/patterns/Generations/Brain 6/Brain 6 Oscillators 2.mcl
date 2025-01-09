@@ -1,0 +1,16 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 200x200
+#WRAP 0
+#D Brain 6     Oscillators being used to reflect signals, transform, cancel,
+#D or redirect them.
+#D 
+#D Michael Sweney   December 1999
+#L 8.A$7.B.B$6.A.A.A$7.B.B$8.A$$75.A$18.B55.B.B$16.B.B.B52.A.A.A$15.A.3A.
+#L A52.B.B$16.B.B.B54.A$18.B8$4.B$..BAA$3.AAB81.A.B.A$3.B83.BBABB$87.A.B.
+#L A3$62.A$61.B.B$61.3A$59.BABABAB$58.A.AA.AA.A$59.BABABAB$61.3A$61.B.B$
+#L 62.A4$3.B$.B.B.B$A.3A.A$.B.B.B$3.B6$22.B$22.AAB$21.BAA26.ABA$23.B27.B$
+#L 49.B.A.B$51.B$50.ABA6$68.AA$68.BB5$22.AA$22.BB65.AA$89.BB5$14.A$13.B.B
+#L $12.A.A.A$13.B.B$14.A6$9.B$7.A3.A$7.BBABB79.B$7.A3.A77.A3.A$9.B79.BBA
+#L BB$73.AA14.A3.A$73.BB16.B

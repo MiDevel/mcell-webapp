@@ -1,0 +1,10 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C4,SW0;2;1;0,PW1;1;1;1;1;1;1;1,RS6;7;8;9;10;11,RB4
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 4
+#D maximum tiling
+#D Brian Prentice
+#D May 2001
+#L AA$AA

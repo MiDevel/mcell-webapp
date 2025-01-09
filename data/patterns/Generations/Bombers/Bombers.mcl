@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/24/25
+#BOARD 240x240
+#SPEED 10
+#WRAP 1
+#CCOLORS 25
+#D Bombers rule
+#D 
+#D A close variant of StarWars rule with much more history steps,
+#D what results in beautiful ships, puffers and oscillators.
+#D 
+#D Mirek Wojtowicz, October 1999
+#L .A$3A$.AA

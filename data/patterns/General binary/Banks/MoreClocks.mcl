@@ -1,0 +1,18 @@
+#MCell 3.00
+#GAME General binary
+#RULE C0,NN,S3babbabbabba3b,B7ab3aba3b
+#BOARD 100x100
+#SPEED 100
+#WRAP 1
+#CCOLORS 2
+#D Banks rule
+#D 
+#D More clocks, some designed, some found at random.
+#D 
+#D Mirek Wojtowicz, March 2000
+#L ..A8.A..A6.A4.A$A.AA7.A.AA6.3A.AA$.A8.6A4.8A6$30.A$.A13.A11.4A$..AA7.
+#L 5A12.3A$3A9.A.A.A11.3A$..A9.A15.AA.A$28.AA$27.3A$29.A5$.A11.A11.A$.5A
+#L 7.5A7.5A$.4A8.A.AA8.4A$.4A8.AA.A8.4A$A.A.A7.5A7.AA.AA$4.A11.A11.A7$.A
+#L 12.A$.7A6.A.5A$.A.A.AA7.6A$.4A.A7.6A$.A.4A8.5A$.AA.A.A7.3A.AA$7A6.5A.A
+#L $6.A12.A6$21.5A$.A20.3A$.4A7.A9.3A$4A6.3A9.AA$.3A7.AA9.A.AA$.3A3.A3.AA
+#L 9.3A$.5A.A3.AA9.A.A$3A.A.7A9.AA$8.AA.3A7.5A$8.A

@@ -1,0 +1,5 @@
+#C p200 rocket gun
+#C David Bell, 18 Jul 1999
+x = 18, y = 33, rule = B3678/S34678
+3b12o$b16o$b16o$18o$oob12oboo8$4bo$oobobobo$8o$b9o$9o$b9o$8o$oobobobo$
+4bo8$oob12oboo$18o$b16o$b16o$3b12o!

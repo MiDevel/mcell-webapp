@@ -1,0 +1,11 @@
+x = 261, y = 11, rule = B3678/S34678
+5bo49bo49bo49bo49bo49bo$4b3o47b3o47b3o47b3o47b3o47b3o$3b5o22bo22b5o22b
+o22b5o22bo22b5o22bo22b5o22bo22b5o$bbob3obo19b5o19bob3obo19b5o19bob3obo
+19b5o19bob3obo19b5o19bob3obo19b5o19bob3obo$b9o18b5o18b9o18b5o18b9o18b
+5o18b9o18b5o18b9o18b5o18b9o$11o16b7o16b11o16b7o16b11o16b7o16b11o16b7o
+16b11o16b7o16b11o$b9o18b5o18b9o18b5o18b9o18b5o18b9o18b5o18b9o18b5o18b
+9o$bbob3obo19b5o19bob3obo19b5o19bob3obo19b5o19bob3obo19b5o19bob3obo19b
+5o19bob3obo$3b5o22bo22b5o22bo22b5o22bo22b5o22bo22b5o22bo22b5o$4b3o47b
+3o47b3o47b3o47b3o47b3o$5bo49bo49bo49bo49bo49bo!
+A row of novas can keep igniting each other for a while.
+David I. Bell, October 1997

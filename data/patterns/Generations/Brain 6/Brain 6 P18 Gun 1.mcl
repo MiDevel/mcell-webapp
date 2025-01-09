@@ -1,0 +1,21 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 240x240
+#WRAP 0
+#D Brain 6    The first gun discovered in Brain 6 uses two p18 oscillators
+#D to generate a stream of spaceships.  Here two guns are paired with
+#D p6 and p3 oscillators to create a spaceship factory.
+#D 
+#D 
+#D Michael Sweney  February 2000
+#L 83.B$ABA10.ABA63.B..A$.B12.B65.AB$BAB10.BAB64.A.A$.B12.B66.BA$ABA10.AB
+#L A64.A..B22.B$54.ABA22.B26.A$55.B49.ABA$54.BAB49.B$55.B49.ABA$54.ABA20.
+#L B28.A$73.B..A29.B$74.AB$74.A.A$75.BA$74.A..B$73.B7$12.ABA$13.B$12.BAB$
+#L 13.B$12.ABA$37.B$33.B..A$34.AB$34.A.A$35.BA$..ABA29.A..B$3.B29.B53.B$
+#L ..BAB78.B..A$3.B80.AB$..ABA52.A26.A.A$31.B24.B.B26.BA$27.B..A24.A.A.A
+#L 24.A..B$28.AB26.B.B24.B29.B$28.A.A26.A51.B..A$29.BA79.AB$28.A..B78.A.A
+#L $27.B53.B29.BA$77.B..A29.A..B$78.AB29.B$78.A.A$79.BA$78.A..B$77.B9$
+#L 105.B4.B$106.A.AA$107.B.B$107.AA.A$106.B4.B
+
+

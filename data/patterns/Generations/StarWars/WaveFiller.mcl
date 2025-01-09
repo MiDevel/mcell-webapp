@@ -1,0 +1,16 @@
+#MCell 3.00
+#GAME Generations
+#RULE 345/2/4
+#BOARD 300x200
+#SPEED 10
+#WRAP 0
+#CCOLORS 4
+#D 
+#D Wave filler.
+#D 
+#D The short-long laser with the obstacle shifted one cell down.
+#D 
+#D Lionel Bonnetier
+#D May 99
+#L 125.A84$.A..A5.A$12A$.A..A..A..A$.A..A$.4A$.A..A$.A..A$.4A40.A$AA.A40.
+#L 3A$.A.BA40.A$..A$..AAB$.A.A$AA.A7.A$.12A$..A..A..A..A

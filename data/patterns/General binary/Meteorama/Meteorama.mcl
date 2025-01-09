@@ -1,0 +1,44 @@
+#MCell 4.00
+#GAME General binary
+#RULE C24,NM,S3abaab3a3b6abb5ababbaab3abbabbab7a5babaa4baab5a3b3abb5ab
+#RULE babababb3ababaabb3abbababaab3a6bab3abab4abba5baab3aba3b6aba4b4a4
+#RULE b3ab3ab5abbab5ab5ab4a4b3abba3b3ab4abaabaabbababababaab4ab3a,B5ab
+#RULE a5b3abababab6a3baab3ababa3b3abb4abbababaab3abaabaababbaa5ba3baba
+#RULE bab6abaababbab6ababaabaa5baabaabbaab4ab3abab10ab4ab4ababab4ababa
+#RULE bbaa4baab3a3baabbab7abaabaab3a3ba3babbab6abbaab8abbabb
+#BOARD 200x200
+#SPEED 20
+#WRAP 1
+#D This is a randomly-generated rule. As such it is suggestive only - 
+#D the table needs to be simplified. But the bidirectional meteor 
+#D shower theme seems worth exploring, and also the orbits were 
+#D found to produce compelling transmusic.
+#D 
+#D John Elliott, April 1996
+#L 88.A5.3A.AA10.A.A..A8.A16.A5.A10.A$102.A.A..3A3.A..A8.A11.A4.A8.A.A5.A
+#L $89.A..A6.A7.A5.AA22.AA.A10.A.A$88.A8.A6.A5.A8.A6.A8.A15.AA$96.A3.A17.
+#L A10.A15.A7.A..A$90.A3.AA28.AA4.AA7.A.A..A8.A..A$93.A.A12.A4.A34.A8.A$
+#L 88.AA67.A$88.A67.A.AA$86.A$87.A..A63.A$156.A$91.A$90.A63.A.3A$90.A66.A
+#L $87.A$$87.A67.A.A$86.A6.A61.A$85.A$155.AA$86.A4.AA64.A$85.4A.A..A61.A$
+#L 88.A65.A$158.A$85.A69.3A$90.3A$87.A69.A$88.A$91.A$89.A66.A$155.A$89.AA
+#L 68.A$85.A3.A64.A$85.A$85.A$86.A5.A$85.AA68.A$85.A..A4.A$85.A.AA66.A$
+#L 87.A..A$86.A.A4.A$88.A4.A65.A$88.A$88.A3.A66.A$88.AA.A.A64.A$88.A$86.A
+#L 70.A$85.A$93.A61.A.A$87.A$87.A..A$85.A71.A$88.A66.A$91.A.A$159.A$88.A
+#L 67.A$$87.AA$158.A$88.A.A..A$88.A65.AA.A.A$87.A5.A63.A$$86.A..AA$85.A.
+#L AA..A.A.A3.A10.A..A..A6.A12.A.A$87.4A..A12.A3.A7.AA7.A11.A..A12.A$99.A
+#L 6.A17.A.A8.A5.A11.A$104.AA7.A13.A.A18.A4.A..A$108.A4.A4.A..AA5.AA4.A4.
+#L A4.A.A6.A..A..A$94.AA.AA9.A22.A17.A$86.A14.A9.A13.A3.A5.A17.A$85.A7.A.
+#L A10.AA9.A8.A13.A6.A10.A$87.A8.A12.A4.A..AA3.A3.A17.A4.A7.A17$.A6.A23.A
+#L 9.A.A10.A5.A7.A$A7.A4.A10.A20.A13.A12.A$6.AA5.AA..A3.A3.A.A19.A.A..A8.
+#L AA10.A$4.AA..A..A.A6.A4.A4.A25.A11.AA$17.AA.A.A..A5.A5.A.A9.A3.A7.A4.A
+#L $10.A..A9.A9.A27.A$.AA.AA.A5.A.A..A..A5.A3.AA13.A9.A.A..A5.3A.A$3.A3.A
+#L 9.A4.A5.A13.A15.A4.AA$.3A3.A.A9.A.A7.3A9.A.A.AA6.A4.A$7.A.A3.A.A.A18.
+#L AA3.A7.A5.A5.A.A$7.A62.A..A$6.A$A71.A$69.A$4.A$5.A63.A3.A$$.A$A4.A$..A
+#L 69.A$5.A63.A$..A$.AA$$3.A67.A$69.A3$5.A64.A$5.A.A$4.A64.A.A$69.A$7.A$
+#L 3.A68.AA$.A3.A65.A$A4.A.A$$69.A3.A$69.A$$3.A$4.A64.A3.A$72.AA$.A$A$..A
+#L 70.A$.AA3.A62.A$A$71.A$A..A$.A71.A$.A4.A62.AA$.AA69.A$7.A64.A$7.A$.A.A
+#L $7.A$.A$71.A$4.A$A.A$A69.A$3.A3.A62.A$A3.A68.A$A4.AA63.A.A$A4.A64.A$6.
+#L A11.A3.A15.A..AA..A3.A4.A5.A.A..AA5.A$..A18.A4.A9.A7.A$12.A8.A4.A..A
+#L 15.A8.A10.A$5.A4.A..AA7.A3.A5.A7.A10.A8.A3.A.A$..A4.A22.A.AA11.A18.A.A
+#L $A..A3.AA13.AA4.A9.AA.6A6.A..A.A.AA3.AA$10.A4.A.A4.A4.A11.AA9.AA6.A3.A
+#L ..AA6.A$9.A8.A..AA13.AA3.A5.A16.A6.A$19.A..A..A7.3A.3A8.A3.A12.A6.A

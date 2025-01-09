@@ -1,0 +1,11 @@
+#MCell 2.50
+#GAME Generations
+#RULE 45678/25678/4
+#BOARD 200x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 4
+#D "Sedimental" rule 8x3 seed
+#D 
+#D Mirek Wojtowicz, December 1999
+#L 8A$8A$8A

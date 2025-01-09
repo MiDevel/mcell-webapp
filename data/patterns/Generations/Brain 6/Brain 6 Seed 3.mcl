@@ -1,0 +1,10 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 200x200
+#WRAP 0
+#D Brain 6         A seed pattern leading to beautiful patterns.
+#D 
+#D 
+#D Michael Sweney   December 1999
+#L .A4.A$A..AA..A$..4A$.AA..AA$.AA..AA$..4A$A..AA..A$.A4.A

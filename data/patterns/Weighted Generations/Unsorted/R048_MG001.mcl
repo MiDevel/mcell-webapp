@@ -1,0 +1,10 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C7,SW0;2;0;3;0;2;0,PW1;1;1;1;1;1;1;1,RS4;5;6;7;8,RB6
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 7
+#D moving gun
+#D Brian Prentice
+#D June 2001
+#L .B$E.EB$.F..EB$4.EB$..EB

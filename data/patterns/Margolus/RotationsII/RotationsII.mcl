@@ -1,0 +1,11 @@
+#MCell 4.00
+#GAME Margolus
+#RULE MS,D0;2;8;12;1;10;9;13;4;6;5;7;3;14;11;15
+#BOARD 160x160
+#SPEED 20
+#WRAP 1
+#CCOLORS 2
+#D Limited diffusion.
+#D 
+#D A rule by Tim Tyler.
+#L 4.6A4.6A11$6A4.6A

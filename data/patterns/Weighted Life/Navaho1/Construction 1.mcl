@@ -1,0 +1,27 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW4,NN1,NE4,WW5,ME7,EE5,SW4,SS1,SE4,HI12,RS8,RS9,RS11,RB2,RB5
+#BOARD 200x100
+#WRAP 0
+#D Navaho 1     Guns and containment vessel.  Oncoming signal colliding with each other will either
+#D disappear or set off a reaction.  Here paired guns are spaced to set off reactions at the collision
+#D points. The containment vessel is to localize the effect.
+#D 
+#D 
+#D Michael Sweney  February 2000
+#L 52.A.A..A.A$52.A.A..A.A$52.A.A..A.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$
+#L 51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.
+#L A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A
+#L 8.A$51.A8.A$51.A8.A$51.A8.A$8.A42.A8.A42.A$8.A38.A.A.A8.A.A.A38.A$47.A
+#L .A.A8.A.A.A$7.HH38.A.A.A8.A.A.A38.HH$6.HIIH92.HIIH$5.H.JJ.H90.H.JJ.H$
+#L 5.IIKKII90.IIKKII$A4.HH..HH90.HH..HH4.A$A..HHJJ..JJHH86.HHJJ..JJHH..A$
+#L A.HJJ..AA..JJH.A37.A4.A37.A.HJJ..AA..JJH.A$A.GFEDCBBCDEFG.A37.A4.A37.A
+#L .GFEDCBBCDEFG.A$A.HJJ..AA..JJH.A37.A4.A37.A.HJJ..AA..JJH.A$A..HHJJ..JJ
+#L HH86.HHJJ..JJHH..A$A4.HH..HH90.HH..HH4.A$5.IIKKII90.IIKKII$5.H.JJ.H90.
+#L H.JJ.H$6.HIIH92.HIIH$7.HH38.A.A.A8.A.A.A38.HH$47.A.A.A8.A.A.A$7.A39.A.
+#L A.A8.A.A.A39.A$7.A43.A8.A43.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$
+#L 51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.
+#L A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A8.A$51.A
+#L 8.A$51.A8.A$52.A.A..A.A$52.A.A..A.A$52.A.A..A.A
+
+

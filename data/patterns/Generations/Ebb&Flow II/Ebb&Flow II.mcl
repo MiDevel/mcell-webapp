@@ -1,0 +1,14 @@
+#MCell 2.50
+#GAME Generations
+#RULE 012468/37/18
+#BOARD 200x200
+#SPEED 20
+#WRAP 1
+#CCOLORS 18
+#D Ebb&Flow II
+#D 
+#D A close variant of Ebb&Flow that supports simple gliders.
+#D 
+#D Michael Sweney, December 1999
+#L 20A$20A$20A$20A$20A$20A$20A$20A$20A$20A$20A$20A$20A$20A$20A$20A$20A$
+#L 20A$20A$20A

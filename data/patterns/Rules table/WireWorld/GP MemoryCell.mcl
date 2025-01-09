@@ -1,0 +1,20 @@
+#MCell 4.00
+#GAME Rules table
+#RULE 1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,3,3,3,3,3,3,3,3,3,
+#RULE 0,3,1,1,3,3,3,3,3,3
+#BOARD 60x60
+#SPEED 100
+#WRAP 0
+#CCOLORS 4
+#PALETTE 8 colors
+#D A six-cycle memory cell. It is about to remember
+#D a 1 and then a 0 and then go back to 1 after
+#D a couple cycles.
+#D 
+#D It has a small bug in that the "write 0" line causes
+#D a single, spurious pulse on the output, but that could
+#D be eliminated fairly easily.
+#D 
+#D George Phillips, February 1990
+#L 15.CC$14.C..C$13.3C..6CAB12C$13.C.C$14.C.C$14.C.C5.3CB5CB4CAB$14C.3C3.
+#L C$16.C3.C$.12C4.CAB$13.CBA$13.C..C$14.CC

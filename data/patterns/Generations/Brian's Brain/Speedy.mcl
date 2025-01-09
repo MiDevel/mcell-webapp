@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE /2/3
+#BOARD 400x60
+#SPEED 0
+#WRAP 1
+#CCOLORS 3
+#D The first BB spaceship I'm proud of.
+#D 
+#D Mirek Wojtowicz, June 1999
+#L 15.B$13.B.B.B$12.A..A..A$12.BA.B.ABA3.BA..BA$B9.ABB5.B..BA.BA.BA$4.B6.
+#L B4.A.B.A..AA.BA$..BA..A9.BB.BA..AB$5.BB8.AB4.B..BA$4.A10.A.A..AA..AA$
+#L 5.BB8.AB4.B..BA$..BA..A9.BB.BA..AB$4.B6.B4.A.B.A..AA.BA$B9.ABB5.B..BA.
+#L BA.BA$12.BA.B.ABA3.BA..BA$12.A..A..A$13.B.B.B$15.B

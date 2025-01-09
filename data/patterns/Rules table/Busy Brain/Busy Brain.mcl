@@ -1,0 +1,12 @@
+#MCell 2.50
+#GAME Rules table
+#RULE 1,0,0,0,0,1,2,0,2,2,2,2,0,2,2,2,1,0,2,2,2,2,0,0,0,0,0,1,2,2,1,2
+#BOARD 180x180
+#SPEED 20
+#WRAP 1
+#CCOLORS 3
+#D A variation of Brian's Brain, with more chaos. The animation looks similar,
+#D yet the board is more filled, and patterns produce more sparks.
+#D 
+#D George Maydwell, March 1999
+#L 3A.A$A.3A

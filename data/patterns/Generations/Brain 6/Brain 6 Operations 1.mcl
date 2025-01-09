@@ -1,0 +1,16 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 240x240
+#WRAP 0
+#D Brain 6   Here the P6 oscillator does a variety of operations on
+#D incoming spaceships including reflection, duplication, glide
+#D reflection, inversion, and so forth.
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 76.A$75.BAB$73.B.A.A.B$75.BAB$76.A23.AB$3.A94.AB$..BAB93.AB$B.A.A.B$..
+#L BAB$3.A3$30.AB$28.AB$28.AB$$106.AB$105.AB$105.AB$76.A$75.BAB$73.B.A.A.
+#L B$75.BAB$76.A16$32.A43.A21.AB$31.BAB41.BAB19.AB$29.B.A.A.B37.B.A.A.B
+#L 17.AB$31.BAB41.BAB$32.A43.A26$28.A$27.BAB21.AB$25.B.A.A.B18.AB$27.BAB
+#L 20.AB$28.A

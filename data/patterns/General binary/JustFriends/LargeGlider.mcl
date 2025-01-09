@@ -1,0 +1,14 @@
+#MCell 4.00
+#GAME General binary
+#RULE C0,NM,Sa6ba3bab3a3bab3ab7a3bab3ab7ab15a3bab3ab7ab15ab31a3bab3ab7
+#RULE ab15ab31ab63a,B5ab3abb6abbab12abbab3ab24abbab3ab7ab49abab3ab7ab1
+#RULE 5ab95a
+#BOARD 120x120
+#SPEED 20
+#WRAP 1
+#CCOLORS 2
+#D A very large glider.
+#D 
+#D Alan Hensel
+#L .A$.A$AA.A$3.A$5.A$3.A.A$7.A$5.3A$$7.AA.A$$9.AA.A$12.A$11.AA.A$14.A$
+#L 16.A$14.A.A$18.A$16.3A$$18.AA.A$$20.AA.A$23.A$22.AA

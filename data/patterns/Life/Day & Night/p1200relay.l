@@ -1,0 +1,16 @@
+x = 151, y = 53, rule = B3678/S34678
+12boboo14boobo83boboo14boobo$10b8o10b8o79b8o10b8o$10b8o10b8o79b8o10b8o
+$8b12o6b12o75b12o6b12o$8b12obboobb12o75b12obboobb12o$6b5o7b22o71b5o7b
+22o$6b34o71b34o$4b7o7b24o67b7o7b24o$4b38o67b38o$bb9o7b26o63b9o7b26o$bb
+42o63b42o$11o7b8o4b16o59b11o7b8o4b16o$21obb23o59b21obb23o$bbo4b4o7b8o
+4boo5boobb3o63bo4b4o7b8o4boo5boobb3o$3b4o4b7o8b4obb5obboo67b4o4b7o8b4o
+bb5obboo$21boo103boo$11b7o8b4o86b7o8b4o$$11b7o98b7o$$11b7o98b7o$$11b7o
+98b7o$$118bo$117b4o$113b8o$117b4o$118bo$$11b7o98b7o$$11b7o98b7o$$11b7o
+98b7o$$11b7o8b4o86b7o8b4o$21boo103boo$3b4o4b7o8b4obb5obboo67b4o4b7o8b
+4obb5obboo$bbo4b4o7b8o4boo5boobb3o63bo4b4o7b8o4boo5boobb3o$21obb23o59b
+21obb23o$11o7b8o4b16o59b11o7b8o4b16o$bb42o63b42o$bb9o7b26o63b9o7b26o$
+4b38o67b38o$4b7o7b24o67b7o7b24o$6b34o71b34o$6b5o7b22o71b5o7b22o$8b12o
+bboobb12o75b12obboobb12o$8b12o6b12o75b12o6b12o$10b8o10b8o79b8o10b8o$
+10b8o10b8o79b8o10b8o$12boboo14boobo83boboo14boobo!
+A period 1200 snail relay using p240 oscillators.
+David I. Bell, May 1997

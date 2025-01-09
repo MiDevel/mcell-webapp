@@ -1,0 +1,11 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C5,SW0;3;2;0;1,PW1;1;1;1;1;1;1;1,RS5;7;9;11,RB5
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 5
+#D diagonal stretcher
+#D Brian Prentice
+#D June 2001
+#L 3.AA.AA$..ACB.BCA$..C.D.D.C$.A$.C$A.A$C.C$..A$..C$3.A$3.C$4.A$4.C$3.D.
+#L A$.D.CB$..B.A

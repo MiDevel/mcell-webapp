@@ -1,0 +1,21 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x200
+#SPEED 0
+#WRAP 0
+#D This construction produces guns of all periods from 25 onwards.
+#D Simply make the path length a multiple of the desired period,
+#D and then insert the appropriate number of bullets into the path.
+#D As shown the path length must be odd - but even path lengths
+#D can be obtained by replacing one of the reflectors with another
+#D duplicator.
+#D 
+#D The example shown is the minimum period of 25,
+#D there being five bullets in a path of length 125.
+#D 
+#D Stephen Silver, April 1999
+#L 6.A..A.C$5.6AB$4.AA3.A.A$3.AA4.A$..AA5.AA$3.A5.A21.CBA$3.A5.A21.CBA$..
+#L 9A28.A$3.A..A..A28.3A$3.ABA..CBA25.A.A.AA$..CC31.6A$36.A..A3$..CBA$..A
+#L ..A$.6A28.A$AA.A.A28.A.BC$.3A.BA26.3A$..A.C29.A$13.ABC18.3A.C$13.ABC
+#L 17.AA.AACB$34.3A.BA$35.A.A

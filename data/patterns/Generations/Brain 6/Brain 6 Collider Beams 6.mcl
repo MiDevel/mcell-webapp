@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 240x240
+#WRAP 1
+#D Brain 6        More collider beam interactions.
+#D 
+#D 
+#D 
+#D Michael Sweney   December 1999
+#L 35.AA$34.ABBA$33.AB..BA$33.B4.B$34.A..A.A$34.B..B.BA$38.B.BA$37.ABA.BA
+#L $38.ABA.B$38.A.AA$37.B3.B$$40.B25$7.AB$6.AB.AB$5.AB.AA..B$4.AB.AB$..AB
+#L ..BBAA$.AB.AB.A..B$AB$AB$.AB.AB$..AB21$40.B$$37.B3.B$38.A.AA$38.ABA.B$
+#L 37.ABA.BA$38.B.BA$34.B..B.BA$34.A..A.A$33.B4.B$33.AB..BA$34.ABBA$35.AA

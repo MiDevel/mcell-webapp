@@ -1,0 +1,1568 @@
+1-D binary/Bermuda Triangle/Bermuda Triangle.mcl
+1-D binary/Brownian motion/Brownian motion.mcl
+1-D binary/Chaotic gliders/Chaotic gliders.mcl
+1-D binary/Compound glider/Compound glider.mcl
+1-D binary/Filiform gliders 1/Filiform gliders 1.mcl
+1-D binary/Filiform gliders 2/Filiform gliders 2.mcl
+1-D binary/Fish-bones/Fish-bones.mcl
+1-D binary/Fishing-net/Fishing-net.mcl
+1-D binary/Glider p106/Glider p106.mcl
+1-D binary/Glider-gun p168/Glider-gun p168.mcl
+1-D binary/Heavy triangles/Heavy triangles.mcl
+1-D binary/Inverse gliders/Inverse gliders.mcl
+1-D binary/Kites/Kites.mcl
+1-D binary/Linear A/Linear A.mcl
+1-D binary/Linear B/Linear B.mcl
+1-D binary/Pascal's Triangle/Pascal's Triangle.mcl
+1-D binary/Plaitwork/Plaitwork.mcl
+1-D binary/R3 Gliders/R3 Gliders.mcl
+1-D binary/Raindrops/Raindrops.mcl
+1-D binary/Randomizer 1/Randomizer 1.mcl
+1-D binary/Randomizer 2/Randomizer 2.mcl
+1-D binary/Relief gliders/Relief gliders.mcl
+1-D binary/Scaffolding/Scaffolding.mcl
+1-D binary/Solitons A/Solitons A.mcl
+1-D binary/Solitons A'/Solitons A .mcl
+1-D binary/Solitons B/Solitons B.mcl
+1-D binary/Solitons B'/Solitons B .mcl
+1-D binary/Solitons B3/Solitons B3.mcl
+1-D binary/Solitons C1/Solitons C1.mcl
+1-D binary/Solitons C2/Solitons C2.mcl
+1-D binary/Solitons D1/Solitons D1.mcl
+1-D binary/Solitons D2/Solitons D2.mcl
+1-D binary/Solitons E/Solitons E.mcl
+1-D binary/Solitons F/Solitons F.mcl
+1-D binary/Stable gliders/Stable gliders.mcl
+1-D binary/Threads/Threads.mcl
+1-D binary/Triangular gliders/Triangular gliders.mcl
+1-D binary/Zig-Zags/Zig-Zags.mcl
+1-D totalistic/Abacus/Abacus.mcl
+1-D totalistic/Champagne/Champagne.mcl
+1-D totalistic/Class 4 a/Class 4 a.mcl
+1-D totalistic/Class 4 b/Class 4 b.mcl
+1-D totalistic/Class 4 c/Class 4 c.mcl
+1-D totalistic/Date palms/Date palms.mcl
+1-D totalistic/Embossed triangles/Embossed triangles.mcl
+1-D totalistic/Fences/Fences.mcl
+1-D totalistic/Forest/Forest.mcl
+1-D totalistic/Gears 1/Gears 1.mcl
+1-D totalistic/Gears 2/Gears 2.mcl
+1-D totalistic/Marvel/Marvel.mcl
+1-D totalistic/Maze/Maze.mcl
+1-D totalistic/Noname01/Noname01.mcl
+1-D totalistic/Noname02/Noname02.mcl
+1-D totalistic/Pascal's Triangle/Pascal's triangle.mcl
+1-D totalistic/Porridge/Porridge.mcl
+1-D totalistic/Roots/Roots.mcl
+1-D totalistic/Shaded Triangles/Shaded Triangles.mcl
+1-D totalistic/Skyscrapers/Skyscrapers.mcl
+1-D totalistic/The City/The City.mcl
+1-D totalistic/Tulips/Tulips.mcl
+1-D totalistic/Walls/Walls.mcl
+1-D totalistic/Wood Grain/Wood Grain.mcl
+Cyclic CA/3-color bootstrap/3-color bootstrap.mcl
+Cyclic CA/313/313.mcl
+Cyclic CA/Amoeba/Amoeba.mcl
+Cyclic CA/Black vs White/Black vs White.mcl
+Cyclic CA/CCA/CCA.mcl
+Cyclic CA/Cubism/Cubism.mcl
+Cyclic CA/Cyclic spirals/Cyclic spirals.mcl
+Cyclic CA/Fossil debris/Fossil debris.mcl
+Cyclic CA/GH/GH.mcl
+Cyclic CA/GH Macaroni/GH Macaroni.mcl
+Cyclic CA/GH Multistrands/GH Multistrands 01.mcl
+Cyclic CA/GH Multistrands/GH Multistrands 02.mcl
+Cyclic CA/GH Percolation mix/GH Percolation mix.mcl
+Cyclic CA/GH Weak spirals/GH Weak spirals.mcl
+Cyclic CA/Imperfect/Imperfect.mcl
+Cyclic CA/LavaLamp/LavaLamp.mcl
+Cyclic CA/Maps/Maps.mcl
+Cyclic CA/Perfect/Perfect.mcl
+Cyclic CA/Squarish Spirals/Squarish Spirals.mcl
+Cyclic CA/Stripes/Stripes.mcl
+Cyclic CA/Turbulent phase/Turbulent phase.mcl
+General binary/Banks/Banks.mcl
+General binary/Banks/Clocks.mcl
+General binary/Banks/Holes.mcl
+General binary/Banks/MagicCarpet1.mcl
+General binary/Banks/MagicCarpet2.mcl
+General binary/Banks/MoreClocks.mcl
+General binary/Banks/Reboxes.mcl
+General binary/Fallski/Fallski.mcl
+General binary/FractalBeads/FractalBeads.mcl
+General binary/JustFriends/GliderDuplicator.mcl
+General binary/JustFriends/GliderLoop408.mcl
+General binary/JustFriends/Gun p236.mcl
+General binary/JustFriends/Gun2 p235.mcl
+General binary/JustFriends/JustFriends.mcl
+General binary/JustFriends/LargeGlider.mcl
+General binary/JustFriends/OmniperiodicOscillator.mcl
+General binary/JustFriends/Oscillators 1.mcl
+General binary/JustFriends/Oscillators 2.mcl
+General binary/JustFriends/Pseudo-puffers.mcl
+General binary/JustFriends/QuadaticGrowth.mcl
+General binary/JustFriends/Rake c5a.mcl
+General binary/JustFriends/Rake c5b.mcl
+General binary/JustFriends/Ship 5speed.mcl
+General binary/JustFriends/Ships c3 4 5.mcl
+General binary/JustFriends/Ships c7.mcl
+General binary/JustFriends/TrailMaker.mcl
+General binary/JustFriends/TriominoPuffer.mcl
+General binary/JustFriends/Wicks oscill.mcl
+General binary/JustFriends/Wickstretcher 01.mcl
+General binary/JustFriends/Wickstretcher 02.mcl
+General binary/JustFriends/Wickstretcher 03.mcl
+General binary/JustFriends/Wickstretcher 04.mcl
+General binary/JustFriends/Wickstretchers.mcl
+General binary/LogicRule/and.mcl
+General binary/LogicRule/doomed.mcl
+General binary/LogicRule/eqv.mcl
+General binary/LogicRule/inputs.mcl
+General binary/LogicRule/LogicRule.mcl
+General binary/LogicRule/nand.mcl
+General binary/LogicRule/nor.mcl
+General binary/LogicRule/not.mcl
+General binary/LogicRule/or.mcl
+General binary/LogicRule/xor.mcl
+General binary/Meteorama/Meteorama.mcl
+General binary/Sierpinski/Sierpinski.mcl
+General binary/Slugfest/Slugfest.mcl
+General binary/Snowflakes/Snowflakes.mcl
+General binary/Springski/Springski.mcl
+Generations/Banners/Banner.mcl
+Generations/Banners/Banners.mcl
+Generations/Banners/Puffed banner.mcl
+Generations/Banners/Rotor.mcl
+Generations/BelZhab/BelZhab.mcl
+Generations/BelZhab Sediment/BelZhab Sediment.mcl
+Generations/Bloomerang/Bloomerang.mcl
+Generations/Bombers/2D or 1D.mcl
+Generations/Bombers/Bomber1.mcl
+Generations/Bombers/Bomber2.mcl
+Generations/Bombers/Bomber3.mcl
+Generations/Bombers/Bombers.mcl
+Generations/Bombers/Seed 10x10a.mcl
+Generations/Bombers/Seed 10x10b.mcl
+Generations/Bombers/Ships.mcl
+Generations/Brain 6/Brain 6 Beam Editing 1.mcl
+Generations/Brain 6/Brain 6 Beam Editing 2.mcl
+Generations/Brain 6/Brain 6 Beam Editing 3.mcl
+Generations/Brain 6/Brain 6 Beam Editing 4.mcl
+Generations/Brain 6/Brain 6 Beam Editing 5.mcl
+Generations/Brain 6/Brain 6 Beam Editing 6.mcl
+Generations/Brain 6/Brain 6 Beam Generators 1.mcl
+Generations/Brain 6/Brain 6 Beam Generators 2.mcl
+Generations/Brain 6/Brain 6 Beam Generators 3.mcl
+Generations/Brain 6/Brain 6 Beam Generators 4.mcl
+Generations/Brain 6/Brain 6 Beam Generators 5.mcl
+Generations/Brain 6/Brain 6 Block Party.mcl
+Generations/Brain 6/Brain 6 Bombers 1.mcl
+Generations/Brain 6/Brain 6 Bombers 2.mcl
+Generations/Brain 6/Brain 6 Bombers 3.mcl
+Generations/Brain 6/Brain 6 Bombers 4.mcl
+Generations/Brain 6/Brain 6 Bombers 5.mcl
+Generations/Brain 6/Brain 6 Bombers 6.mcl
+Generations/Brain 6/Brain 6 Bombers 7.mcl
+Generations/Brain 6/Brain 6 Bombers 8.mcl
+Generations/Brain 6/Brain 6 Butterfly 1.mcl
+Generations/Brain 6/Brain 6 Butterfly 2.mcl
+Generations/Brain 6/Brain 6 Butterfly bomber.mcl
+Generations/Brain 6/Brain 6 Butterfly bombers.mcl
+Generations/Brain 6/Brain 6 Collider Beams 1.mcl
+Generations/Brain 6/Brain 6 Collider Beams 2.mcl
+Generations/Brain 6/Brain 6 Collider Beams 3.mcl
+Generations/Brain 6/Brain 6 Collider Beams 4.mcl
+Generations/Brain 6/Brain 6 Collider Beams 5.mcl
+Generations/Brain 6/Brain 6 Collider Beams 6.mcl
+Generations/Brain 6/Brain 6 Collider Beams 7.mcl
+Generations/Brain 6/Brain 6 Collider Beams 8.mcl
+Generations/Brain 6/Brain 6 Collider Beams 9.mcl
+Generations/Brain 6/Brain 6 Collider Beams-10.mcl
+Generations/Brain 6/Brain 6 Collider Beams-11.mcl
+Generations/Brain 6/Brain 6 Collider Beams-12.mcl
+Generations/Brain 6/Brain 6 Collider Beams-13.mcl
+Generations/Brain 6/Brain 6 Collision Studies 1.mcl
+Generations/Brain 6/Brain 6 comparison.mcl
+Generations/Brain 6/Brain 6 Deflection1.mcl
+Generations/Brain 6/Brain 6 Double  Trouble.mcl
+Generations/Brain 6/Brain 6 Extenders 1.mcl
+Generations/Brain 6/Brain 6 Extenders 2.mcl
+Generations/Brain 6/Brain 6 Extenders 3.mcl
+Generations/Brain 6/Brain 6 Extenders 4.mcl
+Generations/Brain 6/Brain 6 FX 1.mcl
+Generations/Brain 6/Brain 6 FX 2.mcl
+Generations/Brain 6/Brain 6 FX 3.mcl
+Generations/Brain 6/Brain 6 FX 4.mcl
+Generations/Brain 6/Brain 6 FX 5.mcl
+Generations/Brain 6/Brain 6 FX 6.mcl
+Generations/Brain 6/Brain 6 FX 7.mcl
+Generations/Brain 6/Brain 6 FX 8.mcl
+Generations/Brain 6/Brain 6 FX 9.mcl
+Generations/Brain 6/Brain 6 Gamma Platform.mcl
+Generations/Brain 6/Brain 6 Operations 1.mcl
+Generations/Brain 6/Brain 6 Operations 2.mcl
+Generations/Brain 6/Brain 6 Operations 3.mcl
+Generations/Brain 6/Brain 6 Operations 4.mcl
+Generations/Brain 6/Brain 6 Oscillator Bomber 2.mcl
+Generations/Brain 6/Brain 6 Oscillator Bomber.mcl
+Generations/Brain 6/Brain 6 Oscillators 1.mcl
+Generations/Brain 6/Brain 6 Oscillators 2.mcl
+Generations/Brain 6/Brain 6 Oscillators 3.mcl
+Generations/Brain 6/Brain 6 Oscillators 4.mcl
+Generations/Brain 6/Brain 6 Oscillators 6.mcl
+Generations/Brain 6/Brain 6 Oscillators 7.mcl
+Generations/Brain 6/Brain 6 P18 Gun 1.mcl
+Generations/Brain 6/Brain 6 P18 Gun 2.mcl
+Generations/Brain 6/Brain 6 P18 Gun 3.mcl
+Generations/Brain 6/Brain 6 Rebound 1.mcl
+Generations/Brain 6/Brain 6 Rebound 2.mcl
+Generations/Brain 6/Brain 6 Rebound 3.mcl
+Generations/Brain 6/Brain 6 Rebound 4.mcl
+Generations/Brain 6/Brain 6 Rebound 5.mcl
+Generations/Brain 6/Brain 6 Seed 1.mcl
+Generations/Brain 6/Brain 6 Seed 2.mcl
+Generations/Brain 6/Brain 6 Seed 3.mcl
+Generations/Brain 6/Brain 6 Seed 4.mcl
+Generations/Brain 6/Brain 6 Seed 5.mcl
+Generations/Brain 6/Brain 6 Sextuple bomber.mcl
+Generations/Brain 6/Brain 6 Spirals 1.mcl
+Generations/Brain 6/Brain 6 Spirals 2.mcl
+Generations/Brain 6/Brain 6 Spirals 3.mcl
+Generations/Brain 6/Brain 6 Stretch Ship.mcl
+Generations/Brain 6/Brain 6 Tiling 1.mcl
+Generations/Brain 6/Brain 6 Tiling 2.mcl
+Generations/Brain 6/Brain 6 Tiling 3.mcl
+Generations/Brain 6/Brain 6 Wagtails.mcl
+Generations/Brain 6/Brain 6 X-Bomber 2.mcl
+Generations/Brain 6/Brain 6 X-Bomber.mcl
+Generations/Brain 6/Brain 6 X-Flotilla.mcl
+Generations/Brain 6/Brain 6.mcl
+Generations/Brian's Brain/Aqua.mcl
+Generations/Brian's Brain/Bomber 01.mcl
+Generations/Brian's Brain/Bomber 02.mcl
+Generations/Brian's Brain/Bomber 03.mcl
+Generations/Brian's Brain/Bomber 04.mcl
+Generations/Brian's Brain/Bomber 05.mcl
+Generations/Brian's Brain/Bomber 06.mcl
+Generations/Brian's Brain/Bombs.mcl
+Generations/Brian's Brain/Brian's Brain Oscillators.mcl
+Generations/Brian's Brain/Brian's Brain.mcl
+Generations/Brian's Brain/Butterfly Gun p4 01.mcl
+Generations/Brian's Brain/Butterfly Gun p4 02.mcl
+Generations/Brian's Brain/Butterfly Gun p4 03.mcl
+Generations/Brian's Brain/Butterfly Gun p8 01.mcl
+Generations/Brian's Brain/Butterfly Gun p8 02.mcl
+Generations/Brian's Brain/Butterfly Gun p8 03.mcl
+Generations/Brian's Brain/Butterfly Gun p8 04.mcl
+Generations/Brian's Brain/Butterfly Gun p8 05.mcl
+Generations/Brian's Brain/Butterfly Gun p8 06.mcl
+Generations/Brian's Brain/Double bomber 01.mcl
+Generations/Brian's Brain/Double bomber 02.mcl
+Generations/Brian's Brain/Double bomber 03.mcl
+Generations/Brian's Brain/Double bomber 04.mcl
+Generations/Brian's Brain/DSnake.mcl
+Generations/Brian's Brain/Extender.mcl
+Generations/Brian's Brain/Omega Fly.mcl
+Generations/Brian's Brain/Puffers.mcl
+Generations/Brian's Brain/Snake.mcl
+Generations/Brian's Brain/Speedy.mcl
+Generations/Brian's Brain/Stretcher.mcl
+Generations/Brian's Brain/Tripple Bomber 01.mcl
+Generations/Brian's Brain/Tripple Bomber 02.mcl
+Generations/Brian's Brain/Tripple Bomber 03.mcl
+Generations/Brian's Brain/Tripple Bomber 04.mcl
+Generations/Brian's Brain/What a mess.mcl
+Generations/Burst/Burst.mcl
+Generations/Burst/Cross.mcl
+Generations/Burst/Galaxy.mcl
+Generations/Burst/Oscillator.mcl
+Generations/Burst/Oscillators01.mcl
+Generations/Burst/Oscillators02.mcl
+Generations/Burst/Oscillators03.mcl
+Generations/Burst/Puffer.mcl
+Generations/Burst/PufferSeeds.mcl
+Generations/BurstII/BigOscillator.mcl
+Generations/BurstII/BurstII.mcl
+Generations/BurstII/EdgeOscils.mcl
+Generations/BurstII/Explosion.mcl
+Generations/BurstII/Fast and Slow.mcl
+Generations/BurstII/Oscillator p114.mcl
+Generations/BurstII/Oscillator p41.mcl
+Generations/BurstII/Oscillator p566.mcl
+Generations/BurstII/Oscillator p58.mcl
+Generations/BurstII/Oscillator p91.mcl
+Generations/BurstII/Oscillator p94.mcl
+Generations/BurstII/Oscillator p95.mcl
+Generations/BurstII/Oscillators01.mcl
+Generations/BurstII/Oscillators02.mcl
+Generations/BurstII/Oscillators03.mcl
+Generations/BurstII/OscillatorSeeds.mcl
+Generations/BurstII/SpaceshipLauncher.mcl
+Generations/BurstII/Spaceships.mcl
+Generations/BurstII/StellarEvolution.mcl
+Generations/BurstII/StillLifes.mcl
+Generations/BurstII/Stretchers.mcl
+Generations/BurstII/Tracklayer.mcl
+Generations/Caterpillars/4 brothers.mcl
+Generations/Caterpillars/At the hairdresser s.mcl
+Generations/Caterpillars/Caterpillars.mcl
+Generations/Caterpillars/Extender.mcl
+Generations/Chenille/Chenille.mcl
+Generations/Chenille/Oscillators.mcl
+Generations/Chenille/Ships.mcl
+Generations/Circuit Genesis/Circuit Genesis.mcl
+Generations/Cooties/Cooties.mcl
+Generations/Ebb&Flow/4cells 1.mcl
+Generations/Ebb&Flow/4cells 2.mcl
+Generations/Ebb&Flow/Beauty 01.mcl
+Generations/Ebb&Flow/Box.mcl
+Generations/Ebb&Flow/E2 lines.mcl
+Generations/Ebb&Flow/E3 lines 2.mcl
+Generations/Ebb&Flow/Ebb&Flow.mcl
+Generations/Ebb&Flow/Fun page 1.mcl
+Generations/Ebb&Flow/Fun page 2.mcl
+Generations/Ebb&Flow/Fuses 01.mcl
+Generations/Ebb&Flow/Fuses 02.mcl
+Generations/Ebb&Flow/Fuses 03.mcl
+Generations/Ebb&Flow/Fuses 04.mcl
+Generations/Ebb&Flow/Fuses 05.mcl
+Generations/Ebb&Flow/Fuses 06.mcl
+Generations/Ebb&Flow/Fuses 07.mcl
+Generations/Ebb&Flow/Fuses 08.mcl
+Generations/Ebb&Flow/Junction 3.mcl
+Generations/Ebb&Flow/Oscil 01.mcl
+Generations/Ebb&Flow/Oscil 02.mcl
+Generations/Ebb&Flow/Oscil 03.mcl
+Generations/Ebb&Flow/Oscil 04.mcl
+Generations/Ebb&Flow/Q-osc 1.mcl
+Generations/Ebb&Flow/Still lifes.mcl
+Generations/Ebb&Flow/Symm 1.mcl
+Generations/Ebb&Flow/Symm 2.mcl
+Generations/Ebb&Flow/Symm 3.mcl
+Generations/Ebb&Flow/Tiling 01.mcl
+Generations/Ebb&Flow/Tiling 02.mcl
+Generations/Ebb&Flow/Tiling 03.mcl
+Generations/Ebb&Flow/Tiling 04.mcl
+Generations/Ebb&Flow/Tiling 05.mcl
+Generations/Ebb&Flow/Tiling 06.mcl
+Generations/Ebb&Flow/Tiling 07.mcl
+Generations/Ebb&Flow/Tiling 08.mcl
+Generations/Ebb&Flow/Wavegd 01.mcl
+Generations/Ebb&Flow/Wavegd 02.mcl
+Generations/Ebb&Flow/Wavegd 03.mcl
+Generations/Ebb&Flow/Wavegd 04.mcl
+Generations/Ebb&Flow/Wavegd 05.mcl
+Generations/Ebb&Flow/Wavegd 06.mcl
+Generations/Ebb&Flow II/Blinkers 1.mcl
+Generations/Ebb&Flow II/Blinkers 2.mcl
+Generations/Ebb&Flow II/Ebb&Flow II.mcl
+Generations/Ebb&Flow II/Fuses 1.mcl
+Generations/Ebb&Flow II/Gliders 1.mcl
+Generations/Ebb&Flow II/Gliders 2.mcl
+Generations/Ebb&Flow II/Gliders 3.mcl
+Generations/Ebb&Flow II/Gliders 4.mcl
+Generations/Ebb&Flow II/Gliders 5.mcl
+Generations/Ebb&Flow II/Waveguides 1.mcl
+Generations/Faders/Eggs.mcl
+Generations/Faders/Faders.mcl
+Generations/Faders/Great hope.mcl
+Generations/Fireworks/Cross.mcl
+Generations/Fireworks/Exploder.mcl
+Generations/Fireworks/Fireworks 01.mcl
+Generations/Fireworks/Fireworks 02.mcl
+Generations/Fireworks/Rose.mcl
+Generations/Fireworks/Spark.mcl
+Generations/FlamingStarbows/FlamingStarbows.mcl
+Generations/Frogs/Elements.mcl
+Generations/Frogs/Frogs.mcl
+Generations/Frozen spirals/Frozen spirals.mcl
+Generations/Glisserati/Glisserati.mcl
+Generations/Glissergy/Glissergy.mcl
+Generations/Incredible Machines/Incredible machines.mcl
+Generations/Lava/Lava.mcl
+Generations/Lines/Lines.mcl
+Generations/LivingOnTheEdge/LivingOnTheEdge.mcl
+Generations/MeteorGuns/MeteorGuns.mcl
+Generations/Nova/Nova.mcl
+Generations/Nova/Perpents.mcl
+Generations/Nova/Pulsars.mcl
+Generations/Nova/Sunbeams.mcl
+Generations/Nova/Sunshine.mcl
+Generations/Nova/Super.mcl
+Generations/OrthoGo/OrthoGo.mcl
+Generations/Prairie on fire/Prairie on fire.mcl
+Generations/RainZha/RainZha.mcl
+Generations/Rake/2 expanding rakes.mcl
+Generations/Rake/2 puffers.mcl
+Generations/Rake/2 rake puffer.mcl
+Generations/Rake/4 puffers.mcl
+Generations/Rake/5 asymmetrical ships.mcl
+Generations/Rake/5 rake ship.mcl
+Generations/Rake/9 symmetrical ships.mcl
+Generations/Rake/Another rake puffer.mcl
+Generations/Rake/Double rake.mcl
+Generations/Rake/Expanding square.mcl
+Generations/Rake/Rake puffer.mcl
+Generations/Rake/Rake Ships.mcl
+Generations/Rake/Rake.mcl
+Generations/Rake/Rotator.mcl
+Generations/SediMental/Loom.mcl
+Generations/SediMental/SediMental.mcl
+Generations/SediMental/Seed 2x1.mcl
+Generations/SediMental/Seed 4x4.mcl
+Generations/SediMental/Seed 6x5.mcl
+Generations/SediMental/Seed 8x3.mcl
+Generations/Snake/4 Rake Puffer 1.mcl
+Generations/Snake/4 Rake Puffer 2.mcl
+Generations/Snake/Basic Ships.mcl
+Generations/Snake/Blinker tiling.mcl
+Generations/Snake/Bomber 1.mcl
+Generations/Snake/Bomber 2.mcl
+Generations/Snake/Box Track.mcl
+Generations/Snake/Carpet 1.mcl
+Generations/Snake/Carpet 2.mcl
+Generations/Snake/Carpet 3.mcl
+Generations/Snake/Carpet 4.mcl
+Generations/Snake/Complex Expansion 01.mcl
+Generations/Snake/Complex Expansion 02.mcl
+Generations/Snake/Complex Expansion 03.mcl
+Generations/Snake/Complex Expansion 04.mcl
+Generations/Snake/Complex Expansion 05.mcl
+Generations/Snake/Complex Expansion 06.mcl
+Generations/Snake/Complex Expansion 07.mcl
+Generations/Snake/Complex Expansion 08.mcl
+Generations/Snake/Complex Expansion 09.mcl
+Generations/Snake/Complex Puffers 01.mcl
+Generations/Snake/Complex Puffers 02.mcl
+Generations/Snake/Complex Puffers 03.mcl
+Generations/Snake/Complex Puffers 04.mcl
+Generations/Snake/Complex Puffers 05.mcl
+Generations/Snake/Complex Puffers 06.mcl
+Generations/Snake/Complex Puffers 07.mcl
+Generations/Snake/Complex Puffers 08.mcl
+Generations/Snake/Complex Puffers 09.mcl
+Generations/Snake/Complex Puffers 10.mcl
+Generations/Snake/Complex Puffers 11.mcl
+Generations/Snake/Complex Puffers 12.mcl
+Generations/Snake/Complex Puffers 13.mcl
+Generations/Snake/Complex Puffers 14.mcl
+Generations/Snake/Complex Puffers 15.mcl
+Generations/Snake/Complex Puffers 16.mcl
+Generations/Snake/Complex Puffers 17.mcl
+Generations/Snake/Cross Puffer.mcl
+Generations/Snake/Cross.mcl
+Generations/Snake/Dot Sequence Eater 1.mcl
+Generations/Snake/Dot Sequence Eater 2.mcl
+Generations/Snake/Dot Sequence Eater 3.mcl
+Generations/Snake/Dot Sequence Eater 4.mcl
+Generations/Snake/Double Rake Puffer 01.mcl
+Generations/Snake/Double Rake Puffer 02.mcl
+Generations/Snake/Double Rake Puffer 03.mcl
+Generations/Snake/Double Rake Puffer 04.mcl
+Generations/Snake/Double Rake Puffer 05.mcl
+Generations/Snake/Double Rake Puffer 06.mcl
+Generations/Snake/Double Rake Puffer 07.mcl
+Generations/Snake/Double Rake Puffer 08.mcl
+Generations/Snake/Double Rake Puffer 09.mcl
+Generations/Snake/Double Rake Puffer 10.mcl
+Generations/Snake/Double Rake Puffer 11.mcl
+Generations/Snake/Double Rake Puffer 12.mcl
+Generations/Snake/Double Rake Puffer 13.mcl
+Generations/Snake/Double Rake Puffer 14.mcl
+Generations/Snake/Double Rake Puffer 15.mcl
+Generations/Snake/Expanding Square.mcl
+Generations/Snake/Expanding wing.mcl
+Generations/Snake/Expansion 1.mcl
+Generations/Snake/Interactions 1.mcl
+Generations/Snake/Interactions 2.mcl
+Generations/Snake/Multi Rake Puffer 1.mcl
+Generations/Snake/Multi Rake Puffer 2.mcl
+Generations/Snake/Multi Rake Puffer 3.mcl
+Generations/Snake/Multi Rake Puffer 4.mcl
+Generations/Snake/Multi Rake Puffer 5.mcl
+Generations/Snake/Multi Rake Puffer 6.mcl
+Generations/Snake/Multi Rake Puffer 7.mcl
+Generations/Snake/Opposing puffers.mcl
+Generations/Snake/Oscillator 01.mcl
+Generations/Snake/Oscillator 02.mcl
+Generations/Snake/Oscillator 03.mcl
+Generations/Snake/Oscillator 04.mcl
+Generations/Snake/Oscillator 05.mcl
+Generations/Snake/Oscillator 06.mcl
+Generations/Snake/Oscillator 07.mcl
+Generations/Snake/Oscillator 08.mcl
+Generations/Snake/Oscillator 09.mcl
+Generations/Snake/Oscillator 10.mcl
+Generations/Snake/Oscillator 11.mcl
+Generations/Snake/Oscillator 12.mcl
+Generations/Snake/Oscillator 13.mcl
+Generations/Snake/Oscillator 14.mcl
+Generations/Snake/Oscillator 15.mcl
+Generations/Snake/Oscillator 16.mcl
+Generations/Snake/Oscillator 17.mcl
+Generations/Snake/Oscillator 18.mcl
+Generations/Snake/Oscillator 19.mcl
+Generations/Snake/Oscillator 20.mcl
+Generations/Snake/Oscillator 21.mcl
+Generations/Snake/Oscillator Array 1.mcl
+Generations/Snake/Oscillator Puffer.mcl
+Generations/Snake/Puffer 1.mcl
+Generations/Snake/Puffer 2.mcl
+Generations/Snake/Puffers 01.mcl
+Generations/Snake/Puffers 02.mcl
+Generations/Snake/Puffers 03.mcl
+Generations/Snake/Puffers 04.mcl
+Generations/Snake/Puffers 05.mcl
+Generations/Snake/Puffers 06.mcl
+Generations/Snake/Puffers 07.mcl
+Generations/Snake/Puffers 08.mcl
+Generations/Snake/Puffers 09.mcl
+Generations/Snake/Puffers 10.mcl
+Generations/Snake/Puffers 11.mcl
+Generations/Snake/Rotators.mcl
+Generations/Snake/Ship 1.mcl
+Generations/Snake/Ships 1.mcl
+Generations/Snake/Ships 2.mcl
+Generations/Snake/Ships 3.mcl
+Generations/Snake/Ships 4.mcl
+Generations/Snake/Ships 5.mcl
+Generations/Snake/Ships 6.mcl
+Generations/Snake/Ships 7.mcl
+Generations/Snake/Ships 8.mcl
+Generations/Snake/Shuttle 1.mcl
+Generations/Snake/Shuttle 2.mcl
+Generations/Snake/Shuttle 3.mcl
+Generations/Snake/Shuttle Puffer 1.mcl
+Generations/Snake/Shuttle Puffer 2.mcl
+Generations/Snake/Shuttle Puffer 3.mcl
+Generations/Snake/Single Stream Eaters.mcl
+Generations/Snake/Single Stream Puffers.mcl
+Generations/Snake/Snake.mcl
+Generations/Snake/Square 1.mcl
+Generations/Snake/Square 2.mcl
+Generations/Snake/Star 1.mcl
+Generations/Snake/Star 2.mcl
+Generations/Snake/Still Life 2.mcl
+Generations/Snake/Still Lifes.mcl
+Generations/Snake/Tiling 1.mcl
+Generations/Snake/Tiling 2.mcl
+Generations/Snake/Tiling 3.mcl
+Generations/SoftFreeze/SoftFreeze.mcl
+Generations/Spirals/Double spiral.mcl
+Generations/Spirals/Perfect spiral.mcl
+Generations/Spirals/Single spiral.mcl
+Generations/Spirals/Spirals 01.mcl
+Generations/Spirals/Spirals 02.mcl
+Generations/Spirals/Spirals.mcl
+Generations/StarWars/4p112gun.mcl
+Generations/StarWars/4p4gun.mcl
+Generations/StarWars/AdjGun1.mcl
+Generations/StarWars/AdjGun2.mcl
+Generations/StarWars/AdjGun3.mcl
+Generations/StarWars/AgainstCurrent.mcl
+Generations/StarWars/and.mcl
+Generations/StarWars/Beauty01.mcl
+Generations/StarWars/Burst into flame.mcl
+Generations/StarWars/Conveyer.mcl
+Generations/StarWars/CrossPuff.mcl
+Generations/StarWars/Digits.mcl
+Generations/StarWars/DSnake.mcl
+Generations/StarWars/Duplic.mcl
+Generations/StarWars/Duplicate.mcl
+Generations/StarWars/Elastic.mcl
+Generations/StarWars/extra2guns.mcl
+Generations/StarWars/ExtraGuns.mcl
+Generations/StarWars/Fireball gun.mcl
+Generations/StarWars/GunInhibitor.mcl
+Generations/StarWars/Guns1.mcl
+Generations/StarWars/Guns2.mcl
+Generations/StarWars/gunsofallperiods.mcl
+Generations/StarWars/HBattleShip.mcl
+Generations/StarWars/InhibCycle.mcl
+Generations/StarWars/Magic mirror.mcl
+Generations/StarWars/MemorySwitch.mcl
+Generations/StarWars/MoreGuns.mcl
+Generations/StarWars/MuchMoreGuns.mcl
+Generations/StarWars/nor.mcl
+Generations/StarWars/not.mcl
+Generations/StarWars/Objects.mcl
+Generations/StarWars/Oscs.mcl
+Generations/StarWars/P4LaserGenerator.mcl
+Generations/StarWars/P4LaserSwitch.mcl
+Generations/StarWars/Puffers.mcl
+Generations/StarWars/Relays.mcl
+Generations/StarWars/Ships.mcl
+Generations/StarWars/ShortLongLaser.mcl
+Generations/StarWars/Stableref.mcl
+Generations/StarWars/StarWars 01.mcl
+Generations/StarWars/StarWars 02.mcl
+Generations/StarWars/StarWars 03.mcl
+Generations/StarWars/Steeplechase.mcl
+Generations/StarWars/Still forms.mcl
+Generations/StarWars/Still-lifes.mcl
+Generations/StarWars/StrangeShips.mcl
+Generations/StarWars/Tiny.mcl
+Generations/StarWars/WaveFiller.mcl
+Generations/Sticks/3x5.mcl
+Generations/Sticks/Burning stick.mcl
+Generations/Sticks/Chain.mcl
+Generations/Sticks/Diagonal sticks.mcl
+Generations/Sticks/Electric fence.mcl
+Generations/Sticks/Fringetail.mcl
+Generations/Sticks/Heavy stick.mcl
+Generations/Sticks/Oscillators.mcl
+Generations/Sticks/Spiked stick.mcl
+Generations/Sticks/Sticks 01.mcl
+Generations/Sticks/Sticks 02.mcl
+Generations/Sticks/Sticks 03.mcl
+Generations/Sticks/Sticks 04.mcl
+Generations/Sticks/Sticks 05.mcl
+Generations/Sticks/Sticks 06.mcl
+Generations/Sticks/Sticks 07.mcl
+Generations/Sticks/Sticks 08.mcl
+Generations/Sticks/Sticks builder 01.mcl
+Generations/Sticks/Sticks builder 02.mcl
+Generations/Sticks/Sticks.mcl
+Generations/Sticks/SticksS1.mcl
+Generations/Sticks/SticksS2.mcl
+Generations/Sticks/The triangle.mcl
+Generations/Swirl/Bird seed.mcl
+Generations/Swirl/Super egg.mcl
+Generations/Swirl/Swirl - elements.mcl
+Generations/Swirl/Swirl.mcl
+Generations/Swirl/Swirlybird eggs.mcl
+Generations/ThrillGrill/ThrillGrill.mcl
+Generations/Transers/Bicarnate.mcl
+Generations/Transers/Bugs parade.mcl
+Generations/Transers/Bumper bugs.mcl
+Generations/Transers/Seed 01.mcl
+Generations/Transers/Seed 02.mcl
+Generations/Transers/Transers.mcl
+Generations/Transers/TransS1.mcl
+Generations/Transers/TransS2.mcl
+Generations/Transers/Widgets.mcl
+Generations/TransersII/Bomber 1.mcl
+Generations/TransersII/Cross Stretcher 1.mcl
+Generations/TransersII/Cross Stretcher 2.mcl
+Generations/TransersII/Cycle.mcl
+Generations/TransersII/Electric Fence 1.mcl
+Generations/TransersII/Electric Fence 2.mcl
+Generations/TransersII/Emitter 1.mcl
+Generations/TransersII/Emitter 2.mcl
+Generations/TransersII/Emitter 3.mcl
+Generations/TransersII/Emitter 3a.mcl
+Generations/TransersII/Emitter 4.mcl
+Generations/TransersII/Factory 1.mcl
+Generations/TransersII/Factory 2.mcl
+Generations/TransersII/Generator 1.mcl
+Generations/TransersII/Generator 2.mcl
+Generations/TransersII/Generator 3.mcl
+Generations/TransersII/Generator 4.mcl
+Generations/TransersII/Generator 5.mcl
+Generations/TransersII/Gun 01.mcl
+Generations/TransersII/Gun 02.mcl
+Generations/TransersII/Gun 03.mcl
+Generations/TransersII/Gun 04.mcl
+Generations/TransersII/Gun 05.mcl
+Generations/TransersII/Gun 06.mcl
+Generations/TransersII/Gun 07.mcl
+Generations/TransersII/Gun 08.mcl
+Generations/TransersII/Gun 09.mcl
+Generations/TransersII/Gun laying Puffer.mcl
+Generations/TransersII/Metronome.mcl
+Generations/TransersII/Oscillator Puffers.mcl
+Generations/TransersII/Oscillator trail.mcl
+Generations/TransersII/Oscillators 1.mcl
+Generations/TransersII/Oscillators 2.mcl
+Generations/TransersII/Oscillators 3.mcl
+Generations/TransersII/Puffers 1.mcl
+Generations/TransersII/Rigged Race.mcl
+Generations/TransersII/Ripple generator 2.mcl
+Generations/TransersII/Ripple generator.mcl
+Generations/TransersII/Seed 1.mcl
+Generations/TransersII/Still Life 2.mcl
+Generations/TransersII/Still Life.mcl
+Generations/TransersII/Stretcher 2.mcl
+Generations/TransersII/Stretcher 3.mcl
+Generations/TransersII/Stretcher.mcl
+Generations/TransersII/Stretchship.mcl
+Generations/TransersII/Super Gun 1.mcl
+Generations/TransersII/Super Gun 2.mcl
+Generations/TransersII/Tiling 1.mcl
+Generations/TransersII/TransersII.mcl
+Generations/Wanderers/Puffer.mcl
+Generations/Wanderers/Ships.mcl
+Generations/Wanderers/Wanderers.mcl
+Generations/Worms/Guns.mcl
+Generations/Worms/Oscillators.mcl
+Generations/Worms/Parents.mcl
+Generations/Worms/Ships.mcl
+Generations/Worms/Worms C08.mcl
+Generations/Worms/Worms C09.mcl
+Generations/Worms/Worms C10.mcl
+Generations/Worms/Worms C25.mcl
+Generations/Worms/Worms.mcl
+Generations/Worms/WormsS1.mcl
+Generations/Worms/WormsS2.mcl
+Generations/Worms/WormsS3.mcl
+Generations/Worms/WormsS4.mcl
+Generations/Worms/WormsS5.mcl
+Generations/Xtasy/Xtasy.mcl
+Larger than Life/Bugs/Bosco.mcl
+Larger than Life/Bugs/Bug1.mcl
+Larger than Life/Bugs/Bug2.mcl
+Larger than Life/Bugs/Bugs.mcl
+Larger than Life/Bugs/Still life.mcl
+Larger than Life/Bugs/Suicide.mcl
+Larger than Life/Bugsmovie/Blinkers.mcl
+Larger than Life/Bugsmovie/BugM1.mcl
+Larger than Life/Bugsmovie/BugM2.mcl
+Larger than Life/Bugsmovie/BugM3.mcl
+Larger than Life/Bugsmovie/Bugsmovie.mcl
+Larger than Life/Bugsmovie/Smoke.mcl
+Larger than Life/Globe/Globe.mcl
+Larger than Life/Globe/Seed 40x40.mcl
+Larger than Life/Globe/Seed 50x50.mcl
+Larger than Life/Globe/Seed r26.mcl
+Larger than Life/Globe/Seed r27.mcl
+Larger than Life/Gnarl/Gnarl.mcl
+Larger than Life/Majority/Majority.mcl
+Larger than Life/Majorly/Majorly.mcl
+Larger than Life/ModernArt/ArtStarter01.mcl
+Larger than Life/ModernArt/ArtStarter02.mcl
+Larger than Life/ModernArt/ArtStarter03.mcl
+Larger than Life/ModernArt/ArtStarter04.mcl
+Larger than Life/ModernArt/ArtStarter05.mcl
+Larger than Life/ModernArt/ModernArt.mcl
+Larger than Life/Waffle/Waffle.mcl
+Life/2x2/2x2.lif
+Life/34 Life/34 Life.lif
+Life/34 Life/bend.l
+Life/34 Life/shifttail.l
+Life/Amoeba/Amoeba.lif
+Life/Assimilation/Assimilation.lif
+Life/Coagulations/Coagulations.lif
+Life/Coagulations/QH Rook.lif
+Life/Coagulations/Quadrant Partition.lif
+Life/Conway's Life/1-per-gen.lif
+Life/Conway's Life/12gliders.lif
+Life/Conway's Life/2c5puffer.lif
+Life/Conway's Life/ACORN.LIF
+Life/Conway's Life/ADDER.LIF
+Life/Conway's Life/AQUA25.LIF
+Life/Conway's Life/AQUA25B.LIF
+Life/Conway's Life/b6.l
+Life/Conway's Life/baker.lif
+Life/Conway's Life/BARBRPOL.LIF
+Life/Conway's Life/BHEPTO.LIF
+Life/Conway's Life/BHEPTPUF.LIF
+Life/Conway's Life/billiards.lif
+Life/Conway's Life/BREEDER2.LIF
+Life/Conway's Life/BTRACK.LIF
+Life/Conway's Life/c124tubstretch.lif
+Life/Conway's Life/c12fuse.lif
+Life/Conway's Life/c12fuse2.lif
+Life/Conway's Life/c3turners.l
+Life/Conway's Life/c4d-connect.lif
+Life/Conway's Life/c4d-ext.lif
+Life/Conway's Life/c4d-main.lif
+Life/Conway's Life/c4d-oversize.lif
+Life/Conway's Life/c4d-stretch.lif
+Life/Conway's Life/c4puffer.lif
+Life/Conway's Life/cheshirecat.lif
+Life/Conway's Life/clock.lif
+Life/Conway's Life/counter.l
+Life/Conway's Life/crystal.lif
+Life/Conway's Life/delayer.l
+Life/Conway's Life/diag.rle
+Life/Conway's Life/DOUBLEX.LIF
+Life/Conway's Life/eatguns.l
+Life/Conway's Life/EDEN.LIF
+Life/Conway's Life/fence-2.l
+Life/Conway's Life/FORERAKE.LIF
+Life/Conway's Life/fuse-c4.lif
+Life/Conway's Life/FUSES.LIF
+Life/Conway's Life/FUSETURN.LIF
+Life/Conway's Life/futility.lif
+Life/Conway's Life/gliderarmyof256.lif
+Life/Conway's Life/gliderdup.l
+Life/Conway's Life/gliderdust.lif
+Life/Conway's Life/Gliders madness.mcl
+Life/Conway's Life/GLIDERS6.LIF
+Life/Conway's Life/gun p112.l
+Life/Conway's Life/gun p1246demo.l
+Life/Conway's Life/gun p144-1.l
+Life/Conway's Life/gun p15-3.l
+Life/Conway's Life/gun p179.l
+Life/Conway's Life/gun p184.l
+Life/Conway's Life/gun p30.l
+Life/Conway's Life/gun p30hwss.l
+Life/Conway's Life/gun p30lwss.l
+Life/Conway's Life/gun p44mwss.l
+Life/Conway's Life/gun p46-2.l
+Life/Conway's Life/gun p62.l
+Life/Conway's Life/gun p63.l
+Life/Conway's Life/gun p937.l
+Life/Conway's Life/GUN30.LIF
+Life/Conway's Life/GUNSTAR.LIF
+Life/Conway's Life/GUNSTAR3.LIF
+Life/Conway's Life/heisenburp-1.l
+Life/Conway's Life/heisenburp-30.lif
+Life/Conway's Life/heisenburp-46.lif
+Life/Conway's Life/hwss256.rle
+Life/Conway's Life/HWSSGUN.LIF
+Life/Conway's Life/logsize.rle
+Life/Conway's Life/lonedots.l
+Life/Conway's Life/LWSSGUN.LIF
+Life/Conway's Life/MAKEBILS.LIF
+Life/Conway's Life/MAKEFISH.LIF
+Life/Conway's Life/MAKEFUSE.LIF
+Life/Conway's Life/MAKEGUN.LIF
+Life/Conway's Life/MAKEHSLR.LIF
+Life/Conway's Life/MAKEOSCS.LIF
+Life/Conway's Life/MAKEPOLE.LIF
+Life/Conway's Life/makeshwss.l
+Life/Conway's Life/MAX.LIF
+Life/Conway's Life/MIRAGE.LIF
+Life/Conway's Life/multp9.l
+Life/Conway's Life/MWSSRAK2.LIF
+Life/Conway's Life/nudger90.rle
+Life/Conway's Life/osc p144.l
+Life/Conway's Life/osc p230.l
+Life/Conway's Life/osc p256.l
+Life/Conway's Life/osc p26.l
+Life/Conway's Life/osc p270.l
+Life/Conway's Life/osc p3.l
+Life/Conway's Life/osc p30.l
+Life/Conway's Life/osc p32.l
+Life/Conway's Life/osc p450.l
+Life/Conway's Life/osc p46.l
+Life/Conway's Life/osc p55.l
+Life/Conway's Life/osc p56.l
+Life/Conway's Life/osc p66.l
+Life/Conway's Life/osc p7.l
+Life/Conway's Life/osc p874.l
+Life/Conway's Life/osc stamp.l
+Life/Conway's Life/p15-3.l
+Life/Conway's Life/p18-2.l
+Life/Conway's Life/p36.l
+Life/Conway's Life/p48phoenix.rle
+Life/Conway's Life/p54blinker.l
+Life/Conway's Life/p90forwlwss-1.l
+Life/Conway's Life/p99fuse.lif
+Life/Conway's Life/PI.LIF
+Life/Conway's Life/pic62.lif
+Life/Conway's Life/piship-2.l
+Life/Conway's Life/PRIMES.LIF
+Life/Conway's Life/PSRTRAIN.LIF
+Life/Conway's Life/puff c3p18.l
+Life/Conway's Life/puff diagfun.l
+Life/Conway's Life/puff line1.l
+Life/Conway's Life/puff line3.l
+Life/Conway's Life/puff p16forwrake.l
+Life/Conway's Life/puff p18.l
+Life/Conway's Life/puff p32lwss-1.l
+Life/Conway's Life/puff p40.l
+Life/Conway's Life/puff p8-4.l
+Life/Conway's Life/PUFTRAIN.LIF
+Life/Conway's Life/PULLER.LIF
+Life/Conway's Life/RABBITS.LIF
+Life/Conway's Life/RAKE.LIF
+Life/Conway's Life/RAKE2.LIF
+Life/Conway's Life/RAKE3.LIF
+Life/Conway's Life/RAKEGUN.LIF
+Life/Conway's Life/RANDGUN.LIF
+Life/Conway's Life/relay p184-2.l
+Life/Conway's Life/relay p184-3.l
+Life/Conway's Life/relay p216.l
+Life/Conway's Life/RELAY.LIF
+Life/Conway's Life/RELAY2.LIF
+Life/Conway's Life/REVFUSE.LIF
+Life/Conway's Life/rle3.lif
+Life/Conway's Life/ROT8.LIF
+Life/Conway's Life/round.lif
+Life/Conway's Life/ROUND2.LIF
+Life/Conway's Life/RPENTO.LIF
+Life/Conway's Life/s1.l
+Life/Conway's Life/s3.l
+Life/Conway's Life/SAWTOOT5.LIF
+Life/Conway's Life/SAWTOOTH.LIF
+Life/Conway's Life/SHIFT.LIF
+Life/Conway's Life/ship c2 block.l
+Life/Conway's Life/ship c2 branch.l
+Life/Conway's Life/ship c3 dense.l
+Life/Conway's Life/ship c3 p45.l
+Life/Conway's Life/Ship c7.lif
+Life/Conway's Life/SLOPUF.LIF
+Life/Conway's Life/SPARK2PI.LIF
+Life/Conway's Life/SPDRRAKE.LIF
+Life/Conway's Life/SPIDER.LIF
+Life/Conway's Life/SPIDER2.LIF
+Life/Conway's Life/SPIDERS.LIF
+Life/Conway's Life/spinner.l
+Life/Conway's Life/spiral.l
+Life/Conway's Life/stargate.l
+Life/Conway's Life/sun.lif
+Life/Conway's Life/TIRETRAK.LIF
+Life/Conway's Life/TNDRBIRD.LIF
+Life/Conway's Life/TUBTRAX.LIF
+Life/Conway's Life/Vanishing star.lif
+Life/Conway's Life/VENETIA2.LIF
+Life/Conway's Life/VENETIAN.LIF
+Life/Conway's Life/WASYOKU.LIF
+Life/Conway's Life/wavestretch.lif
+Life/Conway's Life/weave.l
+Life/Conway's Life/WHALE5.LIF
+Life/Conway's Life/WING.LIF
+Life/Conway's Life/ws2.l
+Life/Conway's Life/ZIP2.LIF
+Life/Conway's Life/ZIPS.LIF
+Life/Coral/Coral.lif
+Life/Day & Night/daynight.l
+Life/Day & Night/daynightgun.rle
+Life/Day & Night/deletesjunk.l
+Life/Day & Night/dn-c3.lif
+Life/Day & Night/dn-c3diag.lif
+Life/Day & Night/dn-c3dstretch.lif
+Life/Day & Night/dn-c3stretch.lif
+Life/Day & Night/dn-c4diag.lif
+Life/Day & Night/DNNewSS.lif
+Life/Day & Night/DNOscs.lif
+Life/Day & Night/DNRockets.lif
+Life/Day & Night/DNSaguaro.lif
+Life/Day & Night/DNShips.lif
+Life/Day & Night/DNSideWinders.lif
+Life/Day & Night/DNStretchers.lif
+Life/Day & Night/DNWideWinders.lif
+Life/Day & Night/eaters.l
+Life/Day & Night/largeperiod.l
+Life/Day & Night/linepuffer.rle
+Life/Day & Night/makesp36.l
+Life/Day & Night/mother.l
+Life/Day & Night/nested.l
+Life/Day & Night/novap4top14.l
+Life/Day & Night/novasignitenova.l
+Life/Day & Night/p1100.l
+Life/Day & Night/p1200relay.l
+Life/Day & Night/p120nova.l
+Life/Day & Night/p1224p32gun.l
+Life/Day & Night/p128.l
+Life/Day & Night/p14reflect.l
+Life/Day & Night/p184nova.l
+Life/Day & Night/p200 rocket gun.lif
+Life/Day & Night/p207991871.l
+Life/Day & Night/p20block.l
+Life/Day & Night/p256p14.l
+Life/Day & Night/p256p32-1.l
+Life/Day & Night/p290relay.l
+Life/Day & Night/p2ships.l
+Life/Day & Night/p32duplicate-1.l
+Life/Day & Night/p32ignitesnova.l
+Life/Day & Night/p32top14-1.l
+Life/Day & Night/p32top40-1.l
+Life/Day & Night/p32top40turn.l
+Life/Day & Night/p32totwop40.l
+Life/Day & Night/p3diag.l
+Life/Day & Night/p3diagship.l
+Life/Day & Night/p40duplicate-2.l
+Life/Day & Night/p40p4.l
+Life/Day & Night/p40tobackp14.l
+Life/Day & Night/p40topuffer.l
+Life/Day & Night/p480diagc3.l
+Life/Day & Night/p4diag.l
+Life/Day & Night/p880.l
+Life/Day & Night/ripples.l
+Life/Day & Night/sawtooth177.rle
+Life/Day & Night/stamp.l
+Life/Day & Night/wickstretcher-1.l
+Life/Day & Night/wickstretcher-2.l
+Life/Day & Night/wickstretcher-3.l
+Life/Day & Night/wickstretcher-4.l
+Life/Diamoeba/Diamoeba.lif
+Life/Diamoeba/longdeath.l
+Life/Diamoeba/longlife.l
+Life/Diamoeba/Spacefiller.l
+Life/Diamoeba/Spaceship c 7.l
+Life/Flakes/Beauty01.mcl
+Life/Flakes/Flakes.lif
+Life/Flakes/Ladder birth.lif
+Life/Flakes/Ladder block.lif
+Life/Flakes/Ladder duplicator.lif
+Life/Flakes/Ladder kill.lif
+Life/Flakes/Ladder phase shift a.lif
+Life/Flakes/Ladder phase shift b.lif
+Life/Flakes/Ladder phase shift c.lif
+Life/Flakes/Ladder rotate 90 a.lif
+Life/Flakes/Ladder rotate 90 b.lif
+Life/Flakes/Ladder rotate 90 c.lif
+Life/Flakes/Ladder rotate 90 d.lif
+Life/Flakes/Ladder turn 180.lif
+Life/Gnarl/Gnarl.lif
+Life/HighLife/aperiodic.l
+Life/HighLife/bomber.l
+Life/HighLife/breeder-1.l
+Life/HighLife/breeder-2.l
+Life/HighLife/breeder-3.l
+Life/HighLife/duplicate.l
+Life/HighLife/growship.l
+Life/HighLife/HighLife.lif
+Life/HighLife/hl-c4diag.lif
+Life/HighLife/irregulargun.l
+Life/HighLife/linepuffer.l
+Life/HighLife/makereplicator.l
+Life/HighLife/osc-1.l
+Life/HighLife/osc-2.l
+Life/HighLife/p192bombergun.l
+Life/HighLife/p192gun.l
+Life/HighLife/p24.l
+Life/HighLife/p24gun.l
+Life/HighLife/p24lwssgun.l
+Life/HighLife/p24shuttle.l
+Life/HighLife/p2ship.l
+Life/HighLife/p3ship.l
+Life/HighLife/p48.l
+Life/HighLife/p48gun.l
+Life/HighLife/p48mwssgun.l
+Life/HighLife/p48rake-1.l
+Life/HighLife/p48rake-2.l
+Life/HighLife/p48relay.l
+Life/HighLife/p72gun.l
+Life/HighLife/p96.l
+Life/HighLife/p96gun.l
+Life/HighLife/p96puffer.l
+Life/HighLife/p96rake.l
+Life/HighLife/p96relay.l
+Life/HighLife/replicator.l
+Life/HighLife/tugofwar-1.l
+Life/HighLife/tugofwar-2.l
+Life/HighLife/turtle.l
+Life/InverseLife/InverseLife.mcl
+Life/Long life/Long life.lif
+Life/Maze/Maze.lif
+Life/Mazectric/Mazectric.lif
+Life/Move/Move.lif
+Life/Other/7div150ship.l
+Life/Other/7div300puffer.l
+Life/Other/c2p6.lif
+Life/Other/c2ships.l
+Life/Other/Diakonov s replicator.lif
+Life/Other/p204.l
+Life/Other/p204gun.l
+Life/Other/replicator-2.l
+Life/Other/ships.l
+Life/Other/Virus.lif
+Life/Other/wickstretcher.l
+Life/Pseudo life/Pseudo life.lif
+Life/Replicator/Replicator.lif
+Life/Seeds (2)/Bigrshp.lif
+Life/Seeds (2)/BIGSHP.LIF
+Life/Seeds (2)/BLGEN.LIF
+Life/Seeds (2)/BLTSHP.LIF
+Life/Seeds (2)/BPUF.LIF
+Life/Seeds (2)/COLT1S.LIF
+Life/Seeds (2)/DBLGEN.LIF
+Life/Seeds (2)/EATER.LIF
+Life/Seeds (2)/LL4BG.LIF
+Life/Seeds (2)/LN6GEN.LIF
+Life/Seeds (2)/LN7GEN.LIF
+Life/Seeds (2)/NGEN.LIF
+Life/Seeds (2)/NGEN2.LIF
+Life/Seeds (2)/NSHP2.LIF
+Life/Seeds (2)/Seed.mcl
+Life/Seeds (2)/Seeds (2).lif
+Life/Seeds (2)/SHPBL1.LIF
+Life/Seeds (2)/SHPBL2.LIF
+Life/Seeds (2)/SHPBL3.LIF
+Life/Seeds (2)/SHPGEN.LIF
+Life/Seeds (2)/SHPGN2.LIF
+Life/Seeds (2)/T1SPGN.LIF
+Life/Seeds (2)/TADPOL2.LIF
+Life/Seeds (2)/TADPOLS.LIF
+Life/Seeds (2)/TY3SHG.LIF
+Life/Seeds (2)/VBIGSHP.LIF
+Life/Seeds (2)/VLL3G.LIF
+Life/Serviettes/Serviettes.lif
+Life/Stains/Stains.lif
+Life/WalledCities/WalledCities.lif
+Margolus/BBM/BBM.mcl
+Margolus/BounceGas/BounceGas.mcl
+Margolus/BounceGasII/BounceGasII.mcl
+Margolus/Critters/Critters.mcl
+Margolus/HPP-Gas/HPP Gas.mcl
+Margolus/Pegg/Pegg.mcl
+Margolus/Rotations/Rotations.mcl
+Margolus/RotationsII/RotationsII.mcl
+Margolus/RotationsIII/RotationsIII.mcl
+Margolus/RotationsIV/RotationsIV.mcl
+Margolus/Sand/Sand.mcl
+Margolus/StringThing/StringThing.mcl
+Margolus/StringThingII/StringThingII.mcl
+Margolus/SwapOnDiag/SwapOnDiag.mcl
+Margolus/Tron/Tron.mcl
+Neumann binary/Aggregation/Aggregation.mcl
+Neumann binary/Birds/Birds.mcl
+Neumann binary/Colony/Colony.mcl
+Neumann binary/Crystal2/Crystal2.mcl
+Neumann binary/Crystal3a/Crystal3a.mcl
+Neumann binary/Crystal3b/Crystal3b.mcl
+Neumann binary/Fredkin2/Fredkin2.mcl
+Neumann binary/Fredkin3/Fredkin3.mcl
+Neumann binary/Galaxy/Galaxy.mcl
+Neumann binary/Greenberg/Greenberg.mcl
+Neumann binary/Honeycomb/Honeycomb.mcl
+Neumann binary/Knitting/Knitting.mcl
+Neumann binary/Lake/Lake.mcl
+Neumann binary/Plankton/Plankton.mcl
+Neumann binary/Pond/Beauty 01.mcl
+Neumann binary/Pond/Beauty 02.mcl
+Neumann binary/Pond/Beauty 03.mcl
+Neumann binary/Pond/Double guns 1.mcl
+Neumann binary/Pond/Double guns 2.mcl
+Neumann binary/Pond/Guns.mcl
+Neumann binary/Pond/Oscillators.mcl
+Neumann binary/Pond/Pond.mcl
+Neumann binary/Pond/Re-gun 2.mcl
+Neumann binary/Pond/Ships.mcl
+Neumann binary/Pond/Super puffer.mcl
+Neumann binary/Simpliski/Simpliski.mcl
+Neumann binary/Strata/Strata.mcl
+Neumann binary/Tanks/Tanks.mcl
+Neumann binary/Typhoon/Perfect.mcl
+Neumann binary/Typhoon/Typhoon.mcl
+Neumann binary/Wave/Wave.mcl
+Rules table/Balloons/Balloons.mcl
+Rules table/Balloons/QSpring.mcl
+Rules table/Balloons/Spring 01.mcl
+Rules table/Balloons/Spring 02.mcl
+Rules table/Busy Brain/Busy Brain.mcl
+Rules table/Cars/Car factory.mcl
+Rules table/Cars/Cars parade.mcl
+Rules table/Cars/Cars.mcl
+Rules table/Cars/Diagonal cars.mcl
+Rules table/Cars/Highway.mcl
+Rules table/Cars/Oscillators.mcl
+Rules table/Cars/Puffers.mcl
+Rules table/Cars/Seeds.mcl
+Rules table/Cars/Wrecked cars.mcl
+Rules table/Cheops/Beauty01.mcl
+Rules table/Cheops/Call.mcl
+Rules table/Cheops/Carriers.mcl
+Rules table/Cheops/Cheops.mcl
+Rules table/Cheops/Gun p8.mcl
+Rules table/Cheops/Ships.mcl
+Rules table/Conway's Life/Conway table.mcl
+Rules table/Cooties 2/Cooties 2.mcl
+Rules table/Crawlers/Crab gun.mcl
+Rules table/Crawlers/Crawlers gallery.mcl
+Rules table/Crawlers/Crawlers.mcl
+Rules table/Crawlers/Oscillators.mcl
+Rules table/Crawlers/Primordial soup.mcl
+Rules table/EcoLiBra/EcoLiBra.mcl
+Rules table/Empire/Empire.mcl
+Rules table/Fire sticks/Fire sticks.mcl
+Rules table/Ladders/Ladders.mcl
+Rules table/Piranha/Piranha.mcl
+Rules table/RanBrain/RanBrain.mcl
+Rules table/Strangers/Strangers.mcl
+Rules table/WireWorld/Barrier.mcl
+Rules table/WireWorld/Bistable.mcl
+Rules table/WireWorld/Clock.mcl
+Rules table/WireWorld/Clocks.mcl
+Rules table/WireWorld/Diode.mcl
+Rules table/WireWorld/FlipFlop.mcl
+Rules table/WireWorld/Gate AND.mcl
+Rules table/WireWorld/Gate NOT.mcl
+Rules table/WireWorld/Gate OR.mcl
+Rules table/WireWorld/Gate XOR.mcl
+Rules table/WireWorld/GP GateAND.mcl
+Rules table/WireWorld/GP Gates.mcl
+Rules table/WireWorld/GP Gates2.mcl
+Rules table/WireWorld/GP MemoryCell.mcl
+Rules table/WireWorld/GP Pulsars.mcl
+Rules table/WireWorld/GP WireCrossing.mcl
+Rules table/WireWorld/GP WireCrossing2.mcl
+Rules table/WireWorld/IW FlipFlop.mcl
+Rules table/WireWorld/IW MemoryGate.mcl
+Rules table/WireWorld/IW WireCrossing.mcl
+Rules table/WireWorld/MemoryCell2.mcl
+Rules table/WireWorld/MF MemoryCell.mcl
+Rules table/WireWorld/mult.mcl
+Rules table/WireWorld/TG GateAND.mcl
+Rules table/WireWorld/TG GateAND2.mcl
+Rules table/WireWorld/TG GateNAND.mcl
+Rules table/WireWorld/TG GateNOT.mcl
+Rules table/WireWorld/TG GateXOR.mcl
+Rules table/WireWorld/TG WireCrossing.mcl
+Rules table/WireWorld/TG WireCrossing2.mcl
+Rules table/WireWorld/TG WireCrossing3.mcl
+Rules table/WireWorld/TM WireCrossing.mcl
+Rules table/WireWorld/WireWorld.mcl
+Rules table/WireWorld/WWTest.mcl
+Vote for Life/Feux/Feux.mcl
+Vote for Life/Fredkin/Fredkin.mcl
+Vote for Life/Vote/Vote.mcl
+Vote for Life/Vote 4-5/Vote4_5.mcl
+Weighted Generations/Knight Ships/KS001.mcl
+Weighted Generations/Knight Ships/KS002.mcl
+Weighted Generations/Knight Ships/KS003.mcl
+Weighted Generations/Knight Ships/KS004.mcl
+Weighted Generations/Knight Ships/KS005.mcl
+Weighted Generations/Knight Ships/KS006.mcl
+Weighted Generations/Knight Ships/KS007.mcl
+Weighted Generations/Knight Ships/KS008.mcl
+Weighted Generations/Knight Ships/KS009.mcl
+Weighted Generations/Knight Ships/KS010.mcl
+Weighted Generations/Knight Ships/KS011.mcl
+Weighted Generations/Knight Ships/KS012.mcl
+Weighted Generations/Knight Ships/KS013.mcl
+Weighted Generations/Knight Ships/US001.mcl
+Weighted Generations/Unsorted/R001_P010.mcl
+Weighted Generations/Unsorted/R001_P025.mcl
+Weighted Generations/Unsorted/R001_S018.mcl
+Weighted Generations/Unsorted/R001_S026.mcl
+Weighted Generations/Unsorted/R002_S003.mcl
+Weighted Generations/Unsorted/R003_I001.mcl
+Weighted Generations/Unsorted/R003_M001.mcl
+Weighted Generations/Unsorted/R003_O014.mcl
+Weighted Generations/Unsorted/R005_O003.mcl
+Weighted Generations/Unsorted/R005_SS001.mcl
+Weighted Generations/Unsorted/R006_O001.mcl
+Weighted Generations/Unsorted/R006_S004.mcl
+Weighted Generations/Unsorted/R010_SD001.mcl
+Weighted Generations/Unsorted/R011_G001.mcl
+Weighted Generations/Unsorted/R014_O001.mcl
+Weighted Generations/Unsorted/R016_O001.mcl
+Weighted Generations/Unsorted/R019_DP002.mcl
+Weighted Generations/Unsorted/R019_DS004.mcl
+Weighted Generations/Unsorted/R019_P001.mcl
+Weighted Generations/Unsorted/R019_S003.mcl
+Weighted Generations/Unsorted/R021_DS005.mcl
+Weighted Generations/Unsorted/R022_DS001.mcl
+Weighted Generations/Unsorted/R024_DG002.mcl
+Weighted Generations/Unsorted/R024_O003.mcl
+Weighted Generations/Unsorted/R026_KP001.mcl
+Weighted Generations/Unsorted/R030_G001.mcl
+Weighted Generations/Unsorted/R039_R001.mcl
+Weighted Generations/Unsorted/R040_DP001.mcl
+Weighted Generations/Unsorted/R040_P001.mcl
+Weighted Generations/Unsorted/R042_O001.mcl
+Weighted Generations/Unsorted/R043_DST001.mcl
+Weighted Generations/Unsorted/R044_DP001.mcl
+Weighted Generations/Unsorted/R047_O001.mcl
+Weighted Generations/Unsorted/R048_MG001.mcl
+Weighted Generations/Unsorted/R048_O003.mcl
+Weighted Generations/Unsorted/R051_DS009.mcl
+Weighted Generations/Unsorted/R055_DF001.mcl
+Weighted Generations/Unsorted/R057_S001.mcl
+Weighted Generations/Unsorted/R062_DS001.mcl
+Weighted Generations/Unsorted/R066_S004.mcl
+Weighted Generations/Unsorted/R073_S003.mcl
+Weighted Generations/Unsorted/R075_DS005.mcl
+Weighted Generations/Unsorted/R076_O004.mcl
+Weighted Generations/Unsorted/R078_P003.mcl
+Weighted Generations/Unsorted/R079_DS003.mcl
+Weighted Generations/Unsorted/R080_SS001.mcl
+Weighted Generations/Unsorted/R081_O007.mcl
+Weighted Generations/Unsorted/R083_S005.mcl
+Weighted Generations/Unsorted/R085_G001.mcl
+Weighted Generations/Unsorted/R087_S006.mcl
+Weighted Generations/Unsorted/R089_O015.mcl
+Weighted Generations/Unsorted/R089_P015.mcl
+Weighted Generations/Unsorted/R089_SD002.mcl
+Weighted Generations/Unsorted/R094_S006.mcl
+Weighted Generations/Unsorted/R095_DS004.mcl
+Weighted Generations/Unsorted/R096_DP006.mcl
+Weighted Generations/Unsorted/R097_P007.mcl
+Weighted Generations/Unsorted/R098_S004.mcl
+Weighted Generations/Unsorted/R099_O006.mcl
+Weighted Generations/Unsorted/R100_C001.mcl
+Weighted Generations/Unsorted/R102_O009.mcl
+Weighted Generations/Unsorted/R102_O013.mcl
+Weighted Generations/Unsorted/R102_O015.mcl
+Weighted Generations/Unsorted/R102_S004.mcl
+Weighted Generations/Unsorted/R103_S005.mcl
+Weighted Generations/Unsorted/R105_DS004.mcl
+Weighted Generations/Unsorted/R105_P007.mcl
+Weighted Generations/Unsorted/R105_SD001.mcl
+Weighted Generations/Unsorted/R106_O003.mcl
+Weighted Generations/Unsorted/R107_DS006.mcl
+Weighted Generations/Unsorted/R107_P001.mcl
+Weighted Generations/Unsorted/R109_S004.mcl
+Weighted Generations/Unsorted/R110_S002.mcl
+Weighted Generations/Unsorted/R110_SD001.mcl
+Weighted Generations/Unsorted/R111_O002.mcl
+Weighted Generations/Unsorted/R111_S004.mcl
+Weighted Generations/Unsorted/R112_G012.mcl
+Weighted Generations/Unsorted/R114_P001.mcl
+Weighted Generations/Unsorted/R117_S002.mcl
+Weighted Generations/Unsorted/R118_S004.mcl
+Weighted Generations/Unsorted/R118_S007.mcl
+Weighted Generations/Unsorted/R119_EP001.mcl
+Weighted Generations/Unsorted/R122_S001.mcl
+Weighted Generations/Unsorted/R123_S002.mcl
+Weighted Generations/Unsorted/R124_DS005.mcl
+Weighted Generations/Unsorted/R125_S003.mcl
+Weighted Generations/Unsorted/R126_P001.mcl
+Weighted Generations/Unsorted/R127_DS004.mcl
+Weighted Generations/Unsorted/R130_O007.mcl
+Weighted Generations/Unsorted/R131_O002.mcl
+Weighted Generations/Unsorted/R131_S002.mcl
+Weighted Generations/Unsorted/R131_SP003.mcl
+Weighted Generations/WG Rule004/R004_G002.mcl
+Weighted Generations/WG Rule004/R004_G009.mcl
+Weighted Generations/WG Rule004/R004_G017.mcl
+Weighted Generations/WG Rule004/R004_G033.mcl
+Weighted Generations/WG Rule004/R004_O002.mcl
+Weighted Generations/WG Rule004/R004_O011.mcl
+Weighted Generations/WG Rule004/R004_O012.mcl
+Weighted Generations/WG Rule004/R004_O018.mcl
+Weighted Generations/WG Rule004/R004_O020.mcl
+Weighted Generations/WG Rule004/R004_O033.mcl
+Weighted Generations/WG Rule004/R004_O034.mcl
+Weighted Generations/WG Rule004/R004_O040.mcl
+Weighted Generations/WG Rule012/R012_DP001.mcl
+Weighted Generations/WG Rule012/R012_DP002.mcl
+Weighted Generations/WG Rule012/R012_DP003.mcl
+Weighted Generations/WG Rule012/R012_DS019.mcl
+Weighted Generations/WG Rule012/R012_SD001.mcl
+Weighted Generations/WG Rule020/R020_DP004.mcl
+Weighted Generations/WG Rule020/R020_DS001.mcl
+Weighted Generations/WG Rule031/R031_P001.mcl
+Weighted Generations/WG Rule031/R031_S002.mcl
+Weighted Generations/WG Rule038/R038_G001.mcl
+Weighted Generations/WG Rule050/R050_DP002.mcl
+Weighted Generations/WG Rule050/R050_DS006.mcl
+Weighted Generations/WG Rule063/R063_S015.mcl
+Weighted Generations/WG Rule063/R063_SD002.mcl
+Weighted Generations/WG Rule071/R071_G004.mcl
+Weighted Generations/WG Rule071/R071_O002.mcl
+Weighted Generations/WG Rule071/R071_O004.mcl
+Weighted Generations/WG Rule072/R072_O002.mcl
+Weighted Generations/WG Rule072/R072_O018.mcl
+Weighted Generations/WG Rule072/R072_O028.mcl
+Weighted Generations/WG Rule074/R074_DP002.mcl
+Weighted Generations/WG Rule074/R074_DST001.mcl
+Weighted Generations/WG Rule074/R074_O001.mcl
+Weighted Generations/WG Rule084/R084_S005.mcl
+Weighted Generations/WG Rule084/R084_S010.mcl
+Weighted Life/Ben's Rule/Ben's Rule.mcl
+Weighted Life/Ben's Rule/BR - Oscillators.mcl
+Weighted Life/Ben's Rule/BR - Puffers.mcl
+Weighted Life/Ben's Rule/BR - Ships.mcl
+Weighted Life/Ben's Rule/BR9 - Diagonal ships.mcl
+Weighted Life/Ben's Rule/BR9.mcl
+Weighted Life/Ben's Rule/BR99.mcl
+Weighted Life/Ben's Rule/Stills.mcl
+Weighted Life/Border/Border.mcl
+Weighted Life/Bricks/Bricks parade.mcl
+Weighted Life/Bricks/Bricks.mcl
+Weighted Life/Bricks/Collisions.mcl
+Weighted Life/Bricks/Fun.mcl
+Weighted Life/Bricks/Puffers.mcl
+Weighted Life/Bricks/Ships.mcl
+Weighted Life/Bricks/Still life.mcl
+Weighted Life/Bricks/Stretcher.mcl
+Weighted Life/Bustle/Cross.mcl
+Weighted Life/Bustle/Puffers 01.mcl
+Weighted Life/Bustle/Puffers 02.mcl
+Weighted Life/Bustle/Puffers 03.mcl
+Weighted Life/Bustle/Puffers 04.mcl
+Weighted Life/Bustle/Puffers 05.mcl
+Weighted Life/Bustle/Puffers 06.mcl
+Weighted Life/Bustle/Puffers 07.mcl
+Weighted Life/Bustle/Ships 01.mcl
+Weighted Life/Bustle/Ships 02.mcl
+Weighted Life/Bustle/Ships 03.mcl
+Weighted Life/Bustle/Stable.mcl
+Weighted Life/Bustle/Stretcher 01.mcl
+Weighted Life/Bustle/Stretcher 02.mcl
+Weighted Life/Bustle/Stretcher 03.mcl
+Weighted Life/Career/Career.mcl
+Weighted Life/Career/Elements.mcl
+Weighted Life/Career/Oscillators.mcl
+Weighted Life/Career/PuffersDOWN c.mcl
+Weighted Life/Career/SpaceshipsDOWN c 2.mcl
+Weighted Life/Career/SpaceshipsDOWN c.mcl
+Weighted Life/Career/SpaceshipsUP c 2.mcl
+Weighted Life/Career/SpaceshipsUP c 3.mcl
+Weighted Life/Career/SpaceshipsUp c 4.mcl
+Weighted Life/Career/SpaceshipsUP c 6.mcl
+Weighted Life/Cloud54/Cloud54.mcl
+Weighted Life/Cloud75/Cloud75.mcl
+Weighted Life/Conway/Conway.mcl
+Weighted Life/Conway++/Conway++.mcl
+Weighted Life/Conway+-1/Conway+-1.mcl
+Weighted Life/Conway+-2/Conway+-2.mcl
+Weighted Life/Conway--/Conway--.mcl
+Weighted Life/CrossPorpoises/CrossPorpoises.mcl
+Weighted Life/Cyclish/Cyclish 02.mcl
+Weighted Life/Cyclish/Cyclish.mcl
+Weighted Life/Cyclones/Cyclones.mcl
+Weighted Life/Dragon/Dragon.mcl
+Weighted Life/Emergence/Emergence.mcl
+Weighted Life/Fire-flies/4 bumpers.mcl
+Weighted Life/Fire-flies/Bumpers.mcl
+Weighted Life/Fire-flies/Extended line.mcl
+Weighted Life/Fire-flies/Fire-flies.mcl
+Weighted Life/Fire-flies/Light parade.mcl
+Weighted Life/Fire-flies/Studies01.mcl
+Weighted Life/Fleas/Fleas.mcl
+Weighted Life/Fleas/Flotilla.mcl
+Weighted Life/Fleas/Genesis.mcl
+Weighted Life/Fleas/Puffer.mcl
+Weighted Life/Fleas/Seed.mcl
+Weighted Life/Fleas/Ships.mcl
+Weighted Life/Fleas2/Fleas2.mcl
+Weighted Life/FroggyHex/FroggyHex.mcl
+Weighted Life/Frost M/Frost M.mcl
+Weighted Life/Frost N/Frost N.mcl
+Weighted Life/Gnats/Gnats.mcl
+Weighted Life/Hex Inverse Fire/Hex Inverse Fire.mcl
+Weighted Life/HexParity/HexParity.mcl
+Weighted Life/Hexrule b2o/Duplicate 1.mcl
+Weighted Life/Hexrule b2o/Duplicate 2.mcl
+Weighted Life/Hexrule b2o/Duplicate 3 - Rake.mcl
+Weighted Life/Hexrule b2o/Eater.mcl
+Weighted Life/Hexrule b2o/Glider.mcl
+Weighted Life/Hexrule b2o/Gun p20.mcl
+Weighted Life/Hexrule b2o/Gun p200.mcl
+Weighted Life/Hexrule b2o/Gun p210a.mcl
+Weighted Life/Hexrule b2o/Gun p210b.mcl
+Weighted Life/Hexrule b2o/Gun p42.mcl
+Weighted Life/Hexrule b2o/Gun p43.mcl
+Weighted Life/Hexrule b2o/Gun p840.mcl
+Weighted Life/Hexrule b2o/Hexrule b2o.mcl
+Weighted Life/Hexrule b2o/Infinite growth.mcl
+Weighted Life/Hexrule b2o/Osc p11.mcl
+Weighted Life/Hexrule b2o/Osc p14.mcl
+Weighted Life/Hexrule b2o/Osc p17.mcl
+Weighted Life/Hexrule b2o/Osc p18.mcl
+Weighted Life/Hexrule b2o/Osc p19.mcl
+Weighted Life/Hexrule b2o/Osc p22.mcl
+Weighted Life/Hexrule b2o/Osc p26.mcl
+Weighted Life/Hexrule b2o/Osc p29.mcl
+Weighted Life/Hexrule b2o/Osc p42a.mcl
+Weighted Life/Hexrule b2o/Osc p42b.mcl
+Weighted Life/Hexrule b2o/Osc p46.mcl
+Weighted Life/Hexrule b2o/Osc p66.mcl
+Weighted Life/Hexrule b2o/Osc p7.mcl
+Weighted Life/Hexrule b2o/Osc p9.mcl
+Weighted Life/Hexrule b2o/Quadratic growth.mcl
+Weighted Life/Hexrule b2o/Reflect - Bouncing glider.mcl
+Weighted Life/Hexrule b2o/Reflect - Looped gliders.mcl
+Weighted Life/Hexrule b2o/Reflect 1.mcl
+Weighted Life/Hexrule b2o/Reflect 2.mcl
+Weighted Life/Hexrule b2o/Reflect 3.mcl
+Weighted Life/Hexrule b2o/Scissors.mcl
+Weighted Life/Hexrule b2o/Spaceship factory.mcl
+Weighted Life/Hexrule b2o/Spaceship p15.mcl
+Weighted Life/Hexrule b2o/Spaceship p48.mcl
+Weighted Life/Hexrule b2o/Stalk Breeder 1.mcl
+Weighted Life/Hexrule b2o/Stalk Breeder 2.mcl
+Weighted Life/Hexrule b2o/Sunny oscillators.mcl
+Weighted Life/Hexrule b2o/Synthesize 1.mcl
+Weighted Life/Hextenders/Hextenders.mcl
+Weighted Life/HGlass/HGlass.mcl
+Weighted Life/Hogs/Hogs.mcl
+Weighted Life/Jitters/Jitters.mcl
+Weighted Life/Lemmings/Lemmings.mcl
+Weighted Life/Linguini/Linguini.mcl
+Weighted Life/Madness/Madness.mcl
+Weighted Life/MazeMakers/MazeMakers.mcl
+Weighted Life/MidgeDN/Max.mcl
+Weighted Life/MidgeDN/MidgeDN.mcl
+Weighted Life/MidgeDN/Rectangle.mcl
+Weighted Life/Midges/Guns.mcl
+Weighted Life/Midges/Midges.mcl
+Weighted Life/Midges/Puffer c24.mcl
+Weighted Life/Midges/Puffer c6 a.mcl
+Weighted Life/Midges/Puffer c6 b.mcl
+Weighted Life/Midges/Super Fly.mcl
+Weighted Life/Midges/Various midges.mcl
+Weighted Life/MikesAnts/MikesAnts.mcl
+Weighted Life/Mosquito/Mosquito.mcl
+Weighted Life/Mosquito2/Mosquito2.mcl
+Weighted Life/Navaho1/Construction 1.mcl
+Weighted Life/Navaho1/Construction 3.mcl
+Weighted Life/Navaho1/Containment vessel.mcl
+Weighted Life/Navaho1/Eatership.mcl
+Weighted Life/Navaho1/Echo chamber.mcl
+Weighted Life/Navaho1/Fencelayer.mcl
+Weighted Life/Navaho1/Fireship.mcl
+Weighted Life/Navaho1/Gapped fence layers.mcl
+Weighted Life/Navaho1/Gun 1.mcl
+Weighted Life/Navaho1/Gun 2.mcl
+Weighted Life/Navaho1/Gun 3.mcl
+Weighted Life/Navaho1/Gun 4.mcl
+Weighted Life/Navaho1/Gun 5.mcl
+Weighted Life/Navaho1/Gun 51.mcl
+Weighted Life/Navaho1/Gun 6.mcl
+Weighted Life/Navaho1/Gun 7 Connect.mcl
+Weighted Life/Navaho1/Gun 7.mcl
+Weighted Life/Navaho1/Laser.mcl
+Weighted Life/Navaho1/Navaho1.mcl
+Weighted Life/Navaho1/P13 Oscillator.mcl
+Weighted Life/Navaho1/P14 Oscillator.mcl
+Weighted Life/Navaho1/Seed 1.mcl
+Weighted Life/Navaho1/Seed 2.mcl
+Weighted Life/Navaho1/Seed 3.mcl
+Weighted Life/Navaho1/Ships.mcl
+Weighted Life/Navaho1/Tracklayer 1.mcl
+Weighted Life/Navaho1/Tracklayer 2.mcl
+Weighted Life/Navaho1/Tracksweeper.mcl
+Weighted Life/Nocturne/Nocturne.mcl
+Weighted Life/NoFleas2/NoFleas2.mcl
+Weighted Life/Parity/Parity 01.mcl
+Weighted Life/Parity/Parity 02.mcl
+Weighted Life/Pictures/Pictures.mcl
+Weighted Life/PicturesH/PicturesH 01.mcl
+Weighted Life/PicturesH/PicturesH 02.mcl
+Weighted Life/Pinwheels/Pinwheels.mcl
+Weighted Life/PipeFleas/PipeFleas.mcl
+Weighted Life/PreHogs/PreHogs.mcl
+Weighted Life/PuttPutt/Forms.mcl
+Weighted Life/PuttPutt/PuttPutt.mcl
+Weighted Life/SEmigration/SEmigration.mcl
+Weighted Life/Simple/Simple.mcl
+Weighted Life/Simple hex crystal/Simple hex crystal.mcl
+Weighted Life/Simple Inverse/Simple Inverse.mcl
+Weighted Life/Simple Inverse Fire/Simple Inverse Fire.mcl
+Weighted Life/Stampede/Stampede.mcl
+Weighted Life/Starbursts/Starbursts.mcl
+Weighted Life/Starbursts2/Starbursts2.mcl
+Weighted Life/Stream/Stream.mcl
+Weighted Life/UpDown1/UpDown1.mcl
+Weighted Life/UpDown2/UpDown2.mcl
+Weighted Life/Upstream/Upstream.mcl
+Weighted Life/Vineyard/Vineyard.mcl
+Weighted Life/Vineyard2/Vineyard2.mcl
+Weighted Life/Weevils/Weevils.mcl
+Weighted Life/Weighted Brain/Assembly Line.mcl
+Weighted Life/Weighted Brain/Beam editor 1.mcl
+Weighted Life/Weighted Brain/Beam editor 2.mcl
+Weighted Life/Weighted Brain/Beam editor 3.mcl
+Weighted Life/Weighted Brain/Beam editor 4.mcl
+Weighted Life/Weighted Brain/Beam Generator 1.mcl
+Weighted Life/Weighted Brain/Bombers 1.mcl
+Weighted Life/Weighted Brain/Bombers 2.mcl
+Weighted Life/Weighted Brain/Bombers 3.mcl
+Weighted Life/Weighted Brain/Bombers 4.mcl
+Weighted Life/Weighted Brain/Catch.mcl
+Weighted Life/Weighted Brain/Electric Fence.mcl
+Weighted Life/Weighted Brain/Extender 1.mcl
+Weighted Life/Weighted Brain/Extender 2.mcl
+Weighted Life/Weighted Brain/Marvel ships.mcl
+Weighted Life/Weighted Brain/Mod Oscillator gun.mcl
+Weighted Life/Weighted Brain/Modular Oscillator.mcl
+Weighted Life/Weighted Brain/Oscillator 1.mcl
+Weighted Life/Weighted Brain/Oscillator 3.mcl
+Weighted Life/Weighted Brain/Oscillator gun 1.mcl
+Weighted Life/Weighted Brain/Oscillator gun 2.mcl
+Weighted Life/Weighted Brain/Replicator.mcl
+Weighted Life/Weighted Brain/Seed 1.mcl
+Weighted Life/Weighted Brain/Self Repair.mcl
+Weighted Life/Weighted Brain/Stretcher.mcl
+Weighted Life/Weighted Brain/Sweepership.mcl
+Weighted Life/Weighted Brain/Triple Ply.mcl
+Weighted Life/Y-Chromosome/Y Chromosome.mcl
+Weighted Life/ZipperMakers/ZipperMakers.mcl

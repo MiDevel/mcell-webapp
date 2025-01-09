@@ -1,0 +1,15 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 300x100
+#SPEED 0
+#WRAP 0
+#D Short-long laser.
+#D 
+#D Made of a fireball gun with an obstacle in the shoot line.
+#D 
+#D Lionel Bonnetier
+#D May 99
+#L 41.A$40.3A$41.A5$.A..A5.A$12A$.A..A..A..A$.A..A$.4A$.A..A$.A..A40.A$.
+#L 5A38.3A$AA.A.A39.A$.A.CB$..A.A$..AAC$.A.A$AA.A7.A$.12A4.A21.A$..A..A..
+#L A..A4.3A19.3A$17.A21.A

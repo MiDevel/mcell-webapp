@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 120x80
+#WRAP 0
+#D Weighted Brain  This rule has several unique or at least rare
+#D entities.  Most common is this oscillator that doubles as a gun.
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 7.BB$7.AA11$7.AA$7.BB19$6.4A$5.B.BB.B$3.AB..AA..BA$3.AB..AA..BA$5.B.BB
+#L .B$6.4A10$3.5A.5A$..B.BB.3B.BB.B$AB..AA5.AA..BA$AB..AA5.AA..BA$..B.BB.
+#L 3B.BB.B$3.5A.5A

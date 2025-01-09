@@ -1,0 +1,28 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 240x240
+#SPEED 50
+#WRAP 0
+#D p4, p5, p9, p15, p17, p21 and p23 guns.
+#D 
+#D These are periods that cannot be attained using the constructions
+#D of adjgun1.mcl and adjgun2.mcl.  The periods 7, 11, 13 and 19
+#D are the only ones that remain to be done (as periods below 4 are
+#D impossible).
+#D 
+#D Some of these guns fire something more complicated than a single
+#D 6-cell spaceship every iteration.  For guns of the same period
+#D firing just that, see extra2guns.mcl.
+#D 
+#D The p4 and p5 guns occur commonly in random soups.
+#D The others were found by Stephen Silver, 1-7 May 1999.
+#L 47.A..A..A$46.9A$47.A5.A3$27.AB..A28.BC..A$28.5A26.A.5A$22.C.A..AA..A
+#L 20.C3.ABA.AA..A$19.A3.A.A.A22.C.A3.A.A.A$18.10A22.B10A$19.A..A4.A22.A.
+#L A..A4.A$26.3A30.3A$27.A32.A$.AAB$B.A.C$C3A$.A.BA11$54.A$52.ABCB$50.ABC
+#L 3.C$50.A..A.A.B$49.9A$50.A4.A$50.A4.A$49.9A$50.A..A.A.B$50.ABC3.C$52.A
+#L BCB$54.A12$3.B$C.AA47.A..A..A..A$B3AC26.BC17.12A$A.A.B13.C11.A.AAB14.
+#L AA.A7.A$3.A13.B.A..BC..ABC..3A16.A.A$17.4A.BC..ABC3.A18.AAB$19.A.A9.AB
+#L C17.A$16.CB.A30.A.BA$18.3A28.AA.A$19.A6.A..A.C18.4A$25.6A.B17.A..A$26.
+#L A3.AA.A16.A..A$26.A4.AA17.4A$25.AA5.AA16.A..A$26.A5.A17.A..A$26.A5.A
+#L 16.6A$24.C9A16.A..A$24.B.A..A..A$25.A

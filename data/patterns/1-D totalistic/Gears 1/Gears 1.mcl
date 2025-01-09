@@ -1,0 +1,18 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R5,C0,M1,S0,S7,S10,S11,B0
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 25
+#D Gears v.1
+#D 
+#D The rule produces randomly placed segments of gears
+#D (toothed wheels) of all sizes.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L IE.H.HIAF.EF3.D.HH.B.EH4.D4.FI..F.II3.I.I3.C3.DH..HDG6.CH3.AHIE5.I..D
+#L 8.F4.B3.ECE.A.G.B.D..EE3.CC..BG.I.D.GEI9.DBA.EFF.E9.F..BBA.B3.B.B.H.I
+#L 5.AD.GB5.E3.IG6.DH.B3.AIE.DEI4.C..H.C7.D4.IH.EH.A..C9.DBCD5.AI..A..IIC
+#L .D..DD3.HFF.CF..BA8.GI6.IG.G..IF6.EI.HA.I..EA5.F.BIH.D..BE..EG5.H5.H3.
+#L AGGHE..I.FE..D..G6.H

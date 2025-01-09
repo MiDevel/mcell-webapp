@@ -1,0 +1,19 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 240x240
+#WRAP 1
+#D Brain 6         Collider beams in offset positions to create a
+#D "spiral" geometry at the impact area.  What is being sought
+#D are transcients in the impact area like oscillators that are of
+#D interest.  In the example here, the offset geometry created 
+#D after the beams shut off doesnt yield anything of great interest
+#D at least out to 25,000 generations .
+#D 
+#D Michael Sweney   December 1999
+#L 14.AA5.AA$13.ABB5.BBA$13.B..AA.AA..B$14.A..3B..A$14.B3.B3.B$17.A.A$17.
+#L B.B$18.B$18.B$.AB12.BBA.ABB$AB.AB10.AA3.AA$AB7.BA7.B$..A6.BA$..AB.AB..
+#L A20.BA$3.BB..BB..B16.BA.BA$..AB.AB..A12.AB7.BA$..A6.BA11.AB6.A$AB7.BA
+#L 12.A..BA.BA$AB.AB16.B..BB..BB$.AB20.A..BA.BA$22.AB6.A$14.B7.AB7.BA$11.
+#L AA3.AA10.BA.BA$11.BBA.ABB12.BA$14.B$14.B$13.B.B$13.A.A$10.B3.B3.B$10.A
+#L ..3B..A$9.B..AA.AA..B$9.ABB5.BBA$10.AA5.AA

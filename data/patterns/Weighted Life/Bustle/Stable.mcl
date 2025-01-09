@@ -1,0 +1,11 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW2,NN1,NE2,WW1,ME0,EE1,SW2,SS1,SE2,HI4,RS2,RS4,RS5,RS7,RB3
+#BOARD 100x100
+#WRAP 0
+#D 
+#D Stable pattern.
+#D Brian Prentice  May 2000
+#D 
+#L 4.A$5.A$6.A$6.AA$A4.A..A$.A..A4.A$..AA6.A$3.A6.AA$4.A4.A..A$5.A..A4.A$
+#L 6.AA6.A$7.A6.AA$8.A4.A..A$9.A..A4.A$10.AA$11.A$12.A$13.A

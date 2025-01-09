@@ -1,0 +1,27 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 200x200
+#WRAP 1
+#D Brain 6        Beam generators can be set up to create impingement
+#D zones where, because of the geometry, interesting effects can be
+#D created.  Here is how oscillators in this rule were discovered:
+#D At generation 85 an oscillator appears.  It doesn't last long as it is
+#D struck almost immediately by new incoming debris and is converted
+#D into an oscillator of a second type at generation 99. This new
+#D oscillator is also soon obliterated.  The offset ratios of the beam
+#D generators can be changed to test for new entities.  I use this type
+#D of set up primarily for oscillator searches but different offsets yield
+#D interesting editing effects as well.
+#D 
+#D 
+#D 
+#D Michael Sweney  December 1999
+#L 4.AB$3.AB.AB$3.AB7.BA$5.A6.BA15.AA5.AA$5.AB.AB..A15.ABB5.BBA$6.BB..BB
+#L ..B13.B..AA.AA..B$5.AB.AB..A16.A..3B..A$5.A6.BA15.B3.B3.B$3.AB7.BA18.A
+#L .A$3.AB.AB24.B.B$4.AB27.B$33.B$30.BBA.ABB$30.AA3.AA$33.B10$5.B$..AA3.
+#L AA$..BBA.ABB$5.B$5.B27.BA$4.B.B24.BA.BA$4.A.A18.AB7.BA$.B3.B3.B15.AB6.
+#L A$.A..3B..A16.A..BA.BA$B..AA.AA..B13.B..BB..BB$ABB5.BBA15.A..BA.BA$.AA
+#L 5.AA15.AB6.A$25.AB7.BA$31.BA.BA$33.BA
+
+

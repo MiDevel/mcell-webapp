@@ -1,0 +1,16 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW1,NN1,NE9,WW1,ME0,EE9,SW1,SS9,SE9,HI0,RS2,RS3,RS4,RS10,RS11,RS
+#RULE 13,RS18,RS21,RS22,RS27,RS29,RS30,RS31,RS36,RS37,RS38,RS39,RS40,R
+#RULE B3,RB10,RB27
+#BOARD 150x150
+#SPEED 20
+#WRAP 1
+#CCOLORS 4
+#D An "L7" rotationally symmetrical weighted rule, variation of cloud54. The most interesting feature is
+#D a period 75 cloud that travels S and E by a ratio of 4 cells by 3 cells. Also commonly features some
+#D simple still lifes, a N glider, and a S by SW glider.
+#D 
+#D Ben Schaeffer 1999
+#L 11.A$10.BC$12.A$11.B17$B.C$A.B$.A16$58.A$56.AB.A$56.B3.A$60.B$57.C.AC$
+#L 59.C$58.CA$58.B$57.C$56.BA

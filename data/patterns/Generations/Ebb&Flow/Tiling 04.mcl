@@ -1,0 +1,113 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012478/36/18
+#BOARD 220x220
+#WRAP 1
+#D Ebb&Flow  Tesselations.  This is one of the tilings from the tilings 2
+#D file.  I have filled in the tangency points on the left to see what
+#D would happen under the rule (the tiling without the extra seeding is
+#D stable).  Note, I  also placed stabilizers on the corners.
+#D After invoking the rule, the tiling alters to a new stable state, by
+#D way of some interesting transition stages. The new stable pattern
+#D are the repeated hex like figures-the surrounding halo of still-lifes are
+#D "edge-effects"  arising from the fact we are using the rule on a bounded
+#D pattern.  Were the initial pattern extended out to infinity would the
+#D the resulting "hexes" be infinitely extended as well?
+#D 
+#D Perhaps a new field of "Computational Cellular Tiling" can arise
+#D from the fascinating intersection of CA and geometry.
+#D 
+#D Michael Sweney   November 1999
+#L 94.A$93.A.A$91.A..A..A$90.A7.A$$89.A9.A$$89.A9.A$$85.A.A..A7.A..A.A$
+#L 83.A5.3A5.3A5.A$82.A7.A..A.A..A7.A$$81.A9.A5.A9.A$$81.A9.A5.A9.A$$77.A
+#L .A..A7.A..A.A..A7.A..A.A$75.A5.3A5.3A5.3A5.3A5.A$74.A7.A..A.A..A7.A..A
+#L .A..A7.A$$73.A9.A5.A9.A5.A9.A$$73.A9.A5.A9.A5.A9.A$$69.A.A..A7.A..A.A
+#L ..A7.A..A.A..A7.A..A.A$67.A5.3A5.3A5.3A5.3A5.3A5.3A5.A$66.A7.A..A.A..A
+#L 7.A..A.A..A7.A..A.A..A7.A$$65.A9.A5.A9.A5.A9.A5.A9.A$$65.A9.A5.A9.A5.A
+#L 9.A5.A9.A$$61.A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A$59.A5.3A
+#L 5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.A$58.A7.A..A.A..A7.A..A.A..A7.A..A.A..A
+#L 7.A..A.A..A7.A$$57.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$57.A9.A5.A9.A5.A9.A5.
+#L A9.A5.A9.A$$53.A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..
+#L A.A$51.A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.A$50.A7.A..A.A..A7.A
+#L ..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A$$49.A9.A5.A9.A5.A9.A5.A9.
+#L A5.A9.A5.A9.A$$49.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$45.A.A..A7.A..A.
+#L A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A$43.A5.3A5.3A
+#L 5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.A$42.A7.A..A.A..A7.A..A.A..A
+#L 7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A$$41.A9.A5.A9.A5.A9.A5.
+#L A9.A5.A9.A5.A9.A5.A9.A$$41.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$
+#L 37.A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A
+#L .A..A7.A..A.A$35.A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A
+#L 5.3A5.A$34.A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A
+#L ..A.A..A7.A..A.A..A7.A$$33.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A
+#L 9.A$$33.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$29.A.A..A7.A..
+#L A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A
+#L ..A7.A..A.A$27.A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.
+#L 3A5.3A5.3A5.A$26.A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A
+#L ..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A$$25.A9.A5.A9.A5.A9.A5.A9.A5.A
+#L 9.A5.A9.A5.A9.A5.A9.A5.A9.A$$25.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A
+#L 9.A5.A9.A5.A9.A$$21.A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A
+#L 7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A$19.A5.3A5.3A5.3A
+#L 5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.A$18.A7.
+#L A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A
+#L .A..A7.A..A.A..A7.A..A.A..A7.A$$17.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A
+#L 5.A9.A5.A9.A5.A9.A5.A9.A$$17.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A
+#L 5.A9.A5.A9.A5.A9.A$$13.A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A
+#L ..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A$11.
+#L A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A
+#L 5.3A5.3A5.3A5.A$10.A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A
+#L .A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A$$9.A9.
+#L A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$9.A9.A
+#L 5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$5.A.A..A
+#L 7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A
+#L ..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A$3.A5.3A5.3A5.3A5.3A
+#L 5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.
+#L 3A5.A$..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A
+#L .A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A$$.A9.A
+#L 5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$A.A
+#L 183.A.A$.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A
+#L 9.A5.A9.A$$..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A
+#L 7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A$
+#L 3.A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.
+#L 3A5.3A5.3A5.3A5.3A5.3A5.A$5.A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A
+#L ..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.
+#L A..A7.A..A.A$$9.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.
+#L A9.A5.A9.A$$9.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A
+#L 9.A5.A9.A$$10.A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A
+#L 7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A$11.A5.3A5.
+#L 3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A
+#L 5.3A5.A$13.A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A
+#L ..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A$$17.A9.A5.A9.A
+#L 5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$17.A9.A5.A9.A5.A9.A
+#L 5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$18.A7.A..A.A..A7.A..A.A..A
+#L 7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A
+#L ..A.A..A7.A$19.A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.
+#L 3A5.3A5.3A5.3A5.3A5.A$21.A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A
+#L .A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A$$25.A9.A5.A
+#L 9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$25.A9.A5.A9.A5.A9.A5.A
+#L 9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$26.A7.A..A.A..A7.A..A.A..A7.A..A.A
+#L ..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A$27.A5.3A
+#L 5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.A$29.A.A
+#L ..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A
+#L 7.A..A.A..A7.A..A.A$$33.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A
+#L $$33.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$34.A7.A..A.A..A7.
+#L A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A$
+#L 35.A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.A$37.A.A
+#L ..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A
+#L 7.A..A.A$$41.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$41.A9.A5.A9.A5.
+#L A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$42.A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A
+#L ..A.A..A7.A..A.A..A7.A..A.A..A7.A$43.A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A
+#L 5.3A5.3A5.3A5.3A5.A$45.A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A
+#L ..A7.A..A.A..A7.A..A.A$$49.A9.A5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$49.A9.A
+#L 5.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$50.A7.A..A.A..A7.A..A.A..A7.A..A.A..A
+#L 7.A..A.A..A7.A..A.A..A7.A$51.A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A5.3A
+#L 5.A$53.A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A$$57.
+#L A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$57.A9.A5.A9.A5.A9.A5.A9.A5.A9.A$$58.A7.A
+#L ..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A$59.A5.3A5.3A5.3A5.3A5.3A
+#L 5.3A5.3A5.3A5.A$61.A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A$$
+#L 65.A9.A5.A9.A5.A9.A5.A9.A$$65.A9.A5.A9.A5.A9.A5.A9.A$$66.A7.A..A.A..A
+#L 7.A..A.A..A7.A..A.A..A7.A$67.A5.3A5.3A5.3A5.3A5.3A5.3A5.A$69.A.A..A7.A
+#L ..A.A..A7.A..A.A..A7.A..A.A$$73.A9.A5.A9.A5.A9.A$$73.A9.A5.A9.A5.A9.A
+#L $$74.A7.A..A.A..A7.A..A.A..A7.A$75.A5.3A5.3A5.3A5.3A5.A$77.A.A..A7.A..
+#L A.A..A7.A..A.A$$81.A9.A5.A9.A$$81.A9.A5.A9.A$$82.A7.A..A.A..A7.A$83.A
+#L 5.3A5.3A5.A$85.A.A..A7.A..A.A$$89.A9.A$$89.A9.A$$90.A7.A$91.A..A..A$
+#L 93.A.A$94.A

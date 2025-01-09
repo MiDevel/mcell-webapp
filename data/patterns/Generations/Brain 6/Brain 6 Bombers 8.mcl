@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 300x160
+#WRAP 1
+#D Brain 6  A spaceship and two bomber escorts generate a double
+#D beam.
+#D 
+#D 
+#D Michael Sweney   January 2000
+#L 8.AB$8.AB$10.AB.AB.A$11.AB..BB$13.AB.AA$18.BB$18.AA12$6.AB14.AB$..AB.A
+#L B.A..BA7.AB..B$.AB.AB.AB.AB3.BA..BA..BA$AB12.A..BA$AB13.BB.A$..AB10.A
+#L ..BA$4.AB.AB.AB3.BA..BA..BA$5.AB.A..BA7.AB..B$6.AB14.AB12$18.AA$18.BB$
+#L 13.AB.AA$11.AB..BB$10.AB.AB.A$8.AB$8.AB

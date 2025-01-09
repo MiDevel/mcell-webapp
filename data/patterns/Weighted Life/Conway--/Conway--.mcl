@@ -1,0 +1,18 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW5,NN1,NE5,WW1,ME0,EE1,SW5,SS1,SE5,HI0,RS3,RS6,RS7,RS10,RS11,RS
+#RULE 15,RB3,RB7,RB11,RB15
+#BOARD 200x200
+#SPEED 20
+#WRAP 1
+#CCOLORS 9
+#D Conway --: a Conway variation which subtracts the survival
+#D rule of 2 orthogonal neighbors, the result being that everything
+#D dies down quickly.
+#D 
+#D Ben Schaeffer, October 1999
+#L 53.A$51.AAB$53.A5$36.DB.BD$36.A3.A$37.ACA8$68.A$68.BAA$68.A3$51.A$49.A
+#L ..AB$51.A$$59.H$7.H50.H.H$6.AA51.H$6.AA$6.H9$5.AH$5.H3$.HA13.AH$H.H13.
+#L HB$H..H14.BH$.HH15.HA45.HH$12.AH50.H..H$12.HB51.HH$14.BH$14.HA60.HH$
+#L 75.H..H$75.H..H$76.HH$60.HH$59.H..H6.HH$58.H.HH.H5.HH$59.H..H$60.HH$$
+#L 77.H$76.H.H$77.H

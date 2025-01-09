@@ -1,0 +1,23 @@
+x = 71, y = 79, rule = B36/S23
+50boo$50bo7boo$38boo7boobo6b4o$38bo7boboo$36bobo8bo7bobobbobo$4boo11bo
+8bo8b3o9bo6boo6boo$b4oboboo6bobbo3b4o6b3o9boobo5boo6boo$oboobboboo4b3o
+bbobobb3o5bobo9boboo7bobobbobo$bo4bo7b4o3bobbo7bo11bo$5boo7bo8bo7boo
+10boo12b4o$58boo11$11bo$11bo34booboobb4obbooboo$3b3o3b3o7boo3boo18bobb
+obobb6obbobobbo$bob3o3boo9bobobo4boo8boo3boo4b10o4boo$obobo4boobb3o4b
+ooboo4booboobbooboo7boo10boo$obbo7b3o6bobobo5bobbobbobbo7bobbo8bobbo$b
+oo8b3o5boo3boo4boob4oboo8boo10boo9$63b3o$60booboo$60booboo$61bo$31boo
+12boo$boo9bo18boo12boo6boo$bbo9b3o38booboo3bo$bbobo10bo13b4o10b4o7bobb
+obboob4oboo$3bobo8bo10boobo4bo5boobo4bo6boob4oboobbobbo$5booboo4bobbo
+7booboo3bo5boobobbobo14bo3booboo$8boo7bo10bobboboboo5bobboboboo18boo$
+bboo11bobo10bobobboboo5bobobboboo$3bo11boobboo8b4o10b4o15bo$3o16bobo
+37booboo$o20bo7boo12boo14booboo$21boo6boo12boo13b3o8$32boo7boo$31bobbo
+5bobbo$30bobobo5bobobo$29bobooboo3booboobo$17bo5bo5bo4bo10bo$17boo3boo
+6b5o4boob3o$17boo3boo8bobo4boobo9bo$18bo3bo15boo12b3o8boo$37boo16bo7bo
+$20bo15boo16bo6bobo$19bobo15boo15bo3bobboo$18bo3bo13boo21bo$18bo3bo12b
+oo19bobbo$19bobo10boboo4bobo14b3o$6bobbo10bo9b3oboo4b5o$4bobboobbo17bo
+10bo4bo7boo$4bobboobbo6bo3bo6bobooboo3booboobo6bobo5boo$6b4o7boo3boo6b
+obobo5bobobo7bo7bo$4bobobbobo5boo3boo7bobbo5bobbo7boo8b3o$4boo4boo5bo
+5bo8boo7boo20bo!
+This is a collection of oscillators from Life that also work in HighLife.
+The first row is period 3, the next two rows are period 4, and the last
+row has periods 5, 6, 6, and 8.

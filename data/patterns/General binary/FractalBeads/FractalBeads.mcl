@@ -1,0 +1,25 @@
+#MCell 4.00
+#GAME General binary
+#RULE C4,NN,S16a,Baabab11a
+#BOARD 120x120
+#SPEED 20
+#WRAP 1
+#D This CA belongs to a large family of what we might call "Sierpinski rules",
+#D in virtue of the fact that they produce structures closely related to the
+#D so-called Sierpinski gasket, a well-known classical fractal.
+#D This particular rule propagates in the NW direction, but naturally
+#D each of its three rotations propagates in a different corner
+#D direction.  The considerable transmusical interest of this and other
+#D Sierpinski rules has been the occasion for my dabbling with them.
+#D 
+#D The humble "dot", the simplest of the simple seeds, a font
+#D of plenty under some rules and a complete bust under others.
+#D ORBIT(FractalBeads) - Our dot initiates a classic Sierpinski dance.
+#D (To see the Sierpinski gasket traced out by the "beads", just
+#D increase the rule's cellsize.)  A simple transmusical  rendering of
+#D the telocycle can be heard at http://jmge.net/camusic.htm.
+#D ORBIT(CellFarm) - The planting may be boring but don't miss the
+#D harvest :)
+#D 
+#D John Elliott.
+#L A

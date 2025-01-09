@@ -1,0 +1,11 @@
+#MCell 2.0
+#GAME Generations
+#RULE /2/3
+#BOARD 400x200
+#SPEED 10
+#WRAP 1
+#D Triple bomber
+#D 
+#D Mirek Wojtowicz, June 1999
+#L .AA$ABB$B3.A.BA$.AABB..BA$.B3.BA.BA$3.BA4.BA$10.BA$10.BA$3.BA4.BA$.B3.
+#L BA.BA$.AABB..BA$B3.A.BA$ABB$.AA

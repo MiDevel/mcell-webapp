@@ -1,0 +1,11 @@
+#MCell 2.20
+#GAME Generations
+#RULE 45678/25678/4
+#BOARD 200x100
+#SPEED 0
+#WRAP 1
+#CCOLORS 4
+#D "Sedimental" rule 2x1 seed
+#D 
+#D John Elliott, November 1999
+#L A$A

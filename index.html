@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCell, Cellular Automata Explorer</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/diversities-dialog.css" />
+    <link rel="stylesheet" href="styles/run-num-dialog.css" />
+    <link rel="stylesheet" href="styles/undo-dialog.css" />
+    <link rel="stylesheet" href="styles/settings-dialog.css" />
+    <link rel="stylesheet" href="styles/histogram-dialog.css" />
+    <link rel="stylesheet" href="styles/paint-tools.css" />
+    <link rel="stylesheet" href="styles/toast.css" />
+  </head>
+
+  <body>
+    <div id="app-container">
+      <div id="top-panel" class="panel">
+        <div class="split-button-group">
+          <button id="startStopBtn" class="control-button" title="Start/Stop (Enter)"></button>
+          <button id="speedBtn" class="control-button" title="Adjust Speed ([/])">
+            <svg class="svg-icon">
+              <use href="assets/icons.svg#mdi-menu-down" />
+            </svg>
+          </button>
+        </div>
+        <div class="split-button-group">
+          <button id="runOneBtn" class="control-button" title="Run One Cycle (Space)">
+            <svg class="svg-icon">
+              <use href="assets/icons.svg#mdi-numeric-1-circle-outline" />
+            </svg>
+          </button>
+          <button id="runNumBtn" class="control-button" title="Run Multiple Cycles">
+            <svg class="svg-icon">
+              <use href="assets/icons.svg#mdi-alpha-n-circle-outline" />
+            </svg>
+          </button>
+        </div>
+        <div class="split-button-group">
+          <button id="undoBtn" class="control-button" title="Undo (Z)">
+            <svg class="svg-icon">
+              <use href="assets/icons.svg#mdi-undo" />
+            </svg>
+          </button>
+          <button id="undoHistoryBtn" class="control-button" title="Undo History">
+            <svg class="svg-icon">
+              <use href="assets/icons.svg#mdi-menu-down" />
+            </svg>
+          </button>
+          <button id="redoBtn" class="control-button" title="Redo (Shift+Z)">
+            <svg class="svg-icon">
+              <use href="assets/icons.svg#mdi-redo" />
+            </svg>
+          </button>
+        </div>
+        <button id="rulesBtn" class="control-button" title="Rules">
+          <svg class="svg-icon">
+            <use href="assets/icons.svg#mdi-dna" />
+          </svg>
+        </button>
+        <button id="histogramBtn" class="control-button" title="Histogram">
+          <svg class="svg-icon">
+            <use href="assets/icons.svg#mdi-chart-bar" />
+          </svg>
+        </button>
+        <div class="right-align">
+          <div class="mode-toggle-group">
+            <button class="mode-button control-button mode-pan active" title="Pan Mode">
+              <svg class="svg-icon">
+                <use href="assets/icons.svg#mdi-hand-back-right" />
+              </svg>
+            </button>
+            <button class="mode-button control-button mode-paint" title="Draw Mode">
+              <svg class="svg-icon">
+                <use href="assets/icons.svg#mdi-pencil" />
+              </svg>
+            </button>
+          </div>
+          <button id="menuBtn" class="control-button" title="Menu">
+            <svg class="svg-icon">
+              <use href="assets/icons.svg#mdi-dots-vertical" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="main-content">
+        <button id="toggleLeftPanelBtn">
+          <svg class="svg-icon">
+            <use href="assets/icons.svg#mdi-menu" />
+          </svg>
+        </button>
+        <div id="left-panel" class="panel">
+          <div id="pattern-controls">
+            <label>Pattern browser</label>
+            <select id="viewMode" class="form-control">
+              <option value="Must-see rules">Must-see patterns</option>
+              <option value="Browse all">Browse all rules</option>
+            </select>
+            <hr />
+            <div id="pattern-browser">
+              <label for="family">Family:</label>
+              <select id="family"></select>
+              <label for="rule">Rule:</label>
+              <select id="rule"></select>
+            </div>
+            <ul id="pattern-list" class="pattern-list"></ul>
+          </div>
+        </div>
+        <div id="canvas-container">
+          <div id="board-container">
+            <canvas id="board-canvas"></canvas>
+          </div>
+        </div>
+      </div>
+      <div id="bottom-panel" class="panel">
+        <div id="controls-line">
+          <div class="left-align">
+            <button id="boardBtn" class="control-button" title="Customize Board">
+              <svg class="svg-icon">
+                <use href="assets/icons.svg#mdi-grid" />
+              </svg>
+            </button>
+            <button id="clearBtn" class="control-button" title="Clear board">
+              <svg class="svg-icon">
+                <use href="assets/icons.svg#mdi-broom" />
+              </svg>
+            </button>
+            <div class="split-button-group">
+              <button id="randomizeBtn" class="control-button" title="Randomize">
+                <svg class="svg-icon">
+                  <use href="assets/icons.svg#mdi-dice-5-outline" />
+                </svg>
+              </button>
+              <button id="randomizeSettingsBtn" class="control-button" title="Randomize settings">
+                <svg class="svg-icon">
+                  <use href="assets/icons.svg#mdi-menu-down" />
+                </svg>
+              </button>
+            </div>
+            <div class="split-button-group">
+              <button id="seedBtn" class="control-button" title="Seed with current settings">
+                <svg class="svg-icon">
+                  <use href="assets/icons.svg#mdi-sprout" />
+                </svg>
+              </button>
+              <button id="seedSettingsBtn" class="control-button" title="Seed settings">
+                <svg class="svg-icon">
+                  <use href="assets/icons.svg#mdi-menu-down" />
+                </svg>
+              </button>
+            </div>
+            <button id="diversitiesBtn" class="control-button" title="Configure diversities">
+              <svg class="svg-icon">
+                <use href="assets/icons.svg#mdi-auto-fix" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div id="status-line">
+          <div id="board-size-display"></div>
+          <div id="rule-display"></div>
+          <div id="cycle-display">Cycle: 0</div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="dist/index.js"></script>
+  </body>
+</html>

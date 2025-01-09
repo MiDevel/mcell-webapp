@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Generations
+#RULE 0345/26/6
+#BOARD 400x400
+#WRAP 1
+#D Transers II    As in Generator 1 but with two oscillators added to modify
+#D the output.
+#D 
+#D 
+#D Michael Sweney   June 2000
+#L 20.ACD$20.CDC$20.DCA4$13.A$12.A.BA$9.E4ACB$8.EE.A..A.A$8.A..A..AA$8.3A
+#L .3A$7.AA..A..A$6.A.A..A.EE$7.BC4AE$7.AB.A$9.A4$ACD$CDC$DCA

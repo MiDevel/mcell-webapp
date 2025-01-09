@@ -1,0 +1,36 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x200
+#SPEED 0
+#WRAP 0
+#D Stable reflectors.
+#D 
+#D At the top are some stable reflectors for the simple 6-cell spaceship.
+#D The first one is large, but it has the advantage that it works for periods as low as 5,
+#D whereas the second 90-degree one requires the period to be at least 21,
+#D the third requires at least 22, the fourth at least 13 and the fifth at least 19.
+#D 
+#D Along the middle are shown the first three of an infinite sequence of stable
+#D 180-degree reflectors for larger spaceships.
+#D 
+#D Another reflector for a large spaceship is at bottom left.
+#D 
+#D A reflector for a p6 spaceship is shown at bottom right.  This reflector works for all
+#D phases of the spaceship - the timing shown here is the one that produces no
+#D phase shift.
+#D 
+#D Stephen Silver, 27 April 1999 - 10 May 1999
+#L 50.A$49.3A$48.AA.AA$49.AA.AA61.A..A$50.3A46.A..A11.6A$.A..A46.A46.6A
+#L 11.AA.A$6A91.AA.A.A12.A$.A3.AA91.3A13.3A$.A4.AA91.A15.A$AA5.AA$.A6.AA
+#L 21.A$.A7.AA19.3A12.AA$AA8.AA17.AA.AA11.BB$.A8.A19.3A12.CC$.A8.A21.A$
+#L 12A19.3A$.A..A..A..A21.A27.A$59.3A$60.A3.A$60.AA.3A39.AA14.AA$11.AA14.
+#L AA30.3A..A40.BB14.BB$11.BB14.BB31.A44.CC14.CC$11.CC14.CC$$84.A$83.3A$
+#L 80.A3.A$63.AA14.3A.AA$63.BB15.A..3A$63.CC19.A8$82.AA$82.BB$82.CC5$28.A
+#L ..A..A17.A..A5.A17.A..A8.A$27.9A15.12A15.15A$28.A5.A17.A5.A..A17.A5.A
+#L ..A..A4$37.AA25.AA28.AA$37.BBA24.BBA27.BBA$37.CCBA23.CCBA26.CCBA$39.CB
+#L 25.CBA27.CBA$40.C26.CBA27.CBA$68.CBA27.CBA$69.CB28.CBA$70.C29.CBA$101.
+#L CBA$102.CB$103.C8$48.ABC$46.ABC$44.ABC$43.ABC$42.ABC$22.A19.ABC55.ABC$
+#L 21.3A74.ABC..B$22.AA.A70.ABC..B..C$22.A.3A67.ABC..BA.CB$22.AA.A66.ABC.
+#L ABC$21.3A66.ABC$22.A65.ABC$87.ABC$86.ABC$76.A9.ABC$75.3A$74.AA.A.A$75.
+#L 6A$76.A..A

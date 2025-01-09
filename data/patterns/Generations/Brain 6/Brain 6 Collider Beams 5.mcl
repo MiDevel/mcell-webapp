@@ -1,0 +1,16 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 240x240
+#WRAP 1
+#D Brain 6      Here the low frequency beam generators set up
+#D a butterfly factory until the beams shut off setting off a fleet of
+#D bombers.
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 13.AA$12.ABB$11.AB$11.B.A$13.BA$11.AB.B$6.AA4.BA$6.BBA.B.AB$8.B.B.A$9.
+#L AAB$$24.BA$24.BA$23.BA$22.A$22.ABB$22.B3.A.BA$23.AABB..BA$AB..AB18.BA.
+#L BA.BA$AB.AB.AB18.BA..BA$.AB..BBAA$..AB.A3.B$7.BBA$9.A$7.AB$6.AB$6.AB$$
+#L 20.BAA$19.A.B.B$18.BA.B.ABB$18.AB4.AA$17.B.BA$17.AB$18.A.B$19.BA$17.BB
+#L A$17.AA

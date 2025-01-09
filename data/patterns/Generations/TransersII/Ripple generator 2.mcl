@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Generations
+#RULE 0345/26/6
+#BOARD 140x140
+#WRAP 0
+#D Transers II   Ripple generators that have been modified, lined up in
+#D series.
+#D 
+#D 
+#D Michael Sweney   June 2000
+#L 5.A15.A$3.AB.BA11.AB.BA$..AC.A.CA9.AC.A.CA$.ACD3ADCA7.ACD3ADCA$.B.A3.A
+#L .B7.B.A3.A.B$A.AA3.AA.A5.A.AA3.AA.A$.B.A3.A.B7.B.A3.A.B$..CD3ADC9.CD3A
+#L DC$5.A15.A

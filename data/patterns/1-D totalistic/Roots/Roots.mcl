@@ -1,0 +1,16 @@
+#MCell 3.00
+#GAME 1-D totalistic
+#RULE R4,C0,M1,S1,S2,S5,S6,S9,B3,B4,B6
+#BOARD 200x200
+#SPEED 20
+#WRAP 1
+#CCOLORS 5
+#D Roots
+#D 
+#D This Class-4 CA produces thick tangled roots and interesting
+#D ornamental gliders.
+#D 
+#D Mirek Wojtowicz, January 2000
+#L 4A..A.3A3.AA..A3.A4.A.3A4.A3.A.A..AA3.A.A4.A..4A.A5.3A3.AA.AA.A..A3.4A
+#L ..A.AA.A.AA.3A.5A..A3.6A..3A..3A.AA.A3.A..5A..A..5A.A5.AA.3A.AA3.AA.A
+#L 3.A.AA.AA.A

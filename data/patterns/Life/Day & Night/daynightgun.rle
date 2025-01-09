@@ -1,0 +1,9 @@
+#C A period 200 rocket gun.
+#C This uses a small "engine" and two small period 8 spark oscillators.
+#C The engine emits a rocket whose exhaust (along with the period 8 sparks)
+#C perturbs the engine back to its original state.  This is the smallest
+#C known gun in Day & Night.
+#C David I. Bell, January 2000
+x = 17, y = 33, rule = B3678/S34678
+5b3obb3o$3b12o$b16o$b16o$3bo10bo$4b10o8$oob3o$7o$b7o$9o$b7o$7o$oob3o8$
+4b10o$3bo10bo$b16o$b16o$3b12o$5b3obb3o!

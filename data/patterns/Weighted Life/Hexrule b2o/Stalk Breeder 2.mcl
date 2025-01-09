@@ -1,0 +1,30 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW1,NN2,NE0,WW32,ME0,EE4,SW0,SS16,SE8,HI0,RS5,RS7,RS10,RS11,RS13
+#RULE ,RS14,RS15,RS17,RS19,RS20,RS21,RS22,RS23,RS25,RS26,RS27,RS28,RS2
+#RULE 9,RS30,RS34,RS35,RS37,RS38,RS39,RS40,RS41,RS42,RS43,RS44,RS45,RS
+#RULE 46,RS49,RS50,RS51,RS52,RS53,RS54,RS56,RS57,RS58,RS60,RB3,RB6,RB1
+#RULE 2,RB24,RB33,RB48
+#BOARD 100x100
+#SPEED 0
+#WRAP 1
+#CCOLORS 9
+#D Since the stalk is a linear growth pattern, a reasonable way to get
+#D quadratic growth would be to reproduce this collision again and again
+#D using a moving pattern.  I've already presented a rake that should work
+#D for this purpose.  The problem is not quite this simple, because one must
+#D make sure that the rake does not collide with the growing stalks, something 
+#D that would almost certainly happen with any three-rake construction to 
+#D reproduce the above synthesis.  A different stalk synthesis turns out to be
+#D more useful for building a breeder.
+#D 
+#D This combines two gliders with the 3-cell period-2 oscillator that 
+#D we've seen already as an eater.  The synthesis is dirtier than the 
+#D first, but eventually results in a stalk. The glider duplication 
+#D reaction can be modified to produce the 3-cell eater instead of a glider, 
+#D giving us a puffer for these objects.  The glider entering from the right 
+#D is not coming in a direction that we can produce with the rake given earlier, 
+#D so we need to add two extra spaceships as reflectors.
+#D 
+#D Paul Callahan, November 1997
+#L 10.A$10.A$..A8.A..A$3.AA7.A$13.A3$AA$..A$3.A$4.A$..A

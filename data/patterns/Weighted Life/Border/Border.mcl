@@ -1,0 +1,26 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW1,NN1,NE1,WW1,ME9,EE1,SW1,SS1,SE1,HI0,RS10,RS11,RS12,RS13,RS14
+#RULE ,RS15,RS16,RB1,RB2,RB3,RB4,RB5,RB6,RB7,RB8
+#BOARD 160x160
+#SPEED 20
+#WRAP 1
+#CCOLORS 6
+#D Border
+#D 
+#D Border is a rule which uses two bits. One of the bits is a background
+#D "cycle" bit, and the other bit is a visible on/off firing/dead bit.
+#D The Cycle bit toggles Border between two modes: Flood mode and
+#D Hollow mode. In Flood mode, Border turns on any cell which is touching
+#D a firing cell. In Hollow mode, Border turns off any cell which is at the center
+#D of an all-firing nine-cell neighborhood.
+#D 
+#D The effect of Border is that lines keep getting thick, splitting into two, having
+#D the new pieces get thick and split to make four, and so on. Many of the
+#D Border patterns are reminiscent of the mathematical objects called "Cantor sets."
+#D 
+#D Strictly speaking, this version has 8 more states than traditional Border would,
+#D but it seems to allow easier perception of the overall dynamics.
+#D 
+#D Coded in MCell by Charles A Rockafellor
+#L 56.A56$A

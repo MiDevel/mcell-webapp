@@ -1,0 +1,19 @@
+#MCell 4.00
+#GAME Generations
+#RULE 035678/245678/5
+#BOARD 80x80
+#WRAP 1
+#D Glissergy
+#D 
+#D This rule differs from Glisserati only in its cellsize (5 rather
+#D than 7).  As would be expected, this change is an activity
+#D booster - so much so, that, unlike Glisserati, this rule has long
+#D transients from random as well as simple starts.  Think of it as
+#D the pin-iferous answer to Brian's Brain.
+#D 
+#D The pattern shows a nice long glideriferous kaleidoscopic orbit.
+#D Under this rule, such orbits are innumerable yet each is unique,
+#D like snowflakes.
+#D 
+#D A rule by John Elliott, May 2000
+#L 4A$4A$4A$4A

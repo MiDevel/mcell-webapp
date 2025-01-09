@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW0,NN1,NE0,WW1,ME0,EE1,SW0,SS1,SE0,HI7,RS2,RB1,RB2,RB3
+#BOARD 120x120
+#SPEED 0
+#WRAP 1
+#CCOLORS 7
+#D "Cyclish" rule collection
+#D 
+#D Seed 1
+#D 
+#D John Elliott, August 1999
+#L AA$AA

@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 400x200
+#WRAP 0
+#D Brain 6  A beam generator with an editing convertor changing it 
+#D to a triple bomber.
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 10.AB.AB$8.AB.AB5.BA$6.AB..A..A4.BA$..AB.AB4.BB4.BA9.AA$AB.AB..BB19.BB
+#L $AB..AB.A3.A.A14.A$8.ABBAB.BA14.ABA$8.ABBAB.BA14.ABA$AB..AB.A3.A.A14.A
+#L $AB.AB..BB19.BB$..AB.AB4.BB4.BA9.AA$6.AB..A..A4.BA$8.AB.AB5.BA$10.AB.A
+#L B

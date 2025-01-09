@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 260x120
+#WRAP 1
+#D Weighted Brain  Here a bomber releases block bombers.
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 4.BA$3.AA.BA$.B..BB..BA$.A6.A.BA$..B.BB3.B..BA$..AA..A5.A.BA$BB3.B7.B
+#L ..BA$AA3.A6.A3.A.BA$6.BB5.B3.B..BA$6.AA12.A.BA$21.B..BA$21.A..A.BA$..
+#L BB..BB14.BABB..BA$..AA..AA16.B3.3A$26.BA.BA

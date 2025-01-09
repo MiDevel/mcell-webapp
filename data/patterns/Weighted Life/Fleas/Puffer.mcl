@@ -1,0 +1,14 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW5,NN1,NE5,WW1,ME0,EE1,SW5,SS1,SE5,HI0,RS2,RS3,RS6,RS7,RS10,RS1
+#RULE 1,RS15,RS20,RB2,RB11
+#BOARD 200x130
+#SPEED 20
+#WRAP 1
+#CCOLORS 9
+#D "Fleas" rule
+#D 
+#D A very interesting puffer.
+#D 
+#D Mirek Wojtowicz, November 1999
+#L 5.CA$AD4.B$.KIGECA$$.KIGECA$AD4.B$5.CA

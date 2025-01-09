@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW1,NN5,NE1,WW5,ME10,EE5,SW1,SS5,SE1,HI9,RS1,RS10,RB6,RB11,RB12,RB21
+#BOARD 160x160
+#SPEED 10
+#WRAP 1
+#D Fire-flies collection
+#D 
+#D Extended line
+#D 
+#D Mirek Wojtowicz, June 1999
+#L HH$GG$FF$EE$DD$CC$BB$AA20$.A..A$$.A24.ABCDEFGH$26.ABCDEFGH

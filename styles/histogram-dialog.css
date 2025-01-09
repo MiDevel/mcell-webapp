@@ -1,0 +1,108 @@
+.histogram-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #2b2b2b;
+  border: 1px solid #444;
+  border-radius: 5px;
+  color: #fff;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  gap: 1rem;
+  padding: 1rem;
+  max-height: calc(100vh - 6rem);
+}
+
+.histogram-dialog .dialog-header {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.histogram-dialog table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  max-height: 200px;
+  overflow-y: auto;
+  display: block;
+}
+
+.histogram-dialog th,
+.histogram-dialog td {
+  border: 1px solid #444;
+  padding: 5px 10px;
+  text-align: right;
+}
+
+.histogram-dialog th {
+  background: #333;
+}
+
+.histogram-dialog canvas {
+  border: 1px solid #444;
+  margin: 10px 0;
+}
+
+.histogram-dialog button {
+  padding: 5px 15px;
+  background: #444;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.histogram-dialog button:hover {
+  background: #555;
+}
+
+.histogram-dialog input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+/* Table container with scrollable content */
+.histogram-table-container {
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--bg-color);
+  min-height: 150px;
+  max-height: 300px;
+}
+
+.histogram-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.histogram-table th,
+.histogram-table td {
+  padding: 0.5rem;
+  text-align: right;
+  border: 1px solid var(--border-color);
+}
+
+.histogram-table th {
+  position: sticky;
+  top: 0;
+  background: var(--bg-color);
+  z-index: 1;
+}
+
+.histogram-controls {
+  margin-top: 1rem;
+}
+
+#histogram-chart {
+  width: 100%;
+  height: 200px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}

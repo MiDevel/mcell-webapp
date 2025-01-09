@@ -1,0 +1,21 @@
+#MCell 2.50
+#GAME Generations
+#RULE /2/3
+#BOARD 200x200
+#SPEED 200
+#WRAP 1
+#CCOLORS 3
+#D Ephemeral growing and shrinking patterns.
+#D 
+#D Lionel Bonnetier, May 1996
+#L 10.A.A.A.A.A.A.A.A.A.A.A.A$$10.A.A.A.A.A.A.A.A.A.A.A.A16$75.A.A.A.A.A.
+#L A$$75.A9.A$$75.A3.A.A3.A$$75.A3.A.A3.A$49.A.A.A.A$75.A9.A$49.A5.A$75.A
+#L .A.A.A.A.A$49.A5.A$$49.A.A.A.A$108.A.A.A.A$$108.A.A.A.A$$108.A.A.A.A7$
+#L 130.A.A.A.A$$130.A.A.A.A$$130.A.A.A.A$$130.A.A.A.A$42.A.A.A.A$83.A.A.A
+#L $42.A5.A$83.A.A.A$42.A.A.A.A$83.A.A.A5$106.A.A$$106.A.A12$A3.A57.A.A.A
+#L $$A3.A57.A.A.A$$A3.A$$A3.A135.A.A.A.A.A$$A3.A135.A.A.A.A.A$115.A.A.A$A
+#L 3.A135.A.A.A.A.A$115.A3.A$A3.A135.A.A.A.A.A$40.A3.A70.A.A.A$A3.A135.A.
+#L A.A.A.A$40.A3.A$A3.A$$A3.A13$74.A.A.A.A.A.A.A.A.A.A$$74.A.A.A.A.A.A.A.
+#L A.A.A$$74.A.A.A.A.A.A.A.A.A.A$$74.A.A.A.A.A.A.A.A.A.A$$74.A.A.A.A.A.A.
+#L A.A.A.A$$74.A.A.A.A.A.A.A.A.A.A$$74.A.A.A.A.A.A.A.A.A.A$131.A$74.A.A.A
+#L .A.A.A.A.A.A.A$131.A$74.A.A.A.A.A.A.A.A.A.A$$74.A.A.A.A.A.A.A.A.A.A

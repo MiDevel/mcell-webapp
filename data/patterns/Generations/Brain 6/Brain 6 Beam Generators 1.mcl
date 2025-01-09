@@ -1,0 +1,34 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 400x160
+#WRAP 1
+#D Brain 6         Beam generators used for collider beam studies.
+#D Beam generators are bombers that emit packets in the opposite
+#D direction to their movement.  They have at least five variables:
+#D (a) How many beams they emit; (b) the frequency of the beams packets
+#D (spacing between packets); (c) the amplitude of the beams in units
+#D between beams; (d) whether the beams are synchronous
+#D or asynchronous in multiple beam type generators; and (e) what
+#D type of beam packets are generated.  I use block packets
+#D preferentially, but any type of of backward traveling spaceship can
+#D comprise a beam element.  The usefulness of beam generators
+#D over bombers is that  beam collisions are confined to a fixed area
+#D on the plane and can be studied more easily because of that.
+#D Brian's Brain, this rule, and their cousins appear chaotic with
+#D random multiple seeds running, but they are highly ordered by their
+#D rules and beam generators take advantage of this order when used
+#D as tools in collision studies, oscillator interactions and editing effects.
+#D 
+#D Michael Sweney  December 1999
+#L 13.AB.AB$12.AB.AB.A$10.AB.AA..BA$9.AB.AB..BB$8.AB6.AB$8.AB6.AB$9.AB.AB
+#L ..BB$10.AB.AA..BA$12.AB.AB.A$13.AB.AB10$10.AB$9.AB.AB$9.AB7.BA$11.A6.B
+#L A$11.AB.AB..A$12.BB..BB..B$11.AB.AB..A$11.A6.BA$9.AB7.BA$9.AB.AB$10.AB
+#L 10$11.AB..BA$9.AB.AA..B$8.AB.AB.AB$8.AB..AB..BBA$13.AB.AB$14.AB10$15.A
+#L B$13.AB..A$11.AB..BBA$10.AB.AB.AB$10.AB3.AB6$9.AB$8.AB.AB$7.AB.A3.BA$
+#L 5.AB.AB5.ABA$4.AB..BBA6.B$3.AB.AB7.A.A$..AB3.AB5.ABB$AB6.AB3.AB.A$AB
+#L 11.AB$..AB7$12.AB$11.AB.AB$10.AB.AA$8.AB.AB..BBA$7.AB..BBA..BA$6.AB.AB
+#L ..A$6.AB3.AB$13.AB$14.AB5$14.AB$13.AB.AB$12.AB.AA$11.AB.AB..B$9.AB.AA
+#L ..BBA$8.AB.AB..B.A$8.AB9$15.AB$11.AB.AB..BA$10.AB.AB..B.BA$9.AB.AA..B.
+#L A.BA$8.AB.AB3.BA..BA$8.AB3.AB8$13.AB3.AB$13.AB.AB..B$15.AB..BA$16.AB.A
+#L $17.AB$19.AB

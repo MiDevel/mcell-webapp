@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R3,C10,M1,S3,S4,S5,B1,B3,B4,B5
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 10
+#D Maze
+#D 
+#D This rule produces 3-dimensional maze, with high walls.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L F3.CAEB4.FB.H.I6.A..G.G4.E5.G6.D3.B3.AIE.DEI4.C..H.C13.IH.EH.A..C11.B.
+#L C6.AI..A..II.I4.DD5.FF..A3.BA8.GI6.IG.G..I8.EI.HA5.EA5.F

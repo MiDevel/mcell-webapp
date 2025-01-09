@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 3456/2/6
+#BOARD 200x200
+#SPEED 10
+#WRAP 1
+#CCOLORS 6
+#D "Sticks" rule
+#D 
+#D Sticks builder
+#D 
+#D Mirek Wojtowicz, June 1999
+#L 11.BC$.CBA6.CDEDB$D.A3.ACA..BACAC.A$E6A.4A.CD5A$..5A.4A.CD5A$.AB3.ACA
+#L ..BACAC.A$10.CDEDB$11.BC

@@ -1,0 +1,15 @@
+#MCell 4.00
+#GAME General binary
+#RULE C0,NM,Sa6ba3bab3a3bab3ab7a3bab3ab7ab15a3bab3ab7ab15ab31a3bab3ab7
+#RULE ab15ab31ab63a,B5ab3abb6abbab12abbab3ab24abbab3ab7ab49abab3ab7ab1
+#RULE 5ab95a
+#BOARD 200x120
+#SPEED 20
+#WRAP 1
+#CCOLORS 2
+#D A glider duplicator reaction using c/4 ships.
+#D 
+#D David I. Bell
+#L 5.A$5.3A4$..AA$4.A$..A..A$..AA.A36.3A$41.A..AA$.3A38.A..A$A..A38.AA.A$
+#L A$AA42.AA.A$$43.A$43.AA4$30.AA$32.A$30.A..A$30.AA.A$37.AA$29.3A5.A$28.
+#L A..A$28.A9.AA.A$28.AA$36.AA.A$36.A..A$35.A..AA$36.3A

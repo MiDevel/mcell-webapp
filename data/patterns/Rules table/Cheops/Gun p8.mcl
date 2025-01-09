@@ -1,0 +1,15 @@
+#MCell 2.0
+#GAME Rules table
+#RULE 1,0,0,0,4,1,9,8,0,0,0,0,0,5,0,9,7,0,6,0,9,8,0,8,0,0,0,0,0,0,0,0,0,0,0,2,0,0,6,0,0,4,0,3,0,0,0,3,0,1,0,0,0,4,0,3,0,9,0,6,1,0,0,0,5,0,0,0,0,4,1,0,0,2,7,0,2,6,3,8,4,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,6,7,0,8,5,3
+#BOARD 200x100
+#SPEED 0
+#WRAP 1
+#CCOLORS 10
+#D Cheops rule by Alastair Couper
+#D 
+#D Gun p8
+#D 
+#D Mirek Wojtowicz, July 1999
+#L 19.CD.D$21.EA.D$19.CD.I.A$19.CD.I.A$21.EA.D$19.CD.D8$6.CD.D$4.C3.EA.D$
+#L 3.D.A.I.H.A$3.DEAEAEI.A$3.D.A.I.A.D$..C..DA..A.D$CC..DEIHGH.A$.D.DBAI.
+#L G..A$CCD5.GH.D$AADC.C3.I.D$3.DD..A.I.A$4.C.EA.I.A$4.C..CEA.D$6.CD.D

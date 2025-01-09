@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Generations
+#RULE 3467/25/6
+#BOARD 100x80
+#SPEED 10
+#WRAP 1
+#CCOLORS 6
+#D "Worms" rule collection
+#D 
+#D Seed 4
+#D 
+#D John Elliott, August 1999
+#L A..A$A..A11$35.A..A$35.A..A

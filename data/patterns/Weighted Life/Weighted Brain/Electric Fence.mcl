@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 60x100
+#WRAP 1
+#D Weighted Brain   The fence can be stretched to any length.
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 5.B$$..A.A.A$ABAB.BB$.B.AB.AA$A.B..AB$.BA..B.A$.A.BA.B..B$..B.BABA$3.A
+#L .A$$4.B$4.AA$5.B$$4.B$4.AA$5.B$$4.B$4.AA$5.B$$4.B$4.AA$5.B$$4.B$4.AA$
+#L 5.B$$4.B$4.AA$5.B$$4.B$4.AA$5.B$$4.B$4.AA$5.B$$4.B$4.AA$5.B$$4.B$4.AA$
+#L 5.B$$4.B$4.AA$5.B$$4.B$4.AA$5.B$$4.A.A$..ABAB.B$B..B.AB.A$..A.B..AB$3.
+#L BA..B.A$..AA.BA.B$3.BB.BABA$3.A.A.A$$4.B

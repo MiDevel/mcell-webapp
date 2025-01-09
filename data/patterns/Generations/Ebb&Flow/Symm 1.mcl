@@ -1,0 +1,17 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012478/36/18
+#BOARD 200x200
+#SPEED 10
+#WRAP 0
+#CCOLORS 18
+#D Seed patterns with strong symmetry often have to struggle to survive.
+#D This process is shown here where at numerous points in the
+#D early development, growth almost comes to a halt.  When the
+#D cycles of internal growth unsynchronize around generation 450
+#D then the survival of the pattern becomes assured.  By generation
+#D 3000 the still growing pattern at high zoom shows typical "healthy"
+#D de-coupled internal growth zones.
+#D 
+#D Michael Sweney, October 1999
+#L ..A$.A.A$AA.AA3$AA.AA$.A.A$..A

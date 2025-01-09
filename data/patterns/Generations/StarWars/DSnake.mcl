@@ -1,0 +1,10 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 40x300
+#SPEED 10
+#WRAP 0
+#CCOLORS 4
+#D Double snake by Kamil Przybyla.
+#D Works both in Brian's Brain and in Starwars rule.
+#L .AA$ABBA$B..B$4A$B..B$ABBA$.AA

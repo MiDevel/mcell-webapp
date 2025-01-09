@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Generations
+#RULE 3456/2/6
+#BOARD 200x120
+#SPEED 10
+#WRAP 1
+#CCOLORS 6
+#D "Sticks" rule collection
+#D 
+#D Seed 2
+#D 
+#D John Elliott, August 1999
+#L AA3$AA24$41.AA3$41.AA

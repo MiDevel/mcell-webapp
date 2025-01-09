@@ -1,0 +1,11 @@
+#MCell 4.00
+#GAME Margolus
+#RULE MS,D0;2;8;12;1;10;1;11;4;7;3;13;12;11;7;8
+#BOARD 73x73
+#WRAP 0
+#D Margolus rule with three gliders of different speeds.
+#D
+#D From the top: p161, p29, and p3
+#D
+#D Ed Pegg Jr, May 2001
+#L 3.A$AA$A19$14.A$16.A$$16.AA15$14.A$12.3A$$13.A

@@ -1,0 +1,18 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 240x240
+#WRAP 0
+#D Brain 6  Here a spaceship moves an oscillator.  Another oscillator
+#D is placed above to give reference.  This was one of the basic
+#D operations of the Life glider in moving still lifes where it was called
+#D a sliding block memory (part of the project to create a 2D CA 
+#D "universal computer".  Here in the Brain family (or at least Brain 6),
+#D there are no still lifes, but oscillators can serve the same function.
+#D In this rule, the position of the oscillator could be "read"  by
+#D beam generators or other methods.
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 3.A$..BAB$B.A.A.B$..BAB$3.A13$3.A$..BAB$B.A.A.B$..BAB$3.A$$26.AB$25.AB
+#L $25.AB$26.AB

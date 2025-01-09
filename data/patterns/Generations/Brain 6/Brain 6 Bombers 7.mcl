@@ -1,0 +1,21 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 400x200
+#WRAP 1
+#D Brain 6    Two double bombers and a group of oscillators interact
+#D with nice effects:  First an oscillator edits the converging streams
+#D of butterflies to create a double beam.  The double beam runs into
+#D the path of two more oscillators which send sprites up the beam.
+#D The beam then impacts the next group of oscillators which first
+#D send two beam erasers upstream and then, as a last act, launch
+#D a quadruple bomber to end the play.
+#D 
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 6.AB.AB$4.AB.AB$3.AB..BB$.AB.AB.AB.A..B.AA$AB3.AB..BBA..BB.B$AB4.AB.AB
+#L 3.A.A$7.AB.AA$8.AB.AB$9.AB6$94.A$$92.A.A.A$$94.A3$32.A$61.A13.A21.ABA$
+#L 30.A.A.A26.A13.A21.B.B$61.A13.A21.ABA$32.A3$94.A$$92.A.A.A$$94.A6$9.AB
+#L $8.AB.AB$7.AB.AA$AB4.AB.AB3.A.A$AB3.AB..BBA..BB.B$.AB.AB.AB.A..B.AA$3.
+#L AB..BB$4.AB.AB$6.AB.AB

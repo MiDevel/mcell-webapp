@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Rules table
+#RULE 1,0,1,0,0,5,10,0,0,5,10,0,0,0,0,5,10,0,0,0,0,15,0,0,0,0,0,0,15,15,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,2,6,2,6,2,6,2,6,2,0,2,6,2,6,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,7
+#BOARD 240x240
+#SPEED 0
+#WRAP 1
+#CCOLORS 16
+#D Another member of the Brian's family.
+#D The rule is much less live, and often creates Sierpinski-like patterns.
+#D 
+#D A rule by Rudy Rucker.
+#L A$A

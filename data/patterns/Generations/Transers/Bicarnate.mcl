@@ -1,0 +1,11 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/26/5
+#BOARD 100x80
+#SPEED 10
+#WRAP 1
+#CCOLORS 5
+#D Transers rule by John Elliott
+#D 
+#L AA$BB$CC$DD9$DD$CC$BB$AA9$32.AA$32.BB$32.CC$32.DD9$32.DD$32.CC$32.BB$
+#L 32.AA

@@ -1,0 +1,18 @@
+#MCell 4.00
+#GAME General binary
+#RULE C0,NM,Sa6ba3bab3a3bab3ab7a3bab3ab7ab15a3bab3ab7ab15ab31a3bab3ab7
+#RULE ab15ab31ab63a,B5ab3abb6abbab12abbab3ab24abbab3ab7ab49abab3ab7ab1
+#RULE 5ab95a
+#BOARD 150x150
+#SPEED 0
+#WRAP 1
+#CCOLORS 2
+#D Here a period 236 glider gun by Kellie Michele Evans
+#D was used to build an interesting trail.
+#D 
+#D Mirek Wojtowicz, August 2000
+#D 
+#L 4.A$4.A3$..A.A$..A.A.A$3A.AA$..A.A.A$..A.A3$18.A$18.A$16.AA.AA$12.AA3.
+#L A.A$17.A.A9$32.A$32.A$32.AA$32.AA3.AA$32.A$32.A.A$30.A$30.3A5$8.A$8.A$
+#L 8.3A14.A$15.A7.AA$27.A.AA$8.AA4.A15.A$26.A..AA$27.A.AA$27.A..A$30.A$
+#L 25.AA3.A61$95.AA

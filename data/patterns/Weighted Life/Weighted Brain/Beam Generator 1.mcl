@@ -1,0 +1,19 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW2,NN3,NE2,WW3,ME-5,EE3,SW2,SS3,SE2,HI3,RS3,RS4,RS7,RB4,RB5,RB8
+#BOARD 300x140
+#WRAP 1
+#D Weighted Brain     Beam generators (or puffers as they are often called)
+#D are useful in studying interactions at a fixed pt in the plane.
+#D 
+#D 
+#D Michael Sweney  March 2000
+#L 11.BA.BA$9.AB..BA.BA$9.AB.BA.BAA$14.B..BA$14.B..BA$9.AB.BA.BAA$9.AB..B
+#L A.BA$11.BA.BA6$5.BA$AB..A..BA10.BA$.B..AB3.BA6.BA..BA$ABA.AB..A..BA..B
+#L A6.BA$6.A..BA..BA8.BA$7.BA12.BA15$10.BA$5.AB..A..BA$6.B..AB3.BA$..B..A
+#L BA.AB..A..BA$.A5.A3.A..BA..BA$..B3.B5.BA6.BA$3.ABA14.BA14$21.BA$8.AB..
+#L AB..AB..A..BA$8.AB..AB..AB..AB3.BA$21.BA..BA$24.A$23.BA$22.AB$25.BA$
+#L 27.BA$27.BA$25.BA10$16.BA$9.AB3.B3.BA$7.AB..A3.AB3.BA$7.AB3.B..A..BA..
+#L BA$16.BA4.BA9$11.BA$9.B3.BA$8.A..B3.BA4.BA$8.AB..AB3.BA..BA$8.AB..A..B
+#L A..BA$13.BA10$14.A.BA$12.AB.B..BA$10.B.AB3.A..BA$17.AB.A.BA$18.BBA.BA$
+#L 18.A.BAA$21.BA$22.BA$22.BA

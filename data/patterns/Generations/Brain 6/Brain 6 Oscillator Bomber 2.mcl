@@ -1,0 +1,23 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 400x200
+#WRAP 0
+#D Brain 6    A cleaner solution to the oscillator bomber goal than in
+#D the first O B file.  Here a fleet of sparkship pairs leave trails of
+#D oscillators.
+#D 
+#D 
+#D 
+#D Michael Sweney   January 2000
+#L 57.A$51.AB.A..BB$49.AB..BBAAB$47.AB.AB.AA.BBA$45.AB10.A$45.AB10.A$47.A
+#L B.AB.AA.BBA$49.AB..BBAAB$51.AB.A..BB$57.A3$54.A$48.AB.A..BB$46.AB..BB
+#L AAB$44.AB.AB.AA.BBA$42.AB10.A$42.AB10.A$44.AB.AB.AA.BBA$46.AB..BBAAB$
+#L 48.AB.A..BB$54.A11$4.AB$..AB.AB.AB.A$.AB3.AB..BB9.A$AB5.AB.AA9.BB$AB
+#L 11.BA.AB3.A.B$15.B7.A$14.ABA12$14.ABA$15.B7.A$AB11.BA.AB3.A.B$AB5.AB.
+#L AA9.BB$.AB3.AB..BB9.A$..AB.AB.AB.A$4.AB9$53.A$47.AB.A..BB$45.AB..BBAAB
+#L $43.AB.AB.AA.BBA$41.AB10.A$41.AB10.A$43.AB.AB.AA.BBA$45.AB..BBAAB$47.A
+#L B.A..BB$53.A3$56.A$50.AB.A..BB$48.AB..BBAAB$46.AB.AB.AA.BBA$44.AB10.A$
+#L 44.AB10.A$46.AB.AB.AA.BBA$48.AB..BBAAB$50.AB.A..BB$56.A
+
+

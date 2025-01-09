@@ -1,0 +1,10 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW3,NN2,NE3,WW2,ME0,EE2,SW3,SS2,SE3,HI0,RS3,RS5,RS8,RS9,RB4,RB6,RB8
+#BOARD 150x150
+#SPEED 50
+#WRAP 1
+#D A very interesting Bens9 rule starting pattern.
+#D 
+#D Mirek Wojtowicz, May 1999
+#L ..A.A$$A..A..A$..A.A$..A.A

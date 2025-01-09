@@ -1,0 +1,33 @@
+x = 23, y = 298, rule = S34678/B3678
+16b3o$15b5o$16b5o$12b9o$13b8o$11b7obo$12b6o$13b5o$12bob2obo$15bo11$16b
+3o$15b3obo$18b2o$18b2o$18bo9$18bo$16bob2o$15b6o$16bob2o$18bo11$18bo$18b
+2o$16bob3o$18b4o$14b9o$18b4o$16bob3o$18b2o$18bo9$16b3o$17b2obo$14bob6o$15b
+8o$15b8o$14bob6o$17b2obo$16b3o6$16b3o$17b2obo$14bob6o$15b8o$14bob6o$17b
+2obo$16b3o6$19bo$17bob2o$19b3o$16bob5o$19b3o$17bob2o$19bo6$19bo$17bob2o$19b
+3o$16bob5o$16bob5o$19b3o$17bob2o$19bo9$19b2o$13bo3b5o$10b13o$10b2obo2b
+7o$16b6o$19b2o10$18bo$18b2o$16bob3o$18b4o$15bob6o$16b7o$16bob4o$20bo7$18b
+o$18b2o$16bob3o$18b4o$15bob6o$15b8o$15b7o$17bob2o14$18b3o$6bo9bo2b3o$4b
+o2bo3b3o3b4obo$6b2ob4ob2o3bob2o$6b2ob4ob2o2b2o2bo$6b2ob4ob2o2b2o2bo$6b
+2ob4ob2o3bob2o$4bo2bo3b3o3b4obo$6bo9bo2b3o$18b3o8$2bobobo$3bob2obo6b2o$2b
+obo2b2obo4b2ob3o$2bo3b2obo2bob2ob2obobo$o7b2obo2b3o4b2o$o7b2obo2b3o4b2o$2b
+o3b2obo2bob2ob2obobo$2bobo2b2obo4b2ob3o$3bob2obo6b2o$2bobobo9$16b2o$9b
+o2bobo2bobo$11b2obo2b4o$9b2ob2obo2b4o$10b2o2b3ob5o$9b2ob2obo2b4o$11b2ob
+o2b4o$9bo2bobo2bobo$16b2o7$20b2o$18bobobo$18bob3o$20bobo$19b2obo$18b2o$19b
+4o$19b4o$19b3o$18bobo7$17bo$17b4o$17bob3o$20b3o$18b4o$15bob4o$16b4o2$16b
+4o$15bob4o$18b4o$20b3o$17bob3o$17b4o$17bo7$18bo$15bob2ob2o$18b4o$15b3ob
+obo$17b2obobo$22bo$16b3ob3o$16bo3b3o$17b2o$16b3o$17b2o$16bo3b3o$16b3ob
+3o$22bo$17b2obobo$15b3obobo$18b4o$15bob2ob2o$18bo6$19b2o$17bobobo$17bob
+3o$20b2o$19b3o$20bo$19bob2o$20b3o$19bo$21bo$20b2o$21bo$21bo$19bo$17bob
+4o$19b4o$16bo2bobo$20bo!
+Written by PSLife 1.03 on 9/9/99 at 11:49:53 PM
+Various DN spaceships.  From David Bell except (we think) 10 and 11.
+4.  regularly turns up in broths
+9.  regularly turns up in broths (e.g. broth14)
+10.  escaped from a broth 8-31-99 (broth 26) sometime after 500000
+11.  escaped from a broth 9-5-99 (broth 28)
+These last three seem to share a propagation mechanism.
+
+Space-dust items below are from Bell's DayNight.txt, and look like the sort
+of thing typically found by search programs...
+
+--Paul Schick

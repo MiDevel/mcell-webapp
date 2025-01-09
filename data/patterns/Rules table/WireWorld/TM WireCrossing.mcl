@@ -1,0 +1,17 @@
+#MCell 4.00
+#GAME Rules table
+#RULE 1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,3,3,3,3,3,3,3,3,3,
+#RULE 0,3,1,1,3,3,3,3,3,3
+#BOARD 60x60
+#SPEED 100
+#WRAP 0
+#CCOLORS 4
+#PALETTE 8 colors
+#D A wire-crosser with 3 EOR gates.
+#D 
+#D Transit: 9
+#D IBI: 5 (as the EOR gate)
+#D 
+#D Torben Mogensen, March 1990
+#L 10.CC$8.CC..C$7.C3.4C$A6C4.C.9C$7.C3.4C$6.4C..C$6.C.4C$6.4C..C$7.C3.4C
+#L $A6C4.C.9C$7.C3.4C$8.CC..C$10.CC

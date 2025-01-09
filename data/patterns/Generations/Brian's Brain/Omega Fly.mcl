@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE /2/3
+#BOARD 200x200
+#SPEED 0
+#WRAP 1
+#D Omega fly
+#D 
+#D Each 8 cycles a new ship is fired.
+#D 
+#D Pattern was found in the WebsideCA collection by John Elliott
+#D and was slightly enhanced by Mirek Wojtowicz in June 1999
+#L .AA$.BBA$A..B$BAA.A..BA$.B..BAA.BA$.A..A.B..BA$..B..B..BA.BA$7.BA4.BA$
+#L 13.BA$11.BA8$22.BA$21.A.BA$21.B..BA$23.BA.BA$28.BA$28.BA$26.BA44$11.B

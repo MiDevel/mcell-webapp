@@ -1,0 +1,12 @@
+#MCell 4.00
+#GAME Generations
+#RULE 3/2/4
+#BOARD 80x20
+#SPEED 20
+#WRAP 1
+#D This simple rule supports spontaneous orthogonally
+#D productive "glider colliders".  But otherwise it seems fairly
+#D quiescent.
+#D 
+#D John Elliott, December 1999
+#L A$A

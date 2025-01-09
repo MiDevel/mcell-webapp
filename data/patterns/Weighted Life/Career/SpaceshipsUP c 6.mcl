@@ -1,0 +1,11 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW1,NN2,NE1,WW1,ME0,EE1,SW1,SS1,SE1,HI0,RS2,RS3,RB3
+#BOARD 100x200
+#SPEED 20
+#WRAP 0
+#CCOLORS 4
+#D Spaceships moving up at c/6 speed
+#D 
+#D Mirek Wojtowicz, June 1999
+#L 6A$.A..A

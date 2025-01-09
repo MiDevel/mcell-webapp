@@ -1,0 +1,21 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012468/37/18
+#BOARD 200x200
+#WRAP 1
+#D Ebb&Flow II  Gliders with varous technologies.  From top there are
+#D "speed-up" gates that accelerate the glider past its normal speed,
+#D reflectors that send the glider back the way it came, and finally,
+#D using reflectors, a short "star wars" (a la Mirek's famous rule) battle
+#D between two growth centers.
+#D 
+#D Michael Sweney   December 1999
+#L 5.A$4.A$4.A$..A.A83.A$..A.A83.A$4.A$4.A$5.A7$81.A14.A14.A14.A$80.A14.A
+#L 14.A14.A$79.A14.A14.A14.A$33.A$31.A..A111.A$31.A..A111.A$33.A$79.A14.A
+#L 14.A14.A$80.A14.A14.A14.A$81.A14.A14.A14.A9$33.A$31.A..A111.A$31.A..A
+#L 111.A$33.A9$26.A6.A45.A$23.A7.A..A47.A$23.A7.A..A47.A$26.A6.A45.A12$3.
+#L A15.AA5.A6.A45.A3.AA3.A$A17.A4.A7.A..A47.A..A$A17.A4.A7.A..A47.A..A$3.
+#L A15.AA5.A6.A45.A3.AA3.A12$57.AA8$18.A3.AA3.A29.3A45.A$21.A..A31.AA..A
+#L 47.A$21.A..A31.AA..A47.A$18.A3.AA3.A29.3A45.A8$57.AA
+
+

@@ -1,0 +1,33 @@
+#MCell 4.00
+#GAME Rules table
+#RULE 1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,3,3,3,3,3,3,3,3,3,
+#RULE 0,3,1,1,3,3,3,3,3,3
+#BOARD 60x60
+#SPEED 100
+#WRAP 0
+#CCOLORS 4
+#PALETTE 8 colors
+#D To make an operable circuit, a bistable element must be provided with
+#D output leads so that its state can be exploited by the remainder of the
+#D circuit. Additionally, there must be some mechanism to force it into
+#D a known state, which includes inducing it to change states. Rather than
+#D making the designer keep track of the state of the flip flop, the most
+#D elegant versions do this internally, automatically exchanging states upon
+#D the receipt of a triggering signal.
+#D 
+#D The following design incorporates a NOR gate; a single electron (arriving
+#D in the correct phase of the six phase clock), acting as a TRUE pulse, will
+#D force one or the other state, according to its entry point. The flip flop actually
+#D requires the TRUE signal for two cycles, which is arranged internally by pulse
+#D doublers.
+#D 
+#D An additional detail, not shown, would be to restrict the output stream to
+#D a single pulse. In that form the units could be cascaded to form a counter,
+#D the style of the output then being consistent with the input.
+#D 
+#D 
+#D Harold V. MacIntosh
+#L .8C$9.C4.8C$4.3C..C.C.C$3.C3.C..3C$3.C.C.C.C.C.C$4.3C.C4.C$.CC..C6.C$C
+#L ..CC4.C.CC3.CC$C6.4C.C.CC..C$.CC.3C..C3.C..CC$3.C4.3C.3C4.C$5.CC..C3.C
+#L ..3C.CC$4.C..CC.C.4C6.C$5.CC3.CC.C4.CC..C$10.C6.C..CC$9.C4.C.3C$9.C.C.
+#L C.C.C.C$10.3C..C3.C$9.C.C.C..3C$.8C4.C$14.8C

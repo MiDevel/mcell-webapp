@@ -1,0 +1,52 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012468/37/18
+#BOARD 200x200
+#WRAP 1
+#D Ebb&Flow II   Waveguides.  Waveguides in e&f II function
+#D almost identically as their e&f counterparts.  Here a race has
+#D been set up between "virtual waveguide", glider, normal
+#D waveguide, and glider using "speed-up" gate technology.
+#D 
+#D Michael Sweney   December 1999
+#L 3.A$..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$123.4A.A$123.A4.A$123.4A.A$A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$..A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$3.A14$121.A$27.A3.A3.A3.A3.A3.A3.
+#L A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$15.GG10.A3.A3.A3.A3.
+#L A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$13.GGADA.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A$13.AGHFA.A.A.A.AI.HAN.MAA..AF.EAK.JAP.OAC
+#L .BAH.GAM.LA..QAE.DAJ.IAO.NAB.AAG.FAL.KAQ.PAD.CAI.HAN.LAA.QAF.QAK.QA.A.
+#L A$13.AA107.5A..AA$122.A..A$13.AA107.5A..AA$13.AGHFA.A.A.A.AI.HAN.MAA..
+#L AF.EAK.JAP.OAC.BAH.GAM.LA..QAE.DAJ.IAO.NAB.AAG.FAL.KAQ.PAD.CAI.HAN.LAA
+#L .QAF.QAK.QA.A.A$13.GGADA.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$15.GG10.A3.
+#L A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$27.A
+#L 3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A3.A$
+#L 121.A4$120.A$9.A109.A..A$9.A109.A..A$120.A9$5.A..A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A$5.A..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A$121.4A$121.A..A$121.4A$5.A..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A$5.A..A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A7$20.A11.A11.A11.A
+#L 11.A11.A11.A10.A10.A$21.A11.A11.A11.A11.A11.A11.A10.A10.A$22.A11.A11.A
+#L 11.A11.A11.A11.A10.A10.A$120.A$9.A109.A..A$9.A109.A..A$120.A$22.A11.A
+#L 11.A11.A11.A11.A11.A10.A10.A$21.A11.A11.A11.A11.A11.A11.A10.A10.A$20.A
+#L 11.A11.A11.A11.A11.A11.A10.A10.A11$.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A$.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A$3.A121.A$..FAF117.A..A$3.A121.A$.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.
+#L A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A$.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A.A
+#L .A.A.A.A.A.A.A.A.A.A.A
+
+

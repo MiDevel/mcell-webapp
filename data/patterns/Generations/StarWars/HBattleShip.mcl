@@ -1,0 +1,17 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 250x180
+#SPEED 10
+#WRAP 1
+#D Game 'Generations', rules 'Star Wars'
+#D 
+#D Heavy battle ship
+#D 
+#D Discovered by Mirek Wojtowicz using MCLife
+#D 1999.03.29
+#L 10.AA..A$8.AB.4B$4.BACBC.A.CC.C$4.CB3.BAB.AA..A.A7.C.ABC.A$5.ACCAC3.AA
+#L ..AABA3.ABA..BC.ABAA$6.BB4.BA.3A.AC4.ACAA.C.ABAA$6.AA4.A.A.C.A.A.A.A.A
+#L .A.A.A.A$14.CBB17A$15.A13.B.A$25.CB5A$23.AA.C.A.A$23.CB5A$7.BAA15.B.A$
+#L 5.A.CCB18A$4.B.B3.A.A.A.A.A.A.A.A.A$4.CA.3A.A5.A.AB..CBA$5.AA..AACB3.B
+#L CB..CBA$.CBC5AB.BA4.A$..BA..A3.A$BC.4C$.ABB..B$..AA

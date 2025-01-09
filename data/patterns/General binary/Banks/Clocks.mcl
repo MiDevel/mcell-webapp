@@ -1,0 +1,19 @@
+#MCell 4.00
+#GAME General binary
+#RULE C0,NN,S3babbabbabba3b,B7ab3aba3b
+#BOARD 100x100
+#SPEED 20
+#WRAP 1
+#D "Clocks" of various periods that run under the Banks rule are easily
+#D constructed.  I drew these modest examples several years ago.
+#D (Obviously, this was before I had rebelled against authoritarian
+#D patterns :)
+#D 
+#D John Elliott, June 2000
+#L 23.A$.23A53.A$..AA.3A.3A.3A.15A.15A.15A.13A$..A21.7A.15A.15A.14A$24.
+#L 54A$24.A52.A7$29.A$.23A.3A.A47.A$..5A.A.A.A.3A.3A.19A.3A.11A.15A.4A$..
+#L A27.10A.3A.11A.15A.5A$30.48A$30.A46.A7$64.A$A15.A3.A30.A11.AA$17A3.32A
+#L 12.4A$17A3.32A12.3A$52A.A10.3A$A16.3A32.A12.AA$17.3A44.A.A$17.4A43.3A$
+#L 15.3A46.3A$16.A47.3A$16.AA46.3A$16.AA46.3A$16.AA46.4A$16.A46.AA$16.AA
+#L 46.A$16.3A$16.A3$33.A41.A$33.43A$.A31.12A.30A$.45A.31A$19A.A.5A.A.3A
+#L 43.A$32.A

@@ -1,0 +1,15 @@
+#MCell 4.00
+#GAME General binary
+#RULE C0,NN,S16b,B4ab3ab7a
+#BOARD 200x200
+#SPEED 20
+#WRAP 1
+#D A simple Sierpinski gasket drawer. A dead cell comes to life
+#D if it has a single living neighbor that is either its W or S neighbor.
+#D In all other cases, it stays dead. All living cells survive.
+#D 
+#D Seeded with a single cell the rule produces the Pascal's triangle, 
+#D but... rotated 45°.
+#D 
+#D Author unknown.
+#L 199.A199$A

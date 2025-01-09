@@ -1,0 +1,20 @@
+#MCell 4.00
+#GAME Rules table
+#RULE 1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,3,3,3,3,3,3,3,3,3,
+#RULE 0,3,1,1,3,3,3,3,3,3
+#BOARD 60x60
+#SPEED 100
+#WRAP 0
+#CCOLORS 4
+#PALETTE 8 colors
+#D Barrier
+#D 
+#D The most fundamental object in WireWorld is probably a barrier
+#D --- a circuit element which blocks pulses arriving from either direction.
+#D 
+#D In and of itself, it does not amount to much; however it occurs
+#D frequently in the following constructions, sometimes participating in
+#D schemes circumventing it, sometimes for its ability to block interference.
+#D 
+#D Harold V. MacIntosh
+#L 10.C$A20C$10.C7$10.C$20CA$10.C

@@ -1,0 +1,13 @@
+#MCell 4.00
+#GAME Weighted Generations
+#RULE WeightedGen,C7,SW0;3;1;4;2;3;1,PW1;1;1;1;1;1;1;1,RS4;6;8;10;12,R
+#RULE B7
+#BOARD 400x400
+#WRAP 1
+#CCOLORS 7
+#D 8 knight ships
+#D Brian Prentice
+#D June 2001
+#L 6.3A4.3A$6.AE.E..E.EA$5.AD.D4.D.DA3$..A16.A$AAD16.DAA$AE18.EA$A.D16.D.
+#L A$.E18.E3$.E18.E$A.D16.D.A$AE18.EA$AAD16.DAA$..A16.A3$5.AD.D4.D.DA$6.A
+#L E.E..E.EA$6.3A4.3A

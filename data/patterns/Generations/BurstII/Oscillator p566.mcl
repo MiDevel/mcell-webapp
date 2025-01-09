@@ -1,0 +1,11 @@
+#MCell 2.0
+#GAME Generations
+#RULE 235678/3468/9
+#BOARD 80x80
+#WRAP 1
+#D Burst II   A remarkable oscillator that is p566.  This is the longest
+#D lived oscillator yet discovered in either Burst rule.
+#D 
+#D 
+#D Michael Sweney   March 2000
+#L 3.A$.5A$.5A$7A$.5A$.5A$3.A

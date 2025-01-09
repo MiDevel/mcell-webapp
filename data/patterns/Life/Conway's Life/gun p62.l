@@ -1,0 +1,33 @@
+x = 133, y = 133
+45bo49bo$44bobo22bo24bobo$44bobo20b3o24bobo$22bo19b3ob2o18bo25b3ob2o$
+21bobo7bo9bo24b2o23bo$22bo6b3o10b3ob2o44b3ob2o$28bo15bob2o46bob2o$28b
+2o$76bo42bo$76b3o38b3o$79bo13b4o19bo$51bo26b2o13bo2b2o18b2o$32b2o16b2o
+42bo2b2o$8b2o6b3o14b2o15b3o41bo2bo$9bo5bo3bo13bo18bo2bobo37b2o$9bobo3b
+o4bo31b2obobo59b2o$10b2o4b2o3bo33b3o58bo2bo$21bo94bo2bo$19bobo52bobo
+42bo$19b2o2b2o49bobobo34b2o3bo$23bobo6b2o32b2o11b2o32bo3bo$25bo6bo20b
+2o11b2o10bo24b2o9b3o11bo$25b2o6bo20bo34b2o13bo22bobo$32b2o17b3o34b3o
+10b3o8b2o14bo$51bo36b3o10bo11bo$90bo19b3o$69bob2o16bo20bo$67b3ob2o$21b
+2o43bo24b2o32b2o$21bobo43b3ob2o18bo33bobo$23bo45bobo20b3o32bo$23b2o44b
+obo22bo32b2o$70bo38bob2o7bo$109b2obo5b3o$12bo106bo$3bob2o4b3o$b3ob2o3b
+2o2bo$o9bo3bo$b3ob2o3bob2o16b2o$3bobo4b2o18bo$3bobo22bobo$4bo23b2o98bo
+$22b4o101bobo$22b3obo100bobo$23b2o101b2ob3o$132bo$126b2ob3o$126b2obo3$
+119b2o$108b2o9b3o$20bo88bo7b3o$10b2o8bo88bobo5bo$9bobo7bobo88b2o$9bo
+106b3o$8b2o8b2o96bo$116b3o$18b2o2$26b2obo$26b2ob3o$32bo$b2o23b2ob3o$2b
+o24bobo$2bobo15b2o5bobo$3b2o15b2o6bo75bo6b2o15b2o$103bobo5b2o15bobo$
+103bobo24bo$101b3ob2o23b2o$100bo$101b3ob2o$103bob2o2$113b2o$14b3o$16bo
+96b2o8b2o$14b3o106bo$21b2o88bobo7bobo$15bo5bobo88bo8b2o$13b3o7bo88bo$
+11b3o9b2o$12b2o3$3bob2o$b3ob2o$o$b3ob2o101b2o$3bobo100bob3o$3bobo101b
+4o$4bo98b2o23bo$102bobo22bobo$102bo18b2o4bobo$101b2o16b2obo3b2ob3o$
+118bo3bo9bo$118bo2b2o3b2ob3o$119b3o4b2obo$13bo106bo$12b3o5bob2o$12bo7b
+2obo38bo$4b2o32bo22bobo44b2o$5bo32b3o20bobo45bo$5bobo33bo18b2ob3o43bob
+o$6b2o32b2o24bo43b2o$60b2ob3o$22bo20bo16b2obo$20b3o19bo$19bo11bo10b3o
+36bo$4bo14b2o8b3o10b3o34b3o17b2o$3bobo22bo13b2o34bo20bo6b2o$4bo11b3o9b
+2o24bo10b2o11b2o20bo6bo$15bo3bo32b2o11b2o32b2o6bobo$14bo3b2o34bobobo
+49b2o2b2o$13bo42bobo52bobo$13bo2bo94bo$13bo2bo58b3o33bo3b2o4b2o$14b2o
+59bobob2o31bo4bo3bobo$36b2o37bobo2bo18bo13bo3bo5bo$35bo2bo41b3o15b2o
+14b3o6b2o$34b2o2bo42b2o16b2o$15b2o18b2o2bo13b2o26bo$16bo19b4o13bo$13b
+3o38b3o$13bo42bo$103b2o$35b2obo46b2obo15bo$35b2ob3o44b2ob3o10b3o6bo$
+41bo23b2o24bo9bo7bobo$35b2ob3o25bo18b2ob3o19bo$36bobo24b3o20bobo$36bob
+o24bo22bobo$37bo49bo!
+#Period 62 B-heptomino-based glider gun
+#Aug 8, 1996 Dave Buckingham

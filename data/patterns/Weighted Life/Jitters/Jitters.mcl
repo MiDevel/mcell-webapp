@@ -1,0 +1,18 @@
+#MCell 2.50
+#GAME Weighted Life
+#RULE NW-1,NN-1,NE5,WW5,ME0,EE5,SW5,SS-1,SE-1,HI0,RS4,RS14,RB1,RB4,RB9
+#BOARD 150x150
+#SPEED 20
+#WRAP 1
+#CCOLORS 9
+#D A rotationally symmetric weighted rule. Contains various gliders and oscillators all with a
+#D characteristic period 2 jitter. This rule has uses negative weights for 4 cell neighbors
+#D and positive weights for the other 4 cell neighbors.
+#D 
+#D Ben Schaeffer 1999
+#L 97.A.A$97.A$97.A.A$99.A$99.A$92.A$92.A$92.A.A$94.A$92.A.A$18.A$16.A..A
+#L .A$$15.A7.A$$17.A.A..A$20.A4$59.A$61.A$61.A$61.A$38.A.A$39.CB$29.AA8.A
+#L $28.A.A$29.A$95.A.A$95.A3.A.A$97.A.A$64.A14.A15.A.A..A$64.A14.A15.A..A
+#L .A$64.A14.A16.A.A$65.A15.A12.A.A3.A$94.A3.A.A$A.A93.A.A$4.A.A.A90.A$
+#L 10.A8$58.A.A$59.CB$59.A3$24.A$26.A$26.A$26.A5$37.A$37.A$37.A$39.A6$71.
+#L A.A.A$69.A$69.A7.A$71.A$71.A.A.A3$26.A$$26.A$26.A$$26.A

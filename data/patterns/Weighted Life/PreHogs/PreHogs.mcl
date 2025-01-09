@@ -1,0 +1,18 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW2,NN3,NE0,WW3,ME0,EE2,SW0,SS2,SE3,HI0,RS3,RS4,RS6,RB5,RB6
+#BOARD 200x200
+#SPEED 20
+#WRAP 1
+#CCOLORS 3
+#D A weighted hexagonal rule, a predecessor of Hogs. Common features
+#D are a worm-like glider that can be of any length and similar still lifes.
+#D 
+#D Ben Schaeffer 1999
+#L 33.A.A$34.B..A$$24.B$24.A.A6$21.A.A..A..A$22.B..A..A4$27.A.A..A..A..A
+#L ..A$28.B..A..A..A..A16$36.A$37.B$36.A$$37.A$36.A6.A15.B$44.B15.BB$43.A
+#L 16.B.BB3.B$62.B5.BB$44.A23.B.BB$3.A39.A26.B.BB$72.B.BB$4.A39.A29.B$6.A
+#L 36.A$$7.A36.A21.B$9.A33.A12.B.B8.BB$37.BA18.B.BB6.B$10.A33.A12.B.B8.B$
+#L 12.A25.A4.A24.B6.B$69.BB5.BB$3.A9.A55.B6.B$15.A37.B.B.B.B.B$4.BA48.B.B
+#L .B.B.BB$16.A37.B.B.B.B.B$18.B$18.A3$66.AA10.A$67.A10.AA$A10.A$..B10.A$
+#L ..A$14.A$16.A$$17.A$19.B$19.A

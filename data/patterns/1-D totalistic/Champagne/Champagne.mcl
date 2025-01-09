@@ -1,0 +1,18 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R3,C0,M1,S3,S6,S7,S8,S9,S12,S13,B0,B1
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 10
+#D Champagne
+#D 
+#D One often sees what he has on his mind, but even my wife,
+#D a total abstainer, recognizes here champagne-glasses...
+#D 
+#D Mirek Wojtowicz, July 1999
+#L AEAD4.E.A12.BCEDBED.CE.EDA3.D..C..ABC.DBEDDA..EDE..BD..E..A7.DA3.DE..B
+#L 3.E7.A.E.B3.E.AEAEE.AA.D8.BEDE7.D..C..A.B3.A.E..A7.AEAD4.E.A12.BC.DBED
+#L .C..EDA3.D..C..A7.DA3.DE..B3.E3.D..A3.A4.E5.E3.C10.D.AC5.A..E.CC4.C..D
+#L ..AEAD.A..E.A12.BC.DBED.C..EDA3.D..C..A7.DAAEADE..BE.AE11.BC.DBED.C..E
+#L DA3.D..C..A

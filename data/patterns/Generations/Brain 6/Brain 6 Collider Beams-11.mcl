@@ -1,0 +1,18 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 300x200
+#WRAP 1
+#D Brain 6         Collider beam generators producing double beams
+#D are studied.  Here a remarkable effect is generated.  "Sprites" are
+#D created that move upstream against the direction of beam 
+#D propagation use the beam as a moving waveguide in effect.  
+#D The sprites are unstable and evaporate if removed from this 
+#D special environment. Sprites are a fascinating phenomena and
+#D show up frequently in beams of this type.
+#D 
+#D 
+#D Michael Sweney   December 1999
+#L .AB25.BA$AB.A23.A.BA$AB..B..BA13.AB..B..BA$3.BB..BA13.AB..BB$..AB.ABB.
+#L B11.B.BBA.BA$..AA..AA..A9.A..AA..AA$..AB.ABB.B11.B.BBA.BA$3.BB..BA13.A
+#L B..BB$AB..B..BA13.AB..B..BA$AB.A23.A.BA$.AB25.BA

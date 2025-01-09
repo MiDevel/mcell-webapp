@@ -1,0 +1,16 @@
+#MCell 4.00
+#GAME General binary
+#RULE C0,NM,Sa6ba3bab3a3bab3ab7a3bab3ab7ab15a3bab3ab7ab15ab31a3bab3ab7
+#RULE ab15ab31ab63a,B5ab3abb6abbab12abbab3ab24abbab3ab7ab49abab3ab7ab1
+#RULE 5ab95a
+#BOARD 400x100
+#SPEED 0
+#WRAP 1
+#CCOLORS 2
+#D Here is a growing straight triomino puffer created from a c/3 crawler
+#D found by Dean Hickerson.  This was the first non-wickstretcher puffer
+#D found for this rule.
+#D 
+#D David I. Bell
+#L .A$.13A$14.AA$13.A..A$14.AA$.13A$.A$13.A.3A$10.A7.AA$3A8.A5.A..A$10.A
+#L 7.AA$13.A.3A$.A$.13A$14.AA$13.A..A$14.AA$.13A$.A

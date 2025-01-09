@@ -1,0 +1,14 @@
+#MCell 2.20
+#GAME Larger than Life
+#RULE R5,C0,M1,S34..58,B34..45,NM
+#BOARD 120x120
+#SPEED 75
+#WRAP 0
+#CCOLORS 2
+#D "Bugs" rule
+#D 
+#D Suicide bug
+#D 
+#D Kellie Evans
+#L 5.3A$3.6A$..4A..AA$.3A5.AA$4A6.AA$4A5.3A$5A3.3A$.9A$..8A$3.6A$4.5A$5.
+#L AA

@@ -1,0 +1,20 @@
+#MCell 4.00
+#GAME Margolus
+#RULE MS,D0;4;8;12;4;12;12;13;8;12;12;14;12;13;14;15
+#BOARD 100x100
+#SPEED 20
+#WRAP 0
+#CCOLORS 8
+#DIV #SYSTEM,act=1
+#DIV #STRIN,act=1,rep=1,x=0,y=-40,str=1;0;0;0
+#D Sand simulation.
+#D 
+#D To get most of the rule use the "Diversities/Stream injection"
+#D to produce a steady stream of new cells.
+#D 
+#D A rule by Mirek Wojtowicz, April 2000
+#L 31.C23$27.3C$30.CC$32.CC$34.C$35.CC$37.3C13$44.CC$41.3C$39.CC$37.CC$
+#L 36.C$34.CC$33.C$32.CC$32.C14$3.5C46.5C$.3C3.CC44.CC3.3C$CC7.CC40.CC7.
+#L CC$C9.CC15.6C17.CC9.C$C10.CC36.CC10.C$C11.CC34.CC11.C$.C11.C34.C11.C$
+#L 13.CC32.CC$14.C32.C$14.CC30.CC$15.CC28.CC$16.C28.C$16.CC26.CC$17.CC24.
+#L CC$18.CC22.CC$19.CC20.CC$20.3C16.3C$21.20C$22.18C$24.14C

@@ -1,0 +1,15 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW0,NN2,NE3,WW3,ME0,EE2,SW2,SS3,SE0,HI0,RS2,RS3,RS4,RS6,RB5,RB6
+#BOARD 140x140
+#SPEED 2
+#WRAP 1
+#CCOLORS 9
+#D "Hogs": a weighted hexagonal rule that has an oscillator,
+#D two gliders commonly occurring, and a still life.
+#D 
+#D Ben Schaeffer, September 1999
+#D 
+#D The diagonal glider was discovered by Mirek Wojtowicz
+#D September 1999
+#L .A$AA6$13.A.AA18.A$14.3A$.A28.4A20.4A$.AA$A56.A14$62.3A$60.A.AA

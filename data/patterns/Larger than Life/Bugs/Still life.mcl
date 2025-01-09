@@ -1,0 +1,18 @@
+#MCell 3.00
+#GAME Larger than Life
+#RULE R5,C0,M1,S34..58,B34..45,NM
+#BOARD 100x100
+#SPEED 0
+#WRAP 1
+#CCOLORS 2
+#D "Bugs" rule
+#D 
+#D Still life forms
+#D 
+#D Mirek Wójtowicz, January 2000
+#D 
+#D The 6x6 block by Kellie Evans
+#L 3.3A21.4A$.6A19.6A$.AA.4A17.8A$AA3.4A15.4A..4A$AA3.4A14.4A4.4A$AA..5A
+#L 14.3A6.3A$8A15.4A4.4A$.6A17.4A..4A$..4A19.8A$26.6A$27.4A10$27.4A$26.6A
+#L $25.8A$.6A17.4A..4A$.6A16.4A4.4A$.6A15.4A6.4A$.6A15.4A6.4A$.6A16.4A4.
+#L 4A$.6A17.4A..4A$25.8A$26.6A$27.4A

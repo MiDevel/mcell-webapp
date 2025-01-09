@@ -1,0 +1,13 @@
+#MCell 4.20
+#GAME Larger than Life
+#RULE R5,C0,M1,S34..58,B34..45,NM
+#BOARD 100x100
+#WRAP 1
+#CCOLORS 2
+#D "Bugs" rule
+#D 
+#D Diagonal p42 bug
+#D 
+#D Kellie Evans
+#L 47.3A$45.6A$43.5A..AA$42.5A4.AA$42.4A6.A$42.4A5.3A$42.5A3.3A$43.5A.4A$
+#L 44.8A$45.7A$46.5A3$A

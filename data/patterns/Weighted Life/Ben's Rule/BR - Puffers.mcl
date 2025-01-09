@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW3,NN2,NE3,WW2,ME0,EE2,SW3,SS2,SE3,HI0,RS3,RS5,RS8,RB4,RB6,RB8
+#BOARD 200x100
+#SPEED 10
+#WRAP 1
+#D Ben's rule
+#D 
+#D Puffers
+#D 
+#D Ben Schaeffer, April 1999
+#L .AA$..AA$AA$..AA$.AA

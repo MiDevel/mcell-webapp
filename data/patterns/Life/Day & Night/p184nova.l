@@ -1,0 +1,20 @@
+x = 135, y = 67, rule = B3678/S34678
+66bobo$64b7o$64b7o$62b11o$62b11o$60b15o$60b15o$62b11o$12bobbobbobbobbo
+bbobbobbobbobbobbobbobbo37bobbobbobbobbobbobbobbobbobbobbobbobbo$10b
+41o33b41o$10b41o33b41o$8b45o29b45o$8b45o29b45o$6b49o25b49o$6b49o25b49o
+$4b53o21b53o$4b53o21b53o$bb57o17b57o$bb10ob35ob10o17b10ob35ob10o$61o
+13b61o$12ob35ob12o13b12ob35ob12o$bbobboo4b3obboobboo4b9o4boobboobb3o4b
+oobbo17bobboo4b3obboobboo4b9o4boobboobb3o4boobbo$3boobb4o3boobboobb4o
+9b4obboobboo3b4obboo19boobb4o3boobboobb4o9b4obboobboo3b4obboo$12bo35bo
+37bo35bo$$12bo35bo37bo35bo5$67bo$66b3o$65b5o$64b7o$65b5o$66b3o$67bo5$
+12bo35bo37bo35bo$$12bo35bo37bo35bo$3boobb4o3boobboobb4o9b4obboobboo3b
+4obboo19boobb4o3boobboobb4o9b4obboobboo3b4obboo$bbobboo4b3obboobboo4b
+9o4boobboobb3o4boobbo17bobboo4b3obboobboo4b9o4boobboobb3o4boobbo$12ob
+35ob12o13b12ob35ob12o$61o13b61o$bb10ob35ob10o17b10ob35ob10o$bb57o17b
+57o$4b53o21b53o$4b53o21b53o$6b49o25b49o$6b49o25b49o$8b45o29b45o$8b45o
+29b45o$10b41o33b41o$10b41o33b41o$12bobbobbobbobbobbobbobbobbobbobbobbo
+bbo37bobbobbobbobbobbobbobbobbobbobbobbobbo$62b11o$60b15o$60b15o$62b
+11o$62b11o$64b7o$64b7o$66bobo!
+A period 184 "nova" oscillator.
+This shows an explosion which is perturbed so that it repeats forever.
+David I. Bell, May 1997

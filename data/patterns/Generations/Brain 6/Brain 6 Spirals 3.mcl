@@ -1,0 +1,15 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 200x200
+#WRAP 0
+#D Brain 6/246/3   More spiral dynamics as the center pattern runs into four
+#D oscillators.
+#D 
+#D Michael Sweney  December 1999
+#L 18.A$18.A$18.A4$19.B$$17.ABBAB$18.B..A$16.AB.AB$8.BA6.AB$8.A.B..B3.AA$
+#L 6.B.B.A3.A3.B.B$3A5.BB..AB5.A$8.A.BBA$10.AA9.AA$20.ABB.A$13.A5.BA..BB
+#L 5.3A$12.B.B3.A3.A.B.B$14.AA3.B..B.A$15.BA6.AB$12.BA.BA$11.A..B$11.BABB
+#L A$$13.B4$14.A$14.A$14.A
+
+

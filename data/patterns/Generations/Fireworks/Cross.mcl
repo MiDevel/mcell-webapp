@@ -1,0 +1,15 @@
+#MCell 2.0
+#GAME Generations
+#RULE 2/13/21
+#BOARD 200x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 21
+#D Fireworks rule  by John Elliott
+#D 
+#D Cross - the most beautiful starting pattern for the
+#D Fireworks rule I've seen so far!
+#D 
+#D Mirek Wojtowicz, July 1999
+#L 12.A$12.A$12.A$12.A$12.A$12.A$12.A$12.A$12.A$12.A$12.A$12.A$25A$12.A$
+#L 12.A$12.A$12.A$12.A$12.A$12.A$12.A$12.A$12.A$12.A$12.A

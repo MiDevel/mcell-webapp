@@ -1,0 +1,30 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW1,NN2,NE0,WW32,ME0,EE4,SW0,SS16,SE8,HI0,RS5,RS7,RS10,RS11,RS13
+#RULE ,RS14,RS15,RS17,RS19,RS20,RS21,RS22,RS23,RS25,RS26,RS27,RS28,RS2
+#RULE 9,RS30,RS34,RS35,RS37,RS38,RS39,RS40,RS41,RS42,RS43,RS44,RS45,RS
+#RULE 46,RS49,RS50,RS51,RS52,RS53,RS54,RS56,RS57,RS58,RS60,RB3,RB6,RB1
+#RULE 2,RB24,RB33,RB48
+#BOARD 200x100
+#SPEED 0
+#WRAP 1
+#CCOLORS 9
+#D The period-20 duplication can be used to make a compact high-period gun by
+#D sending a period-42 stream through it.  The duplication only occurs once
+#D every 420 steps, and in other cases, the glider either passes through or
+#D gets destroyed without hurting the period-20 oscillators.  Shown below is a
+#D period-840 gun that illustrates two other reactions as well, namely the
+#D 3-cell glider eater, used here to get rid of gliders that pass through,
+#D and a period-8 oscillator that thins period-4n streams down to period-8n
+#D streams.
+#D 
+#D The glider to the left is the one that escapes.  It is just below the 
+#D period-8 filter.  The one headed 60 degrees above horizontal passes
+#D through the duplication device, triggering the duplication.
+#D 
+#D Paul Callahan, November 1997
+#L 65.A$64.A.A$65.4A$66.A$66.A$67.A$65.3A$66.A.A$66.3A5.AA$61.AA5.AA4.A$
+#L 62.A6.A14.A$62.AA18.3A$63.A20.A$84.AA$83.AA.A$63.A18.AA$63.A17.AA.A$
+#L 63.A..A14.A.3A$63.A18.AA$64.A8.AA8.A$75.A$AA74.A$A76.A$71.AA..A$70.3A$
+#L 69.AA.A11.A3.AA$69.A.3A11.4A.A$70.A.A11.3A.A.A$70.AA.AA3.3A6.AA.AA$70.
+#L A.AA6.3A6.AA.A$72.A7.A.A7.A$81.5A$80.AA3.A$82.5A$82.A.A$85.A

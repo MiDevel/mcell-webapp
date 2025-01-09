@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x200
+#SPEED 50
+#WRAP 0
+#D 
+#D p23 Fireball gun, based on a p23 gun by Stephen Silver.
+#D 
+#D Mirek Wojtowicz, 5 May 1999
+#L .A..A5.A$12A$.A..A..A..A$.A..A$.4A$.A..A$.A..A$.4A$AA.A$.A.BA$..A$..AA
+#L B$.A.A$AA.A7.A$.12A$..A..A..A..A

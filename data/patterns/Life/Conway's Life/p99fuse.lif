@@ -1,0 +1,22 @@
+#C A group of p80 rakes creates a fuse that is then burned by
+#C a repeating "lumps of muck" reaction. The reaction burns
+#C at 20c/99.   Jason Summers, 9 Jan 1999
+x = 113, y = 100
+36boo$20boo13booboo$19b4o13b4o$18booboo14boo$19boo3$31boo14bo$30bobbo
+11boo$21boo13b3o7boo$20boo5bo8bobbo$21boo4bo3bo3booboo17b5o$22bo3bo4bo
+20bo4bo4bo$29bo20boo5bo$51boo5bo3bo$20boo15b4o19bo$19b4o4b4o5b7o4boo$
+18booboo4bo3bo3boob3oboobbobo9boo$19boo6bo8boo3boobbobboo8boo$28bobbo
+13bobbo$39boo4bobo$37bo8bo$36bo$17b4o15bo3bo$bobbo12bo3bo14b4o$o16bo$o
+3bo13bobbo$4o63bo$65boo$66boo$13boo13bo$13boo4bo7bo$bb3o13b3o6b3o$bbo
+18bo18b3o$bbobo3boo7b5o17b5o$3boo7bo20bo4boob3o$32bo6boo$20boo10b3o66b
+o$bobbo5boo6bo5boo74bobo$o8b4o4bo6b3o73bobbo$o3bo3booboo4bo8boo73boo$
+4o5boo6b8o3bo67bo15bo$22b6o68bo14boo$26bo69bo13boo$75b3o32bo$18boo23bo
+$17booboo20bo28bo9boo$18b4o20b3o25boo8bobbo$19boo49bobo7bobo$20bo17boo
+41bo$bobbo5boo6bo3bobboo11bobo$o8b4o4bo5boboo11bo$o3bo3booboo4bo5b4o$
+4o5boo6b6o$33boo$33bobo4b3o$20bo12bo5b5o$4boo13bobbo15boob3o$bbooboo
+11bo3bo16boo$bbobbo12bo3bo5boo$bbobbo12bo3bo5bobo$3boo9boo3bobo6bo$14b
+oo4bo$$bobbo$o$o3bo46bo$4o13b4o29boo$17bo3bo28bobo$17bo$18bobbo3$19bo
+bbo$18bo$18bo3bo$18b4o3$bboo15b3o3bo$b4o4b4o5b5obboo8bo$ooboo4bo3bo3b
+oob4obo8bo$boo6bo8boo16boo$10bobbo$$39b5o$11boo18bo7bo4bo$3boo7bo17boo
+7bo$bboo5bobbo17bobo7bo3bo$3boo4b3o30bo$4bo3boo15bo$25bo$23bobo$bboo
+20bo$b4o18boo$ooboo$boo15boo$17booboo$18b4o$19boo!

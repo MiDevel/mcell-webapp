@@ -1,0 +1,16 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R2,C15,M1,S2,S3,B1,B2
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 15
+#D Noname... 
+#D 
+#D I can't tell what is this rule like. Help is appreciated.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L AAL..JEL4.K.BGJH.C.KFFN4.GH7.N.H5.NE10.C5.G..J6.D..HI.M.MA.L3.C..I.D.M
+#L ..BA.G6.M.M..B..CN.HD3.K.A.B7.H5.C3.G.EB.GL.KM5.N9.N3.BF..M4.MN..E..H
+#L 3.FG5.N8.D18.M..A12.L7.HJ8.JF10.M.GI.E.G7.E12.LL.H8.H..A5.J9.N.J.F6.B
+#L 6.I5.KG5.N3.G7.ED3.N.E..LN..E

@@ -1,0 +1,24 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW1,NN2,NE0,WW32,ME0,EE4,SW0,SS16,SE8,HI0,RS5,RS7,RS10,RS11,RS13
+#RULE ,RS14,RS15,RS17,RS19,RS20,RS21,RS22,RS23,RS25,RS26,RS27,RS28,RS2
+#RULE 9,RS30,RS34,RS35,RS37,RS38,RS39,RS40,RS41,RS42,RS43,RS44,RS45,RS
+#RULE 46,RS49,RS50,RS51,RS52,RS53,RS54,RS56,RS57,RS58,RS60,RB3,RB6,RB1
+#RULE 2,RB24,RB33,RB48
+#BOARD 400x300
+#SPEED 0
+#WRAP 1
+#CCOLORS 9
+#D There are several ways of placing a second spaceship so that the spark
+#D becomes an escaping glider, resulting in a glider duplication that leaves one
+#D glider undisturbed.  With this, we can convert the moving glider loop
+#D into a rake, albeit a large one with a slow growth constant.
+#D 
+#D Paul Callahan, November 1997
+#L 17.A$17.A.A.A$17.A3.AA$20.AA$20.A$3.A.A14.AA$3.4A13.A.AA$4.A..A12.A..A
+#L $5.A.A15.A$5.4A$5.A$50.A3.A$A50.AA..A$A.A.A13.A33.A.A.A$A3.AA12.3A30.
+#L 3A..AA$3.AA13.A..A32.3A$3.A13.3A.AA$3.AA15.AA$3.A.AA14.AA$3.A..A$6.A
+#L 74.A$81.A$81.A..A$81.A$60.A21.A$60.A5.A$62.A..A$63.3A$63.AA$31.3A7.3A
+#L 19.3A$30.AA..A5.3A..AA16.A..A199.A$31.A11.A21.A.AA197.A.A$31.3A10.A.AA
+#L 20.A199.A$31.A.A10.A220.AA$34.A232.A.A$268.AA$268.AA$268.A5$12.A3$16.
+#L 4A$15.AA$15.5A$$20.A$20.A.A

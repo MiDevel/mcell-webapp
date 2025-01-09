@@ -1,0 +1,21 @@
+#MCell 4.00
+#GAME Rules table
+#RULE 1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,3,3,3,3,3,3,3,3,3,
+#RULE 0,3,1,1,3,3,3,3,3,3
+#BOARD 60x60
+#SPEED 100
+#WRAP 0
+#CCOLORS 4
+#PALETTE 8 colors
+#D This AND gate seems to be the optimum.
+#D 
+#D Transit: 9
+#D IBI: 8
+#D Size: 13x10
+#D 
+#D Trevor Green, February 1990
+#L 15.AC$17.5C$22.C$16.CC3.3C$15.C..C3.C$15.C.13C$15.C..C.C.C$15.3C$13.AC
+#L 7$..CA21.CC$4.5C18.5C$9.C22.C$3.CC3.3C15.CC3.3C$..C..C3.C15.C..C3.C$..
+#L C.13C8.C.13C$..C..C.C.C15.C..C.C.C$..3C20.3C$AC21.AC7$..AC21.AC$4.5C
+#L 18.5C$9.C22.C$3.CC3.3C15.CC3.3C$..C..C3.C15.C..C3.C$..C.13C8.C.13C$..C
+#L ..C.C.C15.C..C.C.C$..3C20.3C$CA21.CC

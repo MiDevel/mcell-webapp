@@ -1,0 +1,23 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012478/36/18
+#BOARD 200x200
+#WRAP 1
+#D Ebb&Flow  Fuses.  This is possibly the slowest known fuse.  A
+#D "normal" c-speed fuse is put next to it to provide contrast, as well
+#D as the top fuse which was the previous record holder.
+#D 
+#D Michael Sweney   November 1999
+#L ..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..
+#L AA..AA..AA..AA..AA..AA..AA..AA6.A$103.A$102A$103.A$..AA..AA..AA..AA..
+#L AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA..AA
+#L ..AA..AA..AA6.A7$95.A$96.A$93.A$94.A$91.A$92.A$89.A$90.A$87.A$88.A$85.
+#L A44.A$86.A42.A$83.A44.A$84.A42.A$81.A44.A$82.A42.A$79.A44.A$80.A42.A$
+#L 77.A44.A$78.A42.A$75.A44.A$76.A42.A$73.A44.A$74.A42.A$71.A44.A$72.A42.
+#L A$69.A44.A$70.A42.A$67.A44.A$68.A42.A$65.A44.A$66.A42.A$63.A44.A$64.A
+#L 42.A$61.A44.A$62.A42.A$59.A44.A$60.A42.A$57.A44.A$58.A42.A$55.A44.A$
+#L 56.A42.A$53.A44.A$54.A42.A$51.A44.A$52.A42.A$49.A44.A$50.A42.A$47.A44.
+#L A$48.A42.A$45.A44.A$46.A42.A$43.A44.A$44.A42.A$41.A44.A$42.A42.A$39.A
+#L 44.A$40.A42.A$37.A44.A$38.A42.A$35.A44.A$36.A42.A$33.A44.A$34.A42.A$
+#L 31.A44.A$32.A42.A$29.A44.A$26.A3.A42.A$24.A..A44.A$24.A3.A42.A$29.A40.
+#L A$69.A$27.AA38.AA$67.AA

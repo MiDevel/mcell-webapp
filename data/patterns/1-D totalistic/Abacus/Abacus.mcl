@@ -1,0 +1,18 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R2,C10,M1,S0,S1,B0,B3
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 10
+#D Abacus
+#D 
+#D The rule produces vertical strings of beads, resembling abacus.
+#D Note that often the patterns stabilize, and only some beads
+#D change their position!
+#D 
+#D Mirek Wojtowicz, July 1999
+#L GEH5.E.E.A6.D5.D..D.G.B..IDI.F4.HF..B4.E3.A3.C4.G..HIB.B.B8.H7.I.F3.B
+#L EE.H..I..D3.I.I.H8.H4.HG.C..G.I6.CF.I..IAF.E3.GG6.FH.F5.A..H10.D..C3.C
+#L .I..AC5.DB.ID13.HHI.AE..C.C..GDC.F3.I..H..G..E10.B..G.F5.A.F4.F7.CC4.G
+#L ..F..D.AB14.ID4.I.H.GD3.DFH6.B.I6.A4.H.IH..I9.AB..ID..H..B.A.H

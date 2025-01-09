@@ -1,0 +1,27 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW1,NN2,NE0,WW32,ME0,EE4,SW0,SS16,SE8,HI0,RS5,RS7,RS10,RS11,RS13
+#RULE ,RS14,RS15,RS17,RS19,RS20,RS21,RS22,RS23,RS25,RS26,RS27,RS28,RS2
+#RULE 9,RS30,RS34,RS35,RS37,RS38,RS39,RS40,RS41,RS42,RS43,RS44,RS45,RS
+#RULE 46,RS49,RS50,RS51,RS52,RS53,RS54,RS56,RS57,RS58,RS60,RB3,RB6,RB1
+#RULE 2,RB24,RB33,RB48
+#BOARD 200x200
+#SPEED 20
+#WRAP 1
+#CCOLORS 9
+#D Infinite growth is an easier question to answer in this hex rule than in Life,
+#D because there is a stalk that leaves a trail of double honey-combs behind it.
+#D It shows up often enough to notice--maybe as often as the replicator in
+#D HighLife--but not so much as to dominate the dynamics of random patterns.
+#D This one is propagating down.
+#D 
+#D This structure (and others like it) are extremely stable.  I can think
+#D of some intuitive reasons for why this is so, but I haven't considered
+#D the issue carefully.  The practical implication is that unlike analogous
+#D Life patterns, there is no clear way to "ignite" the trail left
+#D behind by this pattern.  So far, I have not found any kind of damage
+#D that propagates far along these stalks.
+#D 
+#D Paul Callahan, November 1997
+#L A.AA$.AA.A$AA.AA$..AA.A$..A.AA$3.AA.A$3.A.AA$3.3A.A$6.AA$6.A.A$6.3A$8.
+#L 3A

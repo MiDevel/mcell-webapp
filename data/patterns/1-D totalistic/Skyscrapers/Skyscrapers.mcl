@@ -1,0 +1,15 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R6,C10,M1,S2,S4,S6,S7,S8,S11,S13,S15,B0,B1,B3,B8,B12
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 10
+#D Skyscrapers
+#D 
+#D A big city with protruding skyscrapers watched from
+#D the bird's-eye view.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L B.D.BA6.C..BD.A3.HED.H..IAA..B3.F11.DA.H.I11.IF9.B3.F..FI3.B..E5.B..A
+#L 4.H.F.E4.A.A.A3.E3.HA4.D9.C3.IC7.I.C3.EC3.B.DA..FF..I5.D4.FD

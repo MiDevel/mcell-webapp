@@ -1,0 +1,24 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x200
+#SPEED 50
+#WRAP 0
+#D Some still lifes that can duplicate bullets.
+#D 
+#D The repeat time of the top left one is 13.
+#D The repeat time of the top centre one is 54.
+#D The repeat time of the top right one is 25.
+#D The repeat time of the bottom left one is 22.
+#D The repeat time of the bottom centre one is 57.
+#D The repeat time of the bottom right one is 19.
+#D 
+#D Stephen Silver, April-May 1999
+#L .A..A$6A$.A3.AA$.A4.AA$AA5.AA$.A5.A$.A5.A$9A$.A..A..A4$12.A$11.3A$8.A
+#L 3.A$7.3A.AA$8.A..3A$12.A33.A..A$45.6A$46.A..A$46.A..A$45.AA..AA$46.A..
+#L A$8.AA36.A..A26.A..A$8.BB35.AA..AA24.6A$8.CC36.A..A24.AA3.A$46.A..A23.
+#L AA4.A$45.AA.AA..A..A16.AA5.AA$46.A..8A16.A5.A$46.A9.AA15.A5.A$45.12A
+#L 15.9A$46.A..A..A..A17.A..A..A5$44.AA26.AA$44.BB26.BB$44.CC26.CC5$9.A$
+#L 8.3A$7.AA.AA6.A$8.AA.AA4.3A$9.3A6.A$10.A5$32.A..A24.A..A$4.AA25.6A22.
+#L 6A$4.BB26.AA.A24.A.A.AA$4.CC56.3A6.A$33.A29.A6.3A$32.3A36.A$33.A$$28.
+#L AA$28.BB$28.CC$$56.AA$56.BB$56.CC

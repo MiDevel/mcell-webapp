@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 200x200
+#WRAP 0
+#D Brain 6   More fun with gliders and oscillators.  This page is best
+#D run at the higher speeds.
+#D 
+#D 
+#D Michael Sweney  December 1999
+#L 4.B$..BAA$3.AAB$3.B35$67.A8.A9.A$66.B.B6.B.B7.B.B$3.A11.A11.A37.A.A.A
+#L 4.A.A.A5.A.A.A$..B.B9.B.B9.B.B18.AB17.B.B6.B.B7.B.B$.A.A.A7.A.A.A7.A.A
+#L .A15.AB20.A8.A9.A$..B.B9.B.B9.B.B16.AB$3.A11.A11.A7$69.B$67.B.B.B$66.A
+#L .3A.A$.B65.B.B.B$.AAB65.B$BAA$..B

@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 240x240
+#WRAP 1
+#D Brain 6     More spaceship generation with collider beams.
+#D 
+#D 
+#D 
+#D Michael Sweney  December 1999
+#L 25.AA$24.ABBA$23.AB..BA$23.B4.B$24.A..A.A$24.B..B.BA$28.B.BA$27.ABA.BA
+#L $28.ABA.B$28.A.AA$27.B3.B$$30.B11$7.AB$6.AB.AB$5.AB.AA..B$4.AB.AB$..AB
+#L ..BBAA$.AB.AB.A..B$AB$AB$.AB.AB$..AB9$29.AA$29.BB3$29.AAB$28.B.BAB$28.
+#L A.B.A$29.B.B$29.A.A$30.B$30.ABB$31.AA

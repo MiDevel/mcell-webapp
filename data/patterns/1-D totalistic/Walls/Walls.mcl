@@ -1,0 +1,18 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R2,C15,M1,S2,S3,B1,B3
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 15
+#D Walls
+#D 
+#D A rule very similar to Maze, yet the walls are bigger
+#D and more regular.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L J..L5.C3.I.A.K.DC3.F.L5.D.GMNHBLCB.J4.H..MG..B6.N6.A5.E5.J4.D3.NM9.MI
+#L ..GNC.IL3.N.H.C8.A.MB5.F..D5.D3.LF3.BGGM.D.E.G4.E6.JNN..H.B.A.FK3.K..E
+#L .E4.HBHDI8.DD6.MN4.C3.L.GG3.F..KE3.J8.B16.IJ.I3.K5.NCA..I.J..E.N3.B..B
+#L 3.A.I3.NB..K.F9.N..B4.N.C4.C5.D.IK4.A3.B.LK.FHG.E3.C.M3.A..LK..ADL..K.
+#L K.M

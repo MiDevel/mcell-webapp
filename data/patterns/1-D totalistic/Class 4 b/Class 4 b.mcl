@@ -1,0 +1,17 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R6,C0,M1,S3,S4,S5,S9,S11,S12,S13,B0,B1,B3,B13
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 10
+#D Wolfram's Class 4
+#D 
+#D An example of Wolfram's mythical Class 4 automaton.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L C..HDEB3.BEDG11.D6.CDFB.DD.CB3.D..EI.A..HC..EG.BH.FH8.FA..HE..I.G3.EC.
+#L H5.F..DBIH.IB.F3.G3.E.F.IC3.F.F8.I.G3.F..GE9.G.H.H7.C..C..HDEB3.BEDG
+#L 11.D6.CDFB.DD.CB3.D..EI.A..HC..EG.BH.FH8.FA..HE..I.G3.EC.H5.F..DBI..I
+#L 6.G5.F..C.G4.C..C..HDEB3.BEDG11.D6.CDFB.DD.CB3.D..EI.A..HC..EG.BH.FH8.
+#L FA..HE..I.G3.EC.H

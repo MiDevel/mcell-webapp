@@ -1,0 +1,17 @@
+#MCell 2.0
+#GAME 1-D totalistic
+#RULE R6,C25,M1,S1,S4,S7,S8,B0,B3,B5
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 25
+#D Fences
+#D 
+#D A very surprising one-dimensional automaton, producing
+#D vertical strings and irregular thick more or less horizontal stripes.
+#D 
+#D Mirek Wojtowicz, July 1999
+#L PA4.J.UGK.C.X8.QX11.P..UH..TU..V7.UD4.JPB4.VO3.J.U.K8.QE3.DP6.Q.F.NG..
+#L GF..N5.C.DD.FJGFPU3.K..R5.H..EI4.M4.I5.H.SM..S..B4.O3.N3.F4.CQ3.W8.S..
+#L E.N3.S3.L3.VR3.P.O8.X.R3.P..RL9.S.U.V7.F..H..UKNE3.FKKR11.I6.GJOD.II.H
+#L D3.I..LW.A..VH..LR.EU.NU8.NB..VM..X.Q3.LH.V5.P..JEW..W6.Q5.N..F.S

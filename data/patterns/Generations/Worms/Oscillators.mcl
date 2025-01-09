@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Generations
+#RULE 3467/25/6
+#BOARD 100x100
+#SPEED 10
+#WRAP 1
+#D Worms rule collection
+#D 
+#D Oscillators
+#D 
+#D Mirek Wojtowicz, June 1999
+#L .A$3AE$.A.D$ABC

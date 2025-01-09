@@ -1,0 +1,14 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/26/5
+#BOARD 200x200
+#SPEED 0
+#WRAP 1
+#D Transers rule by John Elliott
+#D 
+#D The original pattern by John Elliott
+#D 
+#D Enhanced by Mirek Wojtowicz, May 1999
+#L D..D$$BCCB$CDDC$.AA$ABBA$.AA$.AA4$4.AA$4.AA$3.ABBA$4.AA$3.CDDC$3.BCCB
+#L $$3.D..D31$24.D..D$$24.BCCB$24.CDDC$25.AA$24.ABBA$25.AA$25.AA4$28.AA$
+#L 28.AA$27.ABBA$28.AA$27.CDDC$27.BCCB$$27.D..D

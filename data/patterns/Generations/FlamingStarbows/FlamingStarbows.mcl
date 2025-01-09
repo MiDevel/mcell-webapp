@@ -1,0 +1,22 @@
+#MCell 4.00
+#GAME Generations
+#RULE 347/23/8
+#BOARD 180x180
+#SPEED 20
+#WRAP 1
+#CCOLORS 8
+#D FlamingStarbows
+#D 
+#D In this world beautiful expanding diamonds and oddly
+#D off-parallelograms sweep across the screen leaving trails
+#D of fire and spirals of autogenesis.
+#D 
+#D Reminiscent of a mutant spawn of Faders and mad Zhabotinsky spirals.
+#D 
+#D Discovered by Charles A. Rockafellor, March 2000
+#L 67.7A$66.9A$66.9A$66.9A$66.9A$.7A58.9A$9A57.9A$9A57.9A$9A58.7A$9A$9A$
+#L 9A$9A$.7A39$56.7A$55.9A$55.9A$55.9A$55.9A$55.9A$55.9A$55.9A$56.7A$$
+#L 109.7A$108.9A$108.9A$108.9A$108.9A$108.9A$108.9A$108.9A$109.7A10$64.7A
+#L $63.9A$63.9A$63.9A$63.9A$63.9A$63.9A$63.9A$..7A55.7A$.9A$.9A$.9A$.9A$.
+#L 9A$.9A$.9A$..7A14$107.7A$106.9A$106.9A$106.9A$106.9A$106.9A$106.9A$
+#L 106.9A$107.7A

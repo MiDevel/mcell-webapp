@@ -1,0 +1,15 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW9,NN1,NE9,WW1,ME0,EE1,SW9,SS1,SE9,HI0,RS0,RS1,RS2,RS11,RS19,RB
+#RULE 11,RB19
+#BOARD 120x120
+#SPEED 20
+#WRAP 1
+#CCOLORS 4
+#D A predecessor to fleas. This rule is simpler but has an interesting replicator.
+#D 
+#D Ben Schaeffer 1999
+#L 3A..A8.A4.A$A5.A3.AA6.A$A..A.A5.3A6.A$.A.A3.A..AA8.A$A7.A..A4.AA.A$4.A
+#L 5.A5.A..A$.A..A9.A.AA$A..AA..A.AA..A..A.A$3A..A3.A$4.A.A..A3.AA.A3.A$
+#L 6.A4.A8.A$.A5.AA..A.A3.A.A$14.A$10.A6.A$A3.A6.A4.A..A$A..3A.AA..3A3.A$
+#L 4.A3.A.3A.AA$$..A7.3A.A..AA$5.A6.AA3.AA$..A8.A.A3.A

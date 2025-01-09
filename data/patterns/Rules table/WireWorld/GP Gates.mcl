@@ -1,0 +1,28 @@
+#MCell 4.00
+#GAME Rules table
+#RULE 1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,3,3,3,3,3,3,3,3,3,
+#RULE 0,3,1,1,3,3,3,3,3,3
+#BOARD 80x60
+#SPEED 100
+#WRAP 0
+#CCOLORS 4
+#PALETTE 8 colors
+#D In the above file we have a couple of NOT gates (top middle),
+#D an XOR gate (bottom left) and a NAND gate (right).
+#D 
+#D The inelegant part of these NOT and NAND gates is that they
+#D have internal clocks -- a pulse arriving must be in sync with the
+#D internal clock or the gate will fail to function.
+#D 
+#D I don't believe this can be helped, but an OR gate only requires that the
+#D incoming pulses be in sync, which is seems to be a much nicer property.
+#D On the other hand, the NAND gate does have a certain visual appeal.
+#D 
+#D George Phillips, February 1990
+#L ..B3.A$.ACC.BCC12.6CBA14.BA4CBACC$..C3.C21.C23.C$..C.C.C20.3C21.3C$.C.
+#L 3C.C18.C.C23.C$.C..C..C19.C.8C13.CC.7C$.C..C..C18.CC21.C.C$.C..C..C18.
+#L CC21.C.B$.C..C..C17.C..C21.A$.C..C..C18.AB6$50.C5.C$49.C.C3.C.C$49.C.A
+#L 3.A.C$50.B.C.C.B$52.C.C$50.C.C.C.C$40.BA4CBA4C3.4CAB5CB$17.CC20.C10.C.
+#L C.C.C10.C$3CBA4CBACCBA3C.CC.C16.C12.C.C12.C$17.CC..C.C15.C11.C3.C11.C$
+#L 20.CC..9C6.C11.C.C.C11.C$17.CC.C18.C12.3C12.A$4CBA4CB3CBACC.C19.B13.C
+#L 13.B$17.CC20.C13.C13.C$53.C13.C$53.C$53.C$53.C$53.C

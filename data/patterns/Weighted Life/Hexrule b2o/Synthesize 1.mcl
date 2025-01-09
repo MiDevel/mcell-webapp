@@ -1,0 +1,17 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW1,NN2,NE0,WW32,ME0,EE4,SW0,SS16,SE8,HI0,RS5,RS7,RS10,RS11,RS13
+#RULE ,RS14,RS15,RS17,RS19,RS20,RS21,RS22,RS23,RS25,RS26,RS27,RS28,RS2
+#RULE 9,RS30,RS34,RS35,RS37,RS38,RS39,RS40,RS41,RS42,RS43,RS44,RS45,RS
+#RULE 46,RS49,RS50,RS51,RS52,RS53,RS54,RS56,RS57,RS58,RS60,RB3,RB6,RB1
+#RULE 2,RB24,RB33,RB48
+#BOARD 100x100
+#SPEED 0
+#WRAP 0
+#CCOLORS 9
+#D Spaceships are a lot more interesting when they can be produced on demand.
+#D Just as in Life, there are ways to synthesize these from gliders.
+#D Here's a three-glider synthesis of the period-48 spaceship.
+#D 
+#D Paul Callahan, November 1997
+#L 18.A$19.A$19.A.A$AA10.4A4.A.A$..A9.A8.A$3.A$4.A11.A$..A

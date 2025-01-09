@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Generations
+#RULE 03467/25/6
+#BOARD 100x100
+#WRAP 0
+#D The oscillators in this rule are really fascinating.  If you construct an
+#D array of them, they reconfigure internally producing  a larger oscillator.
+#D 
+#D Michael Sweney   June 2000
+#L 6.ACD$6.CDC$6.DCA$9.A$..A7.A3.A$$6.A11.A$5.A11.A$..DCA5.DCA3.A$..CDC5.
+#L CDC$..ACD5.ACD7.A$.A$A5.ACD5.A$6.CDC$6.DCA9.A$9.A7.A$10.A3.DCA$14.CDC$
+#L 14.ACD

@@ -1,0 +1,44 @@
+#MCell 2.0
+#GAME Generations
+#RULE 012478/36/18
+#BOARD 200x200
+#WRAP 1
+#D Ebb&Flow  Tesselations.  Here are two ways to tile the plane with
+#D "circles"  (or a close facsimile thereof given the orthogonal grid).
+#D These tilings are stable under the rule.
+#D At the bottom is the result of superimposing a block of 4 circles from
+#D the left pattern on to a block of 4 circles from the right pattern.  What
+#D is interesting is that they superimpose with zero impingement.  No two
+#D dots occupy the same space.
+#D Stability isnt preserved under this operation and the resulting pattern
+#D is active under the rule.
+#D 
+#D Michael Sweney   November 1999
+#L 28.A.A$26.A5.A$25.A7.A37.A.A9.A.A9.A.A9.A.A$69.A5.A5.A5.A5.A5.A5.A5.A$
+#L 24.A9.A33.A7.A3.A7.A3.A7.A3.A7.A$$24.A9.A32.A9.A.A9.A.A9.A.A9.A$$20.A.
+#L A..A7.A..A.A28.A9.A.A9.A.A9.A.A9.A$18.A5.A.A5.A.A5.A$17.A7.A..A.A..A7.
+#L A26.A7.A3.A7.A3.A7.A3.A7.A$69.A5.A5.A5.A5.A5.A5.A5.A$16.A9.A5.A9.A28.A
+#L .A9.A.A9.A.A9.A.A$$16.A9.A5.A9.A28.A.A9.A.A9.A.A9.A.A$69.A5.A5.A5.A5.A
+#L 5.A5.A5.A$12.A.A..A7.A..A.A..A7.A..A.A21.A7.A3.A7.A3.A7.A3.A7.A$10.A5.
+#L A.A5.A.A5.A.A5.A.A5.A$9.A7.A..A.A..A7.A..A.A..A7.A17.A9.A.A9.A.A9.A.A
+#L 9.A$$8.A9.A5.A9.A5.A9.A16.A9.A.A9.A.A9.A.A9.A$$8.A9.A5.A9.A5.A9.A17.A
+#L 7.A3.A7.A3.A7.A3.A7.A$69.A5.A5.A5.A5.A5.A5.A5.A$4.A.A..A7.A..A.A..A7.A
+#L ..A.A..A7.A..A.A16.A.A9.A.A9.A.A9.A.A$..A5.A.A5.A.A5.A.A5.A.A5.A.A5.A.
+#L A5.A$.A7.A..A.A..A7.A..A.A..A7.A..A.A..A7.A13.A.A9.A.A9.A.A9.A.A$69.A
+#L 5.A5.A5.A5.A5.A5.A5.A$A9.A5.A9.A5.A9.A5.A9.A9.A7.A3.A7.A3.A7.A3.A7.A$$
+#L A9.A5.A9.A5.A9.A5.A9.A8.A9.A.A9.A.A9.A.A9.A$$.A7.A..A.A..A7.A..A.A..A
+#L 7.A..A.A..A7.A9.A9.A.A9.A.A9.A.A9.A$..A5.A.A5.A.A5.A.A5.A.A5.A.A5.A.A
+#L 5.A$4.A.A..A7.A..A.A..A7.A..A.A..A7.A..A.A13.A7.A3.A7.A3.A7.A3.A7.A$
+#L 69.A5.A5.A5.A5.A5.A5.A5.A$8.A9.A5.A9.A5.A9.A20.A.A9.A.A9.A.A9.A.A$$8.A
+#L 9.A5.A9.A5.A9.A20.A.A9.A.A9.A.A9.A.A$69.A5.A5.A5.A5.A5.A5.A5.A$9.A7.A
+#L ..A.A..A7.A..A.A..A7.A18.A7.A3.A7.A3.A7.A3.A7.A$10.A5.A.A5.A.A5.A.A5.A
+#L .A5.A$12.A.A..A7.A..A.A..A7.A..A.A20.A9.A.A9.A.A9.A.A9.A$$16.A9.A5.A9.
+#L A24.A9.A.A9.A.A9.A.A9.A$$16.A9.A5.A9.A25.A7.A3.A7.A3.A7.A3.A7.A$69.A5.
+#L A5.A5.A5.A5.A5.A5.A$17.A7.A..A.A..A7.A29.A.A9.A.A9.A.A9.A.A$18.A5.A.A
+#L 5.A.A5.A$20.A.A..A7.A..A.A$$24.A9.A$$24.A9.A$$25.A7.A$26.A5.A$28.A.A
+#L 31.A.A$60.A5.A$56.A.AA7.AA.A$54.A5.A5.A5.A$53.A4.A..A3.A..A4.A$$52.A5.
+#L A3.A.A3.A5.A$$52.A.A.A..A..A.A..A..A.A.A$52.A5.A.A5.A.A5.A$51.A.A5.A.
+#L AA.AA.A5.A.A$54.A5.A5.A5.A$50.A5.A.A.A5.A.A.A5.A$$50.A5.A.A.A5.A.A.A5.
+#L A$54.A5.A5.A5.A$51.A.A5.A.AA.AA.A5.A.A$52.A5.A.A5.A.A5.A$52.A.A.A..A..
+#L A.A..A..A.A.A$$52.A5.A3.A.A3.A5.A$$53.A4.A..A3.A..A4.A$54.A5.A5.A5.A$
+#L 56.A.AA7.AA.A$60.A5.A$62.A.A

@@ -1,0 +1,15 @@
+#MCell 3.00
+#GAME Weighted Life
+#RULE NW4,NN1,NE4,WW5,ME7,EE5,SW4,SS1,SE4,HI12,RS8,RS9,RS11,RB2,RB5
+#BOARD 200x200
+#WRAP 0
+#D Navaho 1  In Navaho 2 fencelaying is very common and shuts down the reactions fairly
+#D quickly as space gets partitioned.  In this rule, fencelaying is much more rare.
+#D 
+#D 
+#D Michael Sweney  February 2000
+#L 3.AA$..ABB.AA12.AA$.A.CC.BBA10.ABB.AA$ABBDDACC.A8.A.CC.BBA$.AAEEADDBBA
+#L 6.ABBDDACC.A$..EFFAEEAA8.AAEEADDBBA$.E.GGAFFE10.EFFAEEAA$E.F.HAGG.E8.E
+#L .GGAFFE
+
+

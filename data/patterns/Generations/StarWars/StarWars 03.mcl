@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x200
+#SPEED 0
+#WRAP 1
+#D    Game 'Generations', rules 'StarWars'
+#D 
+#D    Another interesting small starting pattern
+#D 
+#D    Discovered by Mirek Wojtowicz using MCLife
+#D    1999.03.30
+#L AA$3A$.AA

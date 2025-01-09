@@ -1,0 +1,25 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 400x200
+#WRAP 0
+#D Brain 6  Two ways to create oscillator bombers.  A spaceship, a
+#D bomber and low frequency beam generators are used to create
+#D two different lines of p6 oscillators.  Ideally, a single bomber can
+#D probably be constructed to do the same task, or next better, a
+#D single bomber and beam generator pair or single spaceship and
+#D bomber pair.
+#D 
+#D 
+#D 
+#D Michael Sweney  January 2000
+#L 110.AB$109.AB..B$103.AB..AB.AB$102.AB.AB.AA..BBAB$102.AB3.AB..B.A8$79.
+#L AB.A$77.AB..BBA$76.AB.AB3.B$76.AB3.AB$$AB$AB74.AB3.AB$76.AB.AB3.B$77.A
+#L B..BBA$79.AB.A$98.AA$98.BB$97.A..A$92.AB..B3.B$91.AB.AA$90.AB.AB..B$
+#L 89.AB$89.AB25$146.AB$145.AB..B$139.AB..AB.AB$138.AB.AB.AA..BBAB$138.AB
+#L 3.AB..B.A6$86.AB5.AB$85.AB.AB..AB.A$84.AB..BBA..B..B3.A$83.AB.AB.A..BB
+#L 4.AB.B$77.AB..AB.AA6.AA.3B..B$76.AB.AB.AB.AB7.AB3.BBA$74.AB8.AB.AB8.B.
+#L A.A$72.AB23.B..AB$72.AB23.B..AB$74.AB8.AB.AB8.B.A.A$76.AB.AB.AB.AB7.AB
+#L 3.BBA$77.AB..AB.AA6.AA.3B..B$83.AB.AB.A..BB4.AB.B32.AA$84.AB..BBA..B..
+#L B3.A33.BB$85.AB.AB..AB.A37.A..A$86.AB5.AB33.AB..B3.B$127.AB.AA$126.AB.
+#L AB..B$125.AB$125.AB

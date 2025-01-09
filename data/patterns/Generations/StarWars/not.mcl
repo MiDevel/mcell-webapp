@@ -1,0 +1,23 @@
+#MCell 2.0
+#GAME Generations
+#RULE 345/2/4
+#BOARD 200x200
+#SPEED 10
+#WRAP 0
+#CCOLORS 4
+#D NOT logic gate in Starwars rule. Output is TRUE only if input is false. Operates on bullets.
+#D Bullets have to come in exactly the same column and angle as showed in the pattern.
+#D Operation time (measured from start of the collision between unit and input to end of the collision
+#D between unit and output): 5 time units.
+#D Frequency of input: 24 time units.
+#D Input comes from bottom (I made gun there), output goes to the left.
+#D Therefore I suggest that Turing machine cycle (input/output of elements) length should be 24.
+#D Guns are by Stephen Silver
+#D 
+#D Object by Kamil Przybyla
+#D 
+#D July 1999
+#L 32.C$32.A$30.AB.A$31.5A$29.CAA..A$29.B.3A.A.A$22.A8.A..3AB$21.3A7.B3A.
+#L A$22.A7.CA..AA.AB$34.A.AA$34.A..A$33.6A$34.A..A107$5.A$4.3A$5.A6$7.BC$
+#L 4.C3.A.A$4.AB4AB$5.A.A.A.AC$.A3.A.A.AA$7A.AA$.A..A.AA.A$.A.A.AA$5A.BA$
+#L .A..B

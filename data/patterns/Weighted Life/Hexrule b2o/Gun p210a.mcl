@@ -1,0 +1,36 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW1,NN2,NE0,WW32,ME0,EE4,SW0,SS16,SE8,HI0,RS5,RS7,RS10,RS11,RS13
+#RULE ,RS14,RS15,RS17,RS19,RS20,RS21,RS22,RS23,RS25,RS26,RS27,RS28,RS2
+#RULE 9,RS30,RS34,RS35,RS37,RS38,RS39,RS40,RS41,RS42,RS43,RS44,RS45,RS
+#RULE 46,RS49,RS50,RS51,RS52,RS53,RS54,RS56,RS57,RS58,RS60,RB3,RB6,RB1
+#RULE 2,RB24,RB33,RB48
+#BOARD 200x120
+#SPEED 0
+#WRAP 0
+#CCOLORS 9
+#D Finally, we can build high-period guns using glider/glider interactions.
+#D What's interesting here is that we can generate the stream "A and not B"
+#D without affecting the stream "B" because (unlike Life) there are lot 
+#D of ways for a glider to delete another without being destroyed.
+#D To illustrate this, here's a gun I built before I found the
+#D glider duplication reaction.
+#D 
+#D It works by sending a stream through a glider relay, which leaves
+#D a hole in the stream wherever it interacts with the glider in the relay.
+#D A second gun inverts this stream, resulting in a high period stream.  The
+#D gun as such is made obsolete by direct glider duplication, but there are 
+#D undoubtedly many uses for the one-sided glider deletion reaction.  
+#D Among other things, it could be useful for building the sort of 
+#D pseudorandom gun that has been realized in Life by Dean Hickerson 
+#D and others.
+#D 
+#D Paul Callahan, November 1997
+#L A$A10.A$.A9.A.A$9.5A$10.A3.A$11.4A$11.A.A.A$11.5A6.A$13.A7.AA.A$20.AA.
+#L AA$18.A3.A.A$19.A..AA.A$18.3A.A.AA$20.AA.AA$24.A$$7.A$7.A18.A$8.A..A
+#L 15.AA$9.A17.AA$10.A16.A.AA$26.4A.A$29.A.A$29.A.3A$29.3A$31.A$15.A9.AA$
+#L 15.AA.A6.A$13.3A.4A4.A$15.A.A.A5.A20.A31.AA$14.AA.3A8.A16.A.A31.AA.A$
+#L 16.AA.A26.A.A30.A.AA$16.AA..AA26.A31.AA.AA$20.AA27.A31.A.A$22.A58.A.AA
+#L $81.3A.A$23.A14.AA43.A$23.3A12.A$22.AA.A13.A.AA$22.A.5A10.3A.A$23.A.A
+#L ..A4.A5.A.A.A$23.AA.A..A4.AA4.AA.AA$23.A.3A4.3A.A5.AA.A$26.A4.AA.A.A5.
+#L A.A$33.4A$33.A3.A$33.5A$36.A.A$36.A

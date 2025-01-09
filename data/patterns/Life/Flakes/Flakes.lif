@@ -1,0 +1,9 @@
+x = 43, y = 43, rule = 012345678/3
+15b13o$12b19o$10b23o$9b25o$8b27o$6b31o$5b33o$5b33o$4b35o$3b37o$bb39o$
+bb39o$b41o$b41o$b41o$43o$43o$43o$43o$43o$43o$43o$43o$43o$43o$43o$43o$
+43o$b41o$b41o$b41o$bb39o$bb39o$3b37o$4b35o$5b33o$5b33o$6b31o$8b27o$9b
+25o$10b23o$12b19o$15b13o!
+Flakes rule by Janko Gravner.
+
+The rule produces beautiful flakes,
+starting from simple groups of cells.

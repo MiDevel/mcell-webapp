@@ -1,0 +1,12 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 200x100
+#WRAP 1
+#D Brain 6  Wagtails are spaceships that take minimal tinkering to
+#D turn into bombers or butterfly bombers.  They are so pleasing
+#D to look at that I seldom modify them.
+#D 
+#D 
+#D Michael Sweney   January 2000
+#L 6.AB$5.AB$4.AB.A$3.AB..BAA.BAB$.AB.AB..B.BAA$AB3.AB..BA$AB4.AB$.AB

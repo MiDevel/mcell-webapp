@@ -1,0 +1,13 @@
+#MCell 2.20
+#GAME Larger than Life
+#RULE R10,C0,M1,S123..212,B123..170,NM
+#BOARD 120x120
+#SPEED 0
+#WRAP 1
+#CCOLORS 9
+#D A "Lopsided" bug that needs about 130 cycles to turn to
+#D the symmetric horizontal bug.
+#D 
+#D Mirek Wojtowicz, November 1999
+#L 7.5A$5.9A$4.12A$4.13A$3.15A$..17A$..18A$.4A..A..10A$.3A7.9A$3A9.8A$3A
+#L 9.8A$3A9.8A$.3A7.9A$.3A6.10A$..3A5.9A$3.4A..9A$4.11A$5.8A$6.6A$8.AA

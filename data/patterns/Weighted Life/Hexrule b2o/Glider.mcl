@@ -1,0 +1,21 @@
+#MCell 2.20
+#GAME Weighted Life
+#RULE NW1,NN2,NE0,WW32,ME0,EE4,SW0,SS16,SE8,HI0,RS5,RS7,RS10,RS11,RS13
+#RULE ,RS14,RS15,RS17,RS19,RS20,RS21,RS22,RS23,RS25,RS26,RS27,RS28,RS2
+#RULE 9,RS30,RS34,RS35,RS37,RS38,RS39,RS40,RS41,RS42,RS43,RS44,RS45,RS
+#RULE 46,RS49,RS50,RS51,RS52,RS53,RS54,RS56,RS57,RS58,RS60,RB3,RB6,RB1
+#RULE 2,RB24,RB33,RB48
+#BOARD 120x120
+#SPEED 0
+#WRAP 1
+#CCOLORS 9
+#D This is a common period-4 glider with two distinct shapes,
+#D much like the glider in Life.
+#D 
+#D Note: gliders cannot propagate down (270 degrees) but are limited
+#D to 0, 60, 120, 180, 240 degrees.  Clearly, this affects the kinds of 
+#D constructions we can build out of spaceship/glider interactions.
+#D 
+#D Paul Callahan, November 1997
+#L 17.A$18.A$16.A..A$20.A$20.A11$4A$4.A41.A$49.A$..A46.A$49.A$48.AA24$15.
+#L AA$15.A$15.A46.A$15.A$18.A41.A$61.4A11$44.A$44.A$45.A..A$46.A$47.A

@@ -1,0 +1,13 @@
+#MCell 2.0
+#GAME Generations
+#RULE /2/3
+#BOARD 200x200
+#SPEED 0
+#WRAP 1
+#D Butterfly gun p8
+#D 
+#D Each 8 cycles a new butterfly is fired.
+#D 
+#D Mirek Wojtowicz, June 1999
+#L 9.A.BA$9.BBA.BA$11.AA.BA$10.B..B..BA.BA$13.BB..BA.BA$13.B..BA..BA$12.B
+#L ..BA$14.BA8$8.BA$3.A.BA.BA$B..BB..BA$3.A.BA

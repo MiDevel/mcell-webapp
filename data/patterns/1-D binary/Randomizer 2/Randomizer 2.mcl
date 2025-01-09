@@ -1,0 +1,8 @@
+#MCell 3.00
+#GAME 1-D binary
+#RULE R1,W2D
+#BOARD 300x200
+#SPEED 0
+#WRAP 1
+#CCOLORS 2
+#L A

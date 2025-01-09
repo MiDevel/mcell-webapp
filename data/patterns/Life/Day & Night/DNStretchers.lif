@@ -1,0 +1,94 @@
+x = 89, y = 546, rule = S34678/B3678
+80b2o$80bo$75b2o3bo3bo$74b3ob5ob2o$76b11o$78b10o$77b12o$75bobob10o$77b
+11o$77b2o2b6o$77bo4b4o$83bo9$80b2o$80bo$75b2o3bo3bo$75b8ob2o$74bob11o$75b
+13o$74b15o$74b15o$74bo2b11o$76bob9o$77b7obo$77b2ob4o$81b2o8$80b2o$80bo$75b
+2o3bo3bo$75b8ob2o$74bob11o$75b13o$73b16o$73b16o$73b9ob5o$75b6o2b4o$73b
+2ob3o5b2o$84bo9$80b2o$80bo$75b2o3bo3bo$75b8ob2o$74bob11o$71b2o2b13o$71b
+18o$71b16obo$71b17o$72b14obo$72b4ob7ob2o$71bobo8b3o$72b3o3b2o8$80b2o$80b
+o$75b2o3bo3bo$75b8ob2o$74bob11o$75b13o$73b16o$73b16o$73b15o$73bo2b4obo2b
+3o$74b2ob3obo3bo16$80b2o$80bo$55b2o5b3o10b2o3bo3bo$52b7o2b3o4bobo4b8ob
+2o$52b18ob2obob11o$46bo4b21o3b13o$45b2o3b39o$45b3o2b39o$50bo2b35o$51bob
+3o2b4o2b4o2b4o2b4obo2b3o$53b2ob2ob2ob2ob2ob2ob2ob2ob3obo3bo$53bo9$80b2o$80b
+o$75b2o3bo3bo$75b8ob2o$74bob11o$72bo2b13o$72b17o$72b17o$72b17o$72b2o2b
+11obo$76b10obo$75bob6o2b2o$76b2o2b3obo$81b2o$81b2o6$80b2o$80bo$75b2o3b
+o3bo$75b8ob2o$74bob11o$72bo2b13o$72b17o$72b17o$72b17o$72b10o2b3obo$72b
+6ob5ob3o$72b2o5b2o9$80b2o$80bo$75b2o3bo3bo$75b8ob2o$74bob11o$73bob13o$74b
+15o$74b15o$74b15o$74b5o2b6obo$74b3o4b5obo$74bo5bob3obo$81b2ob2o10$84bo$73b
+2ob3o5b2o$72bo2b6o2b4o$72b10ob5o$72b17o$72b17o$72b17o$72b11o2b2obo$72b
+11o3b2o$75bobobobo$76bo3b2o9$51b3o30bo$51b2o2b2ob2ob2ob2ob2ob2ob2ob3o5b
+2o$34bobo2bo2bo2bo6b3o2b4o2b4o2b4o2b6o2b4o$33bob13o2b32ob5o$33b16ob39o$32b
+55obo$32b56o$33b48o2b3obo$33b44ob5ob3o$35b2o4b2o4b2o4b2o4b2o4b2o4b2o5b
+2o9$80b2o$80bo$75b2o3bo3bo$42b2o5b2ob2o3bo6b2ob2o6b8ob2o$41bo2bobobo2b
+o2bo5bo2b8o3bob11o$41b5ob26o2b13o$41b16ob31o$41b48o$41b47o$41b8ob4o2b4o2b
+4o2b4o2b8o4bo$41b8o2b2ob2ob2ob2ob2ob2ob2ob2ob3ob4o2bo$41b6o$41b7o$41b6o$41b
+8o2b2ob2ob2ob2ob2ob2ob2ob2ob3ob4o2bo$41b8ob4o2b4o2b4o2b4o2b8o4bo$41b47o$41b
+48o$41b16ob31o$41b5ob26o2b13o$41bo2bobobo2bo2bo5bo2b8o3bob11o$42b2o5b2ob
+2o3bo6b2ob2o6b8ob2o$75b2o3bo3bo$80bo$80b2o16$80b2o$80bo$75b2o3bo3bo$15b
+o13b2ob2o5b2ob2o5b2ob2o3bo6b2ob2o6b8ob2o$6bob2obo3b2obo2bo2bobobo2bo2b
+obobo2bo2bobobo2bo2bo5bo2b8o3bob11o$3b2ob5ob6ob7ob9ob9ob26o2b13o$3b9o2b
+43ob31o$2bo2b18ob65o$3b15ob3o2b64o$4bobob10ob3o2b8o2b4o2b4o2b4o2b4o2b4o2b
+4o2b4o2b4obo2b3o$10b7o2bo3b3obob2ob2ob2ob2ob2ob2ob2ob2ob2ob2ob2ob2ob2ob
+2ob2ob2ob3obo3bo$10b8obo3b2o$9b9o5b3o$10b10o3b2o$9bob7obo2bo6b2ob2ob2ob
+2ob2ob2ob2ob2ob2ob2ob2ob2ob2ob2ob2ob2ob3obo3bo$11b8o2bo6b4o2b4o2b4o2b4o2b
+4o2b4o2b4o2b4o2b4obo2b3o$7b3ob77o$9b80o$6b3ob47ob31o$bo4b3ob4ob11ob9ob
+9ob26o2b13o$2o4b4o2b2o2bo2bo2bobobobo2bo2bobobo2bo2bobobo2bo2bo5bo2b8o3b
+ob11o$3o10b3ob4o2bo5b2ob2o5b2ob2o5b2ob2o3bo6b2ob2o6b8ob2o$15bo59b2o3bo3b
+o$80bo$80b2o25$84bo$73b2ob3o5b2o$72bo2b6o2b4o$72b10ob5o$72b17o$72b17o$72b
+17o$72b11o2b2obo$72b11o3b2o$75bobobobo$76bo3b2o2$83bo$72b2ob3o5b2o$71b
+o2b6o2b4o$71b10ob5o$71b17o$71b17o$71b17o$71b11o2b2obo$71b11o3b2o$74bob
+obobo$75bo3b2o4$77b2o$77bo$72b2o3bo3bo$72b8ob2o$73b11o$71b14o$69b17o$69b
+5o2b9o$69bobo3bob5obo$76b6o$76b2obobo$80bo15$84bo$73b2ob3o5b2o$72bo2b6o2b
+4o$72b10ob5o$72b17o$72b17o$72b17o$72b11o2b2obo$72b11o3b2o$75bobobobo$76b
+o3b2o2$83bo$72b2ob3o5b2o$71bo2b6o2b4o$71b10ob5o$71b17o$71b17o$71b17o$71b
+11o2b2obo$71b11o3b2o$74bobobobo$75bo3b2o32$80b2o$80bo$75b2o3bo3bo$75b8ob
+2o$74bob11o$72bo2b13o$72b17o$71b18o$71b17o$73b12obo$73b13o$71b14obo$71b
+17o$73b16o$73b16o$71b17o$71b14obo$71b15o$71b14obo$71b17o$73b16o$73b16o$71b
+17o$71b14obo$73b13o$73b12obo$71b17o$71b18o$72b17o$72bo2b13o$74bob11o$75b
+8ob2o$75b2o3bo3bo$80bo$80b2o22$80b2o$49b3o28bo$45bob2obo24b2o3bo3bo$44b
+o2b3ob2o4bo6b2ob2o6b8ob2o$43bob10o5bo2b8o3bob11o$45b28o2b13o$45b12ob31o$45b
+43o$48b39o$44bobob36obo$46b38o$45bob36o$45bob23ob13o$45bob21o2bob12obo$45b
+ob19ob3obob14o$46b19obo5bob14o$36bobobobobobobobobobob8obo8b15o$46b19ob
+o5bob14o$45bob19ob3obob14o$45bob21o2bob12obo$45bob23ob13o$45bob36o$46b
+38o$44bobob36obo$48b39o$45b43o$45b12ob31o$45b28o2b13o$43bob10o5bo2b8o3b
+ob11o$44bo2b3ob2o4bo6b2ob2o6b8ob2o$45bob2obo24b2o3bo3bo$49b3o28bo$80b2o13$51b
+3o30bo$51b2o2b2ob2ob2ob2ob2ob2ob2ob3o5b2o$34bobo2bo2bo2bo6b3o2b4o2b4o2b
+4o2b6o2b4o$33bob13o2b32ob5o$33b16ob39o$33b56o$33b55o$34b51obo$34b52o$33b
+52obo$33b55o$34b55o$34b55o$33b55o$33b52obo$34b52o$34b51obo$33b55o$33b56o$33b
+16ob39o$33bob13o2b32ob5o$34bobo2bo2bo2bo6b3o2b4o2b4o2b4o2b6o2b4o$51b2o2b
+2ob2ob2ob2ob2ob2ob2ob3o5b2o$51b3o30bo!
+Written by PSLife 1.03 on 9/9/99 at 11:33:05 PM
+1:  appeared in a broth (a block of random cells; 51% 1260x919, gen
+~104400).  Saved 6/28/99.
+2:  escaped from another broth, which also produced a "rocket", around
+generation 300,000.  Saved 7/15/99.
+3:  appeared in a broth briefly, at about  22580.   Saved 7/22/99.
+4:  appeared in a broth.  Saved 7/29/99
+5:  appeared in a broth (1837x2520, 52%) at ~1060000.  Saved 7/30/99
+6:  escaped from a broth ~500000.  Saved 8/31/99.  Wickship puffer
+based on (5)
+7:  appeared in inverse in a broth at ~119000.  Saved 8/12/99
+8:  appeared in inverse in a broth at ~1322700.  Saved 8/20/99
+9:  appeared in a broth at ~200000.  Saved 8/29/99
+10: appeared in a broth (29) at ~161000.  Saved 9/7/99.  First one that has
+no phase with that "hook" on it.
+11: propagating conversion along wick (10),  Note that another conversion
+is initiated by the startup sparks.  It chases the first one, catches up,
+and stops; this happens twice before a steady state is reached...
+12:  wickwelder, found/constructed 7/31/99
+13:  stretching wickship, 8/10/99.  Note that this periodically nicks the
+side of the one above it.  Period consists of two mirrored half-periods,
+and is 2580 cells, 6098 gens, in total, for speed 0.423... * C
+14:  wickstretchers interacting with new sidewinder.  Since puffers that
+lay out individual objects can be more useful than wickstretchers, this
+sort of interaction could be interesting.
+15:  wickstretchers interacting with each other; the "combustion" seems
+to be sustained.
+16:  a way of putting wickstretchers together.  This will work with most
+of the ones given here.
+17:  another way of putting them together.  This comes from DayNight.txt
+by David Bell, but I have advanced it a few generations to standardize it.
+18:  putting (10) together, along with propagator.
+
+--Paul Schick
+
+

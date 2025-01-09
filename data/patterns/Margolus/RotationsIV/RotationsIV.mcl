@@ -1,0 +1,13 @@
+#MCell 4.00
+#GAME Margolus
+#RULE MS,D0;4;1;12;8;10;6;14;2;9;5;13;3;11;7;15
+#BOARD 160x160
+#SPEED 20
+#WRAP 1
+#CCOLORS 2
+#D Slow, random-looking diffusion.
+#D 
+#D A rule by Tim Tyler.
+#L A$A$A$A$A$A$A$A$A$A52.9A$A52.9A$A52.9A$A52.9A$A52.9A$A52.9A$A52.9A$A
+#L 52.9A$A52.9A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A$A20$7.10A$7.A8.A36.6A4.
+#L 6A$7.A8.A$7.A8.A$7.A8.A$7.A8.A$7.A8.A$7.A8.A$7.A8.A$7.10A3$49.6A4.6A

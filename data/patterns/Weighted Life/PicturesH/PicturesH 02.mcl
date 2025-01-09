@@ -1,0 +1,29 @@
+#MCell 2.0
+#GAME Weighted Life
+#RULE NW0,NN1,NE0,WW1,ME0,EE1,SW0,SS1,SE0,HI9,RS1,RS2,RS3,RB2,RB3,RB4
+#BOARD 250x250
+#SPEED 50
+#WRAP 0
+#D Pictures with History - variation on the Pictures rule,
+#D a beautiful rule using the von Neumann neighbourhood.
+#D 
+#D All patterns tend to form rectangular shapes, filled
+#D with sparkling cells.
+#D 
+#D Discovered by Mirek Wojtowicz using MCLife.
+#D May 1999
+#L 80A..81A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A
+#L 79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$
+#L A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A
+#L ..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A
+#L 79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$
+#L A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A
+#L ..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A
+#L 79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$
+#L A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A
+#L ..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A
+#L 79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$
+#L A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A
+#L ..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A
+#L 79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$
+#L A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$A78.A..A79.A$80A..A79.A$82.81A

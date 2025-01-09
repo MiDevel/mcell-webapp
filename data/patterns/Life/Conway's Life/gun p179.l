@@ -1,0 +1,20 @@
+x = 128, y = 90
+85bo$84bobo$69bo14bobo$67b3o13b2ob2o$66bo14bo$31bo34b2o10bo2b4ob2o$29b3o
+46b3o3bob2o$13bo14bo52bo$13b3o12b2o50b2o26b2o$16bo91bo$15b2o89bobo$63b3o
+40b2o$62bo2bo$16b2o47bo$16b2o17b2o25b3o$35b2o65bo$102b2o6b2obo$101bo2bo
+5bob2o$102bobo$66bo35b2o$66b2o$32b2o31b2o$32bo20b2o$33b3o18bo$35bo15b3o$
+17bo11b2o20bo34b2o3b2o$16bo3b2o7bo57bo3bo$20b2o8b3o37b2o12b3o5b3o$16bo5b
+o9bo38bo12bo9bo$3b2o10bo5b3o44b3o23bobo$4bo11bo4b2o45bo26b2o$4bobo11b2o$
+5b2o11b2o3$31bo$29b3o$28bo88b2o$28b2o87bo$6b2o107bobo$5bobo107b2ob2o$5bo
+112bobo$2obobo112bobo$ob2obobob2o18b2o64b2o20b2ob3o$4bob2ob2o18bobo64bo
+26bo$4bo26bo64bobo18b2ob2obo$5b3ob2o20b2o64b2o18b2obobob2obo$7bobo112bob
+ob2o$7bobo112bo$8b2ob2o107bobo$10bobo107b2o$10bo87b2o$9b2o88bo$96b3o$96b
+o3$108b2o11b2o$108b2o11bobo$31b2o26bo45b2o4bo11bo$31bobo23b3o44b3o5bo10b
+2o$33bo9bo12bo38bo9bo5bo$33b3o5b3o12b2o37b3o8b2o$36bo3bo57bo7b2o3bo$35b
+2o3b2o34bo20b2o11bo$74b3o15bo$73bo18b3o$73b2o20bo$61b2o31b2o$60b2o$24b2o
+35bo$23bobo$14b2obo5bo2bo$14bob2o6b2o$25bo65b2o$63b3o25b2o17b2o$62bo47b
+2o$62bo2bo$20b2o40b3o$19bobo89b2o$19bo91bo$18b2o26b2o50b2o12b3o$46bo52bo
+14bo$40b2obo3b3o46b3o$40b2ob4o2bo10b2o34bo$46bo14bo$40b2ob2o13b3o$41bobo
+14bo$41bobo$42bo!
+#C Period 179 B-heptomino-based glider gun
+#C Aug 1996 Dave Buckingham

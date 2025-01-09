@@ -1,0 +1,15 @@
+#MCell 2.0
+#GAME Generations
+#RULE 6/246/3
+#BOARD 200x200
+#WRAP 0
+#D Brain 6         Oscillator/glider interactions. Gliders can be turned
+#D 90 and 180 degrees even if they are the diagonally moving
+#D butterfly pattern.
+#D 
+#D Michael Sweney  December 1999
+#L 54.A.B.A$54.BBABB$54.A.B.A8$62.A$60.ABB$61.BBA$61.A7$131.B$131.A$129.B
+#L ABAB$131.A$131.B$31.ABA56.B$31.B.B56.A$30.AA.AA53.BABAB$31.B.B56.A$31.
+#L ABA56.B$.A$B.B$A.A116.A$.B115.ABABA$A.A114.B3.B$B.B114.ABABA$.A117.A8$
+#L 94.AA$61.AA31.BB$61.BB3$136.B$29.A.A104.A$27.BA3BAB100.BABAB$29.A.A
+#L 104.A$136.B13$113.ABA$114.B$113.BAB$114.B$113.ABA
