@@ -46,7 +46,7 @@ Github: https://github.com/MiDevel/mcell-webapp
 * Ability to experiment with custom rules in all supported families (only as text definition a.t.m.).
 * Saving and loading patterns via Clipboard.
 * Drag-and-drop support for loading patterns.
-* Advanced editing features: scribble; draw dots, lines, rectangles, boxes, crcles, discs; select, cut, copy, paste, drag and drop, flip, rotate, invert.
+* Advanced editing features: scribble; draw dots, lines, rectangles, boxes, circles, discs; select, cut, copy, paste, drag and drop, flip, rotate, invert.
 * Interactively draw without pausing the simulation.
 * Randomizing and Seeding patterns.
 * Configurable, event-driven Undo and Redo.

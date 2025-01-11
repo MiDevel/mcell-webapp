@@ -18,37 +18,37 @@
     <div id="app-container">
       <div id="top-panel" class="panel">
         <div class="split-button-group">
-          <button id="startStopBtn" class="control-button" title="Start/Stop (Enter)"></button>
-          <button id="speedBtn" class="control-button" title="Adjust Speed ([/])">
+          <button id="startStopBtn" class="control-button" title="Start/Stop [Enter]"></button>
+          <button id="speedBtn" class="control-button" title="Adjust Speed '[', ']'">
             <svg class="svg-icon">
               <use href="assets/icons.svg#mdi-menu-down" />
             </svg>
           </button>
         </div>
         <div class="split-button-group">
-          <button id="runOneBtn" class="control-button" title="Run One Cycle (Space)">
+          <button id="runOneBtn" class="control-button" title="Run One Cycle [Space]">
             <svg class="svg-icon">
               <use href="assets/icons.svg#mdi-numeric-1-circle-outline" />
             </svg>
           </button>
-          <button id="runNumBtn" class="control-button" title="Run Multiple Cycles">
+          <button id="runNumBtn" class="control-button" title="Run Multiple Cycles [Shift+Space]">
             <svg class="svg-icon">
               <use href="assets/icons.svg#mdi-alpha-n-circle-outline" />
             </svg>
           </button>
         </div>
         <div class="split-button-group">
-          <button id="undoBtn" class="control-button" title="Undo (Z)">
+          <button id="undoBtn" class="control-button" title="Undo [^Z]">
             <svg class="svg-icon">
               <use href="assets/icons.svg#mdi-undo" />
             </svg>
           </button>
-          <button id="undoHistoryBtn" class="control-button" title="Undo History">
+          <button id="undoHistoryBtn" class="control-button" title="Undo History [U]">
             <svg class="svg-icon">
               <use href="assets/icons.svg#mdi-menu-down" />
             </svg>
           </button>
-          <button id="redoBtn" class="control-button" title="Redo (Shift+Z)">
+          <button id="redoBtn" class="control-button" title="Redo [^Y]">
             <svg class="svg-icon">
               <use href="assets/icons.svg#mdi-redo" />
             </svg>
@@ -66,12 +66,12 @@
         </button>
         <div class="right-align">
           <div class="mode-toggle-group">
-            <button class="mode-button control-button mode-pan active" title="Pan Mode">
+            <button class="mode-button control-button mode-pan active" title="Pan Mode [P]">
               <svg class="svg-icon">
                 <use href="assets/icons.svg#mdi-hand-back-right" />
               </svg>
             </button>
-            <button class="mode-button control-button mode-paint" title="Draw Mode">
+            <button class="mode-button control-button mode-paint" title="Draw Mode [D]">
               <svg class="svg-icon">
                 <use href="assets/icons.svg#mdi-pencil" />
               </svg>
@@ -121,13 +121,13 @@
                 <use href="assets/icons.svg#mdi-grid" />
               </svg>
             </button>
-            <button id="clearBtn" class="control-button" title="Clear board">
+            <button id="clearBtn" class="control-button" title="Clear board [c]">
               <svg class="svg-icon">
                 <use href="assets/icons.svg#mdi-broom" />
               </svg>
             </button>
             <div class="split-button-group">
-              <button id="randomizeBtn" class="control-button" title="Randomize">
+              <button id="randomizeBtn" class="control-button" title="Randomize [r]">
                 <svg class="svg-icon">
                   <use href="assets/icons.svg#mdi-dice-5-outline" />
                 </svg>
@@ -156,6 +156,17 @@
               </svg>
             </button>
           </div>
+          <div class="flex-spacer"></div>
+          <button
+            id="homeBtn"
+            class="control-button"
+            title="MCell Homepage"
+            onclick="window.open('https://mcell.ca', '_blank')"
+          >
+            <svg class="svg-icon">
+              <use href="assets/icons.svg#mdi-home-outline" />
+            </svg>
+          </button>
         </div>
         <div id="status-line">
           <div id="board-size-display"></div>

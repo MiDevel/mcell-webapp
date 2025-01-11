@@ -87,6 +87,10 @@ hr {
   fill: var(--panel-bg);
 }
 
+.flex-spacer {
+  flex: 1;
+}
+
 button,
 select,
 input {

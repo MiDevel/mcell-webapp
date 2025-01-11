@@ -21,7 +21,8 @@ export class HelpDialog {
                 <h3>Controls</h3>
                 <ul>
                     <li><strong>Enter</strong> - Start/Stop simulation</li>
-                    <li><strong>Space</strong> - Stop simulation and run one generation</li>
+                    <li><strong>Space</strong> - Run one generation</li>
+                    <li><strong>Shift+Space</strong> - Show 'Run N generations' dialog</li>
                     <li><strong>[ / ]</strong> - Increase/Decrease speed</li>
                     <li><strong>+ / &ndash;</strong> - Increase/Decrease cell size</li>
                     <li><strong>W</strong> - Toggle edge wrapping</li>

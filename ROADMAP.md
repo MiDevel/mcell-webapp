@@ -7,11 +7,16 @@
 # Critical todos
 
 - Drawing on mobile devices is practically impossible because the canvas is being scrolled.
+- Paste from Clipboard stopped working.
 
 
 # Other todos
 
 - Add full screen mode.
+- 'e' erases the selection. Make Shift+e (E) erase cells OUTSIDE the selection.
+- In draw mode ^A should select all cells.
+- In draw mode Delete should delete selected cells.
+- In draw mode ^X should cut selected cells.
 - Clean up the css styling, it's a mess. Remove redundant styles.
 - Create unit tests for the code.
 - Create one common css file for all dialogs.
@@ -20,6 +25,7 @@
 - Allow to display different shapes of cells: box, square, disc, circle. Only when cell size is >= 7, use regular filled squares for smaller sizes.
 - Create UI Designers for rules' definitions for all supported CA families.
 - Allow users to define their own CA engines (some sort of plugins).
+- Add a period/speed checker for oscillators and spaceships.
 - Export as image: Let users export their simulations as images.
 - Margolus engine - implement the missing 'wrap' mode.
 - Allow to save the left-top cell offset in .mcl format which should override automatic centering when loading the pattern. Important for Margolus patterns.

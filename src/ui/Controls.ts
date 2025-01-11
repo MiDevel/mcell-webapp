@@ -372,7 +372,12 @@ export class Controls {
         this.toggleRunning();
       } else if (key === ' ') {
         event.preventDefault(); // Prevent page scrolling
-        this.runOnce();
+        if (event.shiftKey) {
+          // if shift is pressed, show run N dialog
+          runNumDialog.show();
+        } else {
+          this.runOnce();
+        }
       } else if (key === '+' || key === '=') {
         event.preventDefault();
         this.adjustCellSize(1);
@@ -392,6 +397,9 @@ export class Controls {
       } else if (key === 'p') {
         event.preventDefault();
         this.setInteractMode('pan');
+      } else if (key === 'u') {
+        event.preventDefault();
+        this.showUndoDialog();
       } else if (key === 'd') {
         event.preventDefault();
         this.setInteractMode('paint');
