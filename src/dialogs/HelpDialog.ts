@@ -40,6 +40,7 @@ export class HelpDialog {
                     <li><strong>Ctrl pressed</strong> - Draw from the center</li>
                     <li><strong>0-9</strong> - Select state for painting</li>
                     <li><strong>&lt; / &gt; or , / .</strong> - Previous/Next state for painting</li>
+                    <li><strong>^A</strong> - Select all cells</li>
                     <li><strong>^C / ^V</strong> - Copy/Paste selected cells</li>
                     <li><strong>Esc</strong> - interrupt current drawing action</li>
                 </ul>

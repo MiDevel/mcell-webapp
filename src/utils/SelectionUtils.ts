@@ -247,4 +247,30 @@ export class SelectionUtils {
   static hasSelection(): boolean {
     return boardState.selectionActive && boardState.selectionLattice !== null;
   }
+
+  /**
+   * Selects all alive cells in the lattice by finding their bounding rectangle
+   */
+  static selectAll(): void {
+    // Apply existing selection if there is one
+    if (boardState.selectionActive) {
+      boardState.applySelection();
+    }
+
+    // find the bounding box
+    let { minY, maxY, minX, maxX } = boardState.lattice.getBoundingRect();
+
+    // If no alive cells found, don't create a selection
+    if (maxX === -1) {
+      return;
+    }
+
+    // Create new selection lattice
+    const width = maxX - minX + 1;
+    const height = maxY - minY + 1;
+    boardState.createSelection(minX, minY, width, height);
+
+    // Redraw all cells
+    gameState.setState({ isContentDirty: true });
+  }
 }

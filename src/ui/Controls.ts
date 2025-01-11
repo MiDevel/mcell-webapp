@@ -327,6 +327,9 @@ export class Controls {
         } else if (key === 'v' && boardState.clipboardLattice) {
           event.preventDefault(); // Prevent browser's paste
           SelectionUtils.paste();
+        } else if (key === 'a') {
+          // Prevent browser's select all
+          event.preventDefault();
         }
         return;
       }

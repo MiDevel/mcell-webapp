@@ -13,7 +13,7 @@
 
 - Add full screen mode.
 - Bug: some selection operations do not go to Undo/Redo buffer as they should.
-- In draw mode ^A should select all cells.
+- Bug: when opening a new pattern the old selection stays active. Just remove it.
 - In draw mode Delete should delete selected cells.
 - In draw mode ^X should cut selected cells.
 - Clean up the css styling, it's a mess. Remove redundant styles.

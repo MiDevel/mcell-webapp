@@ -735,13 +735,15 @@ export class PaintTools {
 
     // Handle tool shortcuts
     const key = event.key.toLowerCase();
+    let isCtrl = event.ctrlKey || event.metaKey;
+    let isAlt = event.altKey;
 
     // Handle arrow keys for selection movement
     if (SelectionUtils.hasSelection()) {
       let moveAmount = 1;
-      if (event.shiftKey && event.ctrlKey) {
+      if (event.shiftKey && isCtrl) {
         moveAmount = 20;
-      } else if (event.ctrlKey || event.metaKey) {
+      } else if (isCtrl || isAlt) {
         moveAmount = 10;
       } else if (event.shiftKey) {
         moveAmount = 5;
@@ -767,9 +769,21 @@ export class PaintTools {
       }
     }
 
+    // Ctrl combos
+    if (isCtrl && !isAlt) {
+      switch (key) {
+        case 'a':
+          // Handle Ctrl+A for select all
+          event.preventDefault();
+          this.setActiveTool('select');
+          SelectionUtils.selectAll();
+          return;
+      }
+    }
+
     // Simple keys follow, no Ctrl/Cmd/Alt modifiers.
     // Copy/Paste are already handled by Controls.ts
-    if (event.ctrlKey || event.metaKey || event.altKey) {
+    if (isCtrl || isAlt) {
       return;
     }
 
