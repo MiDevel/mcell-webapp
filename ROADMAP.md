@@ -13,7 +13,7 @@
 # Other todos
 
 - Add full screen mode.
-- 'e' erases the selection. Make Shift+e (E) erase cells OUTSIDE the selection.
+- Bug: some selection operations do not go to Undo/Redo buffer as they should.
 - In draw mode ^A should select all cells.
 - In draw mode Delete should delete selected cells.
 - In draw mode ^X should cut selected cells.

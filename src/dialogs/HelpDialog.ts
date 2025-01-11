@@ -43,7 +43,7 @@ export class HelpDialog {
                     <li><strong>^C / ^V</strong> - Copy/Paste selected cells</li>
                     <li><strong>Esc</strong> - interrupt current drawing action</li>
                 </ul>
-                <h3>Paint Tools</h3>
+                <h3>Paint tools</h3>
                 <ul>
                     <li><strong>A</strong> - Pencil</li>
                     <li><strong>L</strong> - Line</li>
@@ -52,12 +52,13 @@ export class HelpDialog {
                     <li><strong>O</strong> - Oval/Circle</li>
                     <li><strong>Shift+O</strong> - Filled Oval/Circle</li>
                     <li><strong>S</strong> - Select</li>
-                    <li><strong>E</strong> - Erase Selection</li>
-                    <li><strong>X</strong> - Flip Selection Horizontally</li>
-                    <li><strong>Y</strong> - Flip Selection Vertically</li>
-                    <li><strong>N / M</strong> - Rotate Selection Left/Right</li>
-                    <li><strong>I</strong> - Invert Selection</li>
-                    <li><strong>Arrow Keys</strong> - Move Selection (with Shift: 5 cells, Ctrl: 10 cells, Both: 20 cells)</li>
+                    <li><strong>Delete</strong> - Erase selection</li>
+                    <li><strong>Shift+Delete</strong> - Erase cells outside selection</li>
+                    <li><strong>X</strong> - Flip selection Horizontally</li>
+                    <li><strong>Y</strong> - Flip selection Vertically</li>
+                    <li><strong>N / M</strong> - Rotate selection Left/Right</li>
+                    <li><strong>I</strong> - Invert selection</li>
+                    <li><strong>Arrow Keys</strong> - Move selection (with Shift: 5 cells, Ctrl: 10 cells, Both: 20 cells)</li>
                 </ul>
             </div>
         `;

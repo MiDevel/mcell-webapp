@@ -371,7 +371,8 @@ export class Controls {
         event.preventDefault();
         this.toggleRunning();
       } else if (key === ' ') {
-        event.preventDefault(); // Prevent page scrolling
+        // Prevent page scrolling
+        event.preventDefault();
         if (event.shiftKey) {
           // if shift is pressed, show run N dialog
           runNumDialog.show();
