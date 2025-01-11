@@ -7,7 +7,6 @@
 # Critical todos
 
 - Drawing on mobile devices is practically impossible because the canvas is being scrolled.
-- Paste from Clipboard stopped working.
 
 
 # Other todos
