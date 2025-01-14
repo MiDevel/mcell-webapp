@@ -44,9 +44,6 @@ export class BoardState {
 
   applySelection() {
     if (this.selectionLattice) {
-      // Add current state to undo history
-      undoSystem.addItem(UndoSystem.UNDO_EVT_EDIT);
-
       // Move cells from selection back to main lattice at current position
       for (let x = 0; x < this.selectionLattice.width; x++) {
         for (let y = 0; y < this.selectionLattice.height; y++) {
@@ -59,12 +56,15 @@ export class BoardState {
         }
       }
     }
-    this.selectionActive = false;
-    this.selectionLattice = null;
+    this.discardSelection();
+
     gameState.setState({ isContentDirty: true });
   }
 
   createSelection(left: number, top: number, width: number, height: number) {
+    // Add current state to undo history
+    undoSystem.addItem(UndoSystem.UNDO_EVT_EDIT);
+
     this.selectionLattice = new Lattice(width, height);
     this.selectionLattice.left = left;
     this.selectionLattice.top = top;
@@ -84,6 +84,11 @@ export class BoardState {
 
     this.selectionActive = true;
     gameState.setState({ isContentDirty: true });
+  }
+
+  discardSelection() {
+    this.selectionActive = false;
+    this.selectionLattice = null;
   }
 
   moveSelection(newLeft: number, newTop: number) {

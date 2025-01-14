@@ -28,7 +28,7 @@ function setTestConfiguration() {
   controls.centerPattern();
 
   // Set the rule
-  gameState.activateRule(CaEngines.FAMILY_GENERATIONS, '345/2/4', 'StarWars');
+  gameState.activateRule(CaEngines.FAMILY_GENERATIONS, '345/2/4');
 
   // Update the palettes based on the number of states
   settings.setPaletteName('MCell');

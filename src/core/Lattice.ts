@@ -55,11 +55,12 @@ export class Lattice {
 
   // Calculates the bounding rectangle of the alive cells.
   // Returns { minY, maxY, minX, maxX }
+  // When there are no alive cells, maxX and maxY are set to -1
   getBoundingRect(): { minY: number; maxY: number; minX: number; maxX: number } {
     let minX = this.width;
-    let maxX = 0;
+    let maxX = -1;
     let minY = this.height;
-    let maxY = 0;
+    let maxY = -1;
     for (let y = 0; y < this.height; y++) {
       for (let x = 0; x < this.width; x++) {
         if (this.getCell(x, y) > 0) {
