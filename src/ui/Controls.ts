@@ -879,9 +879,6 @@ export class Controls {
       await this.showPatternDescription(pattern.path);
     };
 
-    // const nameSpan = document.createElement('span');
-    // nameSpan.className = 'pattern-name';
-    // nameSpan.textContent = `${pattern.fileName.split('.')[0]}`;
     const textContainer = document.createElement('div');
     textContainer.className = 'pattern-text-container';
     textContainer.innerHTML = `<div class="pattern-name-line">${pattern.fileName.split('.')[0]}</div><div class="pattern-info-line">${pattern.family}/${pattern.ruleName}</div>`;
@@ -907,10 +904,6 @@ export class Controls {
       await this.loadPattern(pattern.path);
     };
 
-    // nameSpan.onclick = function (event) {
-    //     event.stopPropagation();
-    //     highlightPattern();
-    // };
     textContainer.onclick = function (event) {
       event.stopPropagation();
       highlightPattern();
@@ -918,7 +911,6 @@ export class Controls {
     li.onclick = highlightPattern;
 
     li.appendChild(infoIcon);
-    // li.appendChild(nameSpan);
     li.appendChild(textContainer);
     ul.appendChild(li);
   }
@@ -1004,6 +996,12 @@ export class Controls {
   }
 
   applyPattern(patternData: CaPatternData) {
+    // Hide the left panel on mobile devices after pattern selection
+    if (this.isMobileDevice() && this.leftPanel!.classList.contains('show')) {
+      // console.log('Hiding left panel after pattern selection on mobile');
+      this.toggleLeftPanel();
+    }
+
     let paletteChanged: boolean = false;
 
     // Stop the simulation
@@ -1400,6 +1398,11 @@ export class Controls {
     // this.undoBtn!.disabled = undoSystem.pos() <= 0 || undoSystem.size() === 0;
     // this.undoBtn!.disabled = undoSystem.size() === 0;
     // this.redoBtn!.disabled = undoSystem.pos() >= undoSystem.size() - 1;
+  }
+
+  private isMobileDevice(): boolean {
+    // Check if the toggle button is visible (which only happens on mobile)
+    return window.getComputedStyle(this.toggleLeftPanelBtn!).getPropertyValue('display') !== 'none';
   }
 }
 

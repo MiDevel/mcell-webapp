@@ -6,18 +6,14 @@
 
 # Critical todos
 
-- Drawing on mobile devices is practically impossible because the canvas is being scrolled.
 
 
 # Other todos
 
 - Add full screen mode.
 - Bug: some selection operations do not go to Undo/Redo buffer as they should.
-- Bug: when opening a new pattern the old selection stays active. Just remove it.
-- In draw mode Delete should delete selected cells.
-- In draw mode ^X should cut selected cells.
+- Bug: when opening a new pattern the old selection stays active. Just trash it.
 - Clean up the css styling, it's a mess. Remove redundant styles.
-- Create unit tests for the code.
 - Create one common css file for all dialogs.
 - Create a nicer Light theme for the UI. The Dark mode is probably good enough.
 - Add 'Global Edit' tool - shift the pattern, center it, replace states, etc.
@@ -37,3 +33,5 @@
 - Create some patterns submission mechanism.
 - Create a patterns voting/ranking/liking/commenting system.
 - Export as GIF/video: Let users export their simulations as animated GIFs or video files.
+- Create unit tests for the code.
+
