@@ -805,12 +805,11 @@ export class Controls {
     }
 
     const ruleDefinition = this.ruleSelect!.value;
-    const ruleName = this.ruleSelect!.options[this.ruleSelect!.selectedIndex].text;
 
     // Store the selected rule for this family
     this.registerLastSelectedRule(gameState.currentFamilyCode, ruleDefinition);
 
-    gameState.activateRule(gameState.currentFamilyCode, ruleDefinition, ruleName);
+    gameState.activateRule(gameState.currentFamilyCode, ruleDefinition);
 
     if (updatePatterns) {
       await this.updatePatternList();
@@ -895,7 +894,7 @@ export class Controls {
         const familyRules = gameState.lexicon.getEntries(pattern.family);
         if (familyRules && familyRules.length > 0) {
           const rule = familyRules[0];
-          await gameState.activateRule(pattern.family, rule.ruleDefinition, rule.ruleName);
+          await gameState.activateRule(pattern.family, rule.ruleDefinition);
         } else {
           console.error(`No rules found for family ${pattern.family}`);
           return;
@@ -1051,11 +1050,7 @@ export class Controls {
       if (!familyCode) {
         familyCode = gameState.currentFamilyCode;
       }
-      gameState.activateRule(
-        familyCode,
-        patternData.rules,
-        this.ruleSelect!.options![this.ruleSelect!.selectedIndex].text
-      );
+      gameState.activateRule(familyCode, patternData.rules);
     }
 
     // Activate diversities if specified
@@ -1222,8 +1217,8 @@ export class Controls {
     rulesDialog.show(
       gameState.currentFamilyCode,
       gameState.currentRuleDefinition,
-      (familyCode, ruleDefinition, ruleName) => {
-        gameState.activateRule(familyCode, ruleDefinition, ruleName);
+      (familyCode, ruleDefinition) => {
+        gameState.activateRule(familyCode, ruleDefinition);
         // console.log(`Rules dialog accepted. Family: ${gameState.currentFamilyCode}, Rule: ${gameState.currentRuleDefinition}`);
         this.syncFamilyAndRule();
       }
