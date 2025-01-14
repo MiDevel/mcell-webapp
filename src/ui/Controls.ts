@@ -972,6 +972,9 @@ export class Controls {
       this.updateStartStopButton();
     }
 
+    // Active selection must be discarded
+    boardState.discardSelection();
+
     // Add current state to Undo history
     undoSystem.addItem(UndoSystem.UNDO_EVT_LOAD);
 

@@ -143,8 +143,7 @@ export class SelectionUtils {
 
     // Clear the selection after operation
     if (clearInside) {
-      boardState.selectionActive = false;
-      boardState.selectionLattice = null;
+      boardState.discardSelection();
     } else {
       boardState.applySelection();
     }

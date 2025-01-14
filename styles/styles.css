@@ -661,7 +661,7 @@ input:focus {
   border: 1px solid var(--border-color);
   border-radius: var(--radius);
   box-shadow: var(--shadow-md);
-  min-width: 200px;
+  min-width: 240px;
   z-index: 1000;
 }
 
@@ -811,7 +811,8 @@ input:focus {
   #redoBtn,
   #rulesBtn,
   #histogramBtn,
-  #diversitiesBtn {
+  #diversitiesBtn,
+  #homeBtn {
     display: none;
   }
 }
