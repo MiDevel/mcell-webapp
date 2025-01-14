@@ -18,6 +18,7 @@ import { CaPatternData } from '../utils/CaPatternData.js';
 import { patternLoader } from '../loaders/PatternLoader.js';
 import { Constants } from '../utils/Constants.js';
 import { dialog } from '../dialogs/Dialog.js';
+import { patternDescriptionDialog } from '../dialogs/PatternDescriptionDialog.js';
 import { aboutDialog } from '../dialogs/AboutDialog.js';
 import { randomizeDialog } from '../dialogs/RandomizeDialog.js';
 import { seederDialog } from '../dialogs/SeederDialog.js';
@@ -71,7 +72,6 @@ export class Controls {
   private patternList: HTMLDivElement | null;
   private patternControls: HTMLDivElement | null;
   private diversitiesBtn: HTMLButtonElement | null;
-  private patternDescription: HTMLDivElement | null;
   private patternBrowser: HTMLDivElement | null;
   private histogramBtn: HTMLButtonElement | null;
   private menuBtn: HTMLButtonElement | null;
@@ -143,12 +143,6 @@ export class Controls {
     if (!this.patternControls) throw new Error('patternControls is not defined');
     if (!this.diversitiesBtn) throw new Error('diversitiesBtn is not defined');
     if (!this.histogramBtn) throw new Error('histogramBtn is not defined');
-
-    // Create pattern description dialog
-    this.patternDescription = document.createElement('div');
-    this.patternDescription.className = 'pattern-description';
-    this.patternDescription.style.display = 'none';
-    document.body.appendChild(this.patternDescription);
 
     // Create speed menu
     this.speedMenu = document.createElement('div');
@@ -327,6 +321,9 @@ export class Controls {
         } else if (key === 'v' && boardState.clipboardLattice) {
           event.preventDefault(); // Prevent browser's paste
           SelectionUtils.paste();
+        } else if (key === 'a') {
+          // Prevent browser's select all
+          event.preventDefault();
         }
         return;
       }
@@ -371,8 +368,14 @@ export class Controls {
         event.preventDefault();
         this.toggleRunning();
       } else if (key === ' ') {
-        event.preventDefault(); // Prevent page scrolling
-        this.runOnce();
+        // Prevent page scrolling
+        event.preventDefault();
+        if (event.shiftKey) {
+          // if shift is pressed, show run N dialog
+          runNumDialog.show();
+        } else {
+          this.runOnce();
+        }
       } else if (key === '+' || key === '=') {
         event.preventDefault();
         this.adjustCellSize(1);
@@ -392,16 +395,12 @@ export class Controls {
       } else if (key === 'p') {
         event.preventDefault();
         this.setInteractMode('pan');
+      } else if (key === 'u') {
+        event.preventDefault();
+        this.showUndoDialog();
       } else if (key === 'd') {
         event.preventDefault();
         this.setInteractMode('paint');
-      }
-    });
-
-    // Close pattern description when clicking outside
-    document.addEventListener('click', (event: MouseEvent) => {
-      if (!this.patternDescription!.contains(event.target as Node)) {
-        this.patternDescription!.style.display = 'none';
       }
     });
 
@@ -793,12 +792,11 @@ export class Controls {
     }
 
     const ruleDefinition = this.ruleSelect!.value;
-    const ruleName = this.ruleSelect!.options[this.ruleSelect!.selectedIndex].text;
 
     // Store the selected rule for this family
     this.registerLastSelectedRule(gameState.currentFamilyCode, ruleDefinition);
 
-    gameState.activateRule(gameState.currentFamilyCode, ruleDefinition, ruleName);
+    gameState.activateRule(gameState.currentFamilyCode, ruleDefinition);
 
     if (updatePatterns) {
       await this.updatePatternList();
@@ -867,9 +865,6 @@ export class Controls {
       await this.showPatternDescription(pattern.path);
     };
 
-    // const nameSpan = document.createElement('span');
-    // nameSpan.className = 'pattern-name';
-    // nameSpan.textContent = `${pattern.fileName.split('.')[0]}`;
     const textContainer = document.createElement('div');
     textContainer.className = 'pattern-text-container';
     textContainer.innerHTML = `<div class="pattern-name-line">${pattern.fileName.split('.')[0]}</div><div class="pattern-info-line">${pattern.family}/${pattern.ruleName}</div>`;
@@ -886,7 +881,7 @@ export class Controls {
         const familyRules = gameState.lexicon.getEntries(pattern.family);
         if (familyRules && familyRules.length > 0) {
           const rule = familyRules[0];
-          await gameState.activateRule(pattern.family, rule.ruleDefinition, rule.ruleName);
+          await gameState.activateRule(pattern.family, rule.ruleDefinition);
         } else {
           console.error(`No rules found for family ${pattern.family}`);
           return;
@@ -895,10 +890,6 @@ export class Controls {
       await this.loadPattern(pattern.path);
     };
 
-    // nameSpan.onclick = function (event) {
-    //     event.stopPropagation();
-    //     highlightPattern();
-    // };
     textContainer.onclick = function (event) {
       event.stopPropagation();
       highlightPattern();
@@ -906,7 +897,6 @@ export class Controls {
     li.onclick = highlightPattern;
 
     li.appendChild(infoIcon);
-    // li.appendChild(nameSpan);
     li.appendChild(textContainer);
     ul.appendChild(li);
   }
@@ -964,34 +954,16 @@ export class Controls {
 
     let htmlText = patternLoader.getDescriptionHTML() || 'No description available.';
 
-    // append horizontal rule
-    htmlText += '<hr>';
-
-    htmlText += '<small>-----';
-    // append family
-    if (data.family) {
-      htmlText += `<br><b>CA Family:</b> ${data.family}`;
-    }
-
-    // append rules definition
-    if (data.rules) {
-      htmlText += `<br><b>Rules:</b> ${data.rules}`;
-    }
-    htmlText += '</small>';
-
-    this.patternDescription!.innerHTML = `
-            <div class="pattern-description-header">
-                <span>${patternPath}</span>
-                <button class="pattern-description-close" onclick="this.closest('.pattern-description').style.display='none'">×</button>
-            </div>
-            <div class="pattern-description-content">
-                ${htmlText}
-            </div>
-        `;
-    this.patternDescription!.style.display = 'flex';
+    patternDescriptionDialog.show(data.fileName, htmlText, data);
   }
 
   applyPattern(patternData: CaPatternData) {
+    // Hide the left panel on mobile devices after pattern selection
+    if (this.isMobileDevice() && this.leftPanel!.classList.contains('show')) {
+      // console.log('Hiding left panel after pattern selection on mobile');
+      this.toggleLeftPanel();
+    }
+
     let paletteChanged: boolean = false;
 
     // Stop the simulation
@@ -999,6 +971,9 @@ export class Controls {
       gameState.setState({ isRunning: false });
       this.updateStartStopButton();
     }
+
+    // Active selection must be discarded
+    boardState.discardSelection();
 
     // Add current state to Undo history
     undoSystem.addItem(UndoSystem.UNDO_EVT_LOAD);
@@ -1041,11 +1016,7 @@ export class Controls {
       if (!familyCode) {
         familyCode = gameState.currentFamilyCode;
       }
-      gameState.activateRule(
-        familyCode,
-        patternData.rules,
-        this.ruleSelect!.options![this.ruleSelect!.selectedIndex].text
-      );
+      gameState.activateRule(familyCode, patternData.rules);
     }
 
     // Activate diversities if specified
@@ -1212,8 +1183,8 @@ export class Controls {
     rulesDialog.show(
       gameState.currentFamilyCode,
       gameState.currentRuleDefinition,
-      (familyCode, ruleDefinition, ruleName) => {
-        gameState.activateRule(familyCode, ruleDefinition, ruleName);
+      (familyCode, ruleDefinition) => {
+        gameState.activateRule(familyCode, ruleDefinition);
         // console.log(`Rules dialog accepted. Family: ${gameState.currentFamilyCode}, Rule: ${gameState.currentRuleDefinition}`);
         this.syncFamilyAndRule();
       }
@@ -1388,6 +1359,11 @@ export class Controls {
     // this.undoBtn!.disabled = undoSystem.pos() <= 0 || undoSystem.size() === 0;
     // this.undoBtn!.disabled = undoSystem.size() === 0;
     // this.redoBtn!.disabled = undoSystem.pos() >= undoSystem.size() - 1;
+  }
+
+  private isMobileDevice(): boolean {
+    // Check if the toggle button is visible (which only happens on mobile)
+    return window.getComputedStyle(this.toggleLeftPanelBtn!).getPropertyValue('display') !== 'none';
   }
 }
 

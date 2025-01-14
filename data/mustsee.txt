@@ -17,6 +17,7 @@ Generations/StarWars/Steeplechase.mcl
 Generations/Worms/Worms.mcl
 Cyclic CA/CCA/CCA.mcl
 Cyclic CA/GH Macaroni/GH Macaroni.mcl
+Cyclic CA/Fossil debris/Fossil debris.mcl
 Weighted Life/HGlass/HGlass.mcl
 Weighted Life/Linguini/Linguini.mcl
 Weighted Life/Midges/Midges.mcl

@@ -205,7 +205,7 @@ export class UndoSystem {
 
     // Restore other state
     gameState.cycle = item.cycle;
-    gameState.activateRule(item.familyCode, item.ruleDefinition, '');
+    gameState.activateRule(item.familyCode, item.ruleDefinition);
     gameState.currentFileName = item.fileName;
 
     // Repaint board

@@ -83,7 +83,7 @@ export class GameState implements ICaEngineState {
     const mustSeeText = await mustSeeResponse.text();
     caPatterns.getMustSeePatternsFromText(mustSeeText);
 
-    this.activateRule(this.currentFamilyCode, this.currentRuleDefinition, this.currentRuleName);
+    this.activateRule(this.currentFamilyCode, this.currentRuleDefinition);
     this.isInitializing = false;
   }
 
@@ -129,7 +129,7 @@ export class GameState implements ICaEngineState {
   }
 
   /// This is the only way to activate a rule engine.
-  activateRule(familyCode: string, ruleDefinition: string, ruleName: string) {
+  activateRule(familyCode: string, ruleDefinition: string) {
     // console.log(`Activating: family ${familyCode}, rule ${ruleName} (${ruleDefinition})`);
 
     // Get the engine for this family
@@ -144,10 +144,9 @@ export class GameState implements ICaEngineState {
 
     // Lookup the official rule name in the lexicon
     const lexEntry = this.lexicon.getEntry(familyCode, ruleDefinition);
+    let ruleName = 'Unknown';
     if (lexEntry) {
       ruleName = lexEntry.ruleName;
-    } else {
-      ruleName = 'Unknown';
     }
     engine.ruleName = ruleName;
 

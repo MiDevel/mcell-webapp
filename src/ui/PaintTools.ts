@@ -10,6 +10,7 @@ import { gameState, GameState } from '../core/GameState.js';
 import { Lattice } from '../core/Lattice.js';
 import { undoSystem, UndoSystem } from '../core/UndoSystem.js';
 import { SelectionUtils } from '../utils/SelectionUtils.js';
+import { KeyboardState } from '../utils/KeyboardState.js';
 import { board } from './Board.js';
 
 export type PaintTool =
@@ -76,7 +77,7 @@ export const PAINT_TOOLS: ToolbarButton[] = [
   {
     tool: 'erase-selection',
     icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-selection-remove"/></svg>',
-    title: 'Erase Selection [E]',
+    title: 'Erase Selection [in:Delete, out:Shift+Delete]',
   },
   {
     tool: 'copy',
@@ -297,7 +298,8 @@ export class PaintTools {
         SelectionUtils.invert();
         return;
       case 'erase-selection':
-        SelectionUtils.eraseSelection();
+        const clearInside = !KeyboardState.getInstance().isShiftPressed();
+        SelectionUtils.eraseSelection(clearInside);
         return;
       case 'copy':
         SelectionUtils.copy();
@@ -721,19 +723,6 @@ export class PaintTools {
       }
     }
 
-    // Handle numeric keys for state selection
-    const numKey = parseInt(event.key);
-    if (!isNaN(numKey) && numKey >= 0 && numKey <= 9) {
-      const maxStates = gameState.getNumberOfStates();
-      if (numKey < maxStates) {
-        this.stateForPainting = numKey;
-        if (this.stateLabel) {
-          this.stateLabel.textContent = numKey.toString();
-        }
-      }
-      return;
-    }
-
     // Handle state increment/decrement
     if (event.key === ',' || event.key === '<') {
       this.changeStateForPainting(-1);
@@ -746,13 +735,15 @@ export class PaintTools {
 
     // Handle tool shortcuts
     const key = event.key.toLowerCase();
+    let isCtrl = event.ctrlKey || event.metaKey;
+    let isAlt = event.altKey;
 
     // Handle arrow keys for selection movement
     if (SelectionUtils.hasSelection()) {
       let moveAmount = 1;
-      if (event.shiftKey && event.ctrlKey) {
+      if (event.shiftKey && isCtrl) {
         moveAmount = 20;
-      } else if (event.ctrlKey || event.metaKey) {
+      } else if (isCtrl || isAlt) {
         moveAmount = 10;
       } else if (event.shiftKey) {
         moveAmount = 5;
@@ -778,9 +769,21 @@ export class PaintTools {
       }
     }
 
+    // Ctrl combos
+    if (isCtrl && !isAlt) {
+      switch (key) {
+        case 'a':
+          // Handle Ctrl+A for select all
+          event.preventDefault();
+          this.setActiveTool('select');
+          SelectionUtils.selectAll();
+          return;
+      }
+    }
+
     // Simple keys follow, no Ctrl/Cmd/Alt modifiers.
     // Copy/Paste are already handled by Controls.ts
-    if (event.ctrlKey || event.metaKey || event.altKey) {
+    if (isCtrl || isAlt) {
       return;
     }
 
@@ -797,7 +800,7 @@ export class PaintTools {
       case 'o':
         this.setActiveTool(event.shiftKey ? 'circle-fill' : 'circle');
         break;
-      case 'e':
+      case 'delete':
         this.setActiveTool('erase-selection');
         break;
       case 's':
@@ -817,6 +820,19 @@ export class PaintTools {
         break;
       case 'i':
         this.setActiveTool('invert');
+        break;
+      default:
+        // Handle numeric keys for state selection
+        const numKey = parseInt(event.key);
+        if (!isNaN(numKey) && numKey >= 0 && numKey <= 9) {
+          const maxStates = gameState.getNumberOfStates();
+          if (numKey < maxStates) {
+            this.stateForPainting = numKey;
+            if (this.stateLabel) {
+              this.stateLabel.textContent = numKey.toString();
+            }
+          }
+        }
         break;
     }
   }

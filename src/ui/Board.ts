@@ -106,12 +106,114 @@ export class Board {
   }
 
   initializeEventListeners() {
+    // Mouse events
     this.canvas.addEventListener('mousedown', this.handleMouseDown.bind(this));
     this.canvas.addEventListener('mousemove', this.handleMouseMove.bind(this));
     this.canvas.addEventListener('mouseup', this.handleMouseUp.bind(this));
-    this.canvas.addEventListener('mouseleave', this.handleMouseUp.bind(this));
-    this.canvas.addEventListener('wheel', this.handleWheel.bind(this));
     this.canvas.addEventListener('mouseleave', this.handleMouseLeave.bind(this));
+    this.canvas.addEventListener('wheel', this.handleWheel.bind(this));
+
+    // Touch events
+    this.canvas.addEventListener(
+      'touchstart',
+      (e: TouchEvent) => {
+        e.preventDefault(); // Prevent scrolling
+        const touch = e.touches[0];
+        const rect = this.canvas.getBoundingClientRect();
+        const offsetX = touch.clientX - rect.left;
+        const offsetY = touch.clientY - rect.top;
+
+        const mouseEvent = new MouseEvent('mousedown', {
+          clientX: touch.clientX,
+          clientY: touch.clientY,
+          buttons: 1,
+          bubbles: true,
+        });
+        // Add offset properties to the event
+        Object.defineProperties(mouseEvent, {
+          offsetX: { value: offsetX },
+          offsetY: { value: offsetY },
+        });
+        this.handleMouseDown(mouseEvent);
+      },
+      { passive: false }
+    );
+
+    this.canvas.addEventListener(
+      'touchmove',
+      (e: TouchEvent) => {
+        e.preventDefault(); // Prevent scrolling
+        const touch = e.touches[0];
+        const rect = this.canvas.getBoundingClientRect();
+        const offsetX = touch.clientX - rect.left;
+        const offsetY = touch.clientY - rect.top;
+
+        const mouseEvent = new MouseEvent('mousemove', {
+          clientX: touch.clientX,
+          clientY: touch.clientY,
+          buttons: 1,
+          bubbles: true,
+        });
+        // Add offset properties to the event
+        Object.defineProperties(mouseEvent, {
+          offsetX: { value: offsetX },
+          offsetY: { value: offsetY },
+        });
+        this.handleMouseMove(mouseEvent);
+      },
+      { passive: false }
+    );
+
+    this.canvas.addEventListener(
+      'touchend',
+      (e: TouchEvent) => {
+        e.preventDefault(); // Prevent scrolling
+        // Get the last known touch position since touches array will be empty
+        const rect = this.canvas.getBoundingClientRect();
+        const offsetX = this.lastPaintX * boardState.cellSize;
+        const offsetY = this.lastPaintY * boardState.cellSize;
+
+        const mouseEvent = new MouseEvent('mouseup', {
+          clientX: rect.left + offsetX,
+          clientY: rect.top + offsetY,
+          buttons: 0,
+          bubbles: true,
+        });
+        // Add offset properties to the event
+        Object.defineProperties(mouseEvent, {
+          offsetX: { value: offsetX },
+          offsetY: { value: offsetY },
+        });
+
+        // If we were selecting, finalize the selection
+        if (this.isSelecting) {
+          const left = Math.min(this.selectionStartX, this.lastPaintX);
+          const top = Math.min(this.selectionStartY, this.lastPaintY);
+          const right = Math.max(this.selectionStartX, this.lastPaintX);
+          const bottom = Math.max(this.selectionStartY, this.lastPaintY);
+
+          const width = right - left + 1;
+          const height = bottom - top + 1;
+          if (width > 1 && height > 1) {
+            boardState.createSelection(left, top, width, height);
+          }
+          this.isSelecting = false;
+        }
+
+        this.handleMouseUp(mouseEvent);
+      },
+      { passive: false }
+    );
+
+    this.canvas.addEventListener(
+      'touchcancel',
+      (e: TouchEvent) => {
+        e.preventDefault(); // Prevent scrolling
+        const mouseEvent = new MouseEvent('mouseleave', {});
+        this.handleMouseLeave(mouseEvent);
+      },
+      { passive: false }
+    );
   }
 
   onGameStateChange(state: GameState) {

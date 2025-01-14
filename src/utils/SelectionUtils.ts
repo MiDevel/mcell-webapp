@@ -113,13 +113,40 @@ export class SelectionUtils {
   }
 
   /**
-   * Clears the current selection without applying it to the main lattice
+   * Clears cells either inside or outside the selection
+   * @param clearInside If true, clears the selection. If false, clears everything outside the selection
    */
-  static eraseSelection(): void {
+  static eraseSelection(clearInside: boolean = true): void {
     if (!boardState.selectionLattice) return;
 
-    boardState.selectionActive = false;
-    boardState.selectionLattice = null;
+    const mainLattice = boardState.lattice;
+    const selectionLattice = boardState.selectionLattice;
+    const selX = boardState.selectionLattice.left;
+    const selY = boardState.selectionLattice.top;
+
+    // Clear cells based on clearInside parameter
+    for (let x = 0; x < mainLattice.width; x++) {
+      for (let y = 0; y < mainLattice.height; y++) {
+        // Check if point is inside selection bounds
+        const inSelectionX = x >= selX && x < selX + selectionLattice.width;
+        const inSelectionY = y >= selY && y < selY + selectionLattice.height;
+        const inSelection = inSelectionX && inSelectionY;
+
+        // If inside selection bounds, check if the selection has a cell there
+        const hasSelectionCell = inSelection && selectionLattice.cells[x - selX][y - selY] === 1;
+
+        if ((clearInside && hasSelectionCell) || (!clearInside && !hasSelectionCell)) {
+          mainLattice.cells[x][y] = 0;
+        }
+      }
+    }
+
+    // Clear the selection after operation
+    if (clearInside) {
+      boardState.discardSelection();
+    } else {
+      boardState.applySelection();
+    }
     gameState.setState({ isContentDirty: true });
   }
 
@@ -218,5 +245,31 @@ export class SelectionUtils {
    */
   static hasSelection(): boolean {
     return boardState.selectionActive && boardState.selectionLattice !== null;
+  }
+
+  /**
+   * Selects all alive cells in the lattice by finding their bounding rectangle
+   */
+  static selectAll(): void {
+    // Apply existing selection if there is one
+    if (boardState.selectionActive) {
+      boardState.applySelection();
+    }
+
+    // find the bounding box
+    let { minY, maxY, minX, maxX } = boardState.lattice.getBoundingRect();
+
+    // If no alive cells found, don't create a selection
+    if (maxX === -1) {
+      return;
+    }
+
+    // Create new selection lattice
+    const width = maxX - minX + 1;
+    const height = maxY - minY + 1;
+    boardState.createSelection(minX, minY, width, height);
+
+    // Redraw all cells
+    gameState.setState({ isContentDirty: true });
   }
 }
