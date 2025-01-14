@@ -164,12 +164,30 @@ input:focus {
   flex-wrap: wrap;
 }
 
+.right-align {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.inline-select {
+  margin: 0 5px;
+  border: 1px solid var(--border-color);
+  padding: 2px 4px;
+}
+
 #main-content {
   display: flex;
   flex: 1;
   min-height: 0;
   position: relative;
   gap: 0;
+}
+
+.canvas {
+  background-color: #fff;
+  border: 1px solid #000;
 }
 
 #canvas-container {
@@ -265,11 +283,11 @@ input:focus {
   align-items: flex-start;
   flex-wrap: nowrap;
   gap: 16px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 #board-size-display {
-  font-size: 16px;
-  font-weight: bold;
   min-width: 80px;
   max-width: 25%;
   word-wrap: break-word;
@@ -278,10 +296,8 @@ input:focus {
 }
 
 #rule-display {
-  font-size: 16px;
-  font-weight: bold;
   flex: 1;
-  max-width: 50%;
+  max-width: 60%;
   word-wrap: break-word;
   white-space: pre-wrap;
   text-align: center;
@@ -289,16 +305,9 @@ input:focus {
 }
 
 #cycle-display {
-  font-size: 18px;
-  font-weight: bold;
   text-align: right;
   white-space: nowrap;
   min-width: 100px;
-}
-
-.canvas {
-  background-color: #fff;
-  border: 1px solid #000;
 }
 
 #toggleLeftPanelBtn {
@@ -345,37 +354,29 @@ input:focus {
   #canvas-container {
     width: 100%;
   }
-}
 
-.popup-base {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: var(--panel-bg);
-  padding: 24px;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-md);
-  max-width: 90%;
-  max-height: 90vh;
-  overflow-y: auto;
+  #status-line {
+    margin-top: 5px;
+    padding-top: 5px;
+    gap: 8px;
+    font-size: 14px;
+  }
 }
 
 #startStopBtn {
-  background-color: #90ee90; /* Light green */
-  color: #000000; /* Black text for good contrast */
+  background-color: #90ee90;
+  color: #000000;
   position: relative;
-  padding-bottom: 0.5em; /* Reduced from 1.5em */
+  padding-bottom: 0.5em;
   padding-top: 6px;
   padding-left: 16px;
   padding-right: 16px;
-  overflow: hidden; /* Add this to ensure the indicator doesn't overflow */
+  overflow: hidden; /* ensure the indicator doesn't overflow */
 }
 
 [data-theme='light'] #startStopBtn {
-  background-color: #50c850; /* Darker green for better contrast in dark mode */
-  color: #000000; /* Black text for good contrast */
+  background-color: #50c850;
+  color: #000000;
 }
 
 /* Speed indicator on the start/stop button */
@@ -387,13 +388,12 @@ input:focus {
   background: #407a41;
   border-radius: 2px;
   transition: width 0.3s ease;
-  width: 0; /* Default width */
+  width: 0;
   display: block;
-  max-width: calc(100% - 4px); /* Leave some margin on both sides */
+  max-width: calc(100% - 4px);
 }
 
-
-/* Adjust the left panel styles */
+/* left panel with pattern browser */
 #left-panel label {
   font-size: 12px;
   margin: 0;
@@ -410,86 +410,6 @@ input:focus {
   font-size: 12px;
   margin-bottom: 0;
   margin-right: 4px;
-}
-
-/* Common popup styles */
-.popup-base {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1000;
-  padding: 20px;
-  background-color: var(--panel-bg);
-  color: var(--text-color);
-  border: 1px solid var(--border-color);
-}
-
-/* Popup styles */
-#boardPopup,
-#helpPopup {
-  background-color: var(--panel-bg) !important;
-  color: var(--text-color) !important;
-  border: 1px solid var(--border-color) !important;
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1000;
-  padding: 20px;
-}
-
-#boardPopup h3,
-#helpPopup h3 {
-  color: var(--text-color);
-  margin-top: 0;
-  margin-bottom: 15px;
-}
-
-#boardPopup div {
-  margin: 10px 0;
-}
-
-#boardPopup label {
-  margin-right: 8px;
-}
-
-#boardPopup hr {
-  border-color: var(--border-color);
-  margin: 15px 0;
-}
-
-#helpPopup ul {
-  padding-left: 20px;
-  margin: 10px 0;
-}
-
-#helpPopup li {
-  margin: 8px 0;
-}
-
-/* Popup button container */
-#boardPopup div:last-child,
-#helpPopup div:last-child {
-  margin: 15px 0 0 0;
-  text-align: right;
-}
-
-#boardPopup button,
-#helpPopup button {
-  background-color: var(--button-bg);
-  color: var(--text-color);
-  border: 1px solid var(--border-color);
-  padding: 5px 10px;
-  cursor: pointer;
-  margin: 0 5px;
-}
-
-#boardPopup button:hover,
-#helpPopup button:hover {
-  background-color: var(--button-hover);
 }
 
 /* Pattern list styles */
@@ -703,20 +623,6 @@ input:focus {
   color: white;
 }
 
-/* Ensure buttons are properly aligned */
-.right-align {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-left: auto;
-}
-
-.inline-select {
-  margin: 0 5px;
-  border: 1px solid var(--border-color);
-  padding: 2px 4px;
-}
-
 #viewMode {
   margin-bottom: 12px;
   display: block;
@@ -864,7 +770,7 @@ input:focus {
   transform: translateY(0);
 }
 
-/* paint tools */
+/* Paint tools styles */
 .paint-toolbar {
   position: fixed;
   top: 110px;
