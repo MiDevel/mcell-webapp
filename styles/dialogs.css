@@ -1,0 +1,814 @@
+/* Shared dialog styles */
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.dialog {
+  background-color: var(--panel-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  width: 90%;
+  max-width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.dialog-content {
+  padding: 12px;
+}
+
+.dialog-header {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dialog-header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.dialog-content .full-width {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Container for visually grouping related settings */
+.settings-group-frame {
+  background-color: var(--panel-secondary, var(--panel-bg));
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 12px;
+  margin-bottom: 4px;
+}
+
+.settings-group-frame .setting-group:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.dark-mode-textarea {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--text-color);
+  padding: 4px 8px;
+}
+
+.close-button:hover {
+  color: var(--accent-color);
+}
+
+/* Dialog form styles */
+.dialog-content .form-group {
+  margin-bottom: 1rem;
+}
+
+.dialog-content label {
+  display: block;
+  margin-bottom: 0.05rem;
+}
+
+.dialog-content .radio-group {
+  margin-bottom: 0.5rem;
+}
+
+.dialog-content .radio-with-input,
+.dialog-content .label-with-input {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dialog-content input[type='number'] {
+  width: 60px;
+  padding: 4px;
+}
+
+.dialog-content input[type='number'].inline-input {
+  margin-left: 0.5rem;
+  width: 50px;
+}
+
+.dialog-content input[type='radio'],
+.dialog-content input[type='checkbox'] {
+  margin-right: 0.5rem;
+}
+
+/* Dialog buttons */
+.dialog-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  text-align: right;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.dialog-buttons button {
+  padding: 0.5rem 1rem;
+  margin-left: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.15s ease;
+}
+
+.dialog-buttons button:hover {
+  background: var(--button-hover);
+}
+
+.dialog-buttons button.primary {
+  background: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+}
+
+.dialog-buttons button.primary:hover {
+  background: var(--accent-color);
+}
+
+.dialog-buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.dialog-buttons button:hover:not(:disabled) {
+  background: var(--button-hover-bg, #e0e0e0);
+}
+
+.dialog-buttons button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+/* Dialog inputs */
+.inline-input {
+  width: 60px;
+  margin: 0 5px;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 2px 4px;
+}
+
+.full-width-input {
+  width: calc(100% - 70px);
+  margin-left: 5px;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 2px 4px;
+}
+
+/* Board Settings Dialog */
+.board-settings {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.setting-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.setting-group input[type='number'] {
+  width: 80px;
+  padding: 4px 8px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+}
+
+/* Help Dialog */
+.help-content {
+  line-height: 1.5;
+}
+
+.help-content h3 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.help-content ul {
+  margin: 8px 0;
+  padding-left: 24px;
+}
+
+/* Rules Dialog Styles */
+.rules-dialog .form-group {
+  margin-bottom: 1rem;
+}
+
+.rules-dialog .input-with-buttons {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.rules-dialog .input-with-buttons input {
+  flex: 1;
+}
+
+.rules-dialog .input-with-buttons button {
+  padding: 0.5rem;
+  min-width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.rules-dialog select,
+.rules-dialog input,
+.rules-dialog textarea {
+  margin-top: 0.25rem;
+}
+
+.rules-dialog textarea {
+  resize: vertical;
+  min-height: 5rem;
+}
+
+/* About Dialog Styles */
+.about-dialog {
+  text-align: center;
+  padding: 20px;
+}
+
+.about-dialog .about-header {
+  margin-bottom: 20px;
+}
+
+.about-dialog .app-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+
+.about-dialog h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.about-dialog .about-content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.about-dialog .about-info {
+  margin: 20px 0;
+}
+
+.about-dialog .about-license {
+  text-align: left;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.about-dialog a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.about-dialog a:hover {
+  text-decoration: underline;
+}
+
+.about-acknowledgments {
+  margin-top: 12px;
+  border-top: 1px solid #ddd;
+  padding-top: 12px;
+}
+
+.about-acknowledgments .scrollable-content {
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 10px;
+  margin-top: 4px;
+}
+
+.about-acknowledgments ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.about-acknowledgments li {
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+/* Diversities Dialog Styles */
+.diversity-sections {
+  padding: 10px 0;
+}
+
+.section {
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: var(--dialog-bg);
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.section-header h3 {
+  margin: 0;
+  font-size: 1em;
+  color: var(--text-color);
+  font-weight: normal;
+}
+
+.section-active {
+  color: var(--text-color);
+}
+
+.section-content {
+  transition: opacity 0.3s ease;
+}
+
+.input-group {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.input-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.input-line span {
+  color: var(--text-color);
+  white-space: nowrap;
+}
+
+.stream-input {
+  flex: 1;
+  min-width: 0;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 2px 4px;
+}
+
+.main-switch {
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: block;
+  color: var(--text-color);
+}
+
+/* Make disabled sections more visibly disabled */
+.section-content[style*='opacity: 0.5'] {
+  opacity: 0.3 !important;
+}
+
+/* Histogram Dialog Styles */
+.histogram-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #2b2b2b;
+  border: 1px solid #444;
+  border-radius: 5px;
+  color: #fff;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  gap: 1rem;
+  padding: 1rem;
+  max-height: calc(100vh - 6rem);
+}
+
+.histogram-dialog .dialog-header {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.histogram-dialog table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  max-height: 200px;
+  overflow-y: auto;
+  display: block;
+}
+
+.histogram-dialog th,
+.histogram-dialog td {
+  border: 1px solid #444;
+  padding: 5px 10px;
+  text-align: right;
+}
+
+.histogram-dialog th {
+  background: #333;
+}
+
+.histogram-dialog canvas {
+  border: 1px solid #444;
+  margin: 10px 0;
+}
+
+.histogram-dialog button {
+  padding: 5px 15px;
+  background: #444;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.histogram-dialog button:hover {
+  background: #555;
+}
+
+.histogram-dialog input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+/* Table container with scrollable content */
+.histogram-table-container {
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--bg-color);
+  min-height: 150px;
+  max-height: 300px;
+}
+
+.histogram-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.histogram-table th,
+.histogram-table td {
+  padding: 0.5rem;
+  text-align: right;
+  border: 1px solid var(--border-color);
+}
+
+.histogram-table th {
+  position: sticky;
+  top: 0;
+  background: var(--bg-color);
+  z-index: 1;
+}
+
+.histogram-controls {
+  margin-top: 1rem;
+}
+
+#histogram-chart {
+  width: 100%;
+  height: 200px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+/* Run for Number of times Dialog Styles */
+.run-num-settings {
+  padding: 1rem;
+}
+
+.run-num-settings .setting-group {
+  margin-bottom: 1.5rem;
+}
+
+.run-num-settings .radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.run-num-settings .radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.run-num-settings input[type='number'] {
+  width: 80px;
+  padding: 0.25rem;
+}
+
+.run-num-settings .quick-redraw-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.run-num-settings .quick-redraw-btns button {
+  padding: 0.25rem 0.5rem;
+  min-width: 40px;
+}
+
+.run-num-settings .dialog-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+  .run-num-settings input[type='number'] {
+    width: 60px;
+  }
+
+  .run-num-settings .quick-redraw-btns button {
+    padding: 0.5rem;
+    min-width: 50px; /* Larger touch target for mobile */
+  }
+}
+
+/* Settings Dialog Styles */
+
+.settings-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+.settings-section h3 {
+  margin: 0 0 15px 0;
+  color: var(--text-color);
+}
+
+.settings-group {
+  margin-bottom: 15px;
+}
+
+.settings-group:last-child {
+  margin-bottom: 0;
+}
+
+.settings-group label {
+  /* display: block; */
+  display: inline-block;
+  margin-right: 8px;
+  color: var(--text-color);
+}
+
+.settings-group select,
+.settings-group input[type='number'] {
+  /* width: 100%; */
+  padding: 8px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-color);
+  background-color: var(--button-bg);
+  color: var(--text-color);
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.settings-group select:hover,
+.settings-group input[type='number']:hover {
+  background-color: var(--button-hover);
+}
+
+.settings-group select:focus,
+.settings-group input[type='number']:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.settings-group select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 16px;
+  padding-right: 32px;
+}
+
+.settings-group input[type='checkbox'] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.undo-events-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.undo-event-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.undo-event-item label {
+  margin: 0;
+  cursor: pointer;
+}
+
+/* Undo Dialog Styles */
+
+.undo-dialog {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: calc(100vh - 6rem);
+}
+
+.undo-dialog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: auto;
+  max-height: calc(80vh - 2rem);
+  padding: 1rem;
+}
+
+/* List container with scrollable content */
+.undo-list-container {
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--bg-color);
+  min-height: 300px;
+  max-height: calc(60vh - 2rem);
+}
+
+/* Table styles */
+.undo-list {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+.undo-list th,
+.undo-list td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.undo-list th {
+  background: var(--bg-color);
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 1px 0 var(--border-color);
+}
+
+/* Column widths */
+.undo-list th:nth-child(1) {
+  width: 30px;
+} /* # */
+.undo-list th:nth-child(2) {
+  width: 60px;
+} /* Event */
+.undo-list th:nth-child(3) {
+  width: auto;
+} /* Pattern */
+.undo-list th:nth-child(4) {
+  width: 60px;
+} /* Cycle */
+.undo-list th:nth-child(5) {
+  width: 60px;
+} /* Cells */
+
+/* Row interactions */
+.undo-list tbody tr {
+  transition: background-color 0.15s ease;
+}
+
+.undo-list tbody tr:hover {
+  background-color: var(--hover-color, rgba(128, 128, 128, 0.1));
+  cursor: pointer;
+}
+
+.undo-list tr.selected {
+  background-color: var(--selected-color, rgba(128, 128, 128, 0.2));
+}
+
+.undo-list tr.current {
+  font-weight: bold;
+  color: var(--accent-color, #0066cc);
+}
+
+.undo-list tr.current td:first-child {
+  color: var(--accent-color, #0066cc);
+  font-weight: bold;
+}
+
+/* Ensure triangle indicator aligns nicely */
+.undo-list td:first-child {
+  white-space: nowrap;
+  padding-right: 1rem;
+}
+
+/* Details section */
+.item-details {
+  padding: 0.5rem 1rem;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  min-height: 2.5em;
+  display: flex;
+  align-items: center;
+}
+
+.item-details .no-selection {
+  color: var(--text-muted, #666);
+  text-align: center;
+  font-style: italic;
+  width: 100%;
+  margin: 0;
+}
+
+.details-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.details-info {
+  display: flex;
+  gap: 2rem;
+}
+
+.details-content span {
+  white-space: nowrap;
+}
+
+.details-content button {
+  padding: 0.25rem 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  background: var(--button-bg, #f0f0f0);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.15s ease;
+}
+
+.details-content button:hover {
+  background: var(--button-hover-bg, #e0e0e0);
+}
+
+.details-content button:active {
+  transform: translateY(1px);
+}
+
+/* Ensure text content is properly aligned */
+.undo-list td {
+  vertical-align: middle;
+}
+
+/* Add some spacing between icon and text if needed */
+.undo-list td i {
+  margin-right: 0.5rem;
+}
