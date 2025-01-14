@@ -106,12 +106,65 @@ export class Board {
   }
 
   initializeEventListeners() {
+    // Mouse events
     this.canvas.addEventListener('mousedown', this.handleMouseDown.bind(this));
     this.canvas.addEventListener('mousemove', this.handleMouseMove.bind(this));
     this.canvas.addEventListener('mouseup', this.handleMouseUp.bind(this));
-    this.canvas.addEventListener('mouseleave', this.handleMouseUp.bind(this));
-    this.canvas.addEventListener('wheel', this.handleWheel.bind(this));
     this.canvas.addEventListener('mouseleave', this.handleMouseLeave.bind(this));
+    this.canvas.addEventListener('wheel', this.handleWheel.bind(this));
+
+    // Touch events
+    this.canvas.addEventListener(
+      'touchstart',
+      (e: TouchEvent) => {
+        e.preventDefault(); // Prevent scrolling
+        const touch = e.touches[0];
+        const mouseEvent = new MouseEvent('mousedown', {
+          clientX: touch.clientX,
+          clientY: touch.clientY,
+          buttons: 1,
+        });
+        this.handleMouseDown(mouseEvent);
+      },
+      { passive: false }
+    );
+
+    this.canvas.addEventListener(
+      'touchmove',
+      (e: TouchEvent) => {
+        e.preventDefault(); // Prevent scrolling
+        const touch = e.touches[0];
+        const mouseEvent = new MouseEvent('mousemove', {
+          clientX: touch.clientX,
+          clientY: touch.clientY,
+          buttons: 1,
+        });
+        this.handleMouseMove(mouseEvent);
+      },
+      { passive: false }
+    );
+
+    this.canvas.addEventListener(
+      'touchend',
+      (e: TouchEvent) => {
+        e.preventDefault(); // Prevent scrolling
+        const mouseEvent = new MouseEvent('mouseup', {
+          buttons: 0,
+        });
+        this.handleMouseUp(mouseEvent);
+      },
+      { passive: false }
+    );
+
+    this.canvas.addEventListener(
+      'touchcancel',
+      (e: TouchEvent) => {
+        e.preventDefault(); // Prevent scrolling
+        const mouseEvent = new MouseEvent('mouseleave', {});
+        this.handleMouseLeave(mouseEvent);
+      },
+      { passive: false }
+    );
   }
 
   onGameStateChange(state: GameState) {
