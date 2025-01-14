@@ -9,6 +9,7 @@
   --button-disabled-bg: #1a1b1b;
   --button-disabled-color: #363636;
   --button-hover: #4a5568;
+  --button-hover-bg: #7f7f7f;
   --border-color: #2d3440;
   --accent-color: #155799;
   --link-color: #5a93c7;
@@ -28,6 +29,7 @@
   --button-disabled-bg: #787b7e;
   --button-disabled-color: #909090;
   --button-hover: #94a3b8;
+  --button-hover-bg: #bababa;
   --border-color: #cbd5e0;
   --accent-color: #2563eb;
   --link-color: #2563eb;
@@ -505,67 +507,6 @@ input:focus {
   font-size: 11.5px;
   color: var(--text-color);
   opacity: 0.7;
-}
-
-/* Pattern description popup */
-.pattern-description {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: var(--panel-bg);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-md);
-  border: 1px solid var(--border-color);
-  max-width: 80%;
-  max-height: 80vh;
-  width: 500px;
-  z-index: 1000;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-
-.pattern-description-header {
-  padding: 1rem;
-  background: var(--button-bg);
-  border-bottom: 1px solid var(--border-color);
-  font-weight: bold;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.pattern-description-close {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: 0;
-  width: 24px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-color);
-  opacity: 0.7;
-  transition: opacity 0.2s;
-}
-
-.pattern-description-close:hover {
-  opacity: 1;
-}
-
-.pattern-description-content {
-  padding: 1rem;
-  overflow-y: auto;
-  flex: 1;
-}
-
-.pattern-description-content p {
-  margin: 0.5rem 0;
-  line-height: 1.4;
-  color: var(--text-color);
 }
 
 /* Mode toggle split button */

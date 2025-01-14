@@ -7,7 +7,7 @@
 // Dialog.js
 export interface TDialog {
   activeDialog: HTMLElement | null;
-  show: (title: string, content: string) => void;
+  show: (title: string, content: string, data: any) => void;
   setContent: (content: string) => void;
   setTitle: (title: string) => void;
   close: () => void;
@@ -57,7 +57,7 @@ export class Dialog implements TDialog {
     this.activeDialog = dialog;
   }
 
-  show(title: string, content: string) {
+  show(title: string, content: string, data: any = null) {
     if (!this.activeDialog) return;
 
     this.dialogTitle = title;

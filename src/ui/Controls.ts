@@ -18,6 +18,7 @@ import { CaPatternData } from '../utils/CaPatternData.js';
 import { patternLoader } from '../loaders/PatternLoader.js';
 import { Constants } from '../utils/Constants.js';
 import { dialog } from '../dialogs/Dialog.js';
+import { patternDescriptionDialog } from '../dialogs/PatternDescriptionDialog.js';
 import { aboutDialog } from '../dialogs/AboutDialog.js';
 import { randomizeDialog } from '../dialogs/RandomizeDialog.js';
 import { seederDialog } from '../dialogs/SeederDialog.js';
@@ -71,7 +72,6 @@ export class Controls {
   private patternList: HTMLDivElement | null;
   private patternControls: HTMLDivElement | null;
   private diversitiesBtn: HTMLButtonElement | null;
-  private patternDescription: HTMLDivElement | null;
   private patternBrowser: HTMLDivElement | null;
   private histogramBtn: HTMLButtonElement | null;
   private menuBtn: HTMLButtonElement | null;
@@ -143,12 +143,6 @@ export class Controls {
     if (!this.patternControls) throw new Error('patternControls is not defined');
     if (!this.diversitiesBtn) throw new Error('diversitiesBtn is not defined');
     if (!this.histogramBtn) throw new Error('histogramBtn is not defined');
-
-    // Create pattern description dialog
-    this.patternDescription = document.createElement('div');
-    this.patternDescription.className = 'pattern-description';
-    this.patternDescription.style.display = 'none';
-    document.body.appendChild(this.patternDescription);
 
     // Create speed menu
     this.speedMenu = document.createElement('div');
@@ -407,13 +401,6 @@ export class Controls {
       } else if (key === 'd') {
         event.preventDefault();
         this.setInteractMode('paint');
-      }
-    });
-
-    // Close pattern description when clicking outside
-    document.addEventListener('click', (event: MouseEvent) => {
-      if (!this.patternDescription!.contains(event.target as Node)) {
-        this.patternDescription!.style.display = 'none';
       }
     });
 
@@ -967,31 +954,7 @@ export class Controls {
 
     let htmlText = patternLoader.getDescriptionHTML() || 'No description available.';
 
-    // append horizontal rule
-    htmlText += '<hr>';
-
-    htmlText += '<small>-----';
-    // append family
-    if (data.family) {
-      htmlText += `<br><b>CA Family:</b> ${data.family}`;
-    }
-
-    // append rules definition
-    if (data.rules) {
-      htmlText += `<br><b>Rules:</b> ${data.rules}`;
-    }
-    htmlText += '</small>';
-
-    this.patternDescription!.innerHTML = `
-            <div class="pattern-description-header">
-                <span>${patternPath}</span>
-                <button class="pattern-description-close" onclick="this.closest('.pattern-description').style.display='none'">×</button>
-            </div>
-            <div class="pattern-description-content">
-                ${htmlText}
-            </div>
-        `;
-    this.patternDescription!.style.display = 'flex';
+    patternDescriptionDialog.show(data.fileName, htmlText, data);
   }
 
   applyPattern(patternData: CaPatternData) {
