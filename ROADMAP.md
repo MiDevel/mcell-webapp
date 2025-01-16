@@ -1,7 +1,6 @@
 
 # Bugs / Issues
 
-- Selection Paste does not create an Undo state.
 
 
 # Important todos

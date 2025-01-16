@@ -315,12 +315,6 @@ export class Controls {
         } else if (key === 'y') {
           event.preventDefault();
           this.redo();
-        } else if (key === 'c' && boardState.selectionActive) {
-          event.preventDefault(); // Prevent browser's copy
-          SelectionUtils.copy();
-        } else if (key === 'v' && boardState.clipboardLattice) {
-          event.preventDefault(); // Prevent browser's paste
-          SelectionUtils.paste();
         } else if (key === 'a') {
           // Prevent browser's select all
           event.preventDefault();

@@ -778,6 +778,16 @@ export class PaintTools {
           this.setActiveTool('select');
           SelectionUtils.selectAll();
           return;
+        case 'c':
+          // Prevent browser's copy
+          event.preventDefault();
+          SelectionUtils.copy();
+          return;
+        case 'v':
+          // Prevent browser's paste
+          event.preventDefault();
+          SelectionUtils.paste();
+          return;
       }
     }
 
