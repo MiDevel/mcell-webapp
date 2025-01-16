@@ -23,25 +23,25 @@ export class SavePatternDialog {
   createDialogContent(): string {
     return `
             <div class="dialog-content">
-                <div class="form-group">
-                    <label>Pattern description:</label>
-                    <textarea id="descriptionArea" class="full-width dark-mode-textarea" rows="6"></textarea>
+              <div class="form-group">
+                <label>Pattern description:</label>
+                <textarea id="descriptionArea" class="full-width dark-mode-textarea" rows="6"></textarea>
+              </div>
+              <div class="form-group">
+                <label>Also save:</label>
+                <div class="setting-group">
+                  <input type="checkbox" id="speedCheckbox">
+                  <label for="speedCheckbox">current speed</label>
                 </div>
-                <div class="form-group">
-                    <label>Also save:</label>
-                    <div class="setting-group">
-                        <input type="checkbox" id="speedCheckbox">
-                        <label for="speedCheckbox">current speed</label>
-                    </div>
-                    <div class="setting-group">
-                        <input type="checkbox" id="paletteCheckbox">
-                        <label for="paletteCheckbox">color palette name</label>
-                    </div>
+                <div class="setting-group">
+                  <input type="checkbox" id="paletteCheckbox">
+                  <label for="paletteCheckbox">color palette name</label>
                 </div>
-                <div class="dialog-buttons">
-                    <button class="primary" id="acceptBtn">Accept</button>
-                    <button id="closeBtn">Close</button>
-                </div>
+              </div>
+            </div>
+            <div class="dialog-buttons">
+              <button class="primary" id="acceptBtn">Accept</button>
+              <button id="closeBtn">Close</button>
             </div>`;
   }
 

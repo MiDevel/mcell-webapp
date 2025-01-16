@@ -1,3 +1,29 @@
+#Life
+2x2                  || 125/36 || Chaotic || Similar in character to Conways Life, but completely different patterns. Many different oscillators occur at random, and a rare glider. This rule is also a 2x2 block universe. This means that patterns consisting entirely of 2x2 blocks, all aligned, will continue to consist of 2x2 blocks.{NL}{NL}Author unknown.
+34 Life              || 34/34 || Exploding || One of the first explored alternatives to Conways Life, back in the early 1970s. Computing power was so low back then, it was months before anyone noticed that this is an exploding universe. What makes this universe interesting is the variety of small oscillators and the period-3 orthogonal spaceship.{NL}{NL}Author unknown.
+Amoeba               || 1358/357 || Chaotic || An "amoeba" universe - forms large random areas that resemble amoebas. Internal to a random area is chaos. The edge vacillates wildly, and patterns tend to grow more than shrink. The more they grow, the more certain their survival. This is a fairly well-balanced rule.{NL}{NL}Author unknown.
+Assimilation         || 4567/345 || Stable || Rule similar to Diamoeba, but much more stable. The diamond-shaped patterns are filled in 70-85% and never die.{NL}{NL}Author unknown.
+Coagulations         || 235678/378 || Exploding || Creates gooey coagulations as it expands forever. Best viewed at zoom=1. Notice that this is a close variation of the previous rule, 235678/3678, except that there is one less condition for a dead cell to come to life on the next generation. In general this should make a universe less active, but this is an exception.{NL}{NL}Author unknown.
+Conway's Life        || 23/3 || Chaotic || The default rule. This is the most famous cellular automata ever invented. People have been discovering patterns for this rule since around 1970. Large collections are available on the Internet.{NL}{NL}A rule by John Conway.
+Coral                || 45678/3 || Exploding || This rule produces patterns with a surprisingly slow rate of expansion and an interesting coral-like texture.{NL}{NL}Author unknown.
+Day & Night          || 34678/3678 || Stable || So named because dead cells in fields of live cells act by the same rules as live cells in fields of dead cells. There are obviously other rules, which have this symmetrical property, but this rule was chosen because it has some interesting high period spaceships and oscillators. The properties of the rule were explored by David Bell.{NL}{NL}A rule by Nathan Thompson.
+Diamoeba             || 5678/35678 || Chaotic || Creates solid diamond-shaped "amoeba" patterns that are surprisingly unpredictable. For a long time it was not known whether any diamonds expand forever, or if the tendency toward the catastrophic destruction of corners is too strong. Finally in March 1999 David Eppstein found the  c/7 spaceship, and David Bell made a 100% spacefiller out of it. {NL}{NL}A rule by Dean Hickerson.
+Flakes               || 012345678/3 || Expanding || The rule produces beautiful flakes, starting from simple groups of cells. Try especially filled circles with radius > 20 cells.{NL}{NL}A rule by Janko Gravner.
+Gnarl                || 1/1 || Exploding || A simple rule provided by Kellie Evans. To see its beauty start with simple patterns, for example with a single dot.
+HighLife             || 23/36 || Chaotic || This rule is very similar to Conways Life, but it has a surprise replicator pattern. There is no known replicator in Conways Life.{NL}{NL}A rule by Nathan Thompson.
+InverseLife          || 34678/0123478/2 || Chaotic || The rule shows similar oscilators and gliders to GOL, but dead cells create the patterns amongst live cells in the background.{NL}{NL}A rule by Jason Rampe.
+Long life            || 5/345 || Stable || This rule is called "Long life" because of the extremely high period patterns that can be produced in this universe.{NL}{NL}A rule by Andrew Trevorrow.
+Maze                 || 12345/3 || Exploding || An "a-maze-ing" universe - crystallizes into maze-like patterns. Interesting variations: try removing 5 from the "Survival" list. To produce mice running in the maze, add 7 to the "Births" list.{NL}{NL}Author unknown.
+Mazectric            || 1234/3 || Exploding || "Mazectric" and "Corrosion of Conformity". An interesting variation of the maze rule which produces longer halls and a highly linear format. Adding B7 to maze (keeping S5) allows some "mice" to run back and forth in the halls. Switching the B3 to B45 though, electrifies the mazes. Dropping S3 gives "Corrosion of Conformity", a slow burn from almost any starting pattern, resulting in a rusting away of the local continuum.{NL}{NL}A rule by Charles A. Rockafellor.
+Move                 || 245/368 || Stable || A very calm universe, which nonetheless has a very commonly occurring slow spaceship and a slow puffer.{NL}{NL}Author unknown.
+Pseudo life          || 238/357 || Chaotic || In this close variation of Conways Life, the chaos is remarkably similar, but almost none of the engineered patterns work.{NL}{NL}Author unknown.
+Replicator           || 1357/1357 || Exploding || In this remarkable universe every pattern is a replicator.{NL}{NL}Author unknown.
+Seeds (2)            || /2 || Exploding || Every living cell dies every generation, but most patterns explode anyway. Its a challenge to build new patterns that dont explode. Arguably the simplest challenging rule.{NL}{NL}A rule by Brian Silverman.
+Serviettes           || /234 || Exploding || Like /2, every living cell dies every generation. This rule is picked for the exceptional fabric-like beauty of the patterns that it produces.{NL}{NL}Author unknown.
+Stains               || 235678/3678 || Stable || Most close variations of these rules expand forever, but this one curiously does not. Why?{NL}{NL}Author unknown.
+WalledCities         || 2345/45678 || Stable || The rule creates walled cities of activity. Once the field has stabilized, one can draw lines to connect the cities and the patterns expand to create an even larger city. But once the wall is complete, the city never grows, even though there is near-random activity inside it.{NL}{NL}A rule by David Macfarlane.
+
+
 #Generations
 Banners              || 2367/3457/5 || Exploding || The rule often produces ships with growing fluttering banners.{NL}{NL}A rule by Mirek Wojtowicz.
 BelZhab              || 23/23/8 || Exploding || Another case of Zhabotinsky reaction.{NL}{NL}Author unknown.
@@ -5,7 +31,7 @@ BelZhab Sediment     || 145678/23/8 || Exploding || The rule creates BelZhab lik
 Bloomerang           || 234/34678/24 || Expanding || A wave rule that rebounds into a kinder, gentler form of kaleidoscopics - rounded, soft, full, and slow.{NL}{NL}A rule by John Elliott.
 Bombers              || 345/24/25 || Chaotic || A close variant of the StarWars rule with much more history steps, what results in beautiful ships, puffers and oscillators.{NL}{NL}Author unknown.
 Brain 6              || 6/246/3 || Chaotic || An interesting variation of Brians Brain, with many patterns constructed.{NL}{NL}A rule by Michael Sweney.
-Brians Brain         || /2/3 || Chaotic || Brians Brain, unquestionably one of the best known and most beautiful CA rules.{NL}{NL}A rule by Brian Silverman.
+Brian's Brain        || /2/3 || Chaotic || Brian's Brain, unquestionably one of the best known and most beautiful CA rules.{NL}{NL}A rule by Brian Silverman.
 Burst                || 0235678/3468/9 || Chaotic || A generations rule related to Nova, Prairie Fire and others which features large areas of cells that slowly die out or decay into oscillators. Named after a characteristic exploding oscillator. Similar to Day&Night in that constructions can be built both with inside and outside oscillations and growth/decay. Has still lifes similar to Life.{NL}{NL}A rule by Michael Sweney.
 BurstII              || 235678/3468/9 || Chaotic || Basically it is Burst without the single cell still life. It supports slow and fast spaceships, oscillators, and methuselahs as well as a very characteristic p500+ oscillator.{NL}{NL}A rule by Michael Sweney.
 Caterpillars         || 124567/378/4 || Chaotic || The name comes from very commonly occurring caterpillars-like patterns.{NL}{NL}A rule by Mirek Wojtowicz.
@@ -44,32 +70,6 @@ TransersII           || 0345/26/6 || Exploding || {NL}{NL}A rule by Michael Swen
 Wanderers            || 345/34678/5 || Exploding || A rule very similar to "Prairie on fire", but creates interesting dynamically moving patterns.{NL}{NL}A rule by Mirek Wojtowicz.
 Worms                || 3467/25/6 || Exploding || An unpleasant rule producing crowds of disgusting worms.{NL}{NL}A rule by Mirek Wojtowicz.
 Xtasy                || 1456/2356/16 || Exploding || From simple seeds in a closed universe this is a lovely kaleidoscopic wave rule that tends to do extended meditations on the letter X.{NL}{NL}A rule by John Elliott.
-
-
-#Life
-2x2                  || 125/36 || Chaotic || Similar in character to Conways Life, but completely different patterns. Many different oscillators occur at random, and a rare glider. This rule is also a 2x2 block universe. This means that patterns consisting entirely of 2x2 blocks, all aligned, will continue to consist of 2x2 blocks.{NL}{NL}Author unknown.
-34 Life              || 34/34 || Exploding || One of the first explored alternatives to Conways Life, back in the early 1970s. Computing power was so low back then, it was months before anyone noticed that this is an exploding universe. What makes this universe interesting is the variety of small oscillators and the period-3 orthogonal spaceship.{NL}{NL}Author unknown.
-Amoeba               || 1358/357 || Chaotic || An "amoeba" universe - forms large random areas that resemble amoebas. Internal to a random area is chaos. The edge vacillates wildly, and patterns tend to grow more than shrink. The more they grow, the more certain their survival. This is a fairly well-balanced rule.{NL}{NL}Author unknown.
-Assimilation         || 4567/345 || Stable || Rule similar to Diamoeba, but much more stable. The diamond-shaped patterns are filled in 70-85% and never die.{NL}{NL}Author unknown.
-Coagulations         || 235678/378 || Exploding || Creates gooey coagulations as it expands forever. Best viewed at zoom=1. Notice that this is a close variation of the previous rule, 235678/3678, except that there is one less condition for a dead cell to come to life on the next generation. In general this should make a universe less active, but this is an exception.{NL}{NL}Author unknown.
-Conway's Life        || 23/3 || Chaotic || The default rule. This is the most famous cellular automata ever invented. People have been discovering patterns for this rule since around 1970. Large collections are available on the Internet.{NL}{NL}A rule by John Conway.
-Coral                || 45678/3 || Exploding || This rule produces patterns with a surprisingly slow rate of expansion and an interesting coral-like texture.{NL}{NL}Author unknown.
-Day & Night          || 34678/3678 || Stable || So named because dead cells in fields of live cells act by the same rules as live cells in fields of dead cells. There are obviously other rules, which have this symmetrical property, but this rule was chosen because it has some interesting high period spaceships and oscillators. The properties of the rule were explored by David Bell.{NL}{NL}A rule by Nathan Thompson.
-Diamoeba             || 5678/35678 || Chaotic || Creates solid diamond-shaped "amoeba" patterns that are surprisingly unpredictable. For a long time it was not known whether any diamonds expand forever, or if the tendency toward the catastrophic destruction of corners is too strong. Finally in March 1999 David Eppstein found the  c/7 spaceship, and David Bell made a 100% spacefiller out of it. {NL}{NL}A rule by Dean Hickerson.
-Flakes               || 012345678/3 || Expanding || The rule produces beautiful flakes, starting from simple groups of cells. Try especially filled circles with radius > 20 cells.{NL}{NL}A rule by Janko Gravner.
-Gnarl                || 1/1 || Exploding || A simple rule provided by Kellie Evans. To see its beauty start with simple patterns, for example with a single dot.
-HighLife             || 23/36 || Chaotic || This rule is very similar to Conways Life, but it has a surprise replicator pattern. There is no known replicator in Conways Life.{NL}{NL}A rule by Nathan Thompson.
-InverseLife          || 34678/0123478/2 || Chaotic || The rule shows similar oscilators and gliders to GOL, but dead cells create the patterns amongst live cells in the background.{NL}{NL}A rule by Jason Rampe.
-Long life            || 5/345 || Stable || This rule is called "Long life" because of the extremely high period patterns that can be produced in this universe.{NL}{NL}A rule by Andrew Trevorrow.
-Maze                 || 12345/3 || Exploding || An "a-maze-ing" universe - crystallizes into maze-like patterns. Interesting variations: try removing 5 from the "Survival" list. To produce mice running in the maze, add 7 to the "Births" list.{NL}{NL}Author unknown.
-Mazectric            || 1234/3 || Exploding || "Mazectric" and "Corrosion of Conformity". An interesting variation of the maze rule which produces longer halls and a highly linear format. Adding B7 to maze (keeping S5) allows some "mice" to run back and forth in the halls. Switching the B3 to B45 though, electrifies the mazes. Dropping S3 gives "Corrosion of Conformity", a slow burn from almost any starting pattern, resulting in a rusting away of the local continuum.{NL}{NL}A rule by Charles A. Rockafellor.
-Move                 || 245/368 || Stable || A very calm universe, which nonetheless has a very commonly occurring slow spaceship and a slow puffer.{NL}{NL}Author unknown.
-Pseudo life          || 238/357 || Chaotic || In this close variation of Conways Life, the chaos is remarkably similar, but almost none of the engineered patterns work.{NL}{NL}Author unknown.
-Replicator           || 1357/1357 || Exploding || In this remarkable universe every pattern is a replicator.{NL}{NL}Author unknown.
-Seeds (2)            || /2 || Exploding || Every living cell dies every generation, but most patterns explode anyway. Its a challenge to build new patterns that dont explode. Arguably the simplest challenging rule.{NL}{NL}A rule by Brian Silverman.
-Serviettes           || /234 || Exploding || Like /2, every living cell dies every generation. This rule is picked for the exceptional fabric-like beauty of the patterns that it produces.{NL}{NL}Author unknown.
-Stains               || 235678/3678 || Stable || Most close variations of these rules expand forever, but this one curiously does not. Why?{NL}{NL}Author unknown.
-WalledCities         || 2345/45678 || Stable || The rule creates walled cities of activity. Once the field has stabilized, one can draw lines to connect the cities and the patterns expand to create an even larger city. But once the wall is complete, the city never grows, even though there is near-random activity inside it.{NL}{NL}A rule by David Macfarlane.
 
 
 #Weighted Life
@@ -324,10 +324,6 @@ Triangular gliders   || R2,WE0897801 ||  || Gliders{NL}{NL}[Wue98a]
 Zig-Zags             || R2,W8F0C1A48 ||  || Solitons, model B4 in Ref., glider reflection and passing.{NL}{NL}[Aiz90]
 
 
-#Custom rules 1D
-Traffic CA Standard  || TRCA,0.11,0.05,0.9,0.9,0.2,0.2 || Stable || Probabilistic Traffic CA by David Griffeath and Larry Gray.{NL}{NL}This CA allows exploring mechanisms for the onset of traffic jams due to acceleration and deceleration of cars within a homogeneous single-line stream.
-
-
 #Weighted Generations
 WG Rule004           || WeightedGen,C4,SW0;2;0;1,PW1;1;1;1;1;1;1;1,RS6;7;8;9;10;11,RB4 || Chaotic || This rule is a close relative to the famous Star Wars rule and like that rule is a pattern developers dream. All basic types of patterns are supported. The rules potential for generating interesting patterns can be demonstrated by observing the development of any one of the five chaos patterns (C001.mcl through C005.mcl).{NL}{NL}A rule by Brian Prentice, May 2001.
 WG Rule012           || WeightedGen,C6,SW0;2;1;1;1;1,PW1;1;1;1;1;1;1;1,RS4;5,RB5 || Chaotic || This rule seems only to support diagonally moving ships and puffers and still life. No regular ships, puffers or oscillators have yet been found. The diagonally moving puffers are very unusual and quite rare. Four such puffers have been found so far, some of which are quite complex (see DP002.mcl). Diagonal moving ships (gliders) with three different speeds have been found including some that travel faster than Lifes glider (see SD001.mcl).{NL}{NL}A rule by Brian Prentice, June 2001.
@@ -340,3 +336,7 @@ WG Rule071           || WeightedGen,C6,SW0;3;1;0;1;2,PW1;1;1;1;1;1;1;1,RS8;9;10;
 WG Rule072           || WeightedGen,C6,SW0;3;0;1;1;2,PW1;1;1;1;1;1;1;1,RS8;9;10;11;12;13;14;15;16,RB6 || Chaotic || This rule supports a rich assortment of guns and oscillators together with ships, puffers and still life. No diagonally moving patterns have yet been found.{NL}{NL}A rule by Brian Prentice, June 2001.
 WG Rule074           || WeightedGen,C5,SW0;2;0;0;1,PW1;1;1;1;1;1;1;1,RS4;5;6;7;8,RB3 || Chaotic || This rule is notable for its diagonal puffers which lay closely packed tiles consisting of oscillators and for the unusual nature of its oscillators and stretchers.{NL}{NL}A rule by Brian Prentice, July 2001.
 WG Rule084           || WeightedGen,C7,SW0;1;2;1;0;0;1,PW2;1;2;1;1;2;1;2,RS5;6,RB5 || Chaotic || This rule supports diagonal puffers and diagonal ships. It also generates a set of ships resembling Pascal triangles which can be constructed of any size (see S010).{NL}{NL}A rule by Brian Prentice, July 2001.
+
+
+#Custom rules 1D
+Traffic CA Standard  || TRCA,0.11,0.05,0.9,0.9,0.2,0.2 || Stable || Probabilistic Traffic CA by David Griffeath and Larry Gray.{NL}{NL}This CA allows exploring mechanisms for the onset of traffic jams due to acceleration and deceleration of cars within a homogeneous single-line stream.

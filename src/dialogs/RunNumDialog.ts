@@ -29,46 +29,50 @@ export class RunNumDialog {
   createDialogContent(): string {
     return `
             <div class="run-num-settings">
-                <div class="setting-group">
-                    <div class="radio-group">
-                        <label>
-                            <input type="radio" name="runMode" value="cycles" checked>
-                            Run for <input type="number" id="numCycles" value="20" min="1" max="1000000"> cycles
-                        </label>
-                        <label>
-                            <input type="radio" name="runMode" value="target">
-                            Run up to cycle <input type="number" id="targetCycle" value="1000" min="1" max="10000000">
-                        </label>
-                        <label>
-                            <input type="radio" name="runMode" value="continuous">
-                            Run continuously
-                        </label>
-                        <label>
-                            <input type="radio" name="runMode" value="page">
-                            Run one page (useful in 1-D rules)
-                        </label>
-                    </div>
+              <div class="settings-group-frame">
+                <div class="radio-group">
+                  <label>
+                    <input type="radio" name="runMode" value="cycles" checked>
+                    Run for <input type="number" id="numCycles" value="20" min="1" max="1000000"> cycles
+                  </label>
+                  <label>
+                    <input type="radio" name="runMode" value="target">
+                    Run up to cycle <input type="number" id="targetCycle" value="1000" min="1" max="10000000">
+                  </label>
+                  <label>
+                    <input type="radio" name="runMode" value="continuous">
+                    Run continuously
+                  </label>
+                  <label>
+                    <input type="radio" name="runMode" value="page">
+                    Run one page (useful in 1-D rules)
+                  </label>
                 </div>
+              </div>
+              <div class="settings-group-frame">
                 <div class="setting-group">
-                    <label>Redraw every cycles:</label>
-                    <input type="number" id="redrawCycles" value="${this.redrawEvery}" min="1" max="1000">
+                  <label>Redraw every cycles:</label>
+                  <input type="number" id="redrawCycles" value="${this.redrawEvery}" min="1" max="1000">
                 </div>
                 <div class="quick-redraw-btns">
-                    <button data-cycles="1">1</button>
-                    <button data-cycles="5">5</button>
-                    <button data-cycles="10">10</button>
-                    <button data-cycles="20">20</button>
-                    <button data-cycles="50">50</button>
-                    <button data-cycles="100">100</button>
-                    <button data-cycles="200">200</button>
-                    <button data-cycles="500">500</button>
-                    <button data-cycles="1000">1000</button>
+                  <button data-cycles="1">1</button>
+                  <button data-cycles="5">5</button>
+                  <button data-cycles="10">10</button>
+                  <button data-cycles="20">20</button>
+                  <button data-cycles="50">50</button>
+                  <button data-cycles="100">100</button>
+                  <button data-cycles="200">200</button>
+                  <button data-cycles="500">500</button>
+                  <button data-cycles="1000">1000</button>
+                  <button data-cycles="2000">2000</button>
+                  <button data-cycles="5000">5000</button>
                 </div>
-                <div class="dialog-buttons">
-                    <button id="runBtn">Run</button>
-                    <button id="stopBtn" disabled>Stop</button>
-                    <button id="closeBtn">Close</button>
-                </div>
+              </div>
+            </div>
+            <div class="dialog-buttons">
+              <button id="runBtn" class="primary">Run</button>
+              <button id="stopBtn" disabled>Stop</button>
+              <button id="closeBtn">Close</button>
             </div>
         `;
   }
@@ -80,7 +84,7 @@ export class RunNumDialog {
 
     do {
       // Check if we should stop
-      if (this.cyclesLeft <= 0) {
+      if (this.cyclesLeft === 0) {
         this.stop();
         return;
       }
@@ -121,6 +125,8 @@ export class RunNumDialog {
     } else if (this.mode === 'target') {
       let targetCycle = parseInt(targetCycleEl.value);
       this.cyclesLeft = targetCycle - gameState.cycle;
+    } else if (this.mode === 'continuous') {
+      this.cyclesLeft = -1;
     } else if (this.mode === 'page') {
       if (gameState.currentEngine.universeType === CaEngines.UNIV_TYPE_1D) {
         this.cyclesLeft = boardState.lattice.height - gameState.last1DRow - 1;
