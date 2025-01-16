@@ -27,30 +27,30 @@ export class RulesDialog {
   createDialogContent(): string {
     return `
             <div class="dialog-content rules-dialog">
-                <div class="form-group">
-                    <label>CA Family:</label>
-                    <select id="familySelect" class="full-width"></select>
+              <div class="form-group">
+                <label>CA Family:</label>
+                <select id="familySelect" class="full-width"></select>
+              </div>
+              <div class="form-group">
+                <label>Rule:</label>
+                <select id="ruleSelect" class="full-width"></select>
+              </div>
+              <div class="form-group">
+                <label>Rule Definition:</label>
+                <div class="input-with-buttons">
+                  <input type="text" id="ruleDefinition" class="full-width">
+                  <button id="copyBtn" title="Copy to clipboard">📋</button>
+                  <button id="randomBtn" title="Generate random rule">🎲</button>
                 </div>
-                <div class="form-group">
-                    <label>Rule:</label>
-                    <select id="ruleSelect" class="full-width"></select>
-                </div>
-                <div class="form-group">
-                    <label>Rule Definition:</label>
-                    <div class="input-with-buttons">
-                        <input type="text" id="ruleDefinition" class="full-width">
-                        <button id="copyBtn" title="Copy to clipboard">📋</button>
-                        <button id="randomBtn" title="Generate random rule">🎲</button>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label>Description:</label>
-                    <textarea id="ruleDescription" class="full-width dark-mode-textarea" rows="4" readonly></textarea>
-                </div>
-                <div class="dialog-buttons">
-                    <button class="primary" id="acceptBtn">Accept</button>
-                    <button id="closeBtn">Close</button>
-                </div>
+              </div>
+              <div class="form-group">
+                <label>Description:</label>
+                <textarea id="ruleDescription" class="full-width dark-mode-textarea" rows="4" readonly></textarea>
+              </div>
+            </div>
+            <div class="dialog-buttons">
+              <button class="primary" id="acceptBtn">Accept</button>
+              <button id="closeBtn">Close</button>
             </div>`;
   }
 

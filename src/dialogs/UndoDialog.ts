@@ -92,6 +92,7 @@ export class UndoDialog {
       content.push(`<p class="no-selection">${message}</p>`);
     }
     content.push('</div>');
+    content.push('</div>');
 
     // Buttons
     content.push('<div class="dialog-buttons">');
@@ -102,7 +103,6 @@ export class UndoDialog {
     content.push('<button id="closeBtn">Close</button>');
     content.push('</div>');
 
-    content.push('</div>');
     return content.join('\n');
   }
 

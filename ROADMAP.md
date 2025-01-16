@@ -1,7 +1,6 @@
 
 # Bugs / Issues
 
-- 
 
 
 # Important todos
@@ -15,6 +14,7 @@
 - Add a new top toolbar button - 'Add state to Undo history'.
 - Clean up the css styling, it's a mess. Remove redundant styles, simplify dialog styles.
 - Add a period/speed checker for oscillators and spaceships.
+- Add a new option "Append from Clipboard"
 - Create a nicer Light theme for the UI. The Dark mode is probably good enough.
 - Add 'Global Edit' tool - a dialog allowing to shift the pattern, center it, replace states, etc.
 - Allow to display different shapes of cells: box, square, disc, circle. Only when cell size is >= 7. Use regular filled squares for smaller sizes.

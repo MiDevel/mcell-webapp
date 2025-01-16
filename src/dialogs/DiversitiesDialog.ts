@@ -18,113 +18,110 @@ export class DiversitiesDialog {
   createDialog(settings: DiversitiesSettings) {
     const content = `
             <div class="dialog-content">
-                <div class="form-group">
-                    <label class="main-switch">
-                        <input type="checkbox" id="diversitiesEnabled" ${settings.enabled ? 'checked' : ''}>
-                        Diversities active
+              <label class="main-switch">
+                <input type="checkbox" id="diversitiesEnabled" ${settings.enabled ? 'checked' : ''}>
+                Diversities active
+              </label>
+
+              <div class="diversity-sections">
+                <!-- Noise Section -->
+                <div class="section">
+                  <div class="section-header">
+                    <h3>Noise</h3>
+                    <label class="section-active">
+                      <input type="checkbox" class="section-active" id="noiseActive" ${settings.noise.active ? 'checked' : ''}>
+                      Active
                     </label>
+                  </div>
+                  <div class="section-content">
+                    <div class="input-group">
+                      <label>Every
+                        <input type="number" id="noiseCycles" value="${settings.noise.cycles}" min="1" class="inline-input">
+                        cycle(s) generate
+                      </label>
+                      <label>
+                        <input type="number" id="noiseCells" value="${settings.noise.cells}" min="1" class="inline-input">
+                        random cell(s)
+                      </label>
+                    </div>
+                  </div>
                 </div>
 
-                <div class="diversity-sections">
-                    <!-- Noise Section -->
-                    <div class="section">
-                        <div class="section-header">
-                            <h3>Noise</h3>
-                            <label class="section-active">
-                                <input type="checkbox" class="section-active" id="noiseActive" ${settings.noise.active ? 'checked' : ''}>
-                                Active
-                            </label>
-                        </div>
-                        <div class="section-content">
-                            <div class="input-group">
-                                <label>Every
-                                    <input type="number" id="noiseCycles" value="${settings.noise.cycles}" min="1" class="inline-input">
-                                    cycle(s) generate
-                                </label>
-                                <label>
-                                    <input type="number" id="noiseCells" value="${settings.noise.cells}" min="1" class="inline-input">
-                                    random cell(s)
-                                </label>
-                            </div>
-                        </div>
+                <!-- Black Hole Section -->
+                <div class="section">
+                  <div class="section-header">
+                    <h3>Black hole</h3>
+                    <label class="section-active">
+                      <input type="checkbox" class="section-active" id="blackHoleActive" ${settings.blackHole.active ? 'checked' : ''}>
+                      Active
+                    </label>
+                  </div>
+                  <div class="section-content">
+                    <div class="input-group">
+                      <label>Center point:
+                        <input type="number" id="blackHoleX" value="${settings.blackHole.x}" class="inline-input">,
+                        <input type="number" id="blackHoleY" value="${settings.blackHole.y}" class="inline-input">
+                      </label>
+                      <label>Size:
+                        <input type="number" id="blackHoleSize" value="${settings.blackHole.size}" min="1" class="inline-input">
+                      </label>
                     </div>
-
-                    <!-- Black Hole Section -->
-                    <div class="section">
-                        <div class="section-header">
-                            <h3>Black hole</h3>
-                            <label class="section-active">
-                                <input type="checkbox" class="section-active" id="blackHoleActive" ${settings.blackHole.active ? 'checked' : ''}>
-                                Active
-                            </label>
-                        </div>
-                        <div class="section-content">
-                            <div class="input-group">
-                                <label>Center point:
-                                    <input type="number" id="blackHoleX" value="${settings.blackHole.x}" class="inline-input">,
-                                    <input type="number" id="blackHoleY" value="${settings.blackHole.y}" class="inline-input">
-                                </label>
-                                <label>Size:
-                                    <input type="number" id="blackHoleSize" value="${settings.blackHole.size}" min="1" class="inline-input">
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- SuperNova Section -->
-                    <div class="section">
-                        <div class="section-header">
-                            <h3>SuperNova</h3>
-                            <label class="section-active">
-                                <input type="checkbox" class="section-active" id="superNovaActive" ${settings.superNova.active ? 'checked' : ''}>
-                                Active
-                            </label>
-                        </div>
-                        <div class="section-content">
-                            <div class="input-group">
-                                <label>Center point:
-                                    <input type="number" id="superNovaX" value="${settings.superNova.x}" class="inline-input">,
-                                    <input type="number" id="superNovaY" value="${settings.superNova.y}" class="inline-input">
-                                </label>
-                                <label>Size:
-                                    <input type="number" id="superNovaSize" value="${settings.superNova.size}" min="1" class="inline-input">
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Stream Input Section -->
-                    <div class="section">
-                        <div class="section-header">
-                            <h3>Input stream</h3>
-                            <label class="section-active">
-                                <input type="checkbox" class="section-active" id="streamInputActive" ${settings.streamInput.active ? 'checked' : ''}>
-                                Active
-                            </label>
-                        </div>
-                        <div class="section-content">
-                            <div class="input-group">
-                                <label>Location:
-                                    <input type="number" id="streamInputX" value="${settings.streamInput.x}" class="inline-input">,
-                                    <input type="number" id="streamInputY" value="${settings.streamInput.y}" class="inline-input">
-                                </label>
-                                <label>
-                                    <input type="checkbox" id="streamInputRepeat" ${settings.streamInput.repeat ? 'checked' : ''}>
-                                    Repeat forever
-                                </label>
-                                <div class="input-line">
-                                    <span>Stream:</span>
-                                    <input type="text" id="streamInputStr" value="${settings.streamInput.str.join(', ')}" class="stream-input">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
 
-                <div class="dialog-buttons">
-                    <button class="primary" id="acceptBtn">Accept</button>
-                    <button id="closeBtn">Close</button>
+                <!-- SuperNova Section -->
+                <div class="section">
+                  <div class="section-header">
+                    <h3>SuperNova</h3>
+                    <label class="section-active">
+                      <input type="checkbox" class="section-active" id="superNovaActive" ${settings.superNova.active ? 'checked' : ''}>
+                      Active
+                    </label>
+                  </div>
+                  <div class="section-content">
+                    <div class="input-group">
+                      <label>Center point:
+                        <input type="number" id="superNovaX" value="${settings.superNova.x}" class="inline-input">,
+                        <input type="number" id="superNovaY" value="${settings.superNova.y}" class="inline-input">
+                      </label>
+                      <label>Size:
+                        <input type="number" id="superNovaSize" value="${settings.superNova.size}" min="1" class="inline-input">
+                      </label>
+                    </div>
+                  </div>
                 </div>
+
+                <!-- Stream Input Section -->
+                <div class="section">
+                  <div class="section-header">
+                    <h3>Input stream</h3>
+                    <label class="section-active">
+                      <input type="checkbox" class="section-active" id="streamInputActive" ${settings.streamInput.active ? 'checked' : ''}>
+                      Active
+                    </label>
+                  </div>
+                  <div class="section-content">
+                    <div class="input-group">
+                      <label>Location:
+                        <input type="number" id="streamInputX" value="${settings.streamInput.x}" class="inline-input">,
+                        <input type="number" id="streamInputY" value="${settings.streamInput.y}" class="inline-input">
+                      </label>
+                      <label>
+                        <input type="checkbox" id="streamInputRepeat" ${settings.streamInput.repeat ? 'checked' : ''}>
+                        Repeat forever
+                      </label>
+                      <div class="input-line">
+                        <span>Stream:</span>
+                        <input type="text" id="streamInputStr" value="${settings.streamInput.str.join(', ')}" class="stream-input">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dialog-buttons">
+              <button class="primary" id="acceptBtn">Accept</button>
+              <button id="closeBtn">Close</button>
             </div>`;
 
     return content;
