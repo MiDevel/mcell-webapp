@@ -23,37 +23,39 @@ export class RandomizeDialog {
   createDialogContent(): string {
     return `
             <div class="dialog-content">
-                <div class="form-group">
-                    <div class="radio-group">
-                        <label class="radio-with-input">
-                            <input type="radio" name="stateMode" value="mono" checked> 
-                            Single state
-                            <input type="number" id="state" min="1" value="1" class="inline-input">
-                        </label>
-                    </div>
-                    <div class="radio-group">
-                        <label>
-                            <input type="radio" name="stateMode" value="multi"> 
-                            Multiple states
-                        </label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="label-with-input">
-                        Density (%):
-                        <input type="number" id="density" min="0" max="100" step="5" value="10" class="inline-input">
+              <div class="settings-group-frame">
+                <div class="settings-group">
+                  <div class="radio-group">
+                    <label class="radio-with-input">
+                      <input type="radio" name="stateMode" value="mono" checked> 
+                      Single state
+                      <input type="number" id="state" min="1" value="1" class="inline-input">
                     </label>
-                </div>
-                <div class="form-group">
+                  </div>
+                  <div class="radio-group">
                     <label>
-                        <input type="checkbox" id="clearBoard" checked> 
-                        Clear board first
+                      <input type="radio" name="stateMode" value="multi"> 
+                      Multiple states
                     </label>
+                  </div>
                 </div>
-                <div class="dialog-buttons">
-                    <button class="primary" id="acceptBtn">Accept</button>
-                    <button id="cancelBtn">Cancel</button>
+                <div class="settings-group">
+                  <label class="label-with-input">
+                    Density (%):
+                    <input type="number" id="density" min="0" max="100" step="5" value="10" class="inline-input">
+                  </label>
                 </div>
+              </div>
+              <div class="settings-group top-spacer-1">
+                <label>
+                  <input type="checkbox" id="clearBoard" checked> 
+                  Clear board first
+                </label>
+              </div>
+            </div>
+            <div class="dialog-buttons">
+              <button class="primary" id="acceptBtn">Accept</button>
+              <button id="cancelBtn">Cancel</button>
             </div>`;
   }
 

@@ -8,6 +8,7 @@
 import { boardState } from '../core/BoardState.js';
 import { gameState } from '../core/GameState.js';
 import { Lattice } from '../core/Lattice.js';
+import { undoSystem, UndoSystem } from '../core/UndoSystem.js';
 import { Toast } from '../ui/Toast.js';
 
 export class SelectionUtils {
@@ -184,6 +185,8 @@ export class SelectionUtils {
     if (boardState.selectionActive && boardState.selectionLattice) {
       boardState.applySelection();
     }
+
+    undoSystem.addItem(UndoSystem.UNDO_EVT_EDIT);
 
     // Create a new selection from clipboard
     const clip = boardState.clipboardLattice;

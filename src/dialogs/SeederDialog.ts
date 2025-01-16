@@ -32,57 +32,57 @@ export class SeederDialog {
 
     return `
             <div class="dialog-content">
-                <div class="form-group">
-                    <label class="label-with-input">
-                        Shape:
-                        <select id="shape" class="inline-select">
-                            <option value="rectangle" ${dialogShape === 'rectangle' ? 'selected' : ''}>Rectangle</option>
-                            <option value="filledRectangle" ${dialogShape === 'filledRectangle' ? 'selected' : ''}>Filled Rectangle</option>
-                            <option value="circle" ${dialogShape === 'circle' ? 'selected' : ''}>Circle</option>
-                            <option value="filledCircle" ${dialogShape === 'filledCircle' ? 'selected' : ''}>Filled Circle</option>
-                            <option value="horizontalLine" ${dialogShape === 'horizontalLine' ? 'selected' : ''}>Horizontal Line</option>
-                            <option value="verticalLine" ${dialogShape === 'verticalLine' ? 'selected' : ''}>Vertical Line</option>
-                        </select>
-                    </label>
+              <div class="settings-group-frame">
+                <div class="settings-group">
+                  <label class="label-with-input">
+                    Shape:
+                    <select id="shape" class="inline-select">
+                      <option value="rectangle" ${dialogShape === 'rectangle' ? 'selected' : ''}>Rectangle</option>
+                      <option value="filledRectangle" ${dialogShape === 'filledRectangle' ? 'selected' : ''}>Filled Rectangle</option>
+                      <option value="circle" ${dialogShape === 'circle' ? 'selected' : ''}>Circle</option>
+                      <option value="filledCircle" ${dialogShape === 'filledCircle' ? 'selected' : ''}>Filled Circle</option>
+                      <option value="horizontalLine" ${dialogShape === 'horizontalLine' ? 'selected' : ''}>Horizontal Line</option>
+                      <option value="verticalLine" ${dialogShape === 'verticalLine' ? 'selected' : ''}>Vertical Line</option>
+                    </select>
+                  </label>
                 </div>
                 <div id="dimensionsGroup">
-                    <div class="form-group dimensions rectangle-dims">
-                        <label class="label-with-input">
-                            Width:
-                            <input type="number" id="width" min="1" value="${Math.max(1, settings.width)}" class="inline-input">
-                        </label>
-                    </div>
-                    <div class="form-group dimensions rectangle-dims">
-                        <label class="label-with-input">
-                            Height:
-                            <input type="number" id="height" min="1" value="${Math.max(1, settings.height)}" class="inline-input">
-                        </label>
-                    </div>
-                    <div class="form-group dimensions circle-dims">
-                        <label class="label-with-input">
-                            Radius:
-                            <input type="number" id="radius" min="1" value="${Math.max(1, settings.radius)}" class="inline-input">
-                        </label>
-                    </div>
-                </div>
-                <div id="fillGroup" class="form-group">
-                    <div class="form-group">
-                        <label class="label-with-input">
-                            Fill Density (%):
-                            <input type="number" id="density" min="0" max="100" step="5" value="${Math.min(100, Math.max(0, settings.density))}" class="inline-input">
-                        </label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label>
-                        <input type="checkbox" id="clearBoard" ${settings.clearBoard ? 'checked' : ''}> 
-                        Clear board first
+                  <div class="settings-group dimensions rectangle-dims">
+                    <label class="label-with-input">
+                      Width:
+                      <input type="number" id="width" min="1" value="${Math.max(1, settings.width)}" class="inline-input">
                     </label>
+                  </div>
+                  <div class="settings-group dimensions rectangle-dims">
+                    <label class="label-with-input">
+                      Height:
+                      <input type="number" id="height" min="1" value="${Math.max(1, settings.height)}" class="inline-input">
+                    </label>
+                  </div>
+                  <div class="settings-group dimensions circle-dims">
+                    <label class="label-with-input">
+                      Radius:
+                      <input type="number" id="radius" min="1" value="${Math.max(1, settings.radius)}" class="inline-input">
+                    </label>
+                  </div>
                 </div>
-                <div class="dialog-buttons">
-                    <button class="primary" id="acceptBtn">Accept</button>
-                    <button id="cancelBtn">Cancel</button>
+                <div id="fillGroup" class="settings-group top-spacer-1">
+                  <label class="label-with-input">
+                    Fill Density (%):
+                    <input type="number" id="density" min="0" max="100" step="5" value="${Math.min(100, Math.max(0, settings.density))}" class="inline-input">
+                  </label>
                 </div>
+              </div>
+              <div class="settings-group top-spacer-1">
+                <label>
+                  <input type="checkbox" id="clearBoard" ${settings.clearBoard ? 'checked' : ''}> 
+                  Clear board first
+                </label>
+              </div>
+            </div>
+            <div class="dialog-buttons">
+              <button class="primary" id="acceptBtn">Accept</button>
+              <button id="cancelBtn">Cancel</button>
             </div>`;
   }
 
