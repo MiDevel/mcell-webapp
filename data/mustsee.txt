@@ -1,20 +1,35 @@
 Life/Conway's Life/GUN30.LIF
+Life/Conway's Life/AQUA25.LIF
+Life/Conway's Life/DOUBLEX.LIF
+Life/Conway's Life/MAKEHSLR.LIF
 Life/Day & Night/daynight.l
+Life/Replicator/Replicator.lif
+Generations/BelZhab Sediment/BelZhab Sediment.mcl
 Generations/Bombers/Seed 10x10b.mcl
-Generations/Brain 6/Brain 6 Oscillators 2.mcl
+Generations/Brain 6/Brain 6.mcl
 Generations/Brian's Brain/Brian's Brain.mcl
+Generations/Burst/Burst.mcl
+Generations/Circuit Genesis/Circuit Genesis.mcl
+Generations/Ebb&Flow/Fuses 04.mcl
 Generations/Ebb&Flow/Oscil 04.mcl
 Generations/Ebb&Flow II/Ebb&Flow II.mcl
 Generations/Faders/Faders.mcl
 Generations/Fireworks/Cross.mcl
 Generations/Fireworks/Fireworks 02.mcl
 Generations/Nova/Nova.mcl
+Generations/Nova/Sunbeams.mcl
 Generations/SediMental/Loom.mcl
+Generations/Snake/Snake.mcl
+Generations/Snake/Shuttle 2.mcl
 Generations/Spirals/Perfect spiral.mcl
-Generations/StarWars/Conveyer.mcl
 Generations/StarWars/StarWars 01.mcl
+Generations/StarWars/Conveyer.mcl
+Generations/StarWars/Magic mirror.mcl
 Generations/StarWars/Steeplechase.mcl
+Generations/Transers/Widgets.mcl
+Generations/TransersII/Rigged Race.mcl
 Generations/Worms/Worms.mcl
+Generations/Xtasy/Xtasy.mcl
 Cyclic CA/CCA/CCA.mcl
 Cyclic CA/GH Macaroni/GH Macaroni.mcl
 Cyclic CA/Fossil debris/Fossil debris.mcl
@@ -25,6 +40,7 @@ Weighted Life/Parity/Parity 01.mcl
 Weighted Life/PicturesH/PicturesH 02.mcl
 Weighted Life/ZipperMakers/ZipperMakers.mcl
 Vote for Life/Vote/Vote.mcl
+Vote for Life/Fredkin/Fredkin's Replicator.mcl
 Margolus/BBM/BBM.mcl
 Margolus/Rotations/Rotations.mcl
 Margolus/StringThingII/StringThingII.mcl
