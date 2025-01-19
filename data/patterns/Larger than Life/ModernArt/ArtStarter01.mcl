@@ -2,7 +2,7 @@
 #GAME Larger than Life
 #RULE R10,C255,M1,S2..3,B3..3,NM
 #BOARD 200x200
-#SPEED 20
+#SPEED 500
 #WRAP 0
 #D Basic patterns of the ModernArt rule.
 #D 

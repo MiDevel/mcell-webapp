@@ -1,0 +1,15 @@
+#MCell 4.00
+#GAME Rules table
+#RULE 1,0,1,0,0,0,1,0,0,0,0,0,0,2,2,1,1,2,2,2,2,2,0,2,2,2,1,2,2,2,2,2
+#BOARD 340x340
+#WRAP 0
+#CCOLORS 3
+#D This rule duplicates Conway's Life -- all constructions
+#D will work identically -- but it leaves a trail of a third type of cell
+#D wherever a cell has once been alive.  This is useful for placing still
+#D lifes to affect a pattern, without having to backtrack continually to
+#D find out whether the still life would have interacted with the pattern in
+#D previous generations.
+#D 
+#D Dave Greene, April 2001
+#L .A$3.A$AA..3A

@@ -1160,6 +1160,7 @@ Rules table/Crawlers/Primordial soup.mcl
 Rules table/EcoLiBra/EcoLiBra.mcl
 Rules table/Empire/Empire.mcl
 Rules table/Fire sticks/Fire sticks.mcl
+Rules table/HistoricalLife/HistoricalLife.mcl
 Rules table/Ladders/Ladders.mcl
 Rules table/Piranha/Piranha.mcl
 Rules table/RanBrain/RanBrain.mcl
