@@ -11,7 +11,7 @@ export class RuleUtils {
     let def = ruleDefinition.toLowerCase();
     if (def[0] === 's' || def[0] === 'b') {
       const tokens2 = def.split('/');
-      if (tokens2.length !== 2) {
+      if (tokens2.length < 2) {
         console.log('Invalid Life rule format, s/b expected');
         return '/';
       }
@@ -27,6 +27,12 @@ export class RuleUtils {
       }
 
       def = `${survive}/${birth}`;
+    } else {
+      // ensure there are two tokens
+      const tokens = def.split('/');
+      if (tokens.length >= 2) {
+        def = `${tokens[0]}/${tokens[1]}`;
+      }
     }
 
     return def;

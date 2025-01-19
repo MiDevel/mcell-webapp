@@ -4,6 +4,11 @@
 #BOARD 160x120
 #SPEED 20
 #WRAP 1
+#D The rule shows similar oscilators and gliders to GOL,
+#D but dead cells create the patterns amongst live cells
+#D in the background.
+#D 
+#D Jason Rampe
 #L ..A11.4A134.A$..A9.AA138.A$3.A7.A141.A$3.A5.AA142.A$4.A..AA145.A$4.A.A
 #L 147.A$4.AA149.A$3.A.A149.A$.AA3.A148.A$A5.A148.A$7.A140.12A$8.A146.A$
 #L 8.A146.A$8.A146.A$8.A146.A$9.A145.A$9.A$9.A$10.A$10.A$10.A$10.A35$75.A
