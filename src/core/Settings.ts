@@ -22,10 +22,19 @@ interface GeneralSettings {
   palette: string;
 }
 
+interface PatternSettings {
+  useDefaultPalette: boolean;
+  defaultPalette: string;
+  useDefaultSpeed: boolean;
+  defaultSpeed: number;
+  defaultSizeMargin: number;
+}
+
 interface AppSettings {
   ui: UISettings;
   general: GeneralSettings;
   undo: UndoSettings;
+  patterns: PatternSettings;
 }
 
 const DEFAULT_SETTINGS: AppSettings = {
@@ -34,6 +43,13 @@ const DEFAULT_SETTINGS: AppSettings = {
   },
   general: {
     palette: 'MCell',
+  },
+  patterns: {
+    useDefaultPalette: true,
+    defaultPalette: 'MCell',
+    useDefaultSpeed: true,
+    defaultSpeed: 50,
+    defaultSizeMargin: 80,
   },
   undo: {
     enabled: true,
@@ -81,6 +97,7 @@ export class Settings {
     return {
       ui: { ...DEFAULT_SETTINGS.ui, ...saved.ui },
       general: { ...DEFAULT_SETTINGS.general, ...saved.general },
+      patterns: { ...DEFAULT_SETTINGS.patterns, ...saved.patterns },
       undo: { ...DEFAULT_SETTINGS.undo, ...saved.undo },
     };
   }
@@ -106,6 +123,16 @@ export class Settings {
 
   public setPaletteName(paletteName: string): void {
     this.settings.general.palette = paletteName;
+    this.save();
+  }
+
+  // Pattern Default Settings
+  public getPatternDefaults(): PatternSettings {
+    return { ...this.settings.patterns };
+  }
+
+  public setPatternDefaults(settings: Partial<PatternSettings>): void {
+    this.settings.patterns = { ...this.settings.patterns, ...settings };
     this.save();
   }
 

@@ -994,6 +994,10 @@ export class Controls {
         Math.abs(curr - patternData.speed) < Math.abs(prev - patternData.speed) ? curr : prev
       );
       this.setSpeed(closestSpeed);
+    } else {
+      if (settings.getPatternDefaults().useDefaultSpeed) {
+        this.setSpeed(settings.getPatternDefaults().defaultSpeed);
+      }
     }
 
     // Apply palette if specified
@@ -1002,6 +1006,10 @@ export class Controls {
       const palette = palettes.getPalette(patternData.palette);
       settings.setPaletteName(palette.name);
       paletteChanged = true;
+    } else {
+      if (settings.getPatternDefaults().useDefaultPalette) {
+        settings.setPaletteName(settings.getPatternDefaults().defaultPalette);
+      }
     }
 
     // Apply the rules if specified
