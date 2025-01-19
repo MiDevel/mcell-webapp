@@ -116,8 +116,8 @@ export class PatternLoader {
         // Add padding around loaded cells
         const margin = settings.getPatternDefaults().defaultSizeMargin;
         patternData.setBoardSize({
-          width: boundingWidth + margin,
-          height: boundingHeight + margin,
+          width: boundingWidth + margin * 2,
+          height: boundingHeight + margin * 2,
         });
       } else {
         // Default size if no cells

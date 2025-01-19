@@ -824,6 +824,7 @@
   display: flex;
   border-bottom: 1px solid var(--border-color);
   margin-bottom: 16px;
+  margin-right: 8px;
 }
 
 .settings-tab {
@@ -838,7 +839,8 @@
 }
 
 .settings-tab.active {
-  border-bottom: 2px solid var(--accent-color);
+  /* border-bottom: 2px solid var(--accent-color); */
+  border-top: 2px solid var(--accent-color);
   font-weight: 500;
 }
 
@@ -848,6 +850,7 @@
 
 .settings-tab-content {
   display: none;
+  min-height: 300px;
 }
 
 .settings-tab-content.active {

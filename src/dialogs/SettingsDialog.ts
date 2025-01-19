@@ -26,13 +26,15 @@ export class SettingsDialog {
     // Tabs navigation
     content.push('<div class="settings-tabs">');
     content.push('<button class="settings-tab active" data-tab="ui">UI</button>');
-    content.push('<button class="settings-tab" data-tab="general">General</button>');
     content.push('<button class="settings-tab" data-tab="patterns">Patterns</button>');
     content.push('<button class="settings-tab" data-tab="undo">Undo</button>');
     content.push('</div>');
 
     // UI Settings tab
     content.push('<div class="settings-tab-content active" data-tab="ui">');
+    content.push('<div class="settings-group-frame">');
+
+    // theme
     content.push('<div class="settings-group">');
     content.push('<label>Theme:</label>');
     content.push('<select id="setting-theme">');
@@ -44,10 +46,8 @@ export class SettingsDialog {
     );
     content.push('</select>');
     content.push('</div>');
-    content.push('</div>');
 
-    // General Settings tab
-    content.push('<div class="settings-tab-content" data-tab="general">');
+    // palette
     content.push('<div class="settings-group">');
     content.push('<label>Palette:</label>');
     content.push('<select id="setting-palette">');
@@ -61,10 +61,13 @@ export class SettingsDialog {
 
     content.push('</select>');
     content.push('</div>');
+
+    content.push('</div>'); // settings-group-frame
     content.push('</div>');
 
     // Patterns tab
     content.push('<div class="settings-tab-content" data-tab="patterns">');
+    content.push('<div class="settings-group-frame">');
 
     // Default Palette
     content.push('<div class="settings-group">');
@@ -122,16 +125,20 @@ export class SettingsDialog {
     content.push('</div>');
     content.push('</div>');
 
+    content.push('</div>'); // settings-group-frame
     content.push('</div>');
 
     // Undo Settings tab
     content.push('<div class="settings-tab-content" data-tab="undo">');
+
     content.push('<div class="settings-group">');
     content.push(
       `<input type="checkbox" id="setting-undo-enabled" ${settings.isUndoEnabled() ? 'checked' : ''}/>`
     );
     content.push('<label for="setting-undo-enabled">Enable Undo System</label>');
     content.push('</div>');
+
+    content.push('<div class="settings-group-frame">');
 
     content.push('<div class="settings-group">');
     content.push('<label>Maximum Undo Items:</label>');
@@ -168,6 +175,7 @@ export class SettingsDialog {
 
     content.push('</div>'); // undo-events-list
     content.push('</div>'); // settings-group
+    content.push('</div>'); // settings-group-frame
     content.push('</div>'); // undo tab content
 
     // Add event handlers after dialog is shown

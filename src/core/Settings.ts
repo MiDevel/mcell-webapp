@@ -16,11 +16,11 @@ interface UndoSettings {
 
 interface UISettings {
   theme: 'dark' | 'light';
-}
-
-interface GeneralSettings {
   palette: string;
 }
+
+// interface GeneralSettings {
+// }
 
 interface PatternSettings {
   useDefaultPalette: boolean;
@@ -32,7 +32,7 @@ interface PatternSettings {
 
 interface AppSettings {
   ui: UISettings;
-  general: GeneralSettings;
+  // general: GeneralSettings;
   undo: UndoSettings;
   patterns: PatternSettings;
 }
@@ -40,10 +40,10 @@ interface AppSettings {
 const DEFAULT_SETTINGS: AppSettings = {
   ui: {
     theme: 'dark',
-  },
-  general: {
     palette: 'MCell',
   },
+  // general: {
+  // },
   patterns: {
     useDefaultPalette: true,
     defaultPalette: 'MCell',
@@ -96,7 +96,7 @@ export class Settings {
   private mergeWithDefaults(saved: Partial<AppSettings>): AppSettings {
     return {
       ui: { ...DEFAULT_SETTINGS.ui, ...saved.ui },
-      general: { ...DEFAULT_SETTINGS.general, ...saved.general },
+      // general: { ...DEFAULT_SETTINGS.general, ...saved.general },
       patterns: { ...DEFAULT_SETTINGS.patterns, ...saved.patterns },
       undo: { ...DEFAULT_SETTINGS.undo, ...saved.undo },
     };
@@ -116,16 +116,16 @@ export class Settings {
     this.save();
   }
 
-  // General Settings
   public getPaletteName(): string {
-    return this.settings.general.palette;
+    return this.settings.ui.palette;
   }
 
   public setPaletteName(paletteName: string): void {
-    this.settings.general.palette = paletteName;
+    this.settings.ui.palette = paletteName;
     this.save();
   }
 
+  // General Settings
   // Pattern Default Settings
   public getPatternDefaults(): PatternSettings {
     return { ...this.settings.patterns };

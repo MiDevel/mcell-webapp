@@ -5,7 +5,6 @@
 
 # Important todos
 
-- Add configuration for default board parameters, used if patterns being loaded do not specify them. Allow to either keep currently active values or use configured values. Example: allow to enforce 'MCell' color palette if the pattern does not specify the palette.
 - Add pinch-to-zoom support on mobile devices.
 
 
