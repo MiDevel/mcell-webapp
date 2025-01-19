@@ -44,7 +44,7 @@ paths:
       description: Runtime-only data (CA patterns and rules)
       patterns: ["**/*.txt"]
     /deploy:
-      description: Deployment configurations and scripts
+      description: Web deployment configurations and scripts
     /dist:
       description: Compiled TypeScript output
       patterns: ["**/*.js"]

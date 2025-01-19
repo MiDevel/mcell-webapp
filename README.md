@@ -16,7 +16,7 @@ A web-based Cellular Automata explorer allowing to view, animate, create and stu
 Author: Mirek Wojtowicz  
 Website: https://mcell.ca  
 Contact: info@mcell.ca  
-Github: https://github.com/MiDevel/mcell-webapp
+GitHub: https://github.com/MiDevel/mcell-webapp
 
 ![MCell for Web](assets/mcell-web.png)
 
@@ -40,14 +40,16 @@ Github: https://github.com/MiDevel/mcell-webapp
 * Support for many different file formats: Life 1.03, Life 1.05, Life 1.06, RLE, dbLife, Xlife, MCell and variations of the above. 
 * Many predefined rules for each family.
 * 1500+ patterns.
-* Rich user interface, built-in Patterns Explorer, zooming, panning, auto-fitting patterns, keyboard shortcuts to many MCell functions.
+* Works in all major browsers and on mobile devices.
+* Rich user interface, zooming, panning, auto-fitting patterns, keyboard shortcuts to many MCell functions.
+* Built-in Patterns Explorer.
 * Support for up to 256 states/colors of cells.
 * Configurable simulation speed, step-by-step simulation, run for/up to a specified number of generations.
 * Ability to experiment with custom rules in all supported families (only as text definition a.t.m.).
 * Saving and loading patterns via Clipboard.
-* Drag-and-drop support for loading patterns.
+* Desktop drag-and-drop support for loading local patterns.
 * Advanced editing features: scribble; draw dots, lines, rectangles, boxes, circles, discs; select, cut, copy, paste, drag and drop, flip, rotate, invert.
-* Interactively draw without pausing the simulation.
+* Interactive drawing without pausing the simulation.
 * Randomizing and Seeding patterns.
 * Configurable, event-driven Undo and Redo.
 * Simple statistics.

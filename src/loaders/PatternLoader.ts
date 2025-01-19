@@ -11,6 +11,7 @@ import { Life105Parser } from './Life105Parser.js';
 import { Life103Parser } from './Life103Parser.js';
 import { RLEParser } from './RLEParser.js';
 import { Toast } from '../ui/Toast.js';
+import { settings } from '../core/Settings.js';
 
 export class PatternLoader {
   description: string;
@@ -112,10 +113,11 @@ export class PatternLoader {
         const boundingWidth = cells.length;
         const boundingHeight = cells[0].length;
 
-        // Add padding of 120 cells
+        // Add padding around loaded cells
+        const margin = settings.getPatternDefaults().defaultSizeMargin;
         patternData.setBoardSize({
-          width: boundingWidth + 120,
-          height: boundingHeight + 120,
+          width: boundingWidth + margin * 2,
+          height: boundingHeight + margin * 2,
         });
       } else {
         // Default size if no cells

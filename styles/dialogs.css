@@ -818,3 +818,67 @@
 .undo-list td i {
   margin-right: 0.5rem;
 }
+
+/* Tabbed interface styles for settings dialog */
+.settings-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 16px;
+  margin-right: 8px;
+}
+
+.settings-tab {
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: var(--text-color);
+  font-size: 1rem;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.settings-tab.active {
+  /* border-bottom: 2px solid var(--accent-color); */
+  border-top: 2px solid var(--accent-color);
+  font-weight: 500;
+}
+
+.settings-tab:hover:not(.active) {
+  border-bottom: 2px solid var(--border-color);
+}
+
+.settings-tab-content {
+  display: none;
+  min-height: 300px;
+}
+
+.settings-tab-content.active {
+  display: block;
+}
+
+.pattern-default-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  padding-left: 12px;
+}
+
+.pattern-default-option input[type='radio'] {
+  margin: 0;
+}
+
+.pattern-default-option input[type='number'] {
+  width: 80px;
+  padding: 8px 16px;
+}
+
+.pattern-default-option select {
+  padding: 8px 16px;
+  width: 120px;
+}
+
+.pattern-default-option select:disabled {
+  opacity: 0.6;
+}
