@@ -27,6 +27,7 @@ export class AboutDialog extends Dialog {
                 <p><strong>Author:</strong> Mirek Wojtowicz</p>
                 <p><strong>Contact:</strong> <a href="mailto:info@mcell.ca">info@mcell.ca</a><br/>
                 <strong>Website:</strong> <a href="https://mcell.ca" target="_blank">https://mcell.ca</a><br/>
+                <strong>Discord:</strong> <a href="https://discord.gg/FhagUkEz" target="_blank">https://discord.gg/FhagUkEz</a><br/>
                 <strong>Github:</strong> <a href="https://github.com/MiDevel/mcell-webapp" target="_blank">https://github.com/MiDevel/mcell-webapp</a></p>
               </div>
 
