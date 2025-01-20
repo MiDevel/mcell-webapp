@@ -692,46 +692,12 @@ export class Board {
 
   // Calculate distance between two touch points
   private getTouchDistance(touches: TouchList): number {
-    if (touches.length < 2) return 0;
-    const dx = touches[0].clientX - touches[1].clientX;
-    const dy = touches[0].clientY - touches[1].clientY;
-    return Math.sqrt(dx * dx + dy * dy);
-  }
-
-  // Calculate center point between two touch points in cell coordinates
-  private getTouchCenter(touches: TouchList, forceRecalculate: boolean = false): { x: number; y: number } {
-    // If we have a stored center point and don't need to recalculate, use it
-    if (!forceRecalculate && this.pinchCenterX !== null && this.pinchCenterY !== null) {
-      console.log('QQQQ Using stored pinch center:', 
-        { x: this.pinchCenterX, y: this.pinchCenterY });
-      return { x: this.pinchCenterX, y: this.pinchCenterY };
-    }
-
     const touch1 = touches[0];
     const touch2 = touches[1];
-    const rect = this.canvas.getBoundingClientRect();
-    const container = document.getElementById('board-container');
-    if (!container) return { x: 0, y: 0 };
-
-    // Get touch points relative to canvas, accounting for scroll
-    const x1 = touch1.clientX - rect.left + container.scrollLeft;
-    const y1 = touch1.clientY - rect.top + container.scrollTop;
-    const x2 = touch2.clientX - rect.left + container.scrollLeft;
-    const y2 = touch2.clientY - rect.top + container.scrollTop;
-
-    // Calculate center point in cell coordinates
-    const centerX = Math.floor((x1 + x2) / 2 / boardState.cellSize);
-    const centerY = Math.floor((y1 + y2) / 2 / boardState.cellSize);
-
-    console.log('QQQQ Center calc - client:',
-      'center=', { x: centerX, y: centerY },
-      'touch1=', { x: touch1.clientX, y: touch1.clientY },
-      'touch2=', { x: touch2.clientX, y: touch2.clientY },
-      'rect=', { left: rect.left, top: rect.top },
-      'scroll=', { left: container.scrollLeft, top: container.scrollTop },
-      );
-
-    return { x: centerX, y: centerY };
+    const dx = touch2.clientX - touch1.clientX;
+    const dy = touch2.clientY - touch1.clientY;
+    const distance = Math.sqrt(dx * dx + dy * dy);
+    return distance;
   }
 
   // Handle touch start event
@@ -739,36 +705,51 @@ export class Board {
     if (gameState.interactMode !== 'pan') return;
     event.preventDefault();
 
-    // Reset all states when touch interaction starts
-    this.isPanning = false;
-    this.isPinching = false;
-    this.pinchCenterX = null;
-    this.pinchCenterY = null;
-    
-    if (event.touches.length === 2) {
-      // Start pinching
-      this.isPinching = true;
-      this.lastTouchDistance = this.getTouchDistance(event.touches);
-      
-      // Store initial pinch center
-      const center = this.getTouchCenter(event.touches, true);
-      this.pinchCenterX = center.x;
-      this.pinchCenterY = center.y;
-      console.log('QQQQ Pinch start, center:', 
-        { x: this.pinchCenterX, y: this.pinchCenterY });
-    } else if (event.touches.length === 1) {
-      // Start panning
+    if (event.touches.length === 1) {
+      // Start panning immediately with first touch
+      const touch = event.touches[0];
       const container = this.canvas.parentElement;
       if (!container) return;
 
+      this.isPinching = false;
       this.isPanning = true;
-      this.lastPanX = event.touches[0].clientX;
-      this.lastPanY = event.touches[0].clientY;
+      this.lastPanX = touch.clientX;
+      this.lastPanY = touch.clientY;
       this.initialScrollX = container.scrollLeft;
       this.initialScrollY = container.scrollTop;
-      console.log('QQQQ Pan start:', 
-        { x: this.lastPanX, y: this.lastPanY, 
-          scrollX: this.initialScrollX, scrollY: this.initialScrollY });
+    } else if (event.touches.length === 2) {
+      // Switch to pinching when second touch arrives
+      const touch1 = event.touches[0];
+      const touch2 = event.touches[1];
+      const dx = touch2.clientX - touch1.clientX;
+      const dy = touch2.clientY - touch1.clientY;
+      const distance = Math.sqrt(dx * dx + dy * dy);
+
+      if (distance < 10) {
+        return;
+      }
+
+      // Stop panning, start pinching
+      this.isPanning = false;
+      this.isPinching = true;
+      this.lastTouchDistance = distance;
+
+      // Calculate and store initial pinch center
+      const rect = this.canvas.getBoundingClientRect();
+      const container = this.canvas.parentElement;
+      if (!container) return;
+
+      // Calculate center in viewport coordinates
+      const viewportX = (touch1.clientX + touch2.clientX) / 2;
+      const viewportY = (touch1.clientY + touch2.clientY) / 2;
+
+      // Convert to canvas coordinates
+      const canvasX = viewportX - rect.left + container.scrollLeft;
+      const canvasY = viewportY - rect.top + container.scrollTop;
+
+      // Convert to cell coordinates
+      this.pinchCenterX = Math.floor(canvasX / boardState.cellSize);
+      this.pinchCenterY = Math.floor(canvasY / boardState.cellSize);
     }
   }
 
@@ -777,23 +758,23 @@ export class Board {
     if (gameState.interactMode !== 'pan') return;
     event.preventDefault();
 
-    // If touch count changes, ignore this event
-    if ((this.isPinching && event.touches.length !== 2) ||
-        (this.isPanning && event.touches.length !== 1)) {
-      return;
-    }
-
     if (this.isPinching && event.touches.length === 2) {
       // Handle pinch zoom
+      if (this.pinchCenterX === null || this.pinchCenterY === null) {
+        return;
+      }
+
       const newDistance = this.getTouchDistance(event.touches);
       const delta = newDistance - this.lastTouchDistance;
-      
-      if (Math.abs(delta) > 10) { // Add threshold to prevent tiny adjustments
+
+      if (Math.abs(delta) > 10) {
+        // Add threshold to prevent tiny adjustments
         const zoomDelta = delta > 0 ? 1 : -1;
-        const center = this.getTouchCenter(event.touches);
-        controls.adjustCellSize(zoomDelta, center.x, center.y);
+        // todo: until the pinched location is stable let's just use the center
+        // of the screen as a 'less terrible' user experience.
+        controls.adjustCellSize(zoomDelta);
+        // controls.adjustCellSize(zoomDelta, this.pinchCenterX, this.pinchCenterY);
         this.lastTouchDistance = newDistance;
-        console.log('QQQQ Pinch zoom, delta:', delta);
       }
     } else if (this.isPanning && event.touches.length === 1) {
       // Handle panning
@@ -805,44 +786,30 @@ export class Board {
       if (container) {
         container.scrollLeft = this.initialScrollX - dx;
         container.scrollTop = this.initialScrollY - dy;
-        console.log('QQQQ Panning:', 
-          { dx, dy, 
-            scrollX: container.scrollLeft, 
-            scrollY: container.scrollTop });
       }
     }
   }
 
   // Handle touch end event
   handleTouchEnd(event: TouchEvent) {
-    // If all touches are gone, reset everything
     if (event.touches.length === 0) {
+      // Reset all states when all touches end
       this.isPanning = false;
       this.isPinching = false;
       this.pinchCenterX = null;
       this.pinchCenterY = null;
-      console.log('QQQQ All touch end');
-      return;
-    }
-
-    // If we were pinching and now have 1 finger, switch to panning
-    if (this.isPinching && event.touches.length === 1) {
-      this.isPinching = false;
-      this.pinchCenterX = null;
-      this.pinchCenterY = null;
-      
-      // Start panning from this point
+    } else if (event.touches.length === 1 && this.isPinching) {
+      // Switch back to panning when going from 2 touches to 1
+      const touch = event.touches[0];
       const container = this.canvas.parentElement;
-      if (container) {
-        this.isPanning = true;
-        this.lastPanX = event.touches[0].clientX;
-        this.lastPanY = event.touches[0].clientY;
-        this.initialScrollX = container.scrollLeft;
-        this.initialScrollY = container.scrollTop;
-        console.log('QQQQ Switch to panning:', 
-          { x: this.lastPanX, y: this.lastPanY, 
-            scrollX: this.initialScrollX, scrollY: this.initialScrollY });
-      }
+      if (!container) return;
+
+      this.isPinching = false;
+      this.isPanning = true;
+      this.lastPanX = touch.clientX;
+      this.lastPanY = touch.clientY;
+      this.initialScrollX = container.scrollLeft;
+      this.initialScrollY = container.scrollTop;
     }
   }
 }

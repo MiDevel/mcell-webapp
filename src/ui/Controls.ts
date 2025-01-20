@@ -770,11 +770,6 @@ export class Controls {
       container.scrollLeft = newScrollLeft;
       container.scrollTop = newScrollTop;
 
-      console.log(`QQQQ setCellSize: center=(${centerX}, ${centerY}), size: ${oldSize} => ${newSize}, 
-        scroll left: ${scrollLeft} => ${newScrollLeft}, top: ${scrollTop} => ${newScrollTop},
-        pointOffset: (${pointOffsetX}, ${pointOffsetY})`
-      );
-
       gameState.setState({ boardResized: true });
     }
   }

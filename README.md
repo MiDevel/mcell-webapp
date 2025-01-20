@@ -41,7 +41,7 @@ GitHub: https://github.com/MiDevel/mcell-webapp
 * Support for many different file formats: Life 1.03, Life 1.05, Life 1.06, RLE, dbLife, Xlife, MCell and variations of the above. 
 * Many predefined rules for each family.
 * 1500+ patterns.
-* Works in all major browsers and on mobile devices.
+* Support for all major browsers and modern mobile devices.
 * Rich user interface, zooming, panning, auto-fitting patterns, keyboard shortcuts to many MCell functions.
 * Built-in Patterns Explorer.
 * Support for up to 256 states/colors of cells.
