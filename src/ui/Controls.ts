@@ -767,7 +767,6 @@ export class Controls {
       const newScrollLeft = centerX * newSize - pointOffsetX;
       const newScrollTop = centerY * newSize - pointOffsetY;
 
-      // Update scroll position
       container.scrollLeft = newScrollLeft;
       container.scrollTop = newScrollTop;
 

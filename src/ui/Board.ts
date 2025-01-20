@@ -50,6 +50,8 @@ export class Board {
   private dynaDrawColors: string[] = [];
   private lastTouchDistance: number = 0;
   private isPinching: boolean = false;
+  private pinchCenterX: number | null = null;
+  private pinchCenterY: number | null = null;
 
   constructor(canvasId = 'board-canvas') {
     this.canvas = document.getElementById(canvasId) as HTMLCanvasElement;
@@ -690,63 +692,124 @@ export class Board {
 
   // Calculate distance between two touch points
   private getTouchDistance(touches: TouchList): number {
-    if (touches.length < 2) return 0;
-    const dx = touches[0].clientX - touches[1].clientX;
-    const dy = touches[0].clientY - touches[1].clientY;
-    return Math.sqrt(dx * dx + dy * dy);
-  }
-
-  // Calculate center point between two touch points in cell coordinates
-  private getTouchCenter(touches: TouchList): { x: number; y: number } {
     const touch1 = touches[0];
     const touch2 = touches[1];
-    const rect = this.canvas.getBoundingClientRect();
-
-    // Get touch points relative to canvas
-    const x1 = touch1.clientX - rect.left;
-    const y1 = touch1.clientY - rect.top;
-    const x2 = touch2.clientX - rect.left;
-    const y2 = touch2.clientY - rect.top;
-
-    // Calculate center point in cell coordinates
-    const centerX = Math.floor((x1 + x2) / 2 / boardState.cellSize);
-    const centerY = Math.floor((y1 + y2) / 2 / boardState.cellSize);
-
-    return { x: centerX, y: centerY };
+    const dx = touch2.clientX - touch1.clientX;
+    const dy = touch2.clientY - touch1.clientY;
+    const distance = Math.sqrt(dx * dx + dy * dy);
+    return distance;
   }
 
   // Handle touch start event
   handleTouchStart(event: TouchEvent) {
-    if (event.touches.length === 2 && gameState.interactMode === 'pan') {
-      event.preventDefault();
+    if (gameState.interactMode !== 'pan') return;
+    event.preventDefault();
+
+    if (event.touches.length === 1) {
+      // Start panning immediately with first touch
+      const touch = event.touches[0];
+      const container = this.canvas.parentElement;
+      if (!container) return;
+
+      this.isPinching = false;
+      this.isPanning = true;
+      this.lastPanX = touch.clientX;
+      this.lastPanY = touch.clientY;
+      this.initialScrollX = container.scrollLeft;
+      this.initialScrollY = container.scrollTop;
+    } else if (event.touches.length === 2) {
+      // Switch to pinching when second touch arrives
+      const touch1 = event.touches[0];
+      const touch2 = event.touches[1];
+      const dx = touch2.clientX - touch1.clientX;
+      const dy = touch2.clientY - touch1.clientY;
+      const distance = Math.sqrt(dx * dx + dy * dy);
+
+      if (distance < 10) {
+        return;
+      }
+
+      // Stop panning, start pinching
+      this.isPanning = false;
       this.isPinching = true;
-      this.lastTouchDistance = this.getTouchDistance(event.touches);
+      this.lastTouchDistance = distance;
+
+      // Calculate and store initial pinch center
+      const rect = this.canvas.getBoundingClientRect();
+      const container = this.canvas.parentElement;
+      if (!container) return;
+
+      // Calculate center in viewport coordinates
+      const viewportX = (touch1.clientX + touch2.clientX) / 2;
+      const viewportY = (touch1.clientY + touch2.clientY) / 2;
+
+      // Convert to canvas coordinates
+      const canvasX = viewportX - rect.left + container.scrollLeft;
+      const canvasY = viewportY - rect.top + container.scrollTop;
+
+      // Convert to cell coordinates
+      this.pinchCenterX = Math.floor(canvasX / boardState.cellSize);
+      this.pinchCenterY = Math.floor(canvasY / boardState.cellSize);
     }
   }
 
   // Handle touch move event
   handleTouchMove(event: TouchEvent) {
-    if (this.isPinching && event.touches.length === 2 && gameState.interactMode === 'pan') {
-      event.preventDefault();
+    if (gameState.interactMode !== 'pan') return;
+    event.preventDefault();
+
+    if (this.isPinching && event.touches.length === 2) {
+      // Handle pinch zoom
+      if (this.pinchCenterX === null || this.pinchCenterY === null) {
+        return;
+      }
+
       const newDistance = this.getTouchDistance(event.touches);
       const delta = newDistance - this.lastTouchDistance;
 
-      // Adjust zoom based on pinch delta
       if (Math.abs(delta) > 10) {
         // Add threshold to prevent tiny adjustments
         const zoomDelta = delta > 0 ? 1 : -1;
-        const center = this.getTouchCenter(event.touches);
-        controls.adjustCellSize(zoomDelta, center.x, center.y);
+        // todo: until the pinched location is stable let's just use the center
+        // of the screen as a 'less terrible' user experience.
+        controls.adjustCellSize(zoomDelta);
+        // controls.adjustCellSize(zoomDelta, this.pinchCenterX, this.pinchCenterY);
         this.lastTouchDistance = newDistance;
+      }
+    } else if (this.isPanning && event.touches.length === 1) {
+      // Handle panning
+      const touch = event.touches[0];
+      const dx = touch.clientX - this.lastPanX;
+      const dy = touch.clientY - this.lastPanY;
+
+      const container = this.canvas.parentElement;
+      if (container) {
+        container.scrollLeft = this.initialScrollX - dx;
+        container.scrollTop = this.initialScrollY - dy;
       }
     }
   }
 
   // Handle touch end event
   handleTouchEnd(event: TouchEvent) {
-    if (this.isPinching) {
-      event.preventDefault();
+    if (event.touches.length === 0) {
+      // Reset all states when all touches end
+      this.isPanning = false;
       this.isPinching = false;
+      this.pinchCenterX = null;
+      this.pinchCenterY = null;
+    } else if (event.touches.length === 1 && this.isPinching) {
+      // Switch back to panning when going from 2 touches to 1
+      const touch = event.touches[0];
+      const container = this.canvas.parentElement;
+      if (!container) return;
+
+      this.isPinching = false;
+      this.isPanning = true;
+      this.lastPanX = touch.clientX;
+      this.lastPanY = touch.clientY;
+      this.initialScrollX = container.scrollLeft;
+      this.initialScrollY = container.scrollTop;
     }
   }
 }

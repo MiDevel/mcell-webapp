@@ -6,13 +6,13 @@
 
 // Constants.js
 export const Constants = {
-  VERSION: '1.0.4',
+  VERSION: '1.0.5',
 
   // Limits
   MAX_STATES: 256,
   MAX_UNDO_ITEMS: 1000,
   MIN_CELL_SIZE: 1,
-  MAX_CELL_SIZE: 50,
+  MAX_CELL_SIZE: 32,
   MIN_GRID_CELL_SIZE: 5, // Minimum cell size to show grid lines
 
   // Application info for Help dialog
@@ -21,4 +21,5 @@ export const Constants = {
   APP_AUTHOR: 'Mirek Wojtowicz',
   APP_URL: 'https://mcell.ca',
   GITHUB_URL: 'https://github.com/MiDevel/mcell-webapp',
+  DISCORD_URL: 'https://discord.gg/FhagUkEz',
 };
