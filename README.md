@@ -16,6 +16,7 @@ A web-based Cellular Automata explorer allowing to view, animate, create and stu
 Author: Mirek Wojtowicz  
 Website: https://mcell.ca  
 Contact: info@mcell.ca  
+Discord: https://discord.gg/FhagUkEz  
 GitHub: https://github.com/MiDevel/mcell-webapp
 
 ![MCell for Web](assets/mcell-web.png)
