@@ -771,6 +771,13 @@ export class Controls {
       container.scrollLeft = newScrollLeft;
       container.scrollTop = newScrollTop;
 
+      console.log(`QQQQ setCellSize: 
+        'center=', { x: ${centerX}, y: ${centerY} },
+        'oldSize=', ${oldSize},
+        'newSize=', ${newSize},
+        'scroll=', { left: ${scrollLeft}, top: ${scrollTop} },
+      `);
+
       gameState.setState({ boardResized: true });
     }
   }
