@@ -767,16 +767,13 @@ export class Controls {
       const newScrollLeft = centerX * newSize - pointOffsetX;
       const newScrollTop = centerY * newSize - pointOffsetY;
 
-      // Update scroll position
       container.scrollLeft = newScrollLeft;
       container.scrollTop = newScrollTop;
 
-      console.log(`QQQQ setCellSize: 
-        'center=', { x: ${centerX}, y: ${centerY} },
-        'oldSize=', ${oldSize},
-        'newSize=', ${newSize},
-        'scroll=', { left: ${scrollLeft}, top: ${scrollTop} },
-      `);
+      console.log(`QQQQ setCellSize: center=(${centerX}, ${centerY}), size: ${oldSize} => ${newSize}, 
+        scroll left: ${scrollLeft} => ${newScrollLeft}, top: ${scrollTop} => ${newScrollTop},
+        pointOffset: (${pointOffsetX}, ${pointOffsetY})`
+      );
 
       gameState.setState({ boardResized: true });
     }

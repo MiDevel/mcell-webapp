@@ -737,12 +737,17 @@ export class Board {
   // Handle touch start event
   handleTouchStart(event: TouchEvent) {
     if (gameState.interactMode !== 'pan') return;
+    event.preventDefault();
+
+    // Reset all states when touch interaction starts
+    this.isPanning = false;
+    this.isPinching = false;
+    this.pinchCenterX = null;
+    this.pinchCenterY = null;
     
     if (event.touches.length === 2) {
       // Start pinching
-      event.preventDefault();
       this.isPinching = true;
-      this.isPanning = false; // Ensure we're not panning during pinch
       this.lastTouchDistance = this.getTouchDistance(event.touches);
       
       // Store initial pinch center
@@ -753,7 +758,6 @@ export class Board {
         { x: this.pinchCenterX, y: this.pinchCenterY });
     } else if (event.touches.length === 1) {
       // Start panning
-      event.preventDefault();
       const container = this.canvas.parentElement;
       if (!container) return;
 
@@ -772,6 +776,12 @@ export class Board {
   handleTouchMove(event: TouchEvent) {
     if (gameState.interactMode !== 'pan') return;
     event.preventDefault();
+
+    // If touch count changes, ignore this event
+    if ((this.isPinching && event.touches.length !== 2) ||
+        (this.isPanning && event.touches.length !== 1)) {
+      return;
+    }
 
     if (this.isPinching && event.touches.length === 2) {
       // Handle pinch zoom
@@ -805,21 +815,34 @@ export class Board {
 
   // Handle touch end event
   handleTouchEnd(event: TouchEvent) {
-    if (this.isPinching && event.touches.length < 2) {
-      // End pinch
-      this.isPinching = false;
-      this.pinchCenterX = null;
-      this.pinchCenterY = null;
-      console.log('QQQQ Pinch end');
-    }
-    
+    // If all touches are gone, reset everything
     if (event.touches.length === 0) {
-      // End all touch interactions
       this.isPanning = false;
       this.isPinching = false;
       this.pinchCenterX = null;
       this.pinchCenterY = null;
       console.log('QQQQ All touch end');
+      return;
+    }
+
+    // If we were pinching and now have 1 finger, switch to panning
+    if (this.isPinching && event.touches.length === 1) {
+      this.isPinching = false;
+      this.pinchCenterX = null;
+      this.pinchCenterY = null;
+      
+      // Start panning from this point
+      const container = this.canvas.parentElement;
+      if (container) {
+        this.isPanning = true;
+        this.lastPanX = event.touches[0].clientX;
+        this.lastPanY = event.touches[0].clientY;
+        this.initialScrollX = container.scrollLeft;
+        this.initialScrollY = container.scrollTop;
+        console.log('QQQQ Switch to panning:', 
+          { x: this.lastPanX, y: this.lastPanY, 
+            scrollX: this.initialScrollX, scrollY: this.initialScrollY });
+      }
     }
   }
 }
