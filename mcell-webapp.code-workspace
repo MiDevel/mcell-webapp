@@ -13,6 +13,10 @@
 			"totalistic",
 			"Wojtowicz",
 			"Xlife"
-		]
-	}
+		],
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/dist": true,
+		"**/deploy": true,
+		"**/data": true }	}
 }

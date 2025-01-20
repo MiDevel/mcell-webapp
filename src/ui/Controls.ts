@@ -728,14 +728,50 @@ export class Controls {
     }
   }
 
-  adjustCellSize(delta: number) {
+  // Adjust cell size while maintaining a specific point's position
+  adjustCellSize(delta: number, centerX?: number, centerY?: number) {
     const currentSize = boardState.cellSize;
     const newSize = Math.max(
       Constants.MIN_CELL_SIZE,
       Math.min(Constants.MAX_CELL_SIZE, currentSize + delta)
     );
     if (newSize !== currentSize) {
-      this.setCellSize(newSize);
+      this.setCellSize(newSize, centerX, centerY);
+    }
+  }
+
+  setCellSize(newSize: number, centerX?: number, centerY?: number) {
+    if (newSize >= Constants.MIN_CELL_SIZE && newSize <= Constants.MAX_CELL_SIZE) {
+      // Get current scroll position
+      const container = document.getElementById('board-container');
+      if (!container) return;
+
+      const oldSize = boardState.cellSize;
+      const scrollLeft = container.scrollLeft;
+      const scrollTop = container.scrollTop;
+
+      // If no center point provided, use the center of the viewport
+      if (centerX === undefined || centerY === undefined) {
+        centerX = (scrollLeft + container.clientWidth / 2) / oldSize;
+        centerY = (scrollTop + container.clientHeight / 2) / oldSize;
+      }
+
+      // Calculate the point's position relative to scroll position
+      const pointOffsetX = centerX * oldSize - scrollLeft;
+      const pointOffsetY = centerY * oldSize - scrollTop;
+
+      // Update cell size
+      boardState.cellSize = newSize;
+
+      // Calculate new scroll position to maintain the point's position
+      const newScrollLeft = centerX * newSize - pointOffsetX;
+      const newScrollTop = centerY * newSize - pointOffsetY;
+
+      // Update scroll position
+      container.scrollLeft = newScrollLeft;
+      container.scrollTop = newScrollTop;
+
+      gameState.setState({ boardResized: true });
     }
   }
 
@@ -994,6 +1030,10 @@ export class Controls {
         Math.abs(curr - patternData.speed) < Math.abs(prev - patternData.speed) ? curr : prev
       );
       this.setSpeed(closestSpeed);
+    } else {
+      if (settings.getPatternDefaults().useDefaultSpeed) {
+        this.setSpeed(settings.getPatternDefaults().defaultSpeed);
+      }
     }
 
     // Apply palette if specified
@@ -1002,6 +1042,10 @@ export class Controls {
       const palette = palettes.getPalette(patternData.palette);
       settings.setPaletteName(palette.name);
       paletteChanged = true;
+    } else {
+      if (settings.getPatternDefaults().useDefaultPalette) {
+        settings.setPaletteName(settings.getPatternDefaults().defaultPalette);
+      }
     }
 
     // Apply the rules if specified
@@ -1287,13 +1331,6 @@ export class Controls {
   setSpeed(speed: number) {
     gameState.setState({ speed: speed });
     this.updateStartStopButton();
-  }
-
-  setCellSize(newSize: number) {
-    if (newSize >= Constants.MIN_CELL_SIZE && newSize <= Constants.MAX_CELL_SIZE) {
-      boardState.cellSize = newSize;
-      gameState.setState({ boardResized: true });
-    }
   }
 
   setBoardSize(width: number, height: number) {

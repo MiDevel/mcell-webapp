@@ -3,6 +3,7 @@
 #RULE 012478/36/18
 #BOARD 200x200
 #WRAP 1
+#SPEED 100
 #D Ebb&Flow  Oscillators.  Here is an example of how the plane can
 #D be tiled in this rule with blinkers.  The timing of the blinkers is up
 #D to the designer with the constraint that neighboring orthogonal

@@ -144,99 +144,99 @@ Generations/Bombers/Bombers.mcl
 Generations/Bombers/Seed 10x10a.mcl
 Generations/Bombers/Seed 10x10b.mcl
 Generations/Bombers/Ships.mcl
-Generations/Brain 6/Brain 6 Beam Editing 1.mcl
-Generations/Brain 6/Brain 6 Beam Editing 2.mcl
-Generations/Brain 6/Brain 6 Beam Editing 3.mcl
-Generations/Brain 6/Brain 6 Beam Editing 4.mcl
-Generations/Brain 6/Brain 6 Beam Editing 5.mcl
-Generations/Brain 6/Brain 6 Beam Editing 6.mcl
-Generations/Brain 6/Brain 6 Beam Generators 1.mcl
-Generations/Brain 6/Brain 6 Beam Generators 2.mcl
-Generations/Brain 6/Brain 6 Beam Generators 3.mcl
-Generations/Brain 6/Brain 6 Beam Generators 4.mcl
-Generations/Brain 6/Brain 6 Beam Generators 5.mcl
-Generations/Brain 6/Brain 6 Block Party.mcl
-Generations/Brain 6/Brain 6 Bombers 1.mcl
-Generations/Brain 6/Brain 6 Bombers 2.mcl
-Generations/Brain 6/Brain 6 Bombers 3.mcl
-Generations/Brain 6/Brain 6 Bombers 4.mcl
-Generations/Brain 6/Brain 6 Bombers 5.mcl
-Generations/Brain 6/Brain 6 Bombers 6.mcl
-Generations/Brain 6/Brain 6 Bombers 7.mcl
-Generations/Brain 6/Brain 6 Bombers 8.mcl
-Generations/Brain 6/Brain 6 Butterfly 1.mcl
-Generations/Brain 6/Brain 6 Butterfly 2.mcl
-Generations/Brain 6/Brain 6 Butterfly bomber.mcl
-Generations/Brain 6/Brain 6 Butterfly bombers.mcl
-Generations/Brain 6/Brain 6 Collider Beams 1.mcl
-Generations/Brain 6/Brain 6 Collider Beams 2.mcl
-Generations/Brain 6/Brain 6 Collider Beams 3.mcl
-Generations/Brain 6/Brain 6 Collider Beams 4.mcl
-Generations/Brain 6/Brain 6 Collider Beams 5.mcl
-Generations/Brain 6/Brain 6 Collider Beams 6.mcl
-Generations/Brain 6/Brain 6 Collider Beams 7.mcl
-Generations/Brain 6/Brain 6 Collider Beams 8.mcl
-Generations/Brain 6/Brain 6 Collider Beams 9.mcl
-Generations/Brain 6/Brain 6 Collider Beams-10.mcl
-Generations/Brain 6/Brain 6 Collider Beams-11.mcl
-Generations/Brain 6/Brain 6 Collider Beams-12.mcl
-Generations/Brain 6/Brain 6 Collider Beams-13.mcl
-Generations/Brain 6/Brain 6 Collision Studies 1.mcl
-Generations/Brain 6/Brain 6 comparison.mcl
-Generations/Brain 6/Brain 6 Deflection1.mcl
-Generations/Brain 6/Brain 6 Double  Trouble.mcl
-Generations/Brain 6/Brain 6 Extenders 1.mcl
-Generations/Brain 6/Brain 6 Extenders 2.mcl
-Generations/Brain 6/Brain 6 Extenders 3.mcl
-Generations/Brain 6/Brain 6 Extenders 4.mcl
-Generations/Brain 6/Brain 6 FX 1.mcl
-Generations/Brain 6/Brain 6 FX 2.mcl
-Generations/Brain 6/Brain 6 FX 3.mcl
-Generations/Brain 6/Brain 6 FX 4.mcl
-Generations/Brain 6/Brain 6 FX 5.mcl
-Generations/Brain 6/Brain 6 FX 6.mcl
-Generations/Brain 6/Brain 6 FX 7.mcl
-Generations/Brain 6/Brain 6 FX 8.mcl
-Generations/Brain 6/Brain 6 FX 9.mcl
-Generations/Brain 6/Brain 6 Gamma Platform.mcl
-Generations/Brain 6/Brain 6 Operations 1.mcl
-Generations/Brain 6/Brain 6 Operations 2.mcl
-Generations/Brain 6/Brain 6 Operations 3.mcl
-Generations/Brain 6/Brain 6 Operations 4.mcl
-Generations/Brain 6/Brain 6 Oscillator Bomber 2.mcl
-Generations/Brain 6/Brain 6 Oscillator Bomber.mcl
-Generations/Brain 6/Brain 6 Oscillators 1.mcl
-Generations/Brain 6/Brain 6 Oscillators 2.mcl
-Generations/Brain 6/Brain 6 Oscillators 3.mcl
-Generations/Brain 6/Brain 6 Oscillators 4.mcl
-Generations/Brain 6/Brain 6 Oscillators 6.mcl
-Generations/Brain 6/Brain 6 Oscillators 7.mcl
-Generations/Brain 6/Brain 6 P18 Gun 1.mcl
-Generations/Brain 6/Brain 6 P18 Gun 2.mcl
-Generations/Brain 6/Brain 6 P18 Gun 3.mcl
-Generations/Brain 6/Brain 6 Rebound 1.mcl
-Generations/Brain 6/Brain 6 Rebound 2.mcl
-Generations/Brain 6/Brain 6 Rebound 3.mcl
-Generations/Brain 6/Brain 6 Rebound 4.mcl
-Generations/Brain 6/Brain 6 Rebound 5.mcl
-Generations/Brain 6/Brain 6 Seed 1.mcl
-Generations/Brain 6/Brain 6 Seed 2.mcl
-Generations/Brain 6/Brain 6 Seed 3.mcl
-Generations/Brain 6/Brain 6 Seed 4.mcl
-Generations/Brain 6/Brain 6 Seed 5.mcl
-Generations/Brain 6/Brain 6 Sextuple bomber.mcl
-Generations/Brain 6/Brain 6 Spirals 1.mcl
-Generations/Brain 6/Brain 6 Spirals 2.mcl
-Generations/Brain 6/Brain 6 Spirals 3.mcl
-Generations/Brain 6/Brain 6 Stretch Ship.mcl
-Generations/Brain 6/Brain 6 Tiling 1.mcl
-Generations/Brain 6/Brain 6 Tiling 2.mcl
-Generations/Brain 6/Brain 6 Tiling 3.mcl
-Generations/Brain 6/Brain 6 Wagtails.mcl
-Generations/Brain 6/Brain 6 X-Bomber 2.mcl
-Generations/Brain 6/Brain 6 X-Bomber.mcl
-Generations/Brain 6/Brain 6 X-Flotilla.mcl
+Generations/Brain 6/Beam Editing 1.mcl
+Generations/Brain 6/Beam Editing 2.mcl
+Generations/Brain 6/Beam Editing 3.mcl
+Generations/Brain 6/Beam Editing 4.mcl
+Generations/Brain 6/Beam Editing 5.mcl
+Generations/Brain 6/Beam Editing 6.mcl
+Generations/Brain 6/Beam Generators 1.mcl
+Generations/Brain 6/Beam Generators 2.mcl
+Generations/Brain 6/Beam Generators 3.mcl
+Generations/Brain 6/Beam Generators 4.mcl
+Generations/Brain 6/Beam Generators 5.mcl
+Generations/Brain 6/Block Party.mcl
+Generations/Brain 6/Bombers 1.mcl
+Generations/Brain 6/Bombers 2.mcl
+Generations/Brain 6/Bombers 3.mcl
+Generations/Brain 6/Bombers 4.mcl
+Generations/Brain 6/Bombers 5.mcl
+Generations/Brain 6/Bombers 6.mcl
+Generations/Brain 6/Bombers 7.mcl
+Generations/Brain 6/Bombers 8.mcl
 Generations/Brain 6/Brain 6.mcl
+Generations/Brain 6/Butterfly 1.mcl
+Generations/Brain 6/Butterfly 2.mcl
+Generations/Brain 6/Butterfly bomber.mcl
+Generations/Brain 6/Butterfly bombers.mcl
+Generations/Brain 6/Collider Beams 1.mcl
+Generations/Brain 6/Collider Beams 2.mcl
+Generations/Brain 6/Collider Beams 3.mcl
+Generations/Brain 6/Collider Beams 4.mcl
+Generations/Brain 6/Collider Beams 5.mcl
+Generations/Brain 6/Collider Beams 6.mcl
+Generations/Brain 6/Collider Beams 7.mcl
+Generations/Brain 6/Collider Beams 8.mcl
+Generations/Brain 6/Collider Beams 9.mcl
+Generations/Brain 6/Collider Beams-10.mcl
+Generations/Brain 6/Collider Beams-11.mcl
+Generations/Brain 6/Collider Beams-12.mcl
+Generations/Brain 6/Collider Beams-13.mcl
+Generations/Brain 6/Collision Studies 1.mcl
+Generations/Brain 6/comparison.mcl
+Generations/Brain 6/Deflection1.mcl
+Generations/Brain 6/Double  Trouble.mcl
+Generations/Brain 6/Extenders 1.mcl
+Generations/Brain 6/Extenders 2.mcl
+Generations/Brain 6/Extenders 3.mcl
+Generations/Brain 6/Extenders 4.mcl
+Generations/Brain 6/FX 1.mcl
+Generations/Brain 6/FX 2.mcl
+Generations/Brain 6/FX 3.mcl
+Generations/Brain 6/FX 4.mcl
+Generations/Brain 6/FX 5.mcl
+Generations/Brain 6/FX 6.mcl
+Generations/Brain 6/FX 7.mcl
+Generations/Brain 6/FX 8.mcl
+Generations/Brain 6/FX 9.mcl
+Generations/Brain 6/Gamma Platform.mcl
+Generations/Brain 6/Operations 1.mcl
+Generations/Brain 6/Operations 2.mcl
+Generations/Brain 6/Operations 3.mcl
+Generations/Brain 6/Operations 4.mcl
+Generations/Brain 6/Oscillator Bomber 2.mcl
+Generations/Brain 6/Oscillator Bomber.mcl
+Generations/Brain 6/Oscillators 1.mcl
+Generations/Brain 6/Oscillators 2.mcl
+Generations/Brain 6/Oscillators 3.mcl
+Generations/Brain 6/Oscillators 4.mcl
+Generations/Brain 6/Oscillators 6.mcl
+Generations/Brain 6/Oscillators 7.mcl
+Generations/Brain 6/P18 Gun 1.mcl
+Generations/Brain 6/P18 Gun 2.mcl
+Generations/Brain 6/P18 Gun 3.mcl
+Generations/Brain 6/Rebound 1.mcl
+Generations/Brain 6/Rebound 2.mcl
+Generations/Brain 6/Rebound 3.mcl
+Generations/Brain 6/Rebound 4.mcl
+Generations/Brain 6/Rebound 5.mcl
+Generations/Brain 6/Seed 1.mcl
+Generations/Brain 6/Seed 2.mcl
+Generations/Brain 6/Seed 3.mcl
+Generations/Brain 6/Seed 4.mcl
+Generations/Brain 6/Seed 5.mcl
+Generations/Brain 6/Sextuple bomber.mcl
+Generations/Brain 6/Spirals 1.mcl
+Generations/Brain 6/Spirals 2.mcl
+Generations/Brain 6/Spirals 3.mcl
+Generations/Brain 6/Stretch Ship.mcl
+Generations/Brain 6/Tiling 1.mcl
+Generations/Brain 6/Tiling 2.mcl
+Generations/Brain 6/Tiling 3.mcl
+Generations/Brain 6/Wagtails.mcl
+Generations/Brain 6/X-Bomber 2.mcl
+Generations/Brain 6/X-Bomber.mcl
+Generations/Brain 6/X-Flotilla.mcl
 Generations/Brian's Brain/Aqua.mcl
 Generations/Brian's Brain/Bomber 01.mcl
 Generations/Brian's Brain/Bomber 02.mcl
@@ -304,7 +304,7 @@ Generations/BurstII/StillLifes.mcl
 Generations/BurstII/Stretchers.mcl
 Generations/BurstII/Tracklayer.mcl
 Generations/Caterpillars/4 brothers.mcl
-Generations/Caterpillars/At the hairdresser s.mcl
+Generations/Caterpillars/At the hairdresser's.mcl
 Generations/Caterpillars/Caterpillars.mcl
 Generations/Caterpillars/Extender.mcl
 Generations/Chenille/Chenille.mcl
@@ -1160,6 +1160,7 @@ Rules table/Crawlers/Primordial soup.mcl
 Rules table/EcoLiBra/EcoLiBra.mcl
 Rules table/Empire/Empire.mcl
 Rules table/Fire sticks/Fire sticks.mcl
+Rules table/HistoricalLife/HistoricalLife.mcl
 Rules table/Ladders/Ladders.mcl
 Rules table/Piranha/Piranha.mcl
 Rules table/RanBrain/RanBrain.mcl
@@ -1199,6 +1200,7 @@ Rules table/WireWorld/TM WireCrossing.mcl
 Rules table/WireWorld/WireWorld.mcl
 Rules table/WireWorld/WWTest.mcl
 Vote for Life/Feux/Feux.mcl
+Vote for Life/Fredkin/Fredkin's Replicator.mcl
 Vote for Life/Fredkin/Fredkin.mcl
 Vote for Life/Vote/Vote.mcl
 Vote for Life/Vote 4-5/Vote4_5.mcl

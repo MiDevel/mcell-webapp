@@ -48,6 +48,8 @@ export class Board {
 
   private lastPalette: string = '';
   private dynaDrawColors: string[] = [];
+  private lastTouchDistance: number = 0;
+  private isPinching: boolean = false;
 
   constructor(canvasId = 'board-canvas') {
     this.canvas = document.getElementById(canvasId) as HTMLCanvasElement;
@@ -70,6 +72,9 @@ export class Board {
     this.initializeEventListeners();
     gameState.subscribe(this.onGameStateChange.bind(this));
     window.addEventListener('keydown', this.handleKeyDown.bind(this));
+    this.canvas.addEventListener('touchstart', this.handleTouchStart.bind(this));
+    this.canvas.addEventListener('touchmove', this.handleTouchMove.bind(this));
+    this.canvas.addEventListener('touchend', this.handleTouchEnd.bind(this));
     this.drawBoard(); // Initial draw
   }
 
@@ -433,13 +438,19 @@ export class Board {
     this.updateCursor();
   }
 
-  // Add zoom functionality
+  // Mouse wheel simple zoom
   handleWheel(event: WheelEvent) {
     event.preventDefault();
+    // if (gameState.interactMode !== 'pan') return;
+
+    // Calculate cell coordinates under mouse
+    const x = Math.floor(event.offsetX / boardState.cellSize);
+    const y = Math.floor(event.offsetY / boardState.cellSize);
+
     if (event.deltaY < 0) {
-      controls.adjustCellSize(1);
+      controls.adjustCellSize(1, x, y);
     } else {
-      controls.adjustCellSize(-1);
+      controls.adjustCellSize(-1, x, y);
     }
   }
 
@@ -674,6 +685,68 @@ export class Board {
       // Draw semi-transparent overlay for the selection area
       this.ctx.fillStyle = 'rgba(255, 0, 255, 0.1)';
       this.ctx.fillRect(left, top, width, height);
+    }
+  }
+
+  // Calculate distance between two touch points
+  private getTouchDistance(touches: TouchList): number {
+    if (touches.length < 2) return 0;
+    const dx = touches[0].clientX - touches[1].clientX;
+    const dy = touches[0].clientY - touches[1].clientY;
+    return Math.sqrt(dx * dx + dy * dy);
+  }
+
+  // Calculate center point between two touch points in cell coordinates
+  private getTouchCenter(touches: TouchList): { x: number; y: number } {
+    const touch1 = touches[0];
+    const touch2 = touches[1];
+    const rect = this.canvas.getBoundingClientRect();
+
+    // Get touch points relative to canvas
+    const x1 = touch1.clientX - rect.left;
+    const y1 = touch1.clientY - rect.top;
+    const x2 = touch2.clientX - rect.left;
+    const y2 = touch2.clientY - rect.top;
+
+    // Calculate center point in cell coordinates
+    const centerX = Math.floor((x1 + x2) / 2 / boardState.cellSize);
+    const centerY = Math.floor((y1 + y2) / 2 / boardState.cellSize);
+
+    return { x: centerX, y: centerY };
+  }
+
+  // Handle touch start event
+  handleTouchStart(event: TouchEvent) {
+    if (event.touches.length === 2 && gameState.interactMode === 'pan') {
+      event.preventDefault();
+      this.isPinching = true;
+      this.lastTouchDistance = this.getTouchDistance(event.touches);
+    }
+  }
+
+  // Handle touch move event
+  handleTouchMove(event: TouchEvent) {
+    if (this.isPinching && event.touches.length === 2 && gameState.interactMode === 'pan') {
+      event.preventDefault();
+      const newDistance = this.getTouchDistance(event.touches);
+      const delta = newDistance - this.lastTouchDistance;
+
+      // Adjust zoom based on pinch delta
+      if (Math.abs(delta) > 10) {
+        // Add threshold to prevent tiny adjustments
+        const zoomDelta = delta > 0 ? 1 : -1;
+        const center = this.getTouchCenter(event.touches);
+        controls.adjustCellSize(zoomDelta, center.x, center.y);
+        this.lastTouchDistance = newDistance;
+      }
+    }
+  }
+
+  // Handle touch end event
+  handleTouchEnd(event: TouchEvent) {
+    if (this.isPinching) {
+      event.preventDefault();
+      this.isPinching = false;
     }
   }
 }

@@ -1,43 +1,91 @@
 Life/Conway's Life/GUN30.LIF
+Life/Conway's Life/AQUA25.LIF
+Life/Conway's Life/DOUBLEX.LIF
+Life/Conway's Life/MAKEHSLR.LIF
 Life/Day & Night/daynight.l
+Life/Replicator/Replicator.lif
+Generations/BelZhab Sediment/BelZhab Sediment.mcl
 Generations/Bombers/Seed 10x10b.mcl
-Generations/Brain 6/Brain 6 Oscillators 2.mcl
+Generations/Brain 6/Brain 6.mcl
 Generations/Brian's Brain/Brian's Brain.mcl
+Generations/Burst/Burst.mcl
+Generations/Circuit Genesis/Circuit Genesis.mcl
+Generations/Ebb&Flow/Fuses 04.mcl
 Generations/Ebb&Flow/Oscil 04.mcl
 Generations/Ebb&Flow II/Ebb&Flow II.mcl
 Generations/Faders/Faders.mcl
 Generations/Fireworks/Cross.mcl
 Generations/Fireworks/Fireworks 02.mcl
 Generations/Nova/Nova.mcl
+Generations/Nova/Sunbeams.mcl
 Generations/SediMental/Loom.mcl
+Generations/Snake/Snake.mcl
+Generations/Snake/Shuttle 2.mcl
 Generations/Spirals/Perfect spiral.mcl
-Generations/StarWars/Conveyer.mcl
 Generations/StarWars/StarWars 01.mcl
+Generations/StarWars/Conveyer.mcl
+Generations/StarWars/Magic mirror.mcl
 Generations/StarWars/Steeplechase.mcl
+Generations/Transers/Widgets.mcl
+Generations/TransersII/Rigged Race.mcl
 Generations/Worms/Worms.mcl
+Generations/Xtasy/Xtasy.mcl
+Cyclic CA/313/313.mcl
 Cyclic CA/CCA/CCA.mcl
 Cyclic CA/GH Macaroni/GH Macaroni.mcl
 Cyclic CA/Fossil debris/Fossil debris.mcl
+Cyclic CA/LavaLamp/LavaLamp.mcl
+Cyclic CA/Perfect/Perfect.mcl
+Weighted Life/Cyclones/Cyclones.mcl
+Weighted Life/Frost N/Frost N.mcl
+Weighted Life/HexParity/HexParity.mcl
+Weighted Life/Hexrule b2o/Sunny oscillators.mcl
 Weighted Life/HGlass/HGlass.mcl
 Weighted Life/Linguini/Linguini.mcl
 Weighted Life/Midges/Midges.mcl
+Weighted Life/Navaho1/Seed 3.mcl
+Weighted Life/Nocturne/Nocturne.mcl
 Weighted Life/Parity/Parity 01.mcl
 Weighted Life/PicturesH/PicturesH 02.mcl
+Weighted Life/PipeFleas/PipeFleas.mcl
+Weighted Life/SEmigration/SEmigration.mcl
+Weighted Life/Upstream/Upstream.mcl
 Weighted Life/ZipperMakers/ZipperMakers.mcl
 Vote for Life/Vote/Vote.mcl
+Vote for Life/Fredkin/Fredkin's Replicator.mcl
 Margolus/BBM/BBM.mcl
+Margolus/BounceGas/BounceGas.mcl
 Margolus/Rotations/Rotations.mcl
 Margolus/StringThingII/StringThingII.mcl
 Margolus/SwapOnDiag/SwapOnDiag.mcl
 Margolus/Sand/Sand.mcl
-1-D totalistic/Marvel/Marvel.mcl
 1-D totalistic/Date palms/Date palms.mcl
+1-D totalistic/Embossed triangles/Embossed triangles.mcl
+1-D totalistic/Forest/Forest.mcl
+1-D totalistic/Marvel/Marvel.mcl
+1-D totalistic/The City/The City.mcl
+1-D totalistic/Tulips/Tulips.mcl
+1-D binary/Raindrops/Raindrops.mcl
 1-D binary/Kites/Kites.mcl
+Neumann binary/Birds/Birds.mcl
 Neumann binary/Pond/Beauty 02.mcl
+Neumann binary/Strata/Strata.mcl
 Neumann binary/Typhoon/Typhoon.mcl
+General binary/Fallski/Fallski.mcl
 General binary/JustFriends/JustFriends.mcl
+General binary/Meteorama/Meteorama.mcl
+General binary/Springski/Springski.mcl
+Larger than Life/Bugs/Bosco.mcl
 Larger than Life/Bugs/Bugs.mcl
+Larger than Life/Majority/Majority.mcl
+Larger than Life/ModernArt/ArtStarter01.mcl
+Larger than Life/Waffle/Waffle.mcl
+Rules table/Balloons/Balloons.mcl
 Rules table/Cars/Highway.mcl
+Rules table/Cheops/Beauty01.mcl
+Rules table/Crawlers/Primordial soup.mcl
+Rules table/EcoLiBra/EcoLiBra.mcl
+Rules table/Ladders/Ladders.mcl
 Rules table/WireWorld/WireWorld.mcl
 Weighted Generations/WG Rule004/R004_G033.mcl
 Weighted Generations/WG Rule071/R071_G004.mcl

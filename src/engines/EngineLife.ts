@@ -33,7 +33,7 @@ export class EngineLife extends BaseEngine implements ICaEngine {
 
     const def = RuleUtils.normalizeLifeRuleSyntax(ruleDefinition);
     const tokens = def.split('/');
-    if (tokens.length !== 2) {
+    if (tokens.length < 2) {
       throw new Error('Invalid Life rule format, s/b expected');
     }
 
