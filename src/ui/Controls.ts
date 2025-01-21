@@ -78,6 +78,8 @@ export class Controls {
   private menuDropdown: HTMLDivElement | null = null;
   private isMenuOpen: boolean = false;
   private ignoreNextClick: boolean = false;
+  private fullScreenBtn: HTMLButtonElement | null;
+  private exitFullScreenBtn: HTMLButtonElement | null;
 
   lastSelectedRules: Array<TLastSelectedRule>;
 
@@ -114,6 +116,8 @@ export class Controls {
     this.patternBrowser = document.getElementById('pattern-browser') as HTMLDivElement;
     this.histogramBtn = document.getElementById('histogramBtn') as HTMLButtonElement;
     this.menuBtn = document.getElementById('menuBtn') as HTMLButtonElement;
+    this.fullScreenBtn = document.getElementById('fullScreenBtn') as HTMLButtonElement;
+    this.exitFullScreenBtn = document.getElementById('exitFullScreenBtn') as HTMLButtonElement;
 
     if (!this.startStopBtn) throw new Error('startStopBtn is not defined');
     if (!this.runOneBtn) throw new Error('runOneBtn is not defined');
@@ -395,6 +399,9 @@ export class Controls {
       } else if (key === 'd') {
         event.preventDefault();
         this.setInteractMode('paint');
+      } else if (key === 'h') {
+        event.preventDefault();
+        this.toggleFullScreen();
       }
     });
 
@@ -415,6 +422,16 @@ export class Controls {
       ) {
         this.hideMenu();
       }
+    });
+
+    this.fullScreenBtn?.addEventListener('click', (e) => {
+      e.stopPropagation(); // Prevent the click from bubbling up to document
+      this.toggleFullScreen();
+    });
+
+    this.exitFullScreenBtn?.addEventListener('click', (e) => {
+      e.stopPropagation(); // Prevent the click from bubbling up to document
+      this.exitFullScreen();
     });
   }
 
@@ -441,6 +458,12 @@ export class Controls {
         text: 'Open from Clipboard',
         icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-folder-open"/></svg>',
         onClick: () => this.loadFromClipboard(),
+      },
+      {
+        text: 'Hide UI',
+        icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-eye-off-outline"/></svg>',
+        onClick: () => this.toggleFullScreen(),
+        class: 'mobile-only',
       },
       //
       {
@@ -1394,6 +1417,25 @@ export class Controls {
   private isMobileDevice(): boolean {
     // Check if the toggle button is visible (which only happens on mobile)
     return window.getComputedStyle(this.toggleLeftPanelBtn!).getPropertyValue('display') !== 'none';
+  }
+
+  // Toggle fullscreen
+  private toggleFullScreen() {
+    if (document.body.classList.contains('fullscreen')) {
+      this.exitFullScreen();
+    } else {
+      this.enterFullScreen();
+    }
+  }
+
+  // Hide UI elements
+  private enterFullScreen() {
+    document.body.classList.add('fullscreen');
+  }
+
+  // Show UI elements
+  private exitFullScreen() {
+    document.body.classList.remove('fullscreen');
   }
 }
 

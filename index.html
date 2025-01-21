@@ -11,6 +11,11 @@
 
   <body>
     <div id="app-container">
+      <button id="exitFullScreenBtn" class="control-button" title="Exit Full Screen">
+        <svg class="svg-icon">
+          <use href="assets/icons.svg#mdi-close" />
+        </svg>
+      </button>
       <div id="top-panel" class="panel">
         <div class="split-button-group">
           <button id="startStopBtn" class="control-button" title="Start/Stop [Enter]"></button>
@@ -54,6 +59,11 @@
             </svg>
           </button>
         </div>
+        <button id="fullScreenBtn" class="control-button" title="Hide UI [H]">
+          <svg class="svg-icon">
+            <use href="assets/icons.svg#mdi-eye-off-outline" />
+          </svg>
+        </button>
         <div class="right-align">
           <div class="mode-toggle-group">
             <button class="mode-button control-button mode-pan active" title="Pan Mode [P]">

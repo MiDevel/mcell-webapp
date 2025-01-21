@@ -32,6 +32,7 @@ export class HelpDialog {
                     <li><strong>R</strong> - Randomize board</li>
                     <li><strong>^Z / ^Y</strong> - Undo/Redo</li>
                     <li><strong>P / D</strong> - Pan/Draw mode</li>
+                    <li><strong>H</strong> - Hide/Show UI elements (F11 for Full Screen)</li>
                 </ul>
                 <h3>Draw mode</h3>
                 <ul>

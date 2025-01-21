@@ -809,10 +809,59 @@ input:focus {
   #undoBtn,
   #undoHistoryBtn,
   #redoBtn,
+  #fullScreenBtn,
   #rulesBtn,
   #histogramBtn,
   #diversitiesBtn,
   #homeBtn {
     display: none;
   }
+}
+
+/* Full screen mode */
+body.fullscreen #app-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+body.fullscreen #top-panel,
+body.fullscreen #left-panel,
+body.fullscreen #bottom-panel {
+  display: none;
+}
+
+body.fullscreen #canvas-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Exit full screen button */
+#exitFullScreenBtn {
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 10000;
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  background-color: var(--panel-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  opacity: 0.7;
+}
+
+#exitFullScreenBtn:hover {
+  opacity: 1;
+}
+
+body.fullscreen #exitFullScreenBtn {
+  display: block;
 }
