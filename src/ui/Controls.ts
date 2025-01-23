@@ -43,6 +43,37 @@ interface TLastSelectedRule {
   rule: string;
 }
 
+// Menu item type definitions
+type MenuItemBase = {
+  class?: string;
+};
+
+type MenuItem = MenuOption | MenuSubmenu | MenuSeparator;
+
+type MenuOption = MenuItemBase & {
+  type: 'option';
+  text: string;
+  icon: string;
+  onClick: () => void;
+};
+
+type SubMenuOption = {
+  text: string;
+  icon: string;
+  onClick: () => void;
+};
+
+type MenuSubmenu = MenuItemBase & {
+  type: 'submenu';
+  text: string;
+  icon: string;
+  items: SubMenuOption[];
+};
+
+type MenuSeparator = {
+  type: 'separator';
+};
+
 export class Controls {
   private startStopBtn: HTMLButtonElement | null;
   private runOneBtn: HTMLButtonElement | null;
@@ -416,14 +447,18 @@ export class Controls {
     });
 
     // Close menu when clicking outside
-    document.addEventListener('click', (e) => {
-      if (
-        !this.menuDropdown!.contains(e.target as Node) &&
-        !this.menuBtn!.contains(e.target as Node)
-      ) {
-        this.hideMenu();
-      }
-    });
+    document.addEventListener(
+      'click',
+      (e) => {
+        if (
+          !this.menuDropdown!.contains(e.target as Node) &&
+          !this.menuBtn!.contains(e.target as Node)
+        ) {
+          this.hideMenu();
+        }
+      },
+      true
+    );
 
     this.hideUIBtn?.addEventListener('click', (e) => {
       e.stopPropagation(); // Prevent the click from bubbling up to document
@@ -449,78 +484,95 @@ export class Controls {
     this.menuDropdown.style.zIndex = '1000';
 
     // Create menu items
-    const menuItems = [
+    const menuItems: MenuItem[] = [
       {
+        type: 'option',
         text: 'Save to Clipboard',
         icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-content-save"/></svg>',
         onClick: () => this.saveToClipboard(),
       },
       {
+        type: 'option',
         text: 'Open from Clipboard',
         icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-folder-open"/></svg>',
         onClick: () => this.loadFromClipboard(),
       },
+      { type: 'separator' },
       {
+        type: 'option',
         text: 'Hide UI',
         icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-eye-off-outline"/></svg>',
         onClick: () => this.toggleHideUI(),
         class: 'mobile-only',
       },
-      //
       {
+        type: 'option',
         text: 'Run N',
         icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-alpha-n-circle-outline"/></svg>',
         onClick: () => runNumDialog.show(),
         class: 'mobile-only',
       },
       {
+        type: 'submenu',
         text: 'Undo',
-        icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-undo"/></svg>',
-        onClick: () => this.undo(),
+        icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-history"/></svg>',
+        items: [
+          {
+            text: 'Undo',
+            icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-undo"/></svg>',
+            onClick: () => this.undo(),
+          },
+          {
+            text: 'Undo History',
+            icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-menu-down"/></svg>',
+            onClick: () => this.showUndoDialog(),
+          },
+          {
+            text: 'Redo',
+            icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-redo"/></svg>',
+            onClick: () => this.redo(),
+          },
+        ],
         class: 'mobile-only',
       },
       {
-        text: 'Undo History',
-        icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-menu-down"/></svg>',
-        onClick: () => this.showUndoDialog(),
+        type: 'submenu',
+        text: 'Tools',
+        icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-tools"/></svg>',
+        items: [
+          {
+            text: 'Rules',
+            icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-dna"/></svg>',
+            onClick: () => this.showRulesDialog(),
+          },
+          {
+            text: 'Histogram',
+            icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-chart-bar"/></svg>',
+            onClick: () => histogramDialog.show(),
+          },
+          {
+            text: 'Diversities',
+            icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-auto-fix"/></svg>',
+            onClick: () => diversitiesDialog.show(),
+          },
+        ],
         class: 'mobile-only',
       },
+      { type: 'separator' },
       {
-        text: 'Redo',
-        icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-redo"/></svg>',
-        onClick: () => this.redo(),
-        class: 'mobile-only',
-      },
-      {
-        text: 'Rules',
-        icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-dna"/></svg>',
-        onClick: () => this.showRulesDialog(),
-        class: 'mobile-only',
-      },
-      {
-        text: 'Histogram',
-        icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-chart-bar"/></svg>',
-        onClick: () => histogramDialog.show(),
-        class: 'mobile-only',
-      },
-      {
-        text: 'Diversities',
-        icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-auto-fix"/></svg>',
-        onClick: () => diversitiesDialog.show(),
-        class: 'mobile-only',
-      },
-      //
-      {
+        type: 'option',
         text: 'About MCell',
         icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-information-outline"/></svg>',
         onClick: () => aboutDialog.show(),
       },
       {
+        type: 'option',
         text: 'Help',
         icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-help-circle-outline"/></svg>',
         onClick: () => helpDialog.show(),
       },
       {
+        type: 'option',
         text: 'Settings',
         icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-cog"/></svg>',
         onClick: () => settingsDialog.show(),
@@ -528,20 +580,79 @@ export class Controls {
     ];
 
     menuItems.forEach((item) => {
-      const menuItem = document.createElement('div');
-      menuItem.className = `menu-item ${item.class || ''}`;
-      menuItem.innerHTML = `<span class="menu-icon">${item.icon}</span>${item.text}`;
+      if (item.type === 'separator') {
+        const separator = document.createElement('div');
+        separator.className = 'menu-separator';
+        this.menuDropdown!.appendChild(separator);
+      } else if (item.type === 'submenu') {
+        // Create submenu container
+        const submenuContainer = document.createElement('div');
+        submenuContainer.className = `submenu ${item.class || ''}`;
 
-      // Simpler click handler that just executes the action and hides the menu
-      menuItem.addEventListener('click', () => {
-        // Execute the action in the next tick to avoid any event handling issues
-        setTimeout(() => {
-          item.onClick();
-          this.hideMenu();
-        }, 0);
-      });
+        // Create main menu item
+        const menuItem = document.createElement('div');
+        menuItem.className = 'menu-item';
+        menuItem.innerHTML = `<span class="menu-icon">${item.icon}</span>${item.text}`;
 
-      this.menuDropdown!.appendChild(menuItem);
+        // Create submenu content
+        const submenuContent = document.createElement('div');
+        submenuContent.className = 'submenu-content';
+
+        // Create backdrop for submenu
+        const backdrop = document.createElement('div');
+        backdrop.className = 'submenu-backdrop';
+
+        // Add submenu items
+        item.items.forEach((subItem) => {
+          const subMenuItem = document.createElement('div');
+          subMenuItem.className = 'menu-item';
+          subMenuItem.innerHTML = `<span class="menu-icon">${subItem.icon}</span>${subItem.text}`;
+
+          subMenuItem.addEventListener('click', (e) => {
+            e.stopPropagation();
+            setTimeout(() => {
+              subItem.onClick();
+              this.hideMenu();
+              backdrop.classList.remove('active');
+              submenuContent.classList.remove('active');
+            }, 0);
+          });
+
+          submenuContent.appendChild(subMenuItem);
+        });
+
+        // Handle main menu item click
+        menuItem.addEventListener('click', (e) => {
+          e.stopPropagation();
+          backdrop.classList.add('active');
+          submenuContent.classList.add('active');
+        });
+
+        // Handle backdrop click
+        backdrop.addEventListener('click', (e) => {
+          e.stopPropagation();
+          backdrop.classList.remove('active');
+          submenuContent.classList.remove('active');
+        });
+
+        submenuContainer.appendChild(menuItem);
+        document.body.appendChild(backdrop);
+        document.body.appendChild(submenuContent);
+        this.menuDropdown!.appendChild(submenuContainer);
+      } else {
+        const menuItem = document.createElement('div');
+        menuItem.className = `menu-item ${item.class || ''}`;
+        menuItem.innerHTML = `<span class="menu-icon">${item.icon}</span>${item.text}`;
+
+        menuItem.addEventListener('click', () => {
+          setTimeout(() => {
+            item.onClick();
+            this.hideMenu();
+          }, 0);
+        });
+
+        this.menuDropdown!.appendChild(menuItem);
+      }
     });
 
     // Add dropdown to DOM right after the menu button
@@ -563,7 +674,7 @@ export class Controls {
     this.menuBtn.addEventListener('click', handleMenuClick);
     this.menuBtn.addEventListener('mousedown', (e) => e.preventDefault());
 
-    // Handle document clicks for closing the menu
+    // Handle document clicks for closing the menu and submenus
     document.addEventListener(
       'click',
       (e: MouseEvent) => {
@@ -571,6 +682,12 @@ export class Controls {
           this.ignoreNextClick = false;
           return;
         }
+
+        // Close any open submenus
+        const activeBackdrops = document.querySelectorAll('.submenu-backdrop.active');
+        const activeSubmenus = document.querySelectorAll('.submenu-content.active');
+        activeBackdrops.forEach((backdrop) => backdrop.classList.remove('active'));
+        activeSubmenus.forEach((submenu) => submenu.classList.remove('active'));
 
         // Only process if clicking outside menu and button
         if (
@@ -583,6 +700,16 @@ export class Controls {
       },
       true
     );
+
+    // Clean up function to remove submenus when hiding menu
+    const originalHideMenu = this.hideMenu;
+    this.hideMenu = () => {
+      const activeBackdrops = document.querySelectorAll('.submenu-backdrop.active');
+      const activeSubmenus = document.querySelectorAll('.submenu-content.active');
+      activeBackdrops.forEach((backdrop) => backdrop.classList.remove('active'));
+      activeSubmenus.forEach((submenu) => submenu.classList.remove('active'));
+      originalHideMenu.call(this);
+    };
   }
 
   saveToClipboard() {
