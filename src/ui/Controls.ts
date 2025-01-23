@@ -36,6 +36,7 @@ import { CaEngines, caEngines } from '../core/CaEngines.js';
 import { SelectionUtils } from '../utils/SelectionUtils.js';
 import { runSpeedTest } from '../tests/PerformanceTests.js';
 import { dumpPattern, dumpStateInfo } from '../tests/stateDump.js';
+import { exitFullScreen, requestFullScreen } from '../utils/FullScreen.js';
 
 interface TLastSelectedRule {
   family: string;
@@ -78,8 +79,8 @@ export class Controls {
   private menuDropdown: HTMLDivElement | null = null;
   private isMenuOpen: boolean = false;
   private ignoreNextClick: boolean = false;
-  private fullScreenBtn: HTMLButtonElement | null;
-  private exitFullScreenBtn: HTMLButtonElement | null;
+  private hideUIBtn: HTMLButtonElement | null;
+  private exitHideUIBtn: HTMLButtonElement | null;
 
   lastSelectedRules: Array<TLastSelectedRule>;
 
@@ -116,8 +117,8 @@ export class Controls {
     this.patternBrowser = document.getElementById('pattern-browser') as HTMLDivElement;
     this.histogramBtn = document.getElementById('histogramBtn') as HTMLButtonElement;
     this.menuBtn = document.getElementById('menuBtn') as HTMLButtonElement;
-    this.fullScreenBtn = document.getElementById('fullScreenBtn') as HTMLButtonElement;
-    this.exitFullScreenBtn = document.getElementById('exitFullScreenBtn') as HTMLButtonElement;
+    this.hideUIBtn = document.getElementById('hideUIBtn') as HTMLButtonElement;
+    this.exitHideUIBtn = document.getElementById('exitHideUIBtn') as HTMLButtonElement;
 
     if (!this.startStopBtn) throw new Error('startStopBtn is not defined');
     if (!this.runOneBtn) throw new Error('runOneBtn is not defined');
@@ -401,7 +402,7 @@ export class Controls {
         this.setInteractMode('paint');
       } else if (key === 'h') {
         event.preventDefault();
-        this.toggleFullScreen();
+        this.toggleHideUI();
       }
     });
 
@@ -424,14 +425,14 @@ export class Controls {
       }
     });
 
-    this.fullScreenBtn?.addEventListener('click', (e) => {
+    this.hideUIBtn?.addEventListener('click', (e) => {
       e.stopPropagation(); // Prevent the click from bubbling up to document
-      this.toggleFullScreen();
+      this.toggleHideUI();
     });
 
-    this.exitFullScreenBtn?.addEventListener('click', (e) => {
+    this.exitHideUIBtn?.addEventListener('click', (e) => {
       e.stopPropagation(); // Prevent the click from bubbling up to document
-      this.exitFullScreen();
+      this.showUI();
     });
   }
 
@@ -462,7 +463,7 @@ export class Controls {
       {
         text: 'Hide UI',
         icon: '<svg class="svg-icon"><use href="assets/icons.svg#mdi-eye-off-outline"/></svg>',
-        onClick: () => this.toggleFullScreen(),
+        onClick: () => this.toggleHideUI(),
         class: 'mobile-only',
       },
       //
@@ -1420,22 +1421,24 @@ export class Controls {
   }
 
   // Toggle fullscreen
-  private toggleFullScreen() {
+  private toggleHideUI() {
     if (document.body.classList.contains('fullscreen')) {
-      this.exitFullScreen();
+      this.showUI();
     } else {
-      this.enterFullScreen();
+      this.hideUI();
     }
   }
 
   // Hide UI elements
-  private enterFullScreen() {
+  private hideUI() {
     document.body.classList.add('fullscreen');
+    if (settings.isFullScreenOnHideUI()) requestFullScreen(document.documentElement);
   }
 
   // Show UI elements
-  private exitFullScreen() {
+  private showUI() {
     document.body.classList.remove('fullscreen');
+    if (settings.isFullScreenOnHideUI()) exitFullScreen(document);
   }
 }
 

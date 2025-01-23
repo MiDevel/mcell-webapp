@@ -809,7 +809,7 @@ input:focus {
   #undoBtn,
   #undoHistoryBtn,
   #redoBtn,
-  #fullScreenBtn,
+  #hideUIBtn,
   #rulesBtn,
   #histogramBtn,
   #diversitiesBtn,
@@ -842,7 +842,7 @@ body.fullscreen #canvas-container {
 }
 
 /* Exit full screen button */
-#exitFullScreenBtn {
+#exitHideUIBtn {
   display: none;
   position: fixed;
   top: 10px;
@@ -858,10 +858,10 @@ body.fullscreen #canvas-container {
   opacity: 0.7;
 }
 
-#exitFullScreenBtn:hover {
+#exitHideUIBtn:hover {
   opacity: 1;
 }
 
-body.fullscreen #exitFullScreenBtn {
+body.fullscreen #exitHideUIBtn {
   display: block;
 }

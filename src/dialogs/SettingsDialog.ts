@@ -34,7 +34,7 @@ export class SettingsDialog {
     content.push('<div class="settings-tab-content active" data-tab="ui">');
     content.push('<div class="settings-group-frame">');
 
-    // theme
+    // UI / theme
     content.push('<div class="settings-group">');
     content.push('<label>Theme:</label>');
     content.push('<select id="setting-theme">');
@@ -47,7 +47,7 @@ export class SettingsDialog {
     content.push('</select>');
     content.push('</div>');
 
-    // palette
+    // UI / palette
     content.push('<div class="settings-group">');
     content.push('<label>Palette:</label>');
     content.push('<select id="setting-palette">');
@@ -60,6 +60,14 @@ export class SettingsDialog {
     });
 
     content.push('</select>');
+    content.push('</div>');
+
+    // UI / full screen on hide UI
+    content.push('<div class="settings-group">');
+    content.push(
+      `<input type="checkbox" id="setting-full-screen-on-hide-ui" ${settings.isFullScreenOnHideUI() ? 'checked' : ''}/>`
+    );
+    content.push('<label for="setting-full-screen-on-hide-ui">Full screen on "Hide UI"</label>');
     content.push('</div>');
 
     content.push('</div>'); // settings-group-frame
@@ -220,6 +228,14 @@ export class SettingsDialog {
       settings.setPaletteName(paletteSelect.value);
       gameState.setState({ isPaletteChanged: true });
       // board.drawBoard();
+    });
+
+    // Full screen on hide UI setting
+    const fullScreenOnHideUI = document.getElementById(
+      'setting-full-screen-on-hide-ui'
+    ) as HTMLInputElement;
+    fullScreenOnHideUI?.addEventListener('change', () => {
+      settings.setFullScreenOnHideUI(fullScreenOnHideUI.checked);
     });
 
     // Undo enabled setting
