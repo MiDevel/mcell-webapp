@@ -32,11 +32,12 @@ export class HelpDialog {
                     <li><strong>R</strong> - Randomize board</li>
                     <li><strong>^Z / ^Y</strong> - Undo/Redo</li>
                     <li><strong>P / D</strong> - Pan/Draw mode</li>
+                    <li><strong>H</strong> - Hide/Show UI (F11 / Cmd+F for Full Screen)</li>
                 </ul>
                 <h3>Draw mode</h3>
                 <ul>
                     <li><strong>Click/drag</strong> - Draw using current tool and state (color)</li>
-                    <li><strong>Shift pressed</strong> - Draw constrained shapes (squares, circles)</li>
+                    <li><strong>Shift pressed</strong> - Draw constrained shapes</li>
                     <li><strong>Ctrl pressed</strong> - Draw from the center</li>
                     <li><strong>0-9</strong> - Select state for painting</li>
                     <li><strong>&lt; / &gt; or , / .</strong> - Previous/Next state for painting</li>

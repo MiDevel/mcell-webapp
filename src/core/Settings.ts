@@ -17,10 +17,10 @@ interface UndoSettings {
 interface UISettings {
   theme: 'dark' | 'light';
   palette: string;
+  fullScreenOnHideUI: boolean;
 }
 
-// interface GeneralSettings {
-// }
+interface GeneralSettings {}
 
 interface PatternSettings {
   useDefaultPalette: boolean;
@@ -32,7 +32,7 @@ interface PatternSettings {
 
 interface AppSettings {
   ui: UISettings;
-  // general: GeneralSettings;
+  general: GeneralSettings;
   undo: UndoSettings;
   patterns: PatternSettings;
 }
@@ -41,9 +41,9 @@ const DEFAULT_SETTINGS: AppSettings = {
   ui: {
     theme: 'dark',
     palette: 'MCell',
+    fullScreenOnHideUI: false,
   },
-  // general: {
-  // },
+  general: {},
   patterns: {
     useDefaultPalette: true,
     defaultPalette: 'MCell',
@@ -96,7 +96,7 @@ export class Settings {
   private mergeWithDefaults(saved: Partial<AppSettings>): AppSettings {
     return {
       ui: { ...DEFAULT_SETTINGS.ui, ...saved.ui },
-      // general: { ...DEFAULT_SETTINGS.general, ...saved.general },
+      general: { ...DEFAULT_SETTINGS.general, ...saved.general },
       patterns: { ...DEFAULT_SETTINGS.patterns, ...saved.patterns },
       undo: { ...DEFAULT_SETTINGS.undo, ...saved.undo },
     };
@@ -122,6 +122,15 @@ export class Settings {
 
   public setPaletteName(paletteName: string): void {
     this.settings.ui.palette = paletteName;
+    this.save();
+  }
+
+  public isFullScreenOnHideUI(): boolean {
+    return this.settings.ui.fullScreenOnHideUI;
+  }
+
+  public setFullScreenOnHideUI(fullScreenOnHideUI: boolean): void {
+    this.settings.ui.fullScreenOnHideUI = fullScreenOnHideUI;
     this.save();
   }
 
