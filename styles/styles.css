@@ -666,20 +666,80 @@ input:focus {
 }
 
 .menu-item {
-  padding: 12px 16px;
-  cursor: pointer;
-  transition: background-color 0.2s;
   display: flex;
   align-items: center;
   gap: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  min-width: 200px;
 }
 
 .menu-item:hover {
   background-color: var(--button-hover);
 }
 
-.menu-item:not(:last-child) {
-  border-bottom: 1px solid var(--border-color);
+.menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+}
+
+.submenu > .menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.submenu > .menu-item::after {
+  content: '›';
+  margin-left: auto;
+  font-size: 1.2em;
+}
+
+.submenu-content .menu-item {
+  padding-right: 24px; /* Extra padding for better visual balance */
+}
+
+/* Add submenu styles */
+.submenu {
+  position: relative;
+}
+
+.submenu-content {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 200px;
+  background-color: var(--panel-bg);
+  box-shadow: var(--shadow-md);
+  border-radius: var(--radius);
+  z-index: 1001;
+  padding: 8px 0;
+}
+
+.submenu-content.active {
+  display: block;
+}
+
+.submenu-backdrop {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.submenu-backdrop.active {
+  display: block;
 }
 
 /* Toast container */
@@ -809,10 +869,67 @@ input:focus {
   #undoBtn,
   #undoHistoryBtn,
   #redoBtn,
+  #hideUIBtn,
   #rulesBtn,
   #histogramBtn,
   #diversitiesBtn,
   #homeBtn {
     display: none;
   }
+}
+
+/* Full screen mode */
+body.fullscreen #app-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+body.fullscreen #top-panel,
+body.fullscreen #left-panel,
+body.fullscreen #bottom-panel {
+  display: none;
+}
+
+body.fullscreen #canvas-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Exit full screen button */
+#exitHideUIBtn {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 10000;
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  background-color: var(--panel-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  opacity: 0.7;
+}
+
+#exitHideUIBtn:hover {
+  opacity: 1;
+}
+
+body.fullscreen #exitHideUIBtn {
+  display: block;
+}
+
+/* Menu separator styles */
+.menu-separator {
+  height: 1px;
+  background-color: var(--border-color);
+  margin: 4px 0;
+  opacity: 0.6;
 }
