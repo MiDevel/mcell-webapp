@@ -12,6 +12,7 @@ import { Constants } from '../utils/Constants.js';
 import { settings } from '../core/Settings.js';
 import { paintTools } from './PaintTools.js';
 import { controls } from './Controls.js';
+import { viewportManager } from './ViewportManager.js';
 
 export interface TBoard {
   canvas: HTMLCanvasElement;
@@ -77,39 +78,56 @@ export class Board {
     this.canvas.addEventListener('touchstart', this.handleTouchStart.bind(this));
     this.canvas.addEventListener('touchmove', this.handleTouchMove.bind(this));
     this.canvas.addEventListener('touchend', this.handleTouchEnd.bind(this));
+
+    // Handle window resize - reinitialize canvas when viewport size changes
+    window.addEventListener('resize', this.handleWindowResize.bind(this));
+
+    // Center the board initially
+    viewportManager.centerOnBoard();
+
     this.drawBoard(); // Initial draw
   }
 
+  /**
+   * Handle window resize by reinitializing the canvas.
+   */
+  private handleWindowResize() {
+    this.initializeCanvas();
+    this.drawBoard();
+  }
+
   initializeCanvas() {
-    const numCols = boardState.lattice.width;
-    const numRows = boardState.lattice.height;
-
-    this.canvas.width = numCols * boardState.cellSize;
-    this.canvas.height = numRows * boardState.cellSize;
-
     // Get container
     const container: HTMLElement | null = this.canvas.parentElement;
     if (!container) {
       throw new Error('Board container not found.');
     }
 
-    // Set canvas styles
-    this.canvas.style.position = 'absolute';
-    this.canvas.style.width = `${this.canvas.width}px`;
-    this.canvas.style.height = `${this.canvas.height}px`;
+    // Set canvas to fill container (viewport-based rendering)
+    const viewportWidth = container.clientWidth;
+    const viewportHeight = container.clientHeight;
 
-    // Center horizontally if board is smaller than container
-    if (this.canvas.width < container.clientWidth) {
-      this.canvas.style.left = `${(container.clientWidth - this.canvas.width) / 2}px`;
-    } else {
-      this.canvas.style.left = '0';
+    // Only resize canvas if dimensions changed (avoid expensive operation)
+    if (this.canvas.width !== viewportWidth || this.canvas.height !== viewportHeight) {
+      this.canvas.width = viewportWidth;
+      this.canvas.height = viewportHeight;
     }
 
-    this.canvas.style.top = '0';
+    // Update viewport manager with current dimensions
+    viewportManager.updateViewportSize(viewportWidth, viewportHeight);
 
-    // Ensure container can accommodate the canvas size
-    container.style.minWidth = 'auto';
-    container.style.minHeight = 'auto';
+    // Set canvas styles - canvas fills the container
+    this.canvas.style.position = 'absolute';
+    this.canvas.style.left = '0';
+    this.canvas.style.top = '0';
+    this.canvas.style.width = `${viewportWidth}px`;
+    this.canvas.style.height = `${viewportHeight}px`;
+
+    // Container doesn't need to scroll anymore - we handle virtual scrolling
+    container.style.overflow = 'hidden';
+
+    // Reclamp scroll position in case board shrunk
+    viewportManager.reclampScroll();
   }
 
   initializeEventListeners() {
@@ -289,9 +307,20 @@ export class Board {
 
   getCellCoordinates(e: MouseEvent) {
     const rect = this.canvas.getBoundingClientRect();
-    const x = Math.floor((e.clientX - rect.left) / boardState.cellSize);
-    const y = Math.floor((e.clientY - rect.top) / boardState.cellSize);
-    return { x, y };
+    const screenX = e.clientX - rect.left;
+    const screenY = e.clientY - rect.top;
+    // Convert screen coordinates to cell coordinates using viewport manager
+    const { col, row } = viewportManager.screenToCell(screenX, screenY);
+    return { x: col, y: row };
+  }
+
+  /**
+   * Convert mouse event offset coordinates to cell coordinates.
+   * offsetX/offsetY are relative to the canvas element.
+   */
+  getOffsetCellCoordinates(offsetX: number, offsetY: number) {
+    const { col, row } = viewportManager.screenToCell(offsetX, offsetY);
+    return { x: col, y: row };
   }
 
   isValidCell(x: number, y: number) {
@@ -312,28 +341,22 @@ export class Board {
   }
 
   handleMouseDown(event: MouseEvent) {
-    const rect = this.canvas.getBoundingClientRect();
-    const x = event.clientX - rect.left;
-    const y = event.clientY - rect.top;
-    const cellX = Math.floor(x / boardState.cellSize);
-    const cellY = Math.floor(y / boardState.cellSize);
+    // Convert screen coordinates to cell coordinates using viewport
+    const { x: cellX, y: cellY } = this.getOffsetCellCoordinates(event.offsetX, event.offsetY);
 
     if (gameState.interactMode === 'pan') {
       this.isPanning = true;
       this.lastPanX = event.clientX;
       this.lastPanY = event.clientY;
-      const container = this.canvas.parentElement;
-      if (container) {
-        this.initialScrollX = container.scrollLeft;
-        this.initialScrollY = container.scrollTop;
-      }
+      // Store initial virtual scroll position
+      this.initialScrollX = viewportManager.scrollX;
+      this.initialScrollY = viewportManager.scrollY;
       this.canvas.style.cursor = 'grabbing';
     } else if (gameState.interactMode === 'paint') {
       const currentTool = paintTools.getActiveTool();
 
       if (currentTool === 'select') {
-        const x = Math.floor(event.offsetX / boardState.cellSize);
-        const y = Math.floor(event.offsetY / boardState.cellSize);
+        const { x, y } = this.getOffsetCellCoordinates(event.offsetX, event.offsetY);
 
         if (boardState.selectionActive && boardState.selectionLattice) {
           // Check if click is inside selection
@@ -378,10 +401,9 @@ export class Board {
   }
 
   handleMouseMove(event: MouseEvent) {
-    // Always update mouse position for cursor updates
-    const x = Math.floor(event.offsetX / boardState.cellSize);
-    const y = Math.floor(event.offsetY / boardState.cellSize);
-    const state = boardState.lattice.getCell(x, y);
+    // Always update mouse position for cursor updates using viewport coordinates
+    const { x, y } = this.getOffsetCellCoordinates(event.offsetX, event.offsetY);
+    const state = this.isValidCell(x, y) ? boardState.lattice.getCell(x, y) : -1;
     paintTools.updateStatusPanel(x, y, state);
 
     if (!this.isPanning && !this.isPainting && !this.isSelecting) {
@@ -395,11 +417,9 @@ export class Board {
       const dx = event.clientX - this.lastPanX;
       const dy = event.clientY - this.lastPanY;
 
-      const container = this.canvas.parentElement;
-      if (container) {
-        container.scrollLeft = this.initialScrollX - dx;
-        container.scrollTop = this.initialScrollY - dy;
-      }
+      // Use virtual scrolling via viewport manager
+      viewportManager.setScroll(this.initialScrollX - dx, this.initialScrollY - dy);
+      this.drawBoard();
     } else if (
       this.isPainting &&
       paintTools.getActiveTool() === 'select' &&
@@ -427,11 +447,8 @@ export class Board {
         this.drawBoard(); // This will draw the dynamic selection rectangle
       }
     } else if (this.isPainting) {
-      const rect = this.canvas.getBoundingClientRect();
-      const x = event.clientX - rect.left;
-      const y = event.clientY - rect.top;
-      const cellX = Math.floor(x / boardState.cellSize);
-      const cellY = Math.floor(y / boardState.cellSize);
+      // Convert to cell coordinates using viewport
+      const { x: cellX, y: cellY } = this.getOffsetCellCoordinates(event.offsetX, event.offsetY);
       paintTools.continueDraw(cellX, cellY, event);
       this.lastPaintX = cellX;
       this.lastPaintY = cellY;
@@ -440,26 +457,24 @@ export class Board {
     this.updateCursor();
   }
 
-  // Mouse wheel simple zoom
+  // Mouse wheel zoom - uses viewport coordinates
   handleWheel(event: WheelEvent) {
     event.preventDefault();
-    // if (gameState.interactMode !== 'pan') return;
 
-    // Calculate cell coordinates under mouse
-    const x = Math.floor(event.offsetX / boardState.cellSize);
-    const y = Math.floor(event.offsetY / boardState.cellSize);
+    // Calculate cell coordinates under mouse using viewport
+    const { x, y } = this.getOffsetCellCoordinates(event.offsetX, event.offsetY);
 
+    // Pass screen position for zoom anchoring
     if (event.deltaY < 0) {
-      controls.adjustCellSize(1, x, y);
+      controls.adjustCellSize(1, x, y, event.offsetX, event.offsetY);
     } else {
-      controls.adjustCellSize(-1, x, y);
+      controls.adjustCellSize(-1, x, y, event.offsetX, event.offsetY);
     }
   }
 
   handleMouseUp(event: MouseEvent) {
     if (this.isPainting && paintTools.getActiveTool() === 'select' && boardState.selectionActive) {
-      const x = Math.floor(event.offsetX / boardState.cellSize);
-      const y = Math.floor(event.offsetY / boardState.cellSize);
+      const { x, y } = this.getOffsetCellCoordinates(event.offsetX, event.offsetY);
 
       if (x !== this.lastPaintX || y !== this.lastPaintY) {
         const dx = x - this.lastPaintX;
@@ -473,8 +488,7 @@ export class Board {
         }
       }
     } else if (this.isSelecting) {
-      const x = Math.floor(event.offsetX / boardState.cellSize);
-      const y = Math.floor(event.offsetY / boardState.cellSize);
+      const { x, y } = this.getOffsetCellCoordinates(event.offsetX, event.offsetY);
 
       const left = Math.min(this.selectionStartX, x);
       const top = Math.min(this.selectionStartY, y);
@@ -489,11 +503,7 @@ export class Board {
       this.selectionStartX = -1;
       this.selectionStartY = -1;
     } else if (this.isPainting) {
-      const rect = this.canvas.getBoundingClientRect();
-      const x = event.clientX - rect.left;
-      const y = event.clientY - rect.top;
-      const cellX = Math.floor(x / boardState.cellSize);
-      const cellY = Math.floor(y / boardState.cellSize);
+      const { x: cellX, y: cellY } = this.getOffsetCellCoordinates(event.offsetX, event.offsetY);
       paintTools.endDraw(cellX, cellY, event);
     }
 
@@ -510,13 +520,11 @@ export class Board {
     return gameState.showGrid && boardState.cellSize >= Constants.MIN_GRID_CELL_SIZE;
   }
 
-  // Draw the complete board
+  // Draw only the visible portion of the board (viewport-based rendering)
   drawBoard() {
     // console.log(`Board draw ${this.numBoardDraws}`);
     this.numBoardDraws = this.numBoardDraws ? this.numBoardDraws + 1 : 1;
 
-    const numCols = boardState.lattice.width;
-    const numRows = boardState.lattice.height;
     const cellSize = boardState.cellSize;
     const cellDisplaySize = this.checkIfToDrawGrid()
       ? cellSize - 1
@@ -525,32 +533,55 @@ export class Board {
         : cellSize;
     const currentPalette: Palette = palettes.getPalette(settings.getPaletteName());
 
-    // Fill the entire canvas with the color for state 0
-    this.ctx.fillStyle = currentPalette.colors[0];
+    // Get visible cell range from viewport manager
+    const { startCol, startRow, endCol, endRow } = viewportManager.getVisibleCellRange();
+
+    // Calculate screen bounds of the board
+    const boardWidth = boardState.lattice.width;
+    const boardHeight = boardState.lattice.height;
+    const { x: boardScreenLeft, y: boardScreenTop } = viewportManager.cellToScreen(0, 0);
+    const { x: boardScreenRight, y: boardScreenBottom } = viewportManager.cellToScreen(boardWidth, boardHeight);
+
+    // Fill the entire canvas with a contrasting "outside board" color
+    const bgColor = currentPalette.colors[0];
+    this.ctx.fillStyle = this.getOutsideBoardColor(bgColor);
     this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
 
-    // Draw grid lines
+    // Fill the board area with the actual background color
+    const boardScreenWidth = boardScreenRight - boardScreenLeft;
+    const boardScreenHeight = boardScreenBottom - boardScreenTop;
+    this.ctx.fillStyle = bgColor;
+    this.ctx.fillRect(boardScreenLeft, boardScreenTop, boardScreenWidth, boardScreenHeight);
+
+    // Draw a visible border around the board (1px)
+    this.ctx.strokeStyle = this.getBoardBorderColor(bgColor);
+    this.ctx.lineWidth = 1;
+    this.ctx.strokeRect(boardScreenLeft - 0.5, boardScreenTop - 0.5, boardScreenWidth + 1, boardScreenHeight + 1);
+
+    // Draw grid lines (only visible portion, clipped to board bounds)
     if (this.checkIfToDrawGrid()) {
-      this.drawGridLines(numCols, numRows, cellSize, currentPalette.gridLineColors);
+      this.drawGridLines(startCol, startRow, endCol, endRow, cellSize, currentPalette.gridLineColors, boardWidth, boardHeight);
     }
 
-    // Draw cells
-    for (let y = 0; y < numRows; y++) {
-      for (let x = 0; x < numCols; x++) {
-        const state = boardState.lattice.getCell(x, y);
+    // Draw only visible cells
+    for (let row = startRow; row < endRow; row++) {
+      for (let col = startCol; col < endCol; col++) {
+        const state = boardState.lattice.getCell(col, row);
         if (state > 0) {
+          // Convert cell position to screen position
+          const { x: screenX, y: screenY } = viewportManager.cellToScreen(col, row);
           this.ctx.fillStyle = currentPalette.colors[state % currentPalette.colors.length];
-          this.ctx.fillRect(x * cellSize, y * cellSize, cellDisplaySize, cellDisplaySize);
+          this.ctx.fillRect(screenX, screenY, cellDisplaySize, cellDisplaySize);
         }
       }
     }
 
-    // Draw dynamic drawing overlay if active
+    // Draw dynamic drawing overlay if active (only visible portion)
     if (boardState.dynaDrawActive && boardState.dynaDrawLattice) {
       let lastDynaDrawState = -9999;
-      for (let y = 0; y < numRows; y++) {
-        for (let x = 0; x < numCols; x++) {
-          const state = boardState.dynaDrawLattice.getCell(x, y);
+      for (let row = startRow; row < endRow; row++) {
+        for (let col = startCol; col < endCol; col++) {
+          const state = boardState.dynaDrawLattice.getCell(col, row);
           // Draw both positive states (normal cells) and -1 (erasing)
           if (state !== 0) {
             if (lastDynaDrawState !== state) {
@@ -559,112 +590,188 @@ export class Board {
               this.ctx.fillStyle = this.dynaDrawColors[colorState % currentPalette.colors.length];
               lastDynaDrawState = state;
             }
-            this.ctx.fillRect(x * cellSize, y * cellSize, cellDisplaySize, cellDisplaySize);
+            const { x: screenX, y: screenY } = viewportManager.cellToScreen(col, row);
+            this.ctx.fillRect(screenX, screenY, cellDisplaySize, cellDisplaySize);
           }
         }
       }
     }
 
-    // Draw selection
+    // Draw selection (clipped to viewport)
     this.drawSelection(cellDisplaySize);
   }
 
-  // Helper method to adjust color brightness
-  private adjustColorBrightness(color: string, factor: number): string {
-    // Parse the color (handles both hex and rgb formats)
+  // Helper to parse color string to RGB
+  private parseColor(color: string): { r: number; g: number; b: number } {
     const canvas = document.createElement('canvas');
     const ctx = canvas.getContext('2d')!;
     ctx.fillStyle = color;
     const rgbColor = ctx.fillStyle;
-
-    // Convert to RGB
-    const r = parseInt(rgbColor.slice(1, 3), 16);
-    const g = parseInt(rgbColor.slice(3, 5), 16);
-    const b = parseInt(rgbColor.slice(5, 7), 16);
-
-    // Adjust brightness
-    const adjustedR = Math.min(255, Math.round(r * factor));
-    const adjustedG = Math.min(255, Math.round(g * factor));
-    const adjustedB = Math.min(255, Math.round(b * factor));
-
-    // Convert back to hex
-    return `#${adjustedR.toString(16).padStart(2, '0')}${adjustedG.toString(16).padStart(2, '0')}${adjustedB.toString(16).padStart(2, '0')}`;
+    return {
+      r: parseInt(rgbColor.slice(1, 3), 16),
+      g: parseInt(rgbColor.slice(3, 5), 16),
+      b: parseInt(rgbColor.slice(5, 7), 16),
+    };
   }
 
-  // Add grid lines to the board
-  drawGridLines(cols: number, rows: number, cellSize: number, gridLineColors: string[]) {
-    this.ctx.beginPath();
-    for (let c = 0; c <= cols; c++) {
-      const x = c * cellSize;
-      this.ctx.moveTo(x, 0);
-      this.ctx.lineTo(x, this.canvas.height);
+  // Helper to convert RGB to hex
+  private rgbToHex(r: number, g: number, b: number): string {
+    const clamp = (v: number) => Math.max(0, Math.min(255, Math.round(v)));
+    return `#${clamp(r).toString(16).padStart(2, '0')}${clamp(g).toString(16).padStart(2, '0')}${clamp(b).toString(16).padStart(2, '0')}`;
+  }
+
+  // Get a contrasting "outside board" color
+  // For dark backgrounds: lighten slightly
+  // For light backgrounds: darken slightly
+  private getOutsideBoardColor(bgColor: string): string {
+    const { r, g, b } = this.parseColor(bgColor);
+    const brightness = (r + g + b) / 3;
+
+    if (brightness < 128) {
+      // Dark background - lighten by adding a fixed amount
+      const offset = 25;
+      return this.rgbToHex(r + offset, g + offset, b + offset);
+    } else {
+      // Light background - darken by subtracting
+      const offset = 30;
+      return this.rgbToHex(r - offset, g - offset, b - offset);
     }
-    for (let r = 0; r <= rows; r++) {
-      const y = r * cellSize;
-      this.ctx.moveTo(0, y);
-      this.ctx.lineTo(this.canvas.width, y);
+  }
+
+  // Get a visible border color that contrasts with background
+  private getBoardBorderColor(bgColor: string): string {
+    const { r, g, b } = this.parseColor(bgColor);
+    const brightness = (r + g + b) / 3;
+
+    if (brightness < 128) {
+      // Dark background - use a lighter border
+      const offset = 50;
+      return this.rgbToHex(r + offset, g + offset, b + offset);
+    } else {
+      // Light background - use a darker border
+      const offset = 60;
+      return this.rgbToHex(r - offset, g - offset, b - offset);
+    }
+  }
+
+  // Adjust color brightness by factor (for dynamic drawing overlay)
+  private adjustColorBrightness(color: string, factor: number): string {
+    const { r, g, b } = this.parseColor(color);
+    return this.rgbToHex(r * factor, g * factor, b * factor);
+  }
+
+  // Draw grid lines for the visible portion of the board (clipped to board bounds)
+  drawGridLines(
+    startCol: number,
+    startRow: number,
+    endCol: number,
+    endRow: number,
+    cellSize: number,
+    gridLineColors: string[],
+    boardCols: number,
+    boardRows: number
+  ) {
+    // Calculate screen bounds for clipping
+    const { x: clipLeft, y: clipTop } = viewportManager.cellToScreen(0, 0);
+    const { x: clipRight, y: clipBottom } = viewportManager.cellToScreen(boardCols, boardRows);
+
+    // Helper to draw vertical line at column c (clipped to board bounds)
+    const drawVerticalLine = (c: number) => {
+      if (c < 0 || c > boardCols) return;
+      const { x: screenX } = viewportManager.cellToScreen(c, 0);
+      this.ctx.moveTo(screenX, clipTop);
+      this.ctx.lineTo(screenX, clipBottom);
+    };
+
+    // Helper to draw horizontal line at row r (clipped to board bounds)
+    const drawHorizontalLine = (r: number) => {
+      if (r < 0 || r > boardRows) return;
+      const { y: screenY } = viewportManager.cellToScreen(0, r);
+      this.ctx.moveTo(clipLeft, screenY);
+      this.ctx.lineTo(clipRight, screenY);
+    };
+
+    // Draw fine grid lines (every cell)
+    this.ctx.beginPath();
+    for (let c = startCol; c <= endCol; c++) {
+      drawVerticalLine(c);
+    }
+    for (let r = startRow; r <= endRow; r++) {
+      drawHorizontalLine(r);
     }
     this.ctx.strokeStyle = gridLineColors[0];
     this.ctx.lineWidth = 0.35;
     this.ctx.stroke();
 
+    // Draw medium grid lines (every 5 cells)
     this.ctx.beginPath();
-    for (let c = 0; c <= cols; c += 5) {
-      const x = c * cellSize;
-      this.ctx.moveTo(x, 0);
-      this.ctx.lineTo(x, this.canvas.height);
+    const startCol5 = Math.floor(startCol / 5) * 5;
+    const startRow5 = Math.floor(startRow / 5) * 5;
+    for (let c = startCol5; c <= endCol; c += 5) {
+      if (c >= startCol) drawVerticalLine(c);
     }
-    for (let r = 0; r <= rows; r += 5) {
-      const y = r * cellSize;
-      this.ctx.moveTo(0, y);
-      this.ctx.lineTo(this.canvas.width, y);
+    for (let r = startRow5; r <= endRow; r += 5) {
+      if (r >= startRow) drawHorizontalLine(r);
     }
     this.ctx.strokeStyle = gridLineColors[1];
     this.ctx.lineWidth = 0.35;
     this.ctx.stroke();
 
+    // Draw thick grid lines (every 10 cells)
     this.ctx.beginPath();
-    for (let c = 0; c <= cols; c += 10) {
-      const x = c * cellSize;
-      this.ctx.moveTo(x, 0);
-      this.ctx.lineTo(x, this.canvas.height);
+    const startCol10 = Math.floor(startCol / 10) * 10;
+    const startRow10 = Math.floor(startRow / 10) * 10;
+    for (let c = startCol10; c <= endCol; c += 10) {
+      if (c >= startCol) drawVerticalLine(c);
     }
-    for (let r = 0; r <= rows; r += 10) {
-      const y = r * cellSize;
-      this.ctx.moveTo(0, y);
-      this.ctx.lineTo(this.canvas.width, y);
+    for (let r = startRow10; r <= endRow; r += 10) {
+      if (r >= startRow) drawHorizontalLine(r);
     }
     this.ctx.strokeStyle = gridLineColors[2];
     this.ctx.lineWidth = 0.5;
     this.ctx.stroke();
   }
 
-  // Draw magenta selected cells and the selection rectangle
+  // Draw magenta selected cells and the selection rectangle (viewport-aware)
   private drawSelection(cellDisplaySize: number) {
-    // Draw selection only if active
+    const cellSize = boardState.cellSize;
+
+    // Draw selection only if active and visible
     if (boardState.selectionActive && boardState.selectionLattice) {
       const lattice = boardState.selectionLattice;
-      const left = lattice.left * boardState.cellSize;
-      const top = lattice.top * boardState.cellSize;
-      const width = lattice.width * boardState.cellSize;
-      const height = lattice.height * boardState.cellSize;
+
+      // Check if selection is visible in viewport
+      if (!viewportManager.isRectVisible(lattice.left, lattice.top, lattice.width, lattice.height)) {
+        return; // Selection completely outside viewport
+      }
+
+      // Convert selection bounds to screen coordinates
+      const { x: screenLeft, y: screenTop } = viewportManager.cellToScreen(lattice.left, lattice.top);
+      const width = lattice.width * cellSize;
+      const height = lattice.height * cellSize;
 
       // Draw selection rectangle
       this.ctx.strokeStyle = '#FF00FF';
       this.ctx.lineWidth = 2;
-      this.ctx.strokeRect(left, top, width, height);
+      this.ctx.strokeRect(screenLeft, screenTop, width, height);
 
-      // Draw selection contents
+      // Draw selection contents (only visible cells)
       this.ctx.fillStyle = '#FF00FF80';
-      for (let x = 0; x < lattice.width; x++) {
-        for (let y = 0; y < lattice.height; y++) {
-          if (lattice.getCell(x, y) > 0) {
-            this.ctx.fillRect(
-              (x + lattice.left) * boardState.cellSize,
-              (y + lattice.top) * boardState.cellSize,
-              cellDisplaySize,
-              cellDisplaySize
-            );
+      const { startCol, startRow, endCol, endRow } = viewportManager.getVisibleCellRange();
+
+      for (let localX = 0; localX < lattice.width; localX++) {
+        for (let localY = 0; localY < lattice.height; localY++) {
+          const boardCol = localX + lattice.left;
+          const boardRow = localY + lattice.top;
+
+          // Skip if outside visible range
+          if (boardCol < startCol || boardCol >= endCol || boardRow < startRow || boardRow >= endRow) {
+            continue;
+          }
+
+          if (lattice.getCell(localX, localY) > 0) {
+            const { x: screenX, y: screenY } = viewportManager.cellToScreen(boardCol, boardRow);
+            this.ctx.fillRect(screenX, screenY, cellDisplaySize, cellDisplaySize);
           }
         }
       }
@@ -675,18 +782,23 @@ export class Board {
       const currentX = this.lastPaintX;
       const currentY = this.lastPaintY;
 
-      const left = Math.min(this.selectionStartX, currentX) * boardState.cellSize;
-      const top = Math.min(this.selectionStartY, currentY) * boardState.cellSize;
-      const width = Math.abs(currentX - this.selectionStartX + 1) * boardState.cellSize;
-      const height = Math.abs(currentY - this.selectionStartY + 1) * boardState.cellSize;
+      const selLeft = Math.min(this.selectionStartX, currentX);
+      const selTop = Math.min(this.selectionStartY, currentY);
+      const selWidth = Math.abs(currentX - this.selectionStartX) + 1;
+      const selHeight = Math.abs(currentY - this.selectionStartY) + 1;
+
+      // Convert to screen coordinates
+      const { x: screenLeft, y: screenTop } = viewportManager.cellToScreen(selLeft, selTop);
+      const width = selWidth * cellSize;
+      const height = selHeight * cellSize;
 
       this.ctx.strokeStyle = '#FF00FF';
       this.ctx.lineWidth = 2;
-      this.ctx.strokeRect(left, top, width, height);
+      this.ctx.strokeRect(screenLeft, screenTop, width, height);
 
       // Draw semi-transparent overlay for the selection area
       this.ctx.fillStyle = 'rgba(255, 0, 255, 0.1)';
-      this.ctx.fillRect(left, top, width, height);
+      this.ctx.fillRect(screenLeft, screenTop, width, height);
     }
   }
 
@@ -708,15 +820,14 @@ export class Board {
     if (event.touches.length === 1) {
       // Start panning immediately with first touch
       const touch = event.touches[0];
-      const container = this.canvas.parentElement;
-      if (!container) return;
 
       this.isPinching = false;
       this.isPanning = true;
       this.lastPanX = touch.clientX;
       this.lastPanY = touch.clientY;
-      this.initialScrollX = container.scrollLeft;
-      this.initialScrollY = container.scrollTop;
+      // Store initial virtual scroll position
+      this.initialScrollX = viewportManager.scrollX;
+      this.initialScrollY = viewportManager.scrollY;
     } else if (event.touches.length === 2) {
       // Switch to pinching when second touch arrives
       const touch1 = event.touches[0];
@@ -734,22 +845,17 @@ export class Board {
       this.isPinching = true;
       this.lastTouchDistance = distance;
 
-      // Calculate and store initial pinch center
+      // Calculate and store initial pinch center in screen coordinates
       const rect = this.canvas.getBoundingClientRect();
-      const container = this.canvas.parentElement;
-      if (!container) return;
 
-      // Calculate center in viewport coordinates
-      const viewportX = (touch1.clientX + touch2.clientX) / 2;
-      const viewportY = (touch1.clientY + touch2.clientY) / 2;
+      // Calculate center in screen coordinates (relative to canvas)
+      const screenX = (touch1.clientX + touch2.clientX) / 2 - rect.left;
+      const screenY = (touch1.clientY + touch2.clientY) / 2 - rect.top;
 
-      // Convert to canvas coordinates
-      const canvasX = viewportX - rect.left + container.scrollLeft;
-      const canvasY = viewportY - rect.top + container.scrollTop;
-
-      // Convert to cell coordinates
-      this.pinchCenterX = Math.floor(canvasX / boardState.cellSize);
-      this.pinchCenterY = Math.floor(canvasY / boardState.cellSize);
+      // Convert to cell coordinates using viewport manager
+      const { col, row } = viewportManager.screenToCell(screenX, screenY);
+      this.pinchCenterX = col;
+      this.pinchCenterY = row;
     }
   }
 
@@ -770,23 +876,25 @@ export class Board {
       if (Math.abs(delta) > 10) {
         // Add threshold to prevent tiny adjustments
         const zoomDelta = delta > 0 ? 1 : -1;
-        // todo: until the pinched location is stable let's just use the center
-        // of the screen as a 'less terrible' user experience.
-        controls.adjustCellSize(zoomDelta);
-        // controls.adjustCellSize(zoomDelta, this.pinchCenterX, this.pinchCenterY);
+
+        // Calculate screen position of pinch center for zoom anchoring
+        const rect = this.canvas.getBoundingClientRect();
+        const touch1 = event.touches[0];
+        const touch2 = event.touches[1];
+        const screenX = (touch1.clientX + touch2.clientX) / 2 - rect.left;
+        const screenY = (touch1.clientY + touch2.clientY) / 2 - rect.top;
+
+        controls.adjustCellSize(zoomDelta, this.pinchCenterX, this.pinchCenterY, screenX, screenY);
         this.lastTouchDistance = newDistance;
       }
     } else if (this.isPanning && event.touches.length === 1) {
-      // Handle panning
+      // Handle panning using virtual scroll
       const touch = event.touches[0];
       const dx = touch.clientX - this.lastPanX;
       const dy = touch.clientY - this.lastPanY;
 
-      const container = this.canvas.parentElement;
-      if (container) {
-        container.scrollLeft = this.initialScrollX - dx;
-        container.scrollTop = this.initialScrollY - dy;
-      }
+      viewportManager.setScroll(this.initialScrollX - dx, this.initialScrollY - dy);
+      this.drawBoard();
     }
   }
 
@@ -801,15 +909,14 @@ export class Board {
     } else if (event.touches.length === 1 && this.isPinching) {
       // Switch back to panning when going from 2 touches to 1
       const touch = event.touches[0];
-      const container = this.canvas.parentElement;
-      if (!container) return;
 
       this.isPinching = false;
       this.isPanning = true;
       this.lastPanX = touch.clientX;
       this.lastPanY = touch.clientY;
-      this.initialScrollX = container.scrollLeft;
-      this.initialScrollY = container.scrollTop;
+      // Store current virtual scroll position
+      this.initialScrollX = viewportManager.scrollX;
+      this.initialScrollY = viewportManager.scrollY;
     }
   }
 }

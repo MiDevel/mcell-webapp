@@ -1,6 +1,6 @@
 {
   "name": "mcell-web",
-  "version": "1.0.0",
+  "version": "1.10.0",
   "description": "Web-based cellular automata simulator",
   "main": "index.html",
   "scripts": {

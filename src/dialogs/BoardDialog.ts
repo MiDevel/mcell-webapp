@@ -33,6 +33,9 @@ export class BoardDialog {
     { label: '400 x 300', width: 400, height: 300 },
     { label: '400 x 400', width: 400, height: 400 },
     { label: '600 x 600', width: 600, height: 600 },
+    { label: '800 x 600', width: 800, height: 600 },
+    { label: '1000 x 1000', width: 1000, height: 1000 },
+    { label: '2000 x 2000', width: 2000, height: 2000 },
   ];
 
   createDialogContent(): string {

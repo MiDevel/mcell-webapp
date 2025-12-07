@@ -37,6 +37,7 @@ import { SelectionUtils } from '../utils/SelectionUtils.js';
 import { runSpeedTest } from '../tests/PerformanceTests.js';
 import { dumpPattern, dumpStateInfo } from '../tests/stateDump.js';
 import { exitFullScreen, requestFullScreen } from '../utils/FullScreen.js';
+import { viewportManager } from './ViewportManager.js';
 
 interface TLastSelectedRule {
   family: string;
@@ -879,48 +880,73 @@ export class Controls {
     }
   }
 
-  // Adjust cell size while maintaining a specific point's position
-  adjustCellSize(delta: number, centerX?: number, centerY?: number) {
+  /**
+   * Adjust cell size while maintaining a specific point's position.
+   * @param delta - Change in cell size (+1 or -1)
+   * @param anchorCol - Cell column to keep fixed on screen (optional)
+   * @param anchorRow - Cell row to keep fixed on screen (optional)
+   * @param screenX - Screen X position of the anchor point (optional)
+   * @param screenY - Screen Y position of the anchor point (optional)
+   */
+  adjustCellSize(
+    delta: number,
+    anchorCol?: number,
+    anchorRow?: number,
+    screenX?: number,
+    screenY?: number
+  ) {
     const currentSize = boardState.cellSize;
     const newSize = Math.max(
       Constants.MIN_CELL_SIZE,
       Math.min(Constants.MAX_CELL_SIZE, currentSize + delta)
     );
     if (newSize !== currentSize) {
-      this.setCellSize(newSize, centerX, centerY);
+      this.setCellSize(newSize, anchorCol, anchorRow, screenX, screenY);
     }
   }
 
-  setCellSize(newSize: number, centerX?: number, centerY?: number) {
+  /**
+   * Set cell size with optional zoom anchoring.
+   * Uses viewport manager for virtual scrolling.
+   */
+  setCellSize(
+    newSize: number,
+    anchorCol?: number,
+    anchorRow?: number,
+    screenX?: number,
+    screenY?: number
+  ) {
     if (newSize >= Constants.MIN_CELL_SIZE && newSize <= Constants.MAX_CELL_SIZE) {
-      // Get current scroll position
-      const container = document.getElementById('board-container');
-      if (!container) return;
-
       const oldSize = boardState.cellSize;
-      const scrollLeft = container.scrollLeft;
-      const scrollTop = container.scrollTop;
 
-      // If no center point provided, use the center of the viewport
-      if (centerX === undefined || centerY === undefined) {
-        centerX = (scrollLeft + container.clientWidth / 2) / oldSize;
-        centerY = (scrollTop + container.clientHeight / 2) / oldSize;
+      // If no anchor point provided, use the center of the viewport
+      if (anchorCol === undefined || anchorRow === undefined) {
+        const centerScreenX = viewportManager.viewportWidth / 2;
+        const centerScreenY = viewportManager.viewportHeight / 2;
+        const { col, row } = viewportManager.screenToCell(centerScreenX, centerScreenY);
+        anchorCol = col;
+        anchorRow = row;
+        screenX = centerScreenX;
+        screenY = centerScreenY;
       }
 
-      // Calculate the point's position relative to scroll position
-      const pointOffsetX = centerX * oldSize - scrollLeft;
-      const pointOffsetY = centerY * oldSize - scrollTop;
+      // If screen position not provided, calculate from cell position
+      if (screenX === undefined || screenY === undefined) {
+        const pos = viewportManager.cellToScreen(anchorCol, anchorRow);
+        screenX = pos.x + oldSize / 2; // Center of cell
+        screenY = pos.y + oldSize / 2;
+      }
+
+      // Adjust viewport scroll to maintain anchor position after zoom
+      viewportManager.adjustScrollForZoom(anchorCol, anchorRow, screenX, screenY, newSize);
 
       // Update cell size
       boardState.cellSize = newSize;
 
-      // Calculate new scroll position to maintain the point's position
-      const newScrollLeft = centerX * newSize - pointOffsetX;
-      const newScrollTop = centerY * newSize - pointOffsetY;
+      // Reclamp scroll position after size change
+      viewportManager.reclampScroll();
 
-      container.scrollLeft = newScrollLeft;
-      container.scrollTop = newScrollTop;
-
+      // Trigger redraw (boardResized triggers initializeCanvas which updates viewport)
       gameState.setState({ boardResized: true });
     }
   }
@@ -1457,25 +1483,17 @@ export class Controls {
     }
 
     if (!hasLiveCells) {
+      // No live cells - center on board center
+      viewportManager.centerOnBoard();
       return;
     }
 
-    // Calculate pattern dimensions
-    const patternWidth = maxX - minX + 1;
-    const patternHeight = maxY - minY + 1;
+    // Calculate pattern center
+    const patternCenterCol = Math.floor((minX + maxX) / 2);
+    const patternCenterRow = Math.floor((minY + maxY) / 2);
 
-    // Scroll the board to show the pattern in the center
-    const container: HTMLDivElement = document.getElementById('board-container') as HTMLDivElement;
-
-    const containerWidth = container.clientWidth;
-    const containerHeight = container.clientHeight;
-
-    const cellSize = boardState.cellSize;
-    const offsetX = Math.floor((containerWidth - patternWidth * cellSize) / 2);
-    const offsetY = Math.floor((containerHeight - patternHeight * cellSize) / 2);
-
-    container.scrollLeft = minX * cellSize - offsetX;
-    container.scrollTop = minY * cellSize - offsetY;
+    // Center viewport on the pattern center
+    viewportManager.centerOnCell(patternCenterCol, patternCenterRow);
   }
 
   setSpeed(speed: number) {
